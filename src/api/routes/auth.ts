@@ -5,6 +5,20 @@ const authService = new AuthService();
 
 export const authRoutes: FastifyPluginAsync = async (app) => {
   app.post<{ Body: { email: string; password: string; name: string } }>('/register', async (request, reply) => {
+    // Only an authenticated ADMIN can create new users. (The auth middleware skips
+    // all /api/auth/* routes, so we enforce the admin check inline here.)
+    const token = request.headers.authorization?.replace('Bearer ', '');
+    if (!token) return reply.code(401).send({ error: 'Autenticacao necessaria' });
+    let caller;
+    try {
+      caller = authService.verifyToken(token);
+    } catch {
+      return reply.code(401).send({ error: 'Token invalido ou expirado' });
+    }
+    if (caller.role !== 'ADMIN') {
+      return reply.code(403).send({ error: 'Apenas administradores podem criar usuarios' });
+    }
+
     const { email, password, name } = request.body;
 
     if (!email || !password || !name) {
@@ -13,7 +27,8 @@ export const authRoutes: FastifyPluginAsync = async (app) => {
 
     try {
       const result = await authService.register({ email, password, name });
-      return { user: result.user, token: result.token };
+      // Return only the created user — the admin's own session is unaffected.
+      return { user: result.user };
     } catch (err: any) {
       return reply.code(400).send({ error: err.message });
     }
