@@ -3,6 +3,7 @@ import { join, extname, dirname } from 'node:path';
 import type { WASocket } from '@whiskeysockets/baileys';
 import { createChildLogger } from '../../utils/logger.js';
 import { accountUnit } from '../../utils/accountIdentity.js';
+import { getWarmupFeatures } from '../../config/warmupFeatures.js';
 
 const logger = createChildLogger('profile-maturation');
 
@@ -91,16 +92,17 @@ export class ProfileMaturation {
   async applyOnConnect(sock: WASocket, accountId: string, day: number, mediaDir: string): Promise<void> {
     await this.ensureLoaded();
     const st = (this.state[accountId] ??= {});
+    const feat = getWarmupFeatures();
     const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
     try {
-      if (!st.name) {
+      if (!st.name && feat.profileName) {
         await sock.updateProfileName(this.nameFor(accountId));
         st.name = true;
         await this.save();
         logger.info({ accountId }, 'Profile name applied on connect');
         await sleep(4000 + Math.random() * 6000);
       }
-      if (!st.bio) {
+      if (!st.bio && feat.profileBio) {
         await sock.updateProfileStatus(this.bioFor(accountId));
         st.bio = true;
         st.lastBioDay = day;
@@ -108,7 +110,7 @@ export class ProfileMaturation {
         logger.info({ accountId }, 'Profile bio applied on connect');
         await sleep(4000 + Math.random() * 6000);
       }
-      if (!st.photo && day >= 2 && mediaDir) {
+      if (!st.photo && day >= 2 && mediaDir && feat.profilePhoto) {
         const raw = await this.pickAvatar(mediaDir);
         if (raw && raw.length >= 1024) {
           const jid = sock.user?.id;
@@ -166,16 +168,17 @@ export class ProfileMaturation {
 
     await this.ensureLoaded();
     const st = (this.state[accountId] ??= {});
+    const feat = getWarmupFeatures();
 
     try {
-      if (!st.name) {
+      if (!st.name && feat.profileName) {
         await sock.updateProfileName(this.nameFor(accountId));
         st.name = true;
         await this.save();
         logger.debug({ accountId }, 'Profile name set');
         return;
       }
-      if (!st.bio) {
+      if (!st.bio && feat.profileBio) {
         await sock.updateProfileStatus(this.bioFor(accountId));
         st.bio = true;
         st.lastBioDay = day;
@@ -183,7 +186,7 @@ export class ProfileMaturation {
         logger.debug({ accountId }, 'Profile bio set');
         return;
       }
-      if (!st.photo && day >= 2 && mediaDir) {
+      if (!st.photo && day >= 2 && mediaDir && feat.profilePhoto) {
         const raw = await this.pickAvatar(mediaDir);
         if (raw && raw.length >= 1024) {
           const jid = sock.user?.id;
@@ -197,7 +200,7 @@ export class ProfileMaturation {
         return;
       }
       // Occasionally refresh the bio from day 5+ (people change their status).
-      if (day >= 5 && (st.lastBioDay === undefined || day - st.lastBioDay >= 4) && Math.random() < 0.5) {
+      if (feat.profileBio && day >= 5 && (st.lastBioDay === undefined || day - st.lastBioDay >= 4) && Math.random() < 0.5) {
         await sock.updateProfileStatus(this.bioFor(accountId, day));
         st.lastBioDay = day;
         await this.save();

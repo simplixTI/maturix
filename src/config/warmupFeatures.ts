@@ -24,6 +24,12 @@ export interface WarmupFeatureSettings {
   stickers: boolean;
   /** Message real WhatsApp Business numbers (outside traffic). */
   business: boolean;
+  /** Set/mature the WhatsApp profile NAME on the chips. */
+  profileName: boolean;
+  /** Set/refresh the profile "about/recado" (bio) text. */
+  profileBio: boolean;
+  /** Set the profile photo. */
+  profilePhoto: boolean;
 }
 
 const DEFAULTS: WarmupFeatureSettings = {
@@ -33,6 +39,9 @@ const DEFAULTS: WarmupFeatureSettings = {
   audios: true,
   stickers: true,
   business: true,
+  profileName: true,
+  profileBio: true,
+  profilePhoto: true,
 };
 
 let cache: WarmupFeatureSettings = { ...DEFAULTS };
@@ -45,6 +54,9 @@ function sanitize(s: Partial<WarmupFeatureSettings>): WarmupFeatureSettings {
     audios: typeof s.audios === 'boolean' ? s.audios : DEFAULTS.audios,
     stickers: typeof s.stickers === 'boolean' ? s.stickers : DEFAULTS.stickers,
     business: typeof s.business === 'boolean' ? s.business : DEFAULTS.business,
+    profileName: typeof s.profileName === 'boolean' ? s.profileName : DEFAULTS.profileName,
+    profileBio: typeof s.profileBio === 'boolean' ? s.profileBio : DEFAULTS.profileBio,
+    profilePhoto: typeof s.profilePhoto === 'boolean' ? s.profilePhoto : DEFAULTS.profilePhoto,
   };
 }
 

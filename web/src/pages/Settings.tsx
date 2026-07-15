@@ -200,6 +200,9 @@ interface WarmupFeatures {
   audios: boolean;
   stickers: boolean;
   business: boolean;
+  profileName: boolean;
+  profileBio: boolean;
+  profilePhoto: boolean;
 }
 
 function WarmupFeaturesCard() {
@@ -241,6 +244,17 @@ function WarmupFeaturesCard() {
         checked={!!f?.stickers} busy={saving === 'stickers'} onChange={(v) => toggle('stickers', v)} />
       <ToggleRow label="Enviar para empresas" hint="Mandar mensagem para números de WhatsApp Business reais — gera tráfego externo (a empresa responde), quebrando o loop fechado só entre os chips."
         checked={!!f?.business} busy={saving === 'business'} onChange={(v) => toggle('business', v)} />
+
+      <div className="card-head" style={{ marginTop: 'var(--space-4)' }}>
+        <div><div className="card-title" style={{ fontSize: 'var(--text-md)' }}>Perfil</div>
+          <div className="card-sub">Amadurecimento do perfil dos chips (nome → recado → foto), aplicado aos poucos.</div></div>
+      </div>
+      <ToggleRow label="Alterar nome" hint="Define um nome brasileiro realista e estável para cada chip (número sem nome parece fake)."
+        checked={!!f?.profileName} busy={saving === 'profileName'} onChange={(v) => toggle('profileName', v)} />
+      <ToggleRow label="Alterar recado (status/bio)" hint="Define e ocasionalmente atualiza o texto de recado do perfil."
+        checked={!!f?.profileBio} busy={saving === 'profileBio'} onChange={(v) => toggle('profileBio', v)} />
+      <ToggleRow label="Alterar foto do perfil" hint="Define a foto do perfil a partir do acervo (pasta media/avatars ou media/images), a partir do 2º dia."
+        checked={!!f?.profilePhoto} busy={saving === 'profilePhoto'} onChange={(v) => toggle('profilePhoto', v)} />
     </Card>
   );
 }
