@@ -81,18 +81,19 @@ export class AuthService {
 
   async seedAdmin(): Promise<void> {
     const db = getDb();
-    const exists = await db.user.findUnique({ where: { email: 'admin@braske.com' } });
+    // Primary admin is configured via env so credentials are never hardcoded in
+    // the repo. Falls back to the historical default only if the vars are unset.
+    const email = (process.env.ADMIN_EMAIL || 'admin@braske.com').toLowerCase().trim();
+    const password = process.env.ADMIN_PASSWORD || 'braske2026';
+    const name = process.env.ADMIN_NAME || 'Admin';
+
+    const exists = await db.user.findUnique({ where: { email } });
     if (exists) return;
 
-    const passwordHash = await bcrypt.hash('braske2026', SALT_ROUNDS);
+    const passwordHash = await bcrypt.hash(password, SALT_ROUNDS);
     await db.user.create({
-      data: {
-        email: 'admin@braske.com',
-        passwordHash,
-        name: 'Braske',
-        role: 'ADMIN',
-      },
+      data: { email, passwordHash, name, role: 'ADMIN' },
     });
-    logger.info('Admin user seeded: admin@braske.com');
+    logger.info({ email }, 'Admin user seeded');
   }
 }

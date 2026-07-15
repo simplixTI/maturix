@@ -209,15 +209,11 @@ export class WarmupEngine {
     // MATURE (day 8+): everything unlocked
     const phaseMultiplier = this.getPhaseMultiplier(warmupDay);
 
-    // Find a random paired account for inter-chip actions — SAME OPERATOR ONLY
-    // (multi-tenant: an operation's chips never interact with another's).
+    // SHARED POOL: inter-chip feature actions (location, poll, contact share, …)
+    // can target ANY ready chip in the project, regardless of which login owns it —
+    // every registered chip warms together.
     const db = getDb();
-    const me = await db.account.findUnique({ where: { id: accountId }, select: { ownerId: true } });
-    const sameOwnerOthers = await db.account.findMany({
-      where: { id: { in: allReadyAccounts.filter((id) => id !== accountId) }, ownerId: me?.ownerId ?? null },
-      select: { id: true },
-    });
-    const otherAccounts = sameOwnerOthers.map((a) => a.id);
+    const otherAccounts = allReadyAccounts.filter((id) => id !== accountId);
     const pairedAccountId = otherAccounts.length > 0
       ? otherAccounts[Math.floor(Math.random() * otherAccounts.length)]
       : null;

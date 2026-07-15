@@ -107,24 +107,13 @@ export class ConversationService {
     const readyAccounts = (await this.warmupScheduler.getReadyAccounts())
       .filter((id) => isAwake(id) && !busy.has(id));
 
-    // MULTI-TENANT: pair ONLY within the same operator. Group the ready chips by
-    // owner and run the pairing loop per group, so an operation's numbers never
-    // talk to another operation's numbers (the mesh stays inside each tenant).
-    const owners = await getDb().account.findMany({
-      where: { id: { in: readyAccounts } },
-      select: { id: true, ownerId: true },
-    });
-    const byOwner = new Map<string, string[]>();
-    for (const a of owners) {
-      const key = a.ownerId ?? '__none__';
-      const arr = byOwner.get(key) ?? [];
-      arr.push(a.id);
-      byOwner.set(key, arr);
-    }
-
-    for (const group of byOwner.values()) {
-      if (group.length < 2) continue;
-      const maxPairs = Math.min(5, Math.floor(group.length / 2));
+    // SHARED POOL: every chip registered in the project warms together, no matter
+    // which login owns it. Independent logins only scope what each operator SEES in
+    // the dashboard — the warming mesh spans all ready chips, so smaller operators
+    // still get real two-way traffic. Pairing across the whole pool.
+    const group = readyAccounts;
+    if (group.length >= 2) {
+      const maxPairs = Math.min(10, Math.floor(group.length / 2));
       const used = new Set<string>();
       for (let i = 0; i < maxPairs; i++) {
         const available = group.filter((id) => !used.has(id));
