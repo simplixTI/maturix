@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.env
+*.log
+media/images/*
+media/stickers/*
+media/audio/*
+!media/images/.gitkeep
+!media/stickers/.gitkeep
+!media/audio/.gitkeep
+dashboard/.next/
+dashboard/node_modules/
+sessions/
+
+# Frontend Next.js abandonado (oficial e web/)
+dashboard/

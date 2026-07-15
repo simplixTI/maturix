@@ -1,0 +1,4 @@
+# Scripts shell DEVEM usar LF, senão o container Linux quebra com "/bin/sh^M".
+*.sh text eol=lf
+docker-entrypoint.sh text eol=lf
+Dockerfile text eol=lf

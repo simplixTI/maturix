@@ -1,0 +1,32 @@
+# Nunca mandar dependências, builds ou SEGREDOS para o contexto/imagem.
+node_modules
+web/node_modules
+dashboard
+dist
+web/dist
+
+# Segredos e estado local
+.env
+.env.*
+!.env.production.example
+!.env.easypanel.example
+
+# Credenciais de WhatsApp (auth state dos chips) — jamais na imagem
+sessions
+
+# Uploads locais (vêm de volume em produção); mantém só a estrutura via .gitkeep
+media/images/*
+media/audio/*
+media/stickers/*
+media/video
+media/uploads
+!media/images/.gitkeep
+!media/audio/.gitkeep
+!media/stickers/.gitkeep
+
+# Lixo
+*.log
+.git
+.vscode
+.idea
+scripts/*.ps1

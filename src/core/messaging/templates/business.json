@@ -1,0 +1,326 @@
+[
+  {
+    "name": "product-inquiry-general",
+    "category": "business",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Boa tarde|Bom dia|Oi, tudo bem}! {Vi o anuncio de voces|Encontrei voces pelo Google|Um amigo me indicou voces} e gostaria de {saber mais sobre|conhecer melhor} {os produtos|os servicos|as solucoes} que voces oferecem." },
+      { "role": "responder", "type": "text", "text": "{Boa tarde|Bom dia|Oi}! {Que bom que nos encontrou|Fico feliz pelo seu interesse|Seja bem-vindo(a)}! {Claro, com prazer|Com certeza}. {Trabalhamos com diversas linhas|Temos um catalogo bem variado|Oferecemos varias opcoes}. {Voce tem alguma necessidade especifica|Tem algo especifico em mente|Algum produto em particular que te interessou}?" },
+      { "role": "initiator", "type": "text", "text": "{Entao|Olha}, {estou buscando|preciso de|tenho interesse em} algo {para minha empresa|pro meu negocio|para um projeto novo}. {Voces trabalham com {personalizacao|customizacao}|Tem como adaptar ao meu caso|Fazem sob medida}?" },
+      { "role": "responder", "type": "text", "text": "{Sim, com certeza|Trabalhamos sim|Fazemos sim}! {Na verdade esse e nosso diferencial|Inclusive e o que mais fazemos|Essa e uma das nossas especialidades}. {Posso te enviar nosso catalogo|Vou te mandar algumas opcoes|Deixa eu preparar uma apresentacao} {por aqui mesmo|em PDF|com os detalhes}. {Pode ser|Tudo bem}?" },
+      { "role": "initiator", "type": "text", "text": "{Perfeito|Otimo|Pode sim}, {por favor|por gentileza|fico no aguardo}! {Meu email e|Pode mandar aqui mesmo que|Se preferir manda por email:} {ja facilita|fica mais facil pra eu analisar}." },
+      { "role": "responder", "type": "text", "text": "{Combinado|Fechado|Perfeito}! {Vou preparar e te envio ainda hoje|Ate o final do dia te mando|Em algumas horas te envio}. {Qualquer duvida e so chamar|Fico a disposicao|Estamos aqui pro que precisar} {aqui|nesse numero mesmo}! {Obrigado pelo contato|Agradeco o interesse}" }
+    ]
+  },
+  {
+    "name": "product-inquiry-pricing",
+    "category": "business",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Ola|Oi, boa tarde|Bom dia}! {Gostaria de solicitar|Preciso de|Queria pedir} um {orcamento|cotacao|levantamento de precos} {para|referente a|sobre} {um pedido|uma demanda|um projeto} que estamos {planejando|estruturando|fechando}." },
+      { "role": "responder", "type": "text", "text": "{Ola|Oi}, {tudo bem|como vai}? {Claro|Com prazer|Sem problemas}! {Para eu montar o orcamento|Pra gente fazer a cotacao|Pra eu levantar os valores}, {preciso de algumas informacoes|me passa alguns detalhes|pode me informar}: {qual a quantidade|qual o volume|qual o tamanho do pedido} {aproximado|estimado}?" },
+      { "role": "initiator", "type": "text", "text": "{Seria algo em torno de|Estamos pensando em|Inicialmente seriam} {200|500|1000} {unidades|pecas|kits}. {Tem previsao de entrega|Qual o prazo medio|Conseguem entregar em quanto tempo}?" },
+      { "role": "responder", "type": "text", "text": "{Entendi|Perfeito|Certo}. {Para essa quantidade|Nesse volume|Com esse pedido}, {consigo fazer um preco especial|temos condicoes diferenciadas|da pra fazer um valor bom}. {Prazo de entrega seria de|Entregamos em|O prazo fica em torno de} {15 a 20|10 a 15|20 a 25} dias uteis. {Te mando a proposta formalizada|Vou preparar o orcamento detalhado|Ja ja te envio os valores} {hoje ainda|ate amanha}." },
+      { "role": "initiator", "type": "text", "text": "{Beleza|Otimo|Combinado}, {fico aguardando|espero a proposta|aguardo o orcamento}. {Obrigado pela agilidade|Agradeco a rapidez|Valeu pela atencao}!" },
+      { "role": "responder", "type": "reaction", "emoji": "{👍|🤝|⭐}" }
+    ]
+  },
+  {
+    "name": "product-inquiry-technical",
+    "category": "business",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Boa tarde|Bom dia}! {Sou da area tecnica|Sou o responsavel tecnico|Trabalho no setor de compras} da {empresa X|nossa empresa} e {preciso de informacoes tecnicas|gostaria de tirar umas duvidas tecnicas|quero entender melhor as especificacoes} {do produto Y|sobre a solucao de voces|dos equipamentos}." },
+      { "role": "responder", "type": "text", "text": "{Boa tarde|Bom dia}! {Sou o|Meu nome e} {Carlos|Marcos|Renato}, {responsavel pela area tecnica|consultor tecnico|engenheiro de aplicacao} aqui. {Pode perguntar a vontade|Estou a disposicao|Fique a vontade pra perguntar}! {Qual sua duvida principal|No que posso te ajudar|O que precisa saber}?" },
+      { "role": "initiator", "type": "text", "text": "{Preciso saber|Minha duvida e|Quero entender} {sobre a compatibilidade|se funciona com nosso sistema atual|sobre a integracao} {e tambem|alem de} {qual o suporte tecnico oferecido|se tem garantia|qual a vida util}." },
+      { "role": "responder", "type": "text", "text": "{Otimas perguntas|Perfeito, pontos importantes}. {Nosso produto e compativel com|Funciona perfeitamente com|A integracao e feita via} {os principais sistemas do mercado|praticamente todas as plataformas|diversas configuracoes}. {Sobre o suporte|Quanto ao suporte|Em relacao a assistencia}, {oferecemos atendimento 24h|temos equipe dedicada|disponibilizamos suporte por telefone e WhatsApp} {nos primeiros 12 meses|por todo o periodo de garantia}." },
+      { "role": "initiator", "type": "text", "text": "{Excelente|Muito bom|Perfeito}. {Voces tem algum case de sucesso|Tem algum cliente que eu possa usar de referencia|Conseguem apresentar algum projeto similar} {pra eu mostrar internamente|que eu possa compartilhar com a diretoria}?" },
+      { "role": "responder", "type": "text", "text": "{Temos sim|Com certeza|Claro}! {Vou te enviar um material|Tenho alguns cases|Posso te mandar uma apresentacao} {com depoimentos de clientes|com resultados reais|com dados de implementacoes anteriores}. {Inclusive posso agendar uma demonstracao|Se quiser tambem posso fazer uma demo|Podemos marcar uma call tecnica} {pra sua equipe|pro time de voces}." },
+      { "role": "initiator", "type": "text", "text": "{Seria otimo|Perfeito, vamos agendar|Isso me ajuda muito}! {Me manda o material e depois marcamos|Envia o material que ja alinho internamente|Manda sim, obrigado pela disponibilidade}." }
+    ]
+  },
+  {
+    "name": "product-inquiry-availability",
+    "category": "business",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Oi|Ola}, {tudo bem|boa tarde}? {Voces tem disponibilidade|Tem em estoque|Gostaria de saber se tem} {o modelo X|o produto que vi no site|o item que estava em promocao} {para pronta entrega|disponivel}?" },
+      { "role": "responder", "type": "text", "text": "{Oi|Ola}! {Temos sim|Deixa eu verificar|Vou consultar o estoque}. {Qual seria a quantidade|Quantas unidades precisa|Pra quanto seria}?" },
+      { "role": "initiator", "type": "text", "text": "{Seria|Preciso de|Quero} {umas 50|cerca de 100|pelo menos 30} {unidades|pecas}. {Tem como|Da pra|Conseguem} {enviar essa semana|despachar rapido|mandar via transportadora}?" },
+      { "role": "responder", "type": "text", "text": "{Tenho essa quantidade sim|Consigo separar isso pra voce|Da pra atender esse pedido}! {Consigo enviar|Despacho|Mando} {amanha|em ate 2 dias uteis|ainda essa semana}. {Quer que eu feche o pedido|Mando a nota pra aprovacao|Envio o link de pagamento}?" },
+      { "role": "initiator", "type": "text", "text": "{Fecha sim|Pode mandar|Por favor, envia}! {Me manda os dados pra transferencia|Aceita PIX|Como faco o pagamento}?" },
+      { "role": "responder", "type": "text", "text": "{Aceitamos PIX, boleto ou cartao|Pode ser via PIX que e mais rapido|Boleto ou PIX, como preferir}. {Vou te enviar os dados agora|Ja mando as informacoes|Te envio tudo em seguida}. {Obrigado pela preferencia|Agradecemos a confianca}!" }
+    ]
+  },
+  {
+    "name": "product-inquiry-comparison",
+    "category": "business",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Boa tarde|Oi, bom dia}! {Estou cotando com|Estou pesquisando em|Estou avaliando} {alguns fornecedores|diferentes opcoes no mercado} e {queria entender|gostaria de saber} {o diferencial de voces|por que escolher voces|o que voces oferecem de diferente}." },
+      { "role": "responder", "type": "text", "text": "{Boa tarde|Oi}! {Otima pergunta|Fico feliz em poder esclarecer|Legal que esta avaliando com cuidado}. {Nosso principal diferencial e|O que nos destaca e|Nos nos diferenciamos por} {a qualidade do atendimento pos-venda|a relacao custo-beneficio|o suporte tecnico dedicado}. {Alem disso|Tambem|E ainda} {temos certificacao ISO|garantimos prazo ou devolvemos o valor|oferecemos treinamento gratuito}." },
+      { "role": "initiator", "type": "text", "text": "{Interessante|Entendi|Legal}. {E em relacao ao preco|Quanto aos valores|E os precos}, {sao competitivos|estao dentro do mercado|como ficam comparados}?" },
+      { "role": "responder", "type": "text", "text": "{Nossos precos sao bem competitivos|Trabalhamos com margem justa|Temos precos alinhados ao mercado}. {Para pedidos maiores|Dependendo do volume|Para contratos recorrentes}, {conseguimos condicoes ainda melhores|fazemos desconto progressivo|oferecemos precos especiais}. {Me passa seu email que envio uma tabela comparativa|Quer que eu monte uma proposta personalizada|Posso fazer um comparativo pra voce}?" },
+      { "role": "initiator", "type": "text", "text": "{Pode sim|Por favor|Manda la}, {meu email e fulano@empresa.com|te passo por aqui|anota ai}. {Vou avaliar com a equipe|Preciso apresentar pra diretoria|Vou analisar junto com meu socio}." },
+      { "role": "responder", "type": "text", "text": "{Perfeito|Anotado|Combinado}! {Envio ate amanha de manha|Te mando ainda hoje|Preparo e envio em seguida}. {Sem compromisso|Fico a disposicao pra esclarecer qualquer duvida|Estamos aqui pro que precisar}." }
+    ]
+  },
+  {
+    "name": "followup-pending-proposal",
+    "category": "business",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Oi|Ola|E ai}, {tudo bem|como vai|tudo certo}? {Estou passando pra saber|Queria saber|Vim dar um toque} {sobre aquela proposta|sobre o orcamento|a respeito daquela cotacao} que {te enviei|mandei|encaminhei} {na semana passada|outro dia|recentemente}. {Conseguiu analisar|Teve tempo de ver|Ja deu uma olhada}?" },
+      { "role": "responder", "type": "text", "text": "{Oi|Ola}! {Desculpa a demora|Foi corrido por aqui|Estava esperando um retorno interno}. {Sim, ja vi|Analisei sim|Dei uma olhada}. {Achei bem interessante|Gostei bastante|Esta bem alinhado com o que precisamos}, {mas tenho algumas duvidas|so preciso alinhar uns pontos|porem preciso validar internamente}." },
+      { "role": "initiator", "type": "text", "text": "{Sem problemas|Imagina, entendo|Tranquilo}! {Pode me dizer quais sao as duvidas|Me fala os pontos que precisa alinhar|Fico a disposicao pra esclarecer}. {Prefere por aqui ou por ligacao|Quer que eu te ligue|Marcamos uma call rapida}?" },
+      { "role": "responder", "type": "text", "text": "{Por aqui mesmo ta otimo|Pode ser por aqui|Uma call seria melhor, na verdade}. {A questao principal e sobre|Minha duvida maior e em relacao a|Preciso entender melhor} {o prazo de entrega|as condicoes de pagamento|o escopo do servico}. {Fora isso esta tudo ok|O resto esta aprovado|De resto ficou tudo certo}." },
+      { "role": "initiator", "type": "text", "text": "{Entendi perfeitamente|Claro, sem problemas|Compreendo}. {Consigo ajustar isso|Posso rever essa parte|Da pra flexibilizar}. {Te mando uma versao atualizada|Vou adequar e te envio|Ajusto e reenvio} {ainda hoje|ate amanha|o mais rapido possivel}." },
+      { "role": "responder", "type": "reaction", "emoji": "{👍|👌|🤝}" }
+    ]
+  },
+  {
+    "name": "followup-after-meeting",
+    "category": "business",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Oi|Ola}, {tudo bem|boa tarde}? {So passando pra agradecer|Queria agradecer|Obrigado(a)} {pela reuniao de hoje|pelo encontro|pela conversa} {mais cedo|de hoje de manha|dessa tarde}. {Foi muito produtiva|Gostei bastante da troca|Achei a conversa muito boa}!" },
+      { "role": "responder", "type": "text", "text": "{Oi|Ola}! {Eu que agradeco|Obrigado a voce|Igualmente}! {Tambem achei muito positiva|Concordo, foi bem produtiva|Gostei muito das ideias discutidas}. {Ja estou adiantando|Vou comecar a trabalhar|Ja vou encaminhar} {os pontos que alinhamos|o que combinamos|as acoes definidas}." },
+      { "role": "initiator", "type": "text", "text": "{Otimo|Perfeito|Excelente}! {Vou enviar a ata|Mando o resumo|Compartilho os pontos principais} {por email|por aqui mesmo|no grupo}. {Qualquer coisa e so chamar|Estamos juntos nessa|Vamos mantendo contato}." },
+      { "role": "responder", "type": "text", "text": "{Combinado|Fechado|Perfeito}! {Bom trabalho pra nos|Vai dar tudo certo|Estou otimista com esse projeto}. {Ate mais|Abraco|Boa semana}!" },
+      { "role": "initiator", "type": "reaction", "emoji": "{👍|🤝|🚀}" }
+    ]
+  },
+  {
+    "name": "followup-no-response",
+    "category": "business",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Oi|Ola|E ai}, {tudo bem|como vai}? {Sei que deve estar corrido|Imagino que a semana esta puxada|Entendo que a rotina e corrida}, mas {queria retomar|gostaria de dar continuidade|vim dar um follow-up} {naquela nossa conversa|no assunto que discutimos|sobre o projeto que conversamos}." },
+      { "role": "responder", "type": "text", "text": "{Oi|Ola}! {Desculpa mesmo|Perdao pela demora|Foi mal nao ter respondido antes}, {estava em uma correria|tive uma semana intensa|surgiram algumas prioridades}. {Sim, continuo interessado|Nao esqueci nao|Ainda tenho interesse sim}. {Podemos retomar|Vamos la|Bora dar andamento}?" },
+      { "role": "initiator", "type": "text", "text": "{Claro|Sem problema nenhum|Imagina, entendo perfeitamente}! {Quando fica bom pra voce|Me diz um horario|Qual o melhor momento} {pra gente conversar|pra alinharmos|pra retomar}?" },
+      { "role": "responder", "type": "text", "text": "{Pode ser|Que tal|Funciona} {amanha a tarde|quinta-feira de manha|semana que vem}? {Te mando uma mensagem confirmando|Confirmo com voce no dia|Te aviso com antecedencia}." },
+      { "role": "initiator", "type": "text", "text": "{Perfeito|Fechado|Combinado}! {Anoto aqui|Ja deixo agendado|Marco na agenda}. {Ate la|Falamos entao|Nos vemos}!" }
+    ]
+  },
+  {
+    "name": "schedule-meeting-initial",
+    "category": "business",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Boa tarde|Bom dia|Oi}! {Precisamos agendar|Queria marcar|Vamos combinar} {uma reuniao|um call|uma videoconferencia} {pra alinhar os proximos passos|pra discutir o projeto|sobre a parceria}. {Quando seria bom pra voce|Qual sua disponibilidade|Tem algum horario livre} {essa semana|nos proximos dias}?" },
+      { "role": "responder", "type": "text", "text": "{Oi|Ola}! {Claro, vamos marcar|Sim, concordo que precisamos conversar|Com certeza, vamos alinhar}. {Tenho disponibilidade|Estou livre|Consigo} {na terca a tarde|na quarta de manha|quinta apos as 14h}. {Funciona pra voce|Serve|Da certo}?" },
+      { "role": "initiator", "type": "text", "text": "{Terca a tarde funciona|Quarta de manha ta otimo|Quinta as 14h serve}! {Mando o convite pelo|Crio a reuniao no|Te envio o link do} {Google Meet|Zoom|Teams}. {Sera de|Acho que|Uns} {30 minutos|1 hora|45 minutos} {e suficiente|deve ba⭐|ta bom}?" },
+      { "role": "responder", "type": "text", "text": "{Perfeito|Otimo|Combinado}! {Acho que 1 hora e o ideal|30 minutos deve dar|45 minutos e suficiente}. {Ja coloco na agenda|Vou bloquear o horario|Anoto aqui}. {Ate la|Nos falamos|Te vejo na call}!" },
+      { "role": "initiator", "type": "text", "text": "{Fechado|Beleza|Combinado}! {Envio o convite ja ja|Mando o link em seguida|Te envio a confirmacao}. {Abraco|Ate la|Boa semana}!" },
+      { "role": "responder", "type": "reaction", "emoji": "{👍|📅|👌}" }
+    ]
+  },
+  {
+    "name": "schedule-meeting-reschedule",
+    "category": "business",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Oi|Ola}, {tudo bem|boa tarde}? {Preciso pedir desculpas mas|Infelizmente|Sinto muito, mas} {surgiu um imprevisto|tive um compromisso urgente|apareceu uma emergencia} e {nao vou conseguir|preciso remarcar|nao da pra} {a reuniao de amanha|nosso encontro de hoje|o call que marcamos}. {Podemos reagendar|Seria possivel remarcar|Tem como mudar}?" },
+      { "role": "responder", "type": "text", "text": "{Oi|Ola}! {Sem problemas|Tranquilo|Entendo perfeitamente}, {acontece|imprevistos sao assim mesmo|faz parte}. {Pode ser|Que tal|Funciona pra voce} {na quinta|na proxima semana|depois de amanha} {no mesmo horario|um pouco mais cedo|a tarde}?" },
+      { "role": "initiator", "type": "text", "text": "{Quinta fica otimo|Proxima semana perfeito|Depois de amanha serve}! {Mesmo horario|Pode ser as 10h|As 15h seria ideal}. {Desculpa novamente|Agradeco a compreensao|Obrigado pela flexibilidade}!" },
+      { "role": "responder", "type": "text", "text": "{Fechado|Combinado|Sem problema nenhum}! {Atualizo o convite|Mudo na agenda|Remarcado entao}. {Ate la|Nos falamos|Abraco}!" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🙏|👍|❤️}" }
+    ]
+  },
+  {
+    "name": "schedule-call-quick",
+    "category": "business",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Oi|E ai|Ola}, {tudo certo|tudo bem}? {Posso te ligar|Tem um minutinho|Consigo falar contigo} {agora|daqui a pouco|em 10 minutos}? {E rapido|Sao 5 minutinhos|Nao vai demorar}, {sobre aquele assunto|preciso alinhar uma coisa|tem um ponto pra resolver}." },
+      { "role": "responder", "type": "text", "text": "{Oi|E ai}! {Agora nao da|Pode sim|Daqui uns 15 minutos pode ser}? {Estou em reuniao|To num atendimento|To no meio de uma tarefa} {mas em {15|20|30} minutos to livre|mas logo libero|ja ja fico disponivel}." },
+      { "role": "initiator", "type": "text", "text": "{Beleza|Tranquilo|Sem pressa}! {Me avisa quando puder|Te ligo daqui a pouco entao|Me da um toque quando liberar}." },
+      { "role": "responder", "type": "text", "text": "{Pronto, pode ligar|Liberei aqui, pode falar|Ja estou disponivel}!" },
+      { "role": "initiator", "type": "text", "text": "{Ligando|Ja te ligo|Vou te chamar} {agora|ja}!" }
+    ]
+  },
+  {
+    "name": "project-status-update",
+    "category": "business",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Boa tarde|Bom dia|Oi} equipe! {Passando o status|Atualizacao do projeto|Update semanal}: {concluimos a fase 1|finalizamos a etapa inicial|entregamos o primeiro milestone} {dentro do prazo|com sucesso|conforme o cronograma}. {Estamos agora|Proximo passo e|Seguimos para} {a fase de testes|a implementacao|a revisao final}." },
+      { "role": "responder", "type": "text", "text": "{Otimas noticias|Excelente|Muito bom}! {Parabens a todos|Bom trabalho|Mandaram bem}. {Tem algum impedimento|Surgiu algum bloqueio|Precisa de algum apoio} {para a proxima etapa|pra seguir|pra dar continuidade}?" },
+      { "role": "initiator", "type": "text", "text": "{Por enquanto estamos bem|Ate o momento sem problemas|Tudo fluindo}. {So preciso|A unica pendencia e|Apenas necessito de} {a aprovacao do layout|validacao do cliente|liberacao do ambiente de testes}. {Voce consegue encaminhar|Pode verificar isso|Da pra agilizar} {ate sexta|nos proximos dias|essa semana}?" },
+      { "role": "responder", "type": "text", "text": "{Consigo sim|Vou resolver isso|Encaminho ainda hoje}. {Alias|Inclusive|Aproveitando}, {o cliente perguntou sobre|a diretoria quer saber|precisamos atualizar} {a previsao de entrega final|o cronograma atualizado|o prazo do projeto}. {Voce atualiza o documento|Me manda as datas revisadas|Pode preparar um resumo}?" },
+      { "role": "initiator", "type": "text", "text": "{Claro|Sem problemas|Pode deixar}! {Atualizo o cronograma e envio|Preparo o documento e compartilho|Mando as datas revisadas} {ate o fim do dia|ainda hoje|amanha pela manha}. {Obrigado|Valeu|Agradeco}!" },
+      { "role": "responder", "type": "reaction", "emoji": "{👍|🚀|🔥}" }
+    ]
+  },
+  {
+    "name": "project-deadline-discussion",
+    "category": "business",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Oi|Ola|Bom dia}, {preciso conversar|temos que alinhar|quero discutir} {sobre o prazo|sobre a entrega|um ponto importante} {do projeto|da demanda|do sprint}. {Acho que precisamos|Talvez seja necessario|Pode ser que tenhamos que} {rever o cronograma|ajustar a data|estender o prazo}." },
+      { "role": "responder", "type": "text", "text": "{Entendi|Ok|Certo}. {O que esta impactando|Qual o motivo|O que aconteceu}? {E algum bloqueio tecnico|Falta recurso|Mudou o escopo}?" },
+      { "role": "initiator", "type": "text", "text": "{Na verdade|O que houve foi que|Basicamente}, {o escopo aumentou|surgiram novas demandas do cliente|encontramos um problema tecnico} {que nao estavamos prevendo|inesperado|que impacta diretamente}. {Estimamos|Precisamos de|O impacto e de} {mais 5 dias|uma semana a mais|uns 3 dias adicionais}." },
+      { "role": "responder", "type": "text", "text": "{Entendo|Compreendo|Faz sentido}. {Precisamos comunicar o cliente|Vou alinhar com a diretoria|Vamos formalizar a mudanca}. {Voce prepara|Me manda|Consegue montar} {uma justificativa|um relatorio de impacto|um documento explicando} {pra eu encaminhar|que eu possa apresentar}?" },
+      { "role": "initiator", "type": "text", "text": "{Ja estou preparando|Sim, envio ate amanha|Vou montar e te envio}. {Incluo as justificativas|Coloco todos os detalhes|Detalho o impacto e a nova previsao}." },
+      { "role": "responder", "type": "text", "text": "{Perfeito|Ok|Combinado}. {Vamos resolver isso juntos|Fazemos o melhor possivel|Nao se preocupa que ajustamos}. {Valeu por avisar com antecedencia|Bom que comunicou logo|Obrigado por ser transparente}." }
+    ]
+  },
+  {
+    "name": "project-deliverable-review",
+    "category": "business",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Oi|Ola|Boa tarde}! {Acabei de enviar|Mandei por email|Compartilhei no drive} {a versao final|o entregavel|o documento atualizado} {do projeto|da proposta|do relatorio}. {Quando puder|Se tiver um tempinho|Assim que possivel}, {da uma olhada|da uma revisada|confere pra mim}?" },
+      { "role": "responder", "type": "text", "text": "{Oi|Ola}! {Recebi sim|Vi aqui|Chegou}. {Vou revisar|Dou uma olhada|Analiso} {ainda hoje|agora a tarde|amanha cedo} e {te dou um retorno|te passo o feedback|te mando os comentarios}. {Tem pressa|Urgente|Precisa pra quando}?" },
+      { "role": "initiator", "type": "text", "text": "{Se puder me dar retorno ate|Idealmente precisaria ate|O deadline e} {amanha|sexta-feira|fim do dia}. {E que|Porque} {o cliente precisa aprovar|temos reuniao com o stakeholder|a entrega pro cliente e na semana que vem}." },
+      { "role": "responder", "type": "text", "text": "{Entendido|Ok, consigo sim|Tranquilo}. {Priorizo isso|Coloco como urgente|Faco primeiro}. {Se tiver alguma correcao|Caso precise de ajuste|Havendo alguma mudanca}, {te aviso na hora|ja te falo|mando por aqui}." },
+      { "role": "initiator", "type": "text", "text": "{Obrigado demais|Agradeco muito|Valeu pela forca}! {Qualquer duvida estou por aqui|To online se precisar|Me chama no que precisar}." },
+      { "role": "responder", "type": "reaction", "emoji": "{👍|👌|💪}" }
+    ]
+  },
+  {
+    "name": "negotiation-discount",
+    "category": "business",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Oi|Ola|Boa tarde}! {Recebi a proposta|Vi o orcamento|Analisei os valores} e {achei bem interessante|gostei bastante|esta bem completo}. {Porem|So que|Entretanto}, {o valor ficou um pouco acima|esta acima do nosso budget|precisaria de um ajuste no preco}. {Tem como|Seria possivel|Conseguem} {dar um desconto|flexibilizar o valor|rever o preco}?" },
+      { "role": "responder", "type": "text", "text": "{Oi|Ola}! {Entendo|Compreendo|Faz sentido}. {Qual seria|Quanto seria|O que ficaria} {o valor ideal pra voces|dentro do orcamento|viavel}? {Dependendo|Conforme o caso|A depender da situacao}, {consigo negociar|posso ver o que faco|da pra aju⭐}." },
+      { "role": "initiator", "type": "text", "text": "{Nosso budget e de|Conseguimos pagar ate|O ideal seria ficar em torno de} {X|um valor Y% menor|algo mais proximo de Z}. {Sei que e apertado|Entendo que pode ser dificil|Sei que nao e facil}, mas {e o que temos aprovado|e o limite da nossa verba|foi o que a diretoria aprovou}." },
+      { "role": "responder", "type": "text", "text": "{Olha|Bom|Entao}, {e apertado mas|vou fazer um esforco|deixa eu ver o que consigo}. {Se fecharmos|Caso o pagamento seja|Para essa condicao funcionar} {a vista|com pagamento antecipado|em ate 30 dias}, {consigo chegar nesse valor|da pra aproximar|faÃ§o um preco especial}. {Topa|Funciona|Seria possivel}?" },
+      { "role": "initiator", "type": "text", "text": "{Consigo sim|A vista funciona|Se for com boleto bancario sim}! {Entao temos um acordo|Vamos fechar entao|Fechado}? {Me manda o contrato|Envia a proposta atualizada|Formaliza pra mim} {que assino hoje|que encaminho pra aprovacao|e fechamos}!" },
+      { "role": "responder", "type": "text", "text": "{Fechado|Combinado|Excelente}! {Envio o contrato atualizado|Mando a proposta revisada|Preparo tudo} {em ate 1 hora|ainda hoje|ja ja}. {Prazer fazer negocios|Obrigado pela confianca|Sera um prazer atende-los}!" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🤝|👍|⭐}" }
+    ]
+  },
+  {
+    "name": "negotiation-payment-terms",
+    "category": "business",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Oi|Ola|Bom dia}! {Sobre o pagamento|Em relacao as condicoes|Quanto a forma de pagamento}: {seria possivel|voces aceitam|tem como} {parcelar|dividir o pagamento|pagar em parcelas}? {O valor total|A quantia|O montante} {e consideravel|e alto pra pagar de uma vez|fica pesado a vista}." },
+      { "role": "responder", "type": "text", "text": "{Oi|Ola}! {Trabalhamos sim com parcelamento|Temos opcoes de parcelamento|Oferecemos condicoes flexiveis}. {Podemos fazer em|Parcelamos em ate|Dividimos em} {3x|6x|4x} {sem juros|com uma pequena taxa|no boleto}. {Tambem aceitamos|Outra opcao seria|Alem disso tem} {cartao de credito|PIX com desconto|deposito bancario}." },
+      { "role": "initiator", "type": "text", "text": "{Em 3x sem juros|4x no boleto|6x ficaria bom}. {E se eu aumentar o pedido|Caso eu feche um contrato anual|Se eu indicar outros clientes}, {tem condicao melhor|melhora o desconto|consegue algo a mais}?" },
+      { "role": "responder", "type": "text", "text": "{Com certeza|Ai sim|Nesse caso}! {Para contratos maiores|Com volume maior|Com fidelizacao} {fazemos condicoes especiais|o desconto aumenta|tenho margem pra negociar}. {Me passa os detalhes|Vamos montar uma proposta conjunta|Elaboro um pacote personalizado} {e te envio|pra voce avaliar}." },
+      { "role": "initiator", "type": "text", "text": "{Otimo|Perfeito|Vamos la}! {Vou levantar as quantidades|Preparo os numeros|Organizo a demanda} e {te mando ate amanha|te passo essa semana|envio em breve}." },
+      { "role": "responder", "type": "text", "text": "{Combinado|Fico aguardando|Perfeito}! {Estamos juntos|Conte comigo|A disposicao}!" }
+    ]
+  },
+  {
+    "name": "negotiation-scope-adjustment",
+    "category": "business",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Oi|Ola|Boa tarde}! {Analisei a proposta|Revi o orcamento|Estudei os valores} e {gostei muito do conteudo|a qualidade e excelente|o servico parece otimo}. {Mas|Porem|Entretanto} {pra caber no nosso budget|pelo nosso orcamento|financeiramente}, {seria possivel|teria como|podemos} {reduzir o escopo|cortar algumas funcionalidades|fazer uma versao mais enxuta}?" },
+      { "role": "responder", "type": "text", "text": "{Claro|Sim, podemos avaliar|Entendo perfeitamente}. {Quais itens|O que voce acha|Quais funcionalidades} {seriam essenciais|sao prioridade|nao podem faltar}? {Posso montar uma versao|Consigo reestruturar|Da pra fazer um MVP} {mais enxuta|com o essencial|focado no principal}." },
+      { "role": "initiator", "type": "text", "text": "{O essencial pra gente seria|As prioridades sao|Nao podemos abrir mao de} {os itens 1, 2 e 3|a parte principal|o nucleo do projeto}. {O resto podemos|As outras funcionalidades|Os adicionais} {fazer numa segunda fase|incluir depois|deixar pra uma proxima etapa}." },
+      { "role": "responder", "type": "text", "text": "{Faz total sentido|Concordo com essa abordagem|E uma estrategia inteligente}. {Com esse escopo reduzido|Tirando esses itens|Nessa configuracao}, {o valor cai|consigo reduzir|fica} {uns 30%|cerca de 25%|significativamente mais acessivel}. {Te mando a proposta ajus🎉|Vou refazer o orcamento|Atualizo os valores} {hoje|amanha|em seguida}." },
+      { "role": "initiator", "type": "text", "text": "{Excelente|Perfeito|Otimo}! {Essa abordagem faseada|Assim fica muito melhor|Gostei da flexibilidade}. {Fico no aguardo|Manda pra ca|Espero a proposta atualizada}!" },
+      { "role": "responder", "type": "reaction", "emoji": "{👍|🤝|✅}" }
+    ]
+  },
+  {
+    "name": "thankyou-after-purchase",
+    "category": "business",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Oi|Ola|Bom dia}! {So queria agradecer|Passando pra agradecer|Obrigado(a)} {pela entrega|pelo servico|pelo atendimento}. {Ficou excelente|Superou as expectativas|Estamos muito satisfeitos}! {A equipe adorou|O pessoal aqui gostou muito|Todo mundo aprovou}." },
+      { "role": "responder", "type": "text", "text": "{Que bom ouvir isso|Fico muito feliz|Isso e muito gratificante}! {A satisfacao de voces|Seu feedback positivo|Saber que gostaram} {e o que nos motiva|e nosso maior premio|faz tudo valer a pena}. {Obrigado pela confianca|Agradecemos a preferencia|Foi um prazer atende-los}!" },
+      { "role": "initiator", "type": "text", "text": "{Com certeza|Podem contar|Ja estou pensando em} {vamos voltar a fazer negocios|indicar voces|fechar um novo pedido em breve}. {Trabalho de primeira|Nota 10|Impecavel}!" },
+      { "role": "responder", "type": "text", "text": "{Contamos com voce|Sera sempre um prazer|Estamos a disposicao}! {Qualquer necessidade|Pro que precisar|Sempre que precisar}, {e so chamar|estamos aqui|pode contar conosco}. {Abraco|Boa semana|Otimo dia}!" },
+      { "role": "initiator", "type": "reaction", "emoji": "{❤️|⭐|👍}" }
+    ]
+  },
+  {
+    "name": "thankyou-feedback-request",
+    "category": "business",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Oi|Ola|Boa tarde}! {Tudo bem com voce|Como vai}? {Estou entrando em contato|Passando aqui} {para saber sua opiniao|pra pedir um feedback|pra ouvir sua avaliacao} {sobre o servico que prestamos|sobre o produto que enviamos|a respeito da nossa entrega}. {Sua opiniao e muito importante|Valorizamos muito seu feedback|Queremos sempre melhorar}!" },
+      { "role": "responder", "type": "text", "text": "{Oi|Ola}! {Claro|Com prazer|Sem problemas}. {No geral estou muito satisfeito|Gostei bastante|Foi uma experiencia muito boa}. {O atendimento foi excelente|A qualidade superou as expectativas|O prazo foi cumprido certinho}. {Talvez|A unica coisa que|Se pudesse melhorar algo seria} {a comunicacao durante o processo|os updates de acompanhamento|o canal de suporte}. {Mas no geral|Tirando isso|De resto}, {nota 9|muito bom|recomendo}!" },
+      { "role": "initiator", "type": "text", "text": "{Muito obrigado pelo feedback|Agradeco demais a sinceridade|Valeu por compartilhar}! {Esse ponto e muito valido|Ja estamos trabalhando nisso|Vamos melhorar esse aspecto}. {Se nao for incomodo|Seria possivel|Posso pedir um favor}: {deixar uma avaliacao no Google|compartilhar sua experiencia nas redes|nos indicar pra alguem}?" },
+      { "role": "responder", "type": "text", "text": "{Claro|Sem problema|Com prazer}! {Faco sim|Deixo a avaliacao|Indico com certeza}. {Voces merecem|Trabalho bom tem que ser reconhecido|Faco questao}. {Me manda o link|Onde deixo a avaliacao|Manda o link que faco agora}!" },
+      { "role": "initiator", "type": "text", "text": "{Te envio|Mando|Segue} o link {agora|aqui|em seguida}! {Muito obrigado mesmo|Agradecemos de coracao|Voce nos ajuda demais}!" },
+      { "role": "responder", "type": "reaction", "emoji": "{❤️|⭐|👍}" }
+    ]
+  },
+  {
+    "name": "thankyou-referral",
+    "category": "business",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Oi|Ola|E ai}, {tudo bem|tudo certo}? {Queria te agradecer pessoalmente|Passando pra agradecer|Vim te dar um muito obrigado} {pela indicacao|por ter nos recomendado|por ter passado nosso contato}. {O cliente entrou em contato|Ja recebemos a demanda|A pessoa que voce indicou ja fechou}!" },
+      { "role": "responder", "type": "text", "text": "{Que otimo|Que bom|Fico feliz}! {Imagina|Nao tem de que|Foi com prazer}. {Voces merecem|Indico porque confio no trabalho|Faco questao de indicar bons profissionais}. {Deu tudo certo entao|Fecharam|Rolou o negocio}?" },
+      { "role": "initiator", "type": "text", "text": "{Fechamos sim|Deu tudo certo|Sim, ja estamos trabalhando}! {E pra agradecer|Como forma de agradecimento|Em retribuicao}, {te envio um brinde|quero te oferecer um desconto especial|reservei uma cortesia pra voce}. {Voce merece|E o minimo|Faco questao}!" },
+      { "role": "responder", "type": "text", "text": "{Nossa, que gentileza|Nem precisava|Que legal, obrigado}! {Agradeco muito|Fico lisonjeado|Aceito com prazer}. {Sempre que puder indico|Podem contar comigo|Continuem com esse trabalho excelente} {que as indicacoes vem naturalmente|que os clientes vem sozinhos|que o boca a boca funciona}!" },
+      { "role": "initiator", "type": "text", "text": "{Valeu demais|Obrigado pela parceria|Conte sempre conosco tambem}! {Abraco|Boa semana|Sucesso}!" },
+      { "role": "responder", "type": "reaction", "emoji": "{❤️|🙏|🤝}" }
+    ]
+  },
+  {
+    "name": "partnership-initial-contact",
+    "category": "business",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Boa tarde|Bom dia|Ola}! {Meu nome e|Me chamo|Sou o(a)} {Ana|Pedro|Marcos|Juliana} {da empresa X|e trabalho na empresa Y|do grupo Z}. {Encontrei o perfil de voces|Vi o trabalho de voces|Conheci a empresa pelo Instagram} e {achei que podemos|acredito que seria interessante|vejo um potencial grande pra} {fazer uma parceria|colaborar juntos|unir forcas}." },
+      { "role": "responder", "type": "text", "text": "{Ola|Oi|Bom dia}, {Ana|Pedro|Marcos|Juliana}! {Que legal|Que bacana|Interessante}! {Conhego a empresa de voces|Ja ouvi falar do trabalho de voces|Vi o site de voces}. {Pode me contar mais|Me fala mais sobre a ideia|Como voce imagina essa parceria}? {Estou curioso(a)|Tenho interesse|Quero entender melhor}." },
+      { "role": "initiator", "type": "text", "text": "{Claro|Com prazer|Vou explicar}! {A ideia seria|Estou pensando em|Minha proposta e} {unir nossos publicos|fazer acoes conjuntas de marketing|criar um produto/servico em conjunto}. {Nossos clientes tem perfil parecido|Acho que nos complementamos|Nossas empresas atendem publicos complementares}. {O que acha|Faz sentido|Ve potencial}?" },
+      { "role": "responder", "type": "text", "text": "{Faz muito sentido|Concordo totalmente|Gostei da visao}! {Tambem enxergo essa sinergia|Acho que tem tudo pra dar certo|A complementaridade e clara}. {Que tal marcarmos|Podemos agendar|Vamos combinar} {um cafe|uma reuniao|uma call} {pra detalhar|pra aprofundar|pra alinhar os detalhes}?" },
+      { "role": "initiator", "type": "text", "text": "{Adoraria|Otima ideia|Com certeza}! {Que tal|Funciona|Pode ser} {semana que vem|essa quinta|na proxima terca}? {Posso ir ate voces|Fazemos por videoconferencia|Encontramos num cafe}?" },
+      { "role": "responder", "type": "text", "text": "{Perfeito|Combinado|Fechado}! {Semana que vem ta otimo|Quinta funciona|Terca serve}. {Te mando o endereco|Crio a reuniao online|Mando a localizacao}. {Estou animado(a)|Vai ser produtivo|Tenho boas expectativas}!" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🤝|🚀|⭐}" }
+    ]
+  },
+  {
+    "name": "partnership-collaboration-proposal",
+    "category": "business",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Oi|Ola|Boa tarde}! {Apos nossa conversa|Depois da nossa reuniao|Pensando no que discutimos}, {preparei uma proposta|montei um rascunho|elaborei um plano} {de parceria|de colaboracao|conjunto}. {Posso te enviar|Quer dar uma olhada|Mando por aqui}?" },
+      { "role": "responder", "type": "text", "text": "{Oi|Ola}! {Que rapido|Ja esperava ansioso|Legal}! {Manda sim|Pode enviar|Quero ver com certeza}. {Por email ou aqui|Em PDF ta bom|Por onde prefere enviar}?" },
+      { "role": "initiator", "type": "text", "text": "{Vou mandar por email|Envio em PDF por aqui|Te mando pelo WhatsApp mesmo}. {Em resumo|Basicamente|Os pontos principais sao}: {divisao 50/50 dos resultados|cada um entra com sua expertise|investimento compartilhado}. {O que acha|Me diz o que pensa|Analisa e me fala}?" },
+      { "role": "responder", "type": "text", "text": "{Gostei da estrutura|A proposta ta bem pensada|Parece justo}. {Tenho algumas sugestoes|Quero propor uns ajustes|Vejo uns pontos pra discutir}, mas {no geral estou de acordo|a base esta solida|a direcao e essa mesmo}. {Te retorno com meus comentarios|Vou anotar minhas observacoes|Preparo um contraponto} {ate amanha|em breve|essa semana}." },
+      { "role": "initiator", "type": "text", "text": "{Otimo|Excelente|Perfeito}! {Estou aberto(a) a ajustes|Flexibilidade total|Quero que fique bom pros dois lados}. {Aguardo seu retorno|Me fala quando tiver|Fico no aguardo das observacoes}!" },
+      { "role": "responder", "type": "reaction", "emoji": "{🤝|👍|💪}" }
+    ]
+  },
+  {
+    "name": "partnership-event-collab",
+    "category": "business",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Oi|Ola|E ai}, {tudo bem|como vai}? {Estamos organizando|Vamos realizar|Estou planejando} {um evento|um workshop|um webinar} {sobre {marketing digital|empreendedorismo|inovacao}|no nosso segmento|para o setor} e {adoraria ter voces como parceiros|queria convidar voces pra participar|achei que seria incrivel uma parceria}. {Topa|Tem interesse|O que acha}?" },
+      { "role": "responder", "type": "text", "text": "{Oi|Ola}! {Que ideia legal|Achei muito interessante|Adorei a proposta}! {Quando seria|Qual a data|Pra quando esta previsto}? {E como seria a participacao|Qual seria nosso papel|Como funcionaria a parceria}?" },
+      { "role": "initiator", "type": "text", "text": "{Seria|Esta previsto pra|A data e} {dia 15 do proximo mes|em junho|daqui a 3 semanas}. {Voces poderiam|A ideia seria voces|Pensamos em voces} {palestrarem|patrocinarem|terem um stand} {e em troca|como contrapartida|e nos oferecemos} {divulgamos a marca|colocamos logo em todo material|damos destaque nas redes}." },
+      { "role": "responder", "type": "text", "text": "{Temos interesse sim|Gostei da proposta|Vamos participar}! {Preciso alinhar|Deixa eu verificar|Vou confirmar} {com meu socio|com a equipe|internamente} e {te dou um retorno|confirmo|te falo} {ate sexta|em 2 dias|essa semana}. {Pode me enviar mais detalhes|Me manda o briefing|Tem algum material sobre o evento}?" },
+      { "role": "initiator", "type": "text", "text": "{Claro|Com certeza|Mando sim}! {Te envio tudo|Ja preparo o material|Mando o deck completo} {com detalhes de publico|com informacoes de alcance|com tudo que precisa saber}. {Vai ser incrivel|Estou empolgado(a)|Tenho certeza que vai ser um sucesso}!" },
+      { "role": "responder", "type": "text", "text": "{Otimo|Perfeito}! {Aguardo o material|Fico no aguardo|Me manda que analiso}. {Obrigado pelo convite|Agradeco a lembranca|Valeu por pensar em nos}!" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🚀|🔥|🤝}" }
+    ]
+  },
+  {
+    "name": "service-complaint-resolution",
+    "category": "business",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Boa tarde|Bom dia|Ola}. {Preciso reportar|Quero informar|Tenho que comunicar} {um problema|uma situacao|uma ocorrencia} {com o servico|com o produto|com a entrega}. {Nao foi como combinado|Houve um erro|Algo saiu diferente do esperado}." },
+      { "role": "responder", "type": "text", "text": "{Boa tarde|Oi|Bom dia}! {Sinto muito por isso|Lamento o ocorrido|Pedimos desculpas}. {Pode me detalhar|Me conte o que aconteceu|Descreve a situacao} {para que eu possa resolver|que vou encaminhar|e resolvo o mais rapido possivel}." },
+      { "role": "initiator", "type": "text", "text": "{O que aconteceu foi|A situacao e a seguinte|Basicamente}: {recebi diferente do pedido|o prazo nao foi cumprido|o servico ficou incompleto}. {Preciso que resolvam|Gostaria de uma solucao|Espero que possam corrigir} {o mais rapido possivel|com urgencia|essa semana}." },
+      { "role": "responder", "type": "text", "text": "{Entendi perfeitamente|Compreendo sua frustracao|Voce tem toda razao}. {Ja estou tomando providencias|Vou resolver pessoalmente|Encaminho agora mesmo}. {Te dou um retorno em|Resolvo em ate|Posicao em} {2 horas|ate o final do dia|24 horas}. {Mais uma vez pedimos desculpas|Lamentamos o inconveniente|Vamos corrigir isso}." },
+      { "role": "initiator", "type": "text", "text": "{Ok|Certo|Tudo bem}, {aguardo o retorno|fico no aguardo|espero a solucao}. {Obrigado pela atenÃ§Ã£o|Agradeco o empenho|Espero que resolvam}." },
+      { "role": "responder", "type": "text", "text": "{Pode deixar|Conte comigo|Ja estou cuidando}! {Obrigado pela paciencia|Agradecemos a compreensao|Valorizamos seu feedback}." }
+    ]
+  },
+  {
+    "name": "invoice-payment-discussion",
+    "category": "business",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Oi|Ola|Bom dia}! {Estou enviando|Segue|Te encaminhei} {a nota fiscal|o boleto|a fatura} {referente ao pedido|do servico prestado|da ultima compra}. {O vencimento e|Vence|Data de pagamento:} {dia 15|no proximo dia 10|em 5 dias uteis}. {Qualquer duvida|Se precisar de algo|Alguma questao}, {e so falar|estou aqui|me avisa}!" },
+      { "role": "responder", "type": "text", "text": "{Recebi|Vi aqui|Chegou}, {obrigado|valeu|agradeco}! {Uma duvida|So uma questao|Me tira uma duvida}: {tem desconto pra pagamento antecipado|aceita PIX ao inves de boleto|consigo pagar em 2x}?" },
+      { "role": "initiator", "type": "text", "text": "{Sim|Temos sim|Pode ser}! {Se pagar ate amanha|Pagamento antecipado|Via PIX} {damos 5% de desconto|tem desconto de 3%|fica com condicao especial}. {Quer que eu gere|Mando|Envio} {um novo boleto|a chave PIX|os dados atualizados}?" },
+      { "role": "responder", "type": "text", "text": "{Manda o PIX|Gera o novo boleto|Envia com desconto} {que pago hoje|que faco o pagamento agora|que ja transfiro}!" },
+      { "role": "initiator", "type": "text", "text": "{Pronto, enviado|Segue os dados|Aqui esta}! {Assim que cair aviso|Confirmo o recebimento|Quando identificar o pagamento te aviso}. {Obrigado|Agradecemos|Valeu}!" },
+      { "role": "responder", "type": "reaction", "emoji": "{👍|👌|✅}" }
+    ]
+  },
+  {
+    "name": "new-employee-introduction",
+    "category": "business",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Boa tarde|Bom dia|Oi} pessoal! {Quero apresentar|Apresento a voces|Bem-vindo(a) ao time:} {o novo integrante da equipe|nosso(a) novo(a) colega|quem vai reforcar nosso time}. {Ele(a) vai atuar|A funcao sera|Vai trabalhar} {na area comercial|no marketing|no suporte tecnico}." },
+      { "role": "responder", "type": "text", "text": "{Seja bem-vindo(a)|Bem-vindo(a) ao time|Que bom ter voce conosco}! {Estamos a disposicao|Conte com a gente|Qualquer duvida pode chamar}. {Vai gostar de trabalhar aqui|O time e otimo|A equipe e muito receptiva}!" },
+      { "role": "initiator", "type": "text", "text": "{Obrigado(a)|Muito obrigado(a)|Agradeco} {pelo carinho|pela recepcao|pela acolhida}! {Estou animado(a)|Muito empolgado(a)|Ansioso(a)} {pra comecar|pra contribuir|pra conhecer o trabalho de voces}. {Podem me chamar de|Me chamo|Sou o(a)} {Lu|Rafa|Dani|Beto}!" },
+      { "role": "responder", "type": "text", "text": "{Vai arrasar|Bora pra cima|Sucesso na nova jornada}! {Precisando de algo|Qualquer coisa|No que precisar} {e so mandar mensagem|chama aqui|fala com a gente}." },
+      { "role": "initiator", "type": "reaction", "emoji": "{❤️|🙏|🚀}" }
+    ]
+  },
+  {
+    "name": "quarterly-review-discussion",
+    "category": "business",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Oi|Ola|Bom dia} {pessoal|equipe|time}! {Compartilhando|Seguem|Envio} {os resultados do trimestre|o fechamento do Q{1|2|3|4}|os numeros do periodo}. {Tivemos um crescimento de|Atingimos|Superamos} {15%|20%|a meta em 10%} {em relacao ao trimestre anterior|comparado ao ano passado|nesse periodo}." },
+      { "role": "responder", "type": "text", "text": "{Excelente resultado|Numeros muito bons|Parabens a todos}! {O esforco da equipe esta aparecendo|O trabalho duro compensou|O time merece reconhecimento}. {Algum destaque especial|Qual area performou melhor|Tem algum ponto de atencao}?" },
+      { "role": "initiator", "type": "text", "text": "{O destaque foi|A area que mais cresceu foi|O ponto alto} {o setor comercial|a area de novos clientes|a retencao de clientes}. {Como ponto de melhoria|Precisamos melhorar|Um desafio pra o proximo trimestre e} {reduzir custos operacionais|aumentar a margem|expandir pra novas regioes}." },
+      { "role": "responder", "type": "text", "text": "{Concordo|Faz sentido|Alinhado}. {Vamos trabalhar nesses pontos|Bora focar nisso no proximo Q|Ja comeco a planejar}. {Agenda uma reuniao de planejamento|Marcamos um workshop|Fazemos um brainstorm} {pra definir as metas|pra alinhar estrategia|do proximo trimestre}?" },
+      { "role": "initiator", "type": "text", "text": "{Boa ideia|Vamos sim|Ja mando o convite}! {Que tal na proxima segunda|Pode ser quarta|Marcamos pra sexta}? {Parabens a todos|Obrigado pelo empenho|Continuem assim}!" },
+      { "role": "responder", "type": "reaction", "emoji": "{🔥|🚀|🏆}" }
+    ]
+  }
+]
+
+

@@ -1,0 +1,6 @@
+{
+  "sendDelayMinMs": 7000,
+  "sendDelayMaxMs": 180000,
+  "reactionDelayMinMs": 7000,
+  "reactionDelayMaxMs": 90000
+}

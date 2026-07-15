@@ -1,0 +1,3005 @@
+[
+  {
+    "name": "quick-vdd",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{vdd|verdade|real}" },
+      { "role": "responder", "type": "text", "text": "{kkkkk|kkkk sim|demais}" }
+    ]
+  },
+  {
+    "name": "quick-slk",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{slk|mano|vei}" },
+      { "role": "responder", "type": "text", "text": "{q foi|oq|??}" }
+    ]
+  },
+  {
+    "name": "quick-laugh",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{kkkkkkkkk|KKKKKK|hahahaha}" },
+      { "role": "responder", "type": "text", "text": "{kkkkk mds|KKKKKKKKK|mano kkkk}" }
+    ]
+  },
+  {
+    "name": "quick-serio",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{serio??|serio isso?|eh serio?}" },
+      { "role": "responder", "type": "text", "text": "{sim mano|juro|seriissimo}" }
+    ]
+  },
+  {
+    "name": "quick-ne",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{ne|pois é|é ne}" },
+      { "role": "responder", "type": "text", "text": "{demais|sim|total}" }
+    ]
+  },
+  {
+    "name": "quick-ok",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{ok|blz|suave}" },
+      { "role": "responder", "type": "text", "text": "{👍|blz|ok}" }
+    ]
+  },
+  {
+    "name": "quick-nossa",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{nossa|mds|credo}" },
+      { "role": "responder", "type": "text", "text": "{oq aconteceu|q foi|??}" }
+    ]
+  },
+  {
+    "name": "quick-audio-reply",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "audio", "text": "[audio]" },
+      { "role": "responder", "type": "text", "text": "{to sem fone, manda texto|n consigo ouvir agr|pera q vou ouvir}" }
+    ]
+  },
+  {
+    "name": "quick-sim",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{sim|ss|s}" },
+      { "role": "responder", "type": "text", "text": "{blz|ok|show}" }
+    ]
+  },
+  {
+    "name": "quick-nao",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{nao|nn|n}" },
+      { "role": "responder", "type": "text", "text": "{ah ta|ok entao|blz}" }
+    ]
+  },
+  {
+    "name": "quick-eai",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{eai|e ai|fala}" },
+      { "role": "responder", "type": "text", "text": "{eae|opa|fala mano}" }
+    ]
+  },
+  {
+    "name": "quick-tmj",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{tmj|valeu|flw}" },
+      { "role": "responder", "type": "text", "text": "{tmj|flw|👊}" }
+    ]
+  },
+  {
+    "name": "quick-ata",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{ata|ah ta|entendi}" },
+      { "role": "responder", "type": "text", "text": "{sim|é isso|exato}" }
+    ]
+  },
+  {
+    "name": "quick-cadê",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{cade vc|tu ta onde|onde ce ta}" },
+      { "role": "responder", "type": "text", "text": "{em casa|to aqui|to chegando}" }
+    ]
+  },
+  {
+    "name": "quick-sticker-react",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "sticker", "text": "[figurinha]" },
+      { "role": "responder", "type": "text", "text": "{KKKKKK|mds essa figurinha|kkkkk boa}" }
+    ]
+  },
+  {
+    "name": "quick-foto",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "image", "text": "[foto]" },
+      { "role": "responder", "type": "text", "text": "{q isso|kkkkk|mds}" }
+    ]
+  },
+  {
+    "name": "quick-pera",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{pera|perai|ja volto}" },
+      { "role": "responder", "type": "text", "text": "{ok|blz|to esperando}" }
+    ]
+  },
+  {
+    "name": "quick-bom-dia",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{bom dia|bom diaaa|dia}" },
+      { "role": "responder", "type": "text", "text": "{bom dia|diaaa|bom dia!! tudo bem?}" }
+    ]
+  },
+  {
+    "name": "quick-boa-noite",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{boa noite|boaa noite|noite}" },
+      { "role": "responder", "type": "text", "text": "{boa noite|noitee|boa noite, dorme bem}" }
+    ]
+  },
+  {
+    "name": "quick-obg",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{obg|vlw|brigado}" },
+      { "role": "responder", "type": "text", "text": "{dnd|nada|imagina}" }
+    ]
+  },
+  {
+    "name": "quick-oi-sumiu",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{oi sumido|sumiu em|ce morreu?}" },
+      { "role": "responder", "type": "text", "text": "{kkkk to vivo|mals ai|foi mal, tava corrido}" }
+    ]
+  },
+  {
+    "name": "quick-ta-bem",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{ta bem?|tudo bem?|ce ta de boa?}" },
+      { "role": "responder", "type": "text", "text": "{to sim|de boa|tranquilo e vc}" }
+    ]
+  },
+  {
+    "name": "quick-manda-pix",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{manda o pix|qual teu pix|pix?}" },
+      { "role": "responder", "type": "text", "text": "{meu cpf|pera vou mandar|ja mando}" }
+    ]
+  },
+  {
+    "name": "quick-amanha",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{amanha?|amanha pode ser?|bora amanha}" },
+      { "role": "responder", "type": "text", "text": "{bora|pode ser|amanha de boa}" }
+    ]
+  },
+  {
+    "name": "quick-to-indo",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{to indo|ja to saindo|to a caminho}" },
+      { "role": "responder", "type": "text", "text": "{blz|ok te espero|chega logo}" }
+    ]
+  },
+  {
+    "name": "quick-reaction-laugh",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano olha isso|VE ISSO|olha oq me mandaram}" },
+      { "role": "responder", "type": "reaction", "text": "😂" }
+    ]
+  },
+  {
+    "name": "quick-reaction-heart",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{te amo|saudade de vc|tava pensando em vc}" },
+      { "role": "responder", "type": "reaction", "text": "❤️" }
+    ]
+  },
+  {
+    "name": "quick-q-horas",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{q horas?|que horas|q hrs}" },
+      { "role": "responder", "type": "text", "text": "{umas 8|la pras 3|sei la tipo 7}" }
+    ]
+  },
+  {
+    "name": "quick-cheguei",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{cheguei|to aqui|ja cheguei}" },
+      { "role": "responder", "type": "text", "text": "{ja to descendo|pera|ja vou}" }
+    ]
+  },
+  {
+    "name": "quick-aff",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{aff|pqp|mds do ceu}" },
+      { "role": "responder", "type": "text", "text": "{q foi|oq aconteceu|fala}" }
+    ]
+  },
+  {
+    "name": "quick-mentira",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mentira|ce ta mentindo|nao acredito}" },
+      { "role": "responder", "type": "text", "text": "{juro por deus|serio|eh vdd}" }
+    ]
+  },
+  {
+    "name": "quick-vamo",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{vamo|bora|partiu}" },
+      { "role": "responder", "type": "text", "text": "{bora|vamo sim|partiu}" }
+    ]
+  },
+  {
+    "name": "quick-to-com-fome",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{to com fome|fomeeee|morrendo de fome}" },
+      { "role": "responder", "type": "text", "text": "{eu tbm|bora pedir algo|pede um ifood}" }
+    ]
+  },
+  {
+    "name": "quick-meme-react",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "image", "text": "[foto]" },
+      { "role": "responder", "type": "reaction", "text": "😂" }
+    ]
+  },
+  {
+    "name": "quick-audio-audio",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "audio", "text": "[audio]" },
+      { "role": "responder", "type": "audio", "text": "[audio]" }
+    ]
+  },
+  {
+    "name": "quick-sticker-sticker",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "sticker", "text": "[figurinha]" },
+      { "role": "responder", "type": "sticker", "text": "[figurinha]" }
+    ]
+  },
+  {
+    "name": "quick-acordou",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{acordou?|ta acordado?|dorme?}" },
+      { "role": "responder", "type": "text", "text": "{to acordado|sim|q foi}" }
+    ]
+  },
+  {
+    "name": "quick-noss",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{nossss|nossaaa|caraca}" },
+      { "role": "responder", "type": "text", "text": "{ne|dms|sim mano}" }
+    ]
+  },
+  {
+    "name": "quick-pronto",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{pronto|feito|ja fiz}" },
+      { "role": "responder", "type": "text", "text": "{show|valeu|blz obg}" }
+    ]
+  },
+  {
+    "name": "quick-fala-cmg",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{fala cmg|me responde|oi??}" },
+      { "role": "responder", "type": "text", "text": "{to aqui|mals tava ocupado|oi}" }
+    ]
+  },
+  {
+    "name": "quick-sdd",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{sdd|saudade|sdd de vc}" },
+      { "role": "responder", "type": "text", "text": "{eu tbm|sddd|bora marcar algo}" }
+    ]
+  },
+  {
+    "name": "quick-sei-la",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{sei la|nao sei|sla}" },
+      { "role": "responder", "type": "text", "text": "{decide ai|pensa e me fala|kkk}" }
+    ]
+  },
+  {
+    "name": "quick-ta-chovendo",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{ta chovendo ai?|chovendo dms aqui|essa chuva}" },
+      { "role": "responder", "type": "text", "text": "{aqui ta|dms|nem me fala}" }
+    ]
+  },
+  {
+    "name": "quick-olha-preco",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{olha o preco disso|muito caro|absurdo}" },
+      { "role": "responder", "type": "text", "text": "{carissimo|ta loko|pior ne}" }
+    ]
+  },
+  {
+    "name": "quick-gol",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{GOOOOOL|GOLLLLLL|GOLAÇO}" },
+      { "role": "responder", "type": "text", "text": "{VAMOOO|KKKK|mds que gol}" }
+    ]
+  },
+  {
+    "name": "quick-reaction-fire",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "image", "text": "[foto]" },
+      { "role": "responder", "type": "reaction", "text": "🔥" }
+    ]
+  },
+  {
+    "name": "quick-reaction-thumbs",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{ja fiz la|mandei pra vc|ta feito}" },
+      { "role": "responder", "type": "reaction", "text": "👍" }
+    ]
+  },
+  {
+    "name": "quick-link",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{olha esse link|ve isso|clica aqui}" },
+      { "role": "responder", "type": "text", "text": "{vou ver|pera|ja abri}" }
+    ]
+  },
+  {
+    "name": "quick-ranço",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{to com ranço|nao aguento mais|cansei}" },
+      { "role": "responder", "type": "text", "text": "{de q|oq aconteceu|conta}" }
+    ]
+  },
+  {
+    "name": "quick-chato",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{q chato|chatissimo|paia}" },
+      { "role": "responder", "type": "text", "text": "{dms|ne|é foda}" }
+    ]
+  },
+  {
+    "name": "calor-reclamando",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano ta um calor ABSURDO hoje|to morrendo de calor n aguento mais|esse calor ta impossivel vei}" },
+      { "role": "responder", "type": "text", "text": "{aqui tbm ta horrivel|nem me fala to derretendo|meu ventilador quebrou ainda por cima}" },
+      { "role": "initiator", "type": "text", "text": "{queria ta numa piscina agr|preciso de um ar condicionado urgente|vou morar dentro da geladeira}" },
+      { "role": "responder", "type": "text", "text": "{kkkkkkk somos 2|compra um ventilador pelo menos|bora no shopping q la tem ar}" }
+    ]
+  },
+  {
+    "name": "frio-reclamando",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{cara ta congelando hoje|to com 3 cobertores e ainda to com frio|esse frio desgraçado}" },
+      { "role": "responder", "type": "text", "text": "{ne mano ta osso|eu to usando 2 blusas uma em cima da outra|o pior eh que de manha ta pior}" },
+      { "role": "initiator", "type": "text", "text": "{quero sopa|to fazendo chocolate quente|vou ficar debaixo do edredon o dia todo}" },
+      { "role": "responder", "type": "text", "text": "{mds q inveja|me da um pouco|queria estar ai kkkk}" }
+    ]
+  },
+  {
+    "name": "fofoca-vizinho",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano voce nao vai acreditar no q aconteceu|ce viu oq rolou?|tenho uma fofoca PESADA}" },
+      { "role": "responder", "type": "text", "text": "{CONTA|oq foi|fala logo}" },
+      { "role": "initiator", "type": "text", "text": "{o vizinho la do lado separou da mulher|a fulana la do prédio tava brigando com o marido no estacionamento|a dona maria pegou o marido no pulo}" },
+      { "role": "responder", "type": "text", "text": "{NÃO|serio?? conta mais|mds do ceu}" },
+      { "role": "initiator", "type": "text", "text": "{sim mano foi um barraco|geral ouviu a gritaria|a policia veio e tudo}" },
+      { "role": "responder", "type": "text", "text": "{mano que loucura|eu perco tudo nesse predio|kkkk pior q eu ja desconfiava}" }
+    ]
+  },
+  {
+    "name": "pix-emprestado",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano posso te pedir um favor|cara preciso de uma ajuda|vc pode me ajudar com uma coisa}" },
+      { "role": "responder", "type": "text", "text": "{fala|oq é|depende kkkk}" },
+      { "role": "initiator", "type": "text", "text": "{ce pode me emprestar {50|100|30} conto? to apertado esse mes|tava precisando de um pix de {80|50|200} ate sexta, te devolvo certinho|me empresta uns {20|100|150}? juro q te pago semana q vem}" },
+      { "role": "responder", "type": "text", "text": "{posso sim manda teu pix|agr to meio apertado tbm mano|pera vou ver se tenho aqui}" },
+      { "role": "initiator", "type": "text", "text": "{valeu dms mano ce salva minha vida|sem problema entendo|meu pix é meu cpf}" },
+      { "role": "responder", "type": "text", "text": "{mandei la confere|mals mano mes q vem eu te ajudo|pronto mandei}" }
+    ]
+  },
+  {
+    "name": "trabalho-reclamando",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{nao aguento mais esse trabalho|meu chefe ta me tirando do serio|quero pedir demissao}" },
+      { "role": "responder", "type": "text", "text": "{oq aconteceu|de novo?|calma conta direito}" },
+      { "role": "initiator", "type": "text", "text": "{o cara me fez ficar ate tarde dnv e nem pagou hora extra|to fazendo o trabalho de 3 pessoas|meu colega é um folgado q nao faz nada e eu q me ferro}" },
+      { "role": "responder", "type": "text", "text": "{que absurdo|denuncia no sindicato|mano voce tem q procurar outro emprego}" },
+      { "role": "initiator", "type": "text", "text": "{eh oq eu quero mas ta dificil achar coisa|to mandando curriculo ja|so to la pq preciso pagar as conta}" },
+      { "role": "responder", "type": "text", "text": "{vai dar certo mano|se eu souber de algo te falo|aguenta firme}" }
+    ]
+  },
+  {
+    "name": "delivery-pedindo",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{bora pedir um ifood|to com fome vamo pedir algo|ce quer rachar um delivery cmg}" },
+      { "role": "responder", "type": "text", "text": "{bora|oq ce quer pedir|sim to com fome tbm}" },
+      { "role": "initiator", "type": "text", "text": "{pizza? hamburger? japones?|to querendo uma pizza|que tal aquele x burguer la}" },
+      { "role": "responder", "type": "text", "text": "{pizza!! com {calabresa|mussarela|frango com catupiry}|bora de hamburguer|japones ta caro dms}" },
+      { "role": "initiator", "type": "text", "text": "{blz vou pedir|to colocando no carrinho|olha o cupom q achei}" },
+      { "role": "responder", "type": "text", "text": "{show manda ver|pede uma coca tbm|quanto ficou}" }
+    ]
+  },
+  {
+    "name": "futebol-jogo",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{MANO O JOGO|ce ta vendo o jogo?|bota no jogo rapido}" },
+      { "role": "responder", "type": "text", "text": "{to vendo|QUE JOGO|qual canal}" },
+      { "role": "initiator", "type": "text", "text": "{esse time nao da mano|o juiz ta roubando|GOOOOOL}" },
+      { "role": "responder", "type": "text", "text": "{KKKKKK|juiz ladrão|VAMOOOOO}" },
+      { "role": "initiator", "type": "text", "text": "{esse goleiro é ruim dms|q jogada foi essa|mano impedimento nenhum isso ai}" },
+      { "role": "responder", "type": "text", "text": "{ta loko melhor jogo do ano|var ta de sacanagem|meu time nao merece isso}" }
+    ]
+  },
+  {
+    "name": "internet-lenta",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{minha internet ta um lixo|a net caiu dnv|to sem internet faz 2 horas}" },
+      { "role": "responder", "type": "text", "text": "{aqui tbm ta ruim|liga la pra operadora|que operadora vc usa}" },
+      { "role": "initiator", "type": "text", "text": "{ja liguei e ficaram me enrolando|uso {vivo|claro|tim|oi} mas to pensando em trocar|o cara falou q vai mandar um tecnico daqui 5 dias CINCO DIAS}" },
+      { "role": "responder", "type": "text", "text": "{5 dias?? q absurdo|reclama no procon|troca pra {vivo fibra|claro|net} q eh melhor}" },
+      { "role": "initiator", "type": "text", "text": "{pior q nao tem outra opcao aqui|vou reclamar no twitter|to usando dados do celular}" },
+      { "role": "responder", "type": "text", "text": "{twitter funciona kkk|mds coitado|faz reclamação no reclame aqui}" }
+    ]
+  },
+  {
+    "name": "serie-recomendacao",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano comecei a ver uma serie mt boa|ce ja viu {round 6|the last of us|stranger things|one piece}?|to precisando de serie pra assistir}" },
+      { "role": "responder", "type": "text", "text": "{qual|ja sim é mto boa|tbm to sem nada pra ver}" },
+      { "role": "initiator", "type": "text", "text": "{assiste {breaking bad|dark|the bear|arcane} ce vai amar|terminei ontem e to sem chao|ja to na 3 temporada}" },
+      { "role": "responder", "type": "text", "text": "{ja ta na minha lista|vou assistir hj|é grande? quantos episodios}" },
+      { "role": "initiator", "type": "text", "text": "{tem {3|5|2|6} temporadas|cada ep tem tipo {40|50|60} min|vai rapido" },
+      { "role": "responder", "type": "text", "text": "{blz vou começar|sem spoiler em|to animado}" }
+    ]
+  },
+  {
+    "name": "transito-reclamando",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano to preso no transito faz 40 min|esse transito ta IMPOSSIVEL|vou demorar pq ta tudo parado}" },
+      { "role": "responder", "type": "text", "text": "{caraca|pega um caminho alternativo|que horario vc saiu}" },
+      { "role": "initiator", "type": "text", "text": "{sai as 7 e ate agr nada|o waze ta falando 1 hora ainda|teve um acidente na {marginal|rodovia|avenida}}" },
+      { "role": "responder", "type": "text", "text": "{mds|volta e pega outro caminho|por isso q eu pego metro}" }
+    ]
+  },
+  {
+    "name": "academia-treino",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{bora treinar hj?|vou pra academia agr ce vai?|fui na academia hj e to destruido}" },
+      { "role": "responder", "type": "text", "text": "{bora|hj nao to com preguiça|kkkk eu tbm preciso ir}" },
+      { "role": "initiator", "type": "text", "text": "{para de preguiça vamo|fiz perna hj quase morri|to tentando ir todo dia}" },
+      { "role": "responder", "type": "text", "text": "{amanha eu vou juro|perna é o pior dia|disciplina ne mano}" },
+      { "role": "initiator", "type": "text", "text": "{falou isso semana passada|to tomando whey agr|quero ficar monstro ate o verao}" },
+      { "role": "responder", "type": "text", "text": "{kkkkk dessa vez eu vou|whey de q sabor|bora q bora}" }
+    ]
+  },
+  {
+    "name": "medico-marcando",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{preciso marcar um {medico|dentista|oftalmologista} e to com preguiça|to enrolando pra ir no {medico|dentista} faz meses|mano to com dor de {dente|cabeça|costas} faz dias}" },
+      { "role": "responder", "type": "text", "text": "{vai logo mano|nao fica enrolando com saude|ce tem plano?" },
+      { "role": "initiator", "type": "text", "text": "{tenho mas é ruim dms|nao tenho vou no {sus|postinho}|o plano nao cobre isso}" },
+      { "role": "responder", "type": "text", "text": "{pelo menos vai no postinho|eu conheço um {medico|dentista} bom e barato|procura no doctoralia}" }
+    ]
+  },
+  {
+    "name": "vizinho-barulho",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano meu vizinho ta fazendo festa numa TERÇA|o vizinho de cima ta arrastando movel as 11 da noite|nao consigo dormir com esse barulho}" },
+      { "role": "responder", "type": "text", "text": "{de novo??|chama a policia|bate na porta dele}" },
+      { "role": "initiator", "type": "text", "text": "{ja reclamei pro sindico e nao adiantou nada|tenho vergonha de ir la|toda semana é isso}" },
+      { "role": "responder", "type": "text", "text": "{faz um BO|manda uma carta pro sindico|coloca fone de ouvido e dorme}" },
+      { "role": "initiator", "type": "text", "text": "{vou mudar desse predio|queria poder retribuir o barulho|comprei um tampão de ouvido}" },
+      { "role": "responder", "type": "text", "text": "{kkkk bota um som alto as 6 da manha|coitado|é foda morar em predio}" }
+    ]
+  },
+  {
+    "name": "combinando-sair",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{bora sair {sabado|sexta|domingo}?|vamo fazer algo no fds|to entediado bora sair}" },
+      { "role": "responder", "type": "text", "text": "{bora|pra onde|depende oq ce ta pensando}" },
+      { "role": "initiator", "type": "text", "text": "{um bar? cinema? shopping?|vamo num {bar|restaurante|parque}|uma cerveja em algum lugar}" },
+      { "role": "responder", "type": "text", "text": "{bar!! to precisando beber|cinema ta passando oq|shopping é mt sem graça}" },
+      { "role": "initiator", "type": "text", "text": "{conheço um bar novo na {vila madalena|centro|moema|lapa}|ta passando {aquele filme novo|vingadores|barbie}|entao bora de bar msm}" },
+      { "role": "responder", "type": "text", "text": "{bora marca la no grupo|me manda o endereço|que horas}" }
+    ]
+  },
+  {
+    "name": "meme-compartilhando",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "image", "text": "[foto]" },
+      { "role": "responder", "type": "text", "text": "{KKKKKKKKKK|mds eu sou esse meme|kkkkk muito eu}" },
+      { "role": "initiator", "type": "text", "text": "{ne kkkk|pensei em vc na hora|mano isso eh dms}" },
+      { "role": "responder", "type": "sticker", "text": "[figurinha]" }
+    ]
+  },
+  {
+    "name": "noticia-comentando",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{ce viu a noticia {do dolar|da gasolina|do governo}?|mano olha isso q saiu no jornal|nao acredito no q ta acontecendo}" },
+      { "role": "responder", "type": "text", "text": "{vi sim absurdo|nao vi oq foi|esse pais ta uma piada}" },
+      { "role": "initiator", "type": "text", "text": "{o {dolar|gasolina|carne} subiu dnv|vai ter greve de {onibus|metro|caminhoneiro}|aumentou o preco de tudo}" },
+      { "role": "responder", "type": "text", "text": "{nao aguento mais|vou morar fora|esse pais nao tem jeito}" },
+      { "role": "initiator", "type": "text", "text": "{pior q eu tbm queria sair daqui|vai piorar ainda|a gente se vira ne}" },
+      { "role": "responder", "type": "text", "text": "{infelizmente|é a vida|pelo menos tem {sol|praia|carnaval}}" }
+    ]
+  },
+  {
+    "name": "comida-cozinhando",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{to fazendo {lasanha|bolo|macarrao|strogonoff} aqui|fiz um almoço hj q ficou bom dms|aprendendo a cozinhar kkkk}" },
+      { "role": "responder", "type": "text", "text": "{mds me da|quero|manda foto}" },
+      { "role": "initiator", "type": "image", "text": "[foto]" },
+      { "role": "responder", "type": "text", "text": "{caraca ficou mt bom|quero a receita|vou ai comer}" },
+      { "role": "initiator", "type": "text", "text": "{vem q tem pra todo mundo|é facil de fazer|quase queimei a cozinha mas deu certo}" },
+      { "role": "responder", "type": "text", "text": "{kkkkkk|to indo|me ensina dps}" }
+    ]
+  },
+  {
+    "name": "favor-pedindo",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{ce pode me fazer um favorzão?|preciso de um favor grande|mano me ajuda com uma coisa}" },
+      { "role": "responder", "type": "text", "text": "{depende kkkk|fala|oq é}" },
+      { "role": "initiator", "type": "text", "text": "{pode {me buscar|levar meu cachorro no vet|receber uma encomenda} pra mim?|tem como {me emprestar teu carro|guardar uma coisa aqui|me dar uma carona} amanha?|preciso q vc {me ajude a mudar|va comigo num lugar|fique com meu gato}}" },
+      { "role": "responder", "type": "text", "text": "{posso sim|amanha?? mano|vou ver se consigo}" },
+      { "role": "initiator", "type": "text", "text": "{valeu dms|se nao puder sem problema|te devo uma}" },
+      { "role": "responder", "type": "text", "text": "{de boa|me lembra mais tarde|pode contar cmg}" }
+    ]
+  },
+  {
+    "name": "preco-discutindo",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano olha o preco desse {celular|notebook|tenis}|ta {500|1000|3000} reais um {kg de carne|aluguel|plano de saude}|tudo caro dms nesse pais}" },
+      { "role": "responder", "type": "text", "text": "{ta loko isso|um absurdo|onde ce viu}" },
+      { "role": "initiator", "type": "text", "text": "{no {mercado livre|shopee|amazon|magazine luiza}|na loja do bairro|vi no insta uma promoção falsa}" },
+      { "role": "responder", "type": "text", "text": "{espera a black friday|compra no aliexpress|ta maluco por esse preco}" },
+      { "role": "initiator", "type": "text", "text": "{black friday é golpe tbm|aliexpress demora 3 meses|vou parcelar em 12x kkkk}" },
+      { "role": "responder", "type": "text", "text": "{kkkkk brasileiro raiz|12x de 500 mds|faz isso nao}" }
+    ]
+  },
+  {
+    "name": "bom-dia-grupo",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{bom dia galera|bom dia pessoal|dia gente}" },
+      { "role": "responder", "type": "text", "text": "{bom dia|diaaaa|bom dia!! {segunda|terça|quarta|quinta|sexta} já}" }
+    ]
+  },
+  {
+    "name": "boa-noite-sono",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{vou dormir to caindo de sono|boa noite gente|nao aguento mais vou deitar}" },
+      { "role": "responder", "type": "text", "text": "{boa noite dorme bem|noitee|sono bom}" },
+      { "role": "initiator", "type": "text", "text": "{obg vc tbm|ate amanha|flw}" }
+    ]
+  },
+  {
+    "name": "carro-problema",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano meu carro quebrou|fez um barulho estranho no carro|o carro nao quer ligar}" },
+      { "role": "responder", "type": "text", "text": "{eita oq deu|leva num mecanico|que barulho}" },
+      { "role": "initiator", "type": "text", "text": "{nao sei acho q é a {bateria|embreagem|correia|motor}|um barulho tipo tec tec tec|ta saindo uma fumaça}" },
+      { "role": "responder", "type": "text", "text": "{fumaça?? nao anda com isso nao|eu conheço um mecanico bom|quanto sera q vai custar}" },
+      { "role": "initiator", "type": "text", "text": "{capaz de custar uns {500|1000|2000}|ja to no mecanico|vou ter q ir de onibus agr}" },
+      { "role": "responder", "type": "text", "text": "{carro é um dinheiro|mds|quer carona enquanto isso?}" }
+    ]
+  },
+  {
+    "name": "foto-selfie",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "image", "text": "[foto]" },
+      { "role": "responder", "type": "text", "text": "{lindoo|gata dms|q foto boa}" },
+      { "role": "initiator", "type": "text", "text": "{kkkkk obg|sera? kkk|ah para}" },
+      { "role": "responder", "type": "text", "text": "{serio ficou mto boa|posta no insta|manda pra mim essa foto}" }
+    ]
+  },
+  {
+    "name": "audio-longo",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "audio", "text": "[audio]" },
+      { "role": "responder", "type": "text", "text": "{mano 5 minutos de audio|ce escreveu um livro em audio|resume por favor}" },
+      { "role": "initiator", "type": "text", "text": "{kkkk desculpa|é q era mta coisa|basicamente fulano fez tal coisa e deu merda}" },
+      { "role": "responder", "type": "text", "text": "{podia ter mandado isso em texto ne|kkkkk|entendi}" }
+    ]
+  },
+  {
+    "name": "figurinha-guerra",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "sticker", "text": "[figurinha]" },
+      { "role": "responder", "type": "sticker", "text": "[figurinha]" },
+      { "role": "initiator", "type": "sticker", "text": "[figurinha]" },
+      { "role": "responder", "type": "sticker", "text": "[figurinha]" },
+      { "role": "initiator", "type": "text", "text": "{ganhei|essa foi boa|kkkkkk}" },
+      { "role": "responder", "type": "text", "text": "{nem kkkk|a minha foi melhor|empate}" }
+    ]
+  },
+  {
+    "name": "filme-comentando",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{acabei de ver {aquele filme|um filme mt bom|o novo filme da marvel}|ce ja viu {interestelar|batman|o poderoso chefao}??}" },
+      { "role": "responder", "type": "text", "text": "{ja sim|nao ainda|quero ver}" },
+      { "role": "initiator", "type": "text", "text": "{mano é MUITO bom|o final é incrivel|chorei no final kkkk}" },
+      { "role": "responder", "type": "text", "text": "{sem spoiler pelo amor|vou ver hj entao|chorou?? kkkk}" }
+    ]
+  },
+  {
+    "name": "uber-esperando",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{to esperando uber faz 15 min|nenhum uber aceita a corrida|o uber cancelou em mim}" },
+      { "role": "responder", "type": "text", "text": "{tenta 99|q bairro vc ta|ta caro ne}" },
+      { "role": "initiator", "type": "text", "text": "{to na {vila mariana|centro|liberdade|pinheiros}|ta 45 reais um trajeto de 5km|ja tentei tudo}" },
+      { "role": "responder", "type": "text", "text": "{pega um onibus|caminha um pouco e pede de outro lugar|preço dinamico né tenta daqui a pouco}" }
+    ]
+  },
+  {
+    "name": "whatsapp-bug",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano o whatsapp ta bugado|ce ta recebendo minhas msg?|meu zap ta travando}" },
+      { "role": "responder", "type": "text", "text": "{sim to recebendo|aqui ta normal|tenta atualizar}" },
+      { "role": "initiator", "type": "text", "text": "{estranho pq aqui ta demorando pra enviar|as fotos nao carregam|audio nao funciona}" },
+      { "role": "responder", "type": "text", "text": "{limpa o cache|reinstala o app|é tua internet}" }
+    ]
+  },
+  {
+    "name": "compras-mercado",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{to no mercado precisa de algo?|vou no mercado quer alguma coisa?|to passando no supermercado}" },
+      { "role": "responder", "type": "text", "text": "{pega um {leite|pao|arroz} pra mim|nao obg|sim anota ai}" },
+      { "role": "initiator", "type": "text", "text": "{blz|fala oq|anota tudo q dps eu esqueço}" },
+      { "role": "responder", "type": "text", "text": "{{leite|cafe|acucar} e {pao|manteiga|queijo}|so isso msm|ah e pega papel higienico}" },
+      { "role": "initiator", "type": "text", "text": "{ok|qual marca|pronto to no caixa}" },
+      { "role": "responder", "type": "text", "text": "{qualquer uma|a mais barata kkkk|vlw}" }
+    ]
+  },
+  {
+    "name": "mae-ligando",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{minha mae ta me ligando 500 vezes|minha mae mandou 30 msgs|mae ta surtando pq nao respondi}" },
+      { "role": "responder", "type": "text", "text": "{responde ela kkkk|mae é assim msm|oq ela quer}" },
+      { "role": "initiator", "type": "text", "text": "{quer saber se eu comi|perguntando se eu to vivo|mandando corrente de bom dia}" },
+      { "role": "responder", "type": "text", "text": "{KKKKKK mae classica|minha mae faz a msm coisa|pelo menos ela se preocupa}" }
+    ]
+  },
+  {
+    "name": "roupa-escolhendo",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{me ajuda a escolher uma roupa|qual ficou melhor|olha essas duas}" },
+      { "role": "initiator", "type": "image", "text": "[foto]" },
+      { "role": "responder", "type": "text", "text": "{a {primeira|segunda|preta|azul}|as duas ficaram boas|nenhuma kkkk}" },
+      { "role": "initiator", "type": "text", "text": "{serio? achei a outra melhor|vc acha? to na duvida|kkkk obg pela sinceridade}" },
+      { "role": "responder", "type": "text", "text": "{confia em mim|usa a q vc se sentir melhor|experimenta de novo}" }
+    ]
+  },
+  {
+    "name": "pet-fofo",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{olha oq meu {cachorro|gato} fez|meu {dog|gato} ta mt fofo hj|vem ver essa fofura}" },
+      { "role": "initiator", "type": "image", "text": "[foto]" },
+      { "role": "responder", "type": "text", "text": "{QUE LINDO|mds q fofura|to apaixonada}" },
+      { "role": "responder", "type": "reaction", "text": "😍" },
+      { "role": "initiator", "type": "text", "text": "{ne ele é dms|fico olhando pra ele o dia todo|ele destruiu o sofa mas é fofo entao perdoei}" },
+      { "role": "responder", "type": "text", "text": "{kkkkk|quero um assim|da pra apertar}" }
+    ]
+  },
+  {
+    "name": "prova-estudando",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{tenho prova amanha e nao estudei nada|to fodido na {prova|materia|faculdade}|alguem tem o resumo de {calculo|historia|direito}}" },
+      { "role": "responder", "type": "text", "text": "{eu tbm nao estudei|tenho aqui pera|vc só estuda na vespera ne}" },
+      { "role": "initiator", "type": "text", "text": "{é minha especialidade kkkk|me manda pfv|nao tive tempo mano}" },
+      { "role": "responder", "type": "text", "text": "{vou mandar|boa sorte|reza q da certo}" }
+    ]
+  },
+  {
+    "name": "aniversario-parabens",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{PARABENSSS|feliz aniversario!! td de bom pra vc|parabens mano q vc tenha tudo de melhor}" },
+      { "role": "responder", "type": "text", "text": "{obrigadooo|valeu dms|aaaa mt obg}" },
+      { "role": "initiator", "type": "text", "text": "{vai ter festa?|bora comemorar|merece dms}" },
+      { "role": "responder", "type": "text", "text": "{vou fazer uma reuniaozinha em casa|so vou jantar com a familia|nao to fazendo nada esse ano}" },
+      { "role": "initiator", "type": "text", "text": "{posso ir?|ah q pena|se mudar de ideia me chama}" },
+      { "role": "responder", "type": "text", "text": "{claro vem!!|valeu|pode deixar}" }
+    ]
+  },
+  {
+    "name": "celular-novo",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{comprei um celular novo|troquei de celular|olha meu cel novo}" },
+      { "role": "responder", "type": "text", "text": "{qual vc comprou|eita ta rico|manda foto}" },
+      { "role": "initiator", "type": "text", "text": "{peguei um {samsung|iphone|xiaomi|motorola}|{s24|iphone 15|redmi note}|parcelei em 24x kkkk}" },
+      { "role": "responder", "type": "text", "text": "{boaa|quanto pagou|tava precisando ne}" },
+      { "role": "initiator", "type": "text", "text": "{paguei {2000|3000|1500|4000}|sim o outro tava caindo aos pedacos|valeu a pena}" },
+      { "role": "responder", "type": "text", "text": "{caro|ta bom|aproveita}" }
+    ]
+  },
+  {
+    "name": "cabelo-cortou",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{cortei o cabelo|mudei o visual|olha meu cabelo}" },
+      { "role": "initiator", "type": "image", "text": "[foto]" },
+      { "role": "responder", "type": "text", "text": "{ficou mt bom|gostei|ficou diferente}" },
+      { "role": "initiator", "type": "text", "text": "{sera?? kkkk|obg|to gostando tbm}" },
+      { "role": "responder", "type": "text", "text": "{serio ficou bom|combinou com vc|onde vc cortou}" }
+    ]
+  },
+  {
+    "name": "sono-cansaco",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{to com mt sono|dormi {3|4|2} horas essa noite|nao consigo ficar acordado}" },
+      { "role": "responder", "type": "text", "text": "{pq dormiu tarde|toma um cafe|vai dormir cedo hj}" },
+      { "role": "initiator", "type": "text", "text": "{fiquei vendo {serie|tiktok|jogo} ate tarde|nao consegui dormir|to no trabalho querendo morrer}" },
+      { "role": "responder", "type": "text", "text": "{mereceu kkkk|coitado|aguenta ai ja ta acabando o dia}" }
+    ]
+  },
+  {
+    "name": "pix-recebido",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mandei teu pix|fiz o pix la|transferi pra vc}" },
+      { "role": "responder", "type": "text", "text": "{chegou|pera vou ver|quanto era msm}" },
+      { "role": "initiator", "type": "text", "text": "{{50|100|200|30} certinho|confere la|ta certo?}" },
+      { "role": "responder", "type": "text", "text": "{chegou sim vlw|certinho obg|recebido valeu}" }
+    ]
+  },
+  {
+    "name": "feriado-planos",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{oq vc vai fazer no {feriado|carnaval|natal|ano novo}?|bora {viajar|praia|acampar} no feriado|tem planos pro feriado}" },
+      { "role": "responder", "type": "text", "text": "{nada kkkk|to pensando em ir pra {praia|interior|casa dos pais}|vou ficar em casa msm}" },
+      { "role": "initiator", "type": "text", "text": "{vamo fazer algo entao|boa eu tbm quero ir|preguiça boa}" },
+      { "role": "responder", "type": "text", "text": "{bora|vamo combinar no grupo|to precisando descansar}" }
+    ]
+  },
+  {
+    "name": "receita-mandando",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{me manda aquela receita de {bolo|torta|brigadeiro}|como faz aquele {arroz|macarrao|molho} q vc fez|preciso da receita}" },
+      { "role": "responder", "type": "text", "text": "{pera vou lembrar|anota ai|é facil olha}" },
+      { "role": "responder", "type": "audio", "text": "[audio]" },
+      { "role": "initiator", "type": "text", "text": "{blz vou tentar|parece facil|obg vou fazer hj}" }
+    ]
+  },
+  {
+    "name": "insta-stalkeando",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano ce viu o story {do fulano|da fulana|do ex}|olha o q {ele|ela} postou|to stalkeando o insta e olha isso}" },
+      { "role": "responder", "type": "text", "text": "{kkkk stalker|vi sim|manda print}" },
+      { "role": "initiator", "type": "image", "text": "[foto]" },
+      { "role": "responder", "type": "text", "text": "{MANO|kkkkkk|nossa}" },
+      { "role": "initiator", "type": "text", "text": "{ne??? absurdo|achei mt forçado|ta ostentando dms}" },
+      { "role": "responder", "type": "text", "text": "{pior q sim|deixa o povo|kkkk voces sao fofoqueiros}" }
+    ]
+  },
+  {
+    "name": "churrasco-marcando",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{bora um churrasco {sabado|domingo}|vamo fazer um churras?|to com vontade de um churrasco}" },
+      { "role": "responder", "type": "text", "text": "{BORA|onde|quem vai}" },
+      { "role": "initiator", "type": "text", "text": "{la em casa|no {sitio|salao de festas|quintal do fulano}|cada um leva uma coisa}" },
+      { "role": "responder", "type": "text", "text": "{eu levo a {cerveja|carne|refri|farofa}|quanto cada um|manda no grupo}" },
+      { "role": "initiator", "type": "text", "text": "{uns {30|50|40} por pessoa|vou fazer a vaquinha|ja mandei}" },
+      { "role": "responder", "type": "text", "text": "{feito|to dentro|confirma quem vai}" }
+    ]
+  },
+  {
+    "name": "conta-dividir",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{quanto ficou pra cada um|da quanto por pessoa|manda o total q eu divido}" },
+      { "role": "responder", "type": "text", "text": "{ficou {45|67|120|89} pra cada|total deu {200|350|500} divide por {4|5|3}|pera to calculando}" },
+      { "role": "initiator", "type": "text", "text": "{blz vou mandar o pix|caro em|mas fulano comeu mais}" },
+      { "role": "responder", "type": "text", "text": "{manda la|cada um fez o q pediu|é assim msm}" }
+    ]
+  },
+  {
+    "name": "dor-reclamando",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano to com uma dor de {cabeça|barriga|costas|dente} horrivel|to morrendo de dor|nao to me sentindo bem}" },
+      { "role": "responder", "type": "text", "text": "{toma um {dorflex|tylenol|buscopan|ibuprofeno}|vai no medico|descansa}" },
+      { "role": "initiator", "type": "text", "text": "{ja tomei e nao passou|nao tenho plano|to no trabalho nao posso sair}" },
+      { "role": "responder", "type": "text", "text": "{pede pra sair mais cedo|vai na farmacia pelo menos|se nao melhorar vai na upa}" }
+    ]
+  },
+  {
+    "name": "viagem-contando",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano viajei pra {floripa|rio|bahia|minas} e foi incrivel|voltei de viagem|ce precisa conhecer {gramado|campos do jordao|bonito}}" },
+      { "role": "responder", "type": "text", "text": "{q inveja|manda foto|quanto gastou}" },
+      { "role": "initiator", "type": "image", "text": "[foto]" },
+      { "role": "responder", "type": "text", "text": "{que lugar lindo|mdsss|quero ir}" },
+      { "role": "initiator", "type": "text", "text": "{gastei tipo uns {2000|3000|5000} tudo|vale mt a pena|bora marcar pra gente ir junto}" },
+      { "role": "responder", "type": "text", "text": "{bora sim|preciso juntar dinheiro primeiro|marca ai}" }
+    ]
+  },
+  {
+    "name": "procastinando",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano tenho mil coisa pra fazer e to aqui no celular|devia ta {trabalhando|estudando|limpando a casa} mas to no tiktok|to procastinando pesado hj}" },
+      { "role": "responder", "type": "text", "text": "{eu tbm kkkk|larga esse celular|somos 2}" },
+      { "role": "initiator", "type": "text", "text": "{nao consigo|é mais forte q eu|depois eu faço}" },
+      { "role": "responder", "type": "text", "text": "{depois nunca chega|kkkk eu entendo|faz pelo menos um pouco}" }
+    ]
+  },
+  {
+    "name": "musica-mandando",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{escuta essa musica|mano essa musica é mt boa|ouve isso}" },
+      { "role": "responder", "type": "text", "text": "{qual|manda|de quem é}" },
+      { "role": "initiator", "type": "text", "text": "{é do {jorge e mateus|gustavo lima|anitta|matuê|veigh}|ta no meu status|pera vou mandar o link}" },
+      { "role": "responder", "type": "text", "text": "{ah eu curto {ele|ela}|vou ouvir|conheço essa}" },
+      { "role": "initiator", "type": "text", "text": "{é boa dms|ta tocando em tudo q é lugar|viciei nessa}" },
+      { "role": "responder", "type": "text", "text": "{vou add na minha playlist|boa|mandou bem}" }
+    ]
+  },
+  {
+    "name": "energia-caiu",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{acabou a luz aqui|caiu a energia|to no escuro}" },
+      { "role": "responder", "type": "text", "text": "{aqui tbm?|eita|liga pra {enel|cpfl|light}}" },
+      { "role": "initiator", "type": "text", "text": "{ja liguei faz 1 hora|o predio inteiro ta sem|meu celular ta com {5|10|15}% de bateria}" },
+      { "role": "responder", "type": "text", "text": "{carrega no carro|economiza bateria|boa sorte kkkk}" }
+    ]
+  },
+  {
+    "name": "estacionamento",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano nao acho vaga em lugar nenhum|to dando volta faz 20 min|estacionamento ta {30|40|50} reais}" },
+      { "role": "responder", "type": "text", "text": "{estaciona na rua|ta caro dms|tenta ali perto do {mercado|shopping|farmacia}}" },
+      { "role": "initiator", "type": "text", "text": "{tem zona azul|to com medo de rebocarem|achei uma vaga finalmente}" },
+      { "role": "responder", "type": "text", "text": "{graças a deus kkkk|cuidado com o guincho|aleluia}" }
+    ]
+  },
+  {
+    "name": "maquiagem-opiniao",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{olha minha make|ficou boa?|tentei fazer {delineado|sobrancelha|contorno}}" },
+      { "role": "initiator", "type": "image", "text": "[foto]" },
+      { "role": "responder", "type": "text", "text": "{ficou LINDA|arrasou|ta perfeita}" },
+      { "role": "initiator", "type": "text", "text": "{obgg|vc acha msm?|quase desisti no meio}" },
+      { "role": "responder", "type": "reaction", "text": "🔥" }
+    ]
+  },
+  {
+    "name": "tarde-dms",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano ja é {meia noite|3 da manha|2 da manha} e eu to acordado|perdi a hora dnv|to virando a noite}" },
+      { "role": "responder", "type": "text", "text": "{eu tbm|vai dormir mano|fazendo oq}" },
+      { "role": "initiator", "type": "text", "text": "{vendo {tiktok|netflix|youtube|jogo}|nao to com sono|insonia}" },
+      { "role": "responder", "type": "text", "text": "{larga o celular|toma um cha|amanha vc vai sofrer}" }
+    ]
+  },
+  {
+    "name": "aluguel-caro",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano to procurando {ap|casa|kit|quarto} e ta tudo absurdo|aluguel ta {2000|3000|1500} por um quartinho|nao acho nada decente pelo q posso pagar}" },
+      { "role": "responder", "type": "text", "text": "{ta horrivel msm|onde ce ta procurando|divide com alguem}" },
+      { "role": "initiator", "type": "text", "text": "{to vendo na {zona sul|zona norte|centro|zona leste}|ja pensei em dividir|ate republica ta cara}" },
+      { "role": "responder", "type": "text", "text": "{tenta mais longe do centro|eu pago {1800|2500|1200} no meu|quinto andar tem coisa boa}" }
+    ]
+  },
+  {
+    "name": "skincare-rotina",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{comecei a fazer skincare|comprei um monte de produto pro rosto|to com a pele horrivel}" },
+      { "role": "responder", "type": "text", "text": "{boa|oq vc comprou|vai na dermato}" },
+      { "role": "initiator", "type": "text", "text": "{comprei {protetor solar|acido hialuronico|vitamina c|sabonete facial}|to usando {cerave|la roche|nivea}|a dermato cobrou {300|400|250}}" },
+      { "role": "responder", "type": "text", "text": "{eu uso {cerave|laroche|neutrogena} e gosto|caro ne|manda foto do resultado dps}" }
+    ]
+  },
+  {
+    "name": "emprego-procurando",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{to desempregado faz {2|3|4} meses|nao acho emprego em lugar nenhum|mandei 50 curriculos e ninguem chamou}" },
+      { "role": "responder", "type": "text", "text": "{calma vai aparecer|vc ta procurando oq|linkedin ajuda}" },
+      { "role": "initiator", "type": "text", "text": "{qualquer coisa nesse ponto|to mandando pra tudo|ja fiz 3 entrevistas e nada}" },
+      { "role": "responder", "type": "text", "text": "{nao desiste|eu vou perguntar aqui no meu trabalho|faz um curso online enquanto isso}" },
+      { "role": "initiator", "type": "text", "text": "{obg mano|vou fazer isso|qualquer coisa me avisa}" },
+      { "role": "responder", "type": "text", "text": "{pode deixar|vai dar certo|to na torcida}" }
+    ]
+  },
+  {
+    "name": "crush-falando",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano o crush {me respondeu|me seguiu|curtiu minha foto}|nao sei oq falar pro {crush|boy|mina}|to travado na conversa}" },
+      { "role": "responder", "type": "text", "text": "{KKKKK|manda um oi|fala qualquer coisa}" },
+      { "role": "initiator", "type": "text", "text": "{mas e se {ele|ela} me achar estranho|oq eu falo|to nervoso}" },
+      { "role": "responder", "type": "text", "text": "{seja natural|manda um meme|para de neurar}" },
+      { "role": "initiator", "type": "text", "text": "{ta bom vou mandar|mds to suando|la vai}" },
+      { "role": "responder", "type": "text", "text": "{vai la!! boa sorte|me conta dps|to torcendo}" }
+    ]
+  },
+  {
+    "name": "ressaca-domingo",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano to de ressaca|bebi dms ontem|nunca mais bebo}" },
+      { "role": "responder", "type": "text", "text": "{kkkkk falou isso semana passada|eu tbm to mal|mereceu}" },
+      { "role": "initiator", "type": "text", "text": "{serio dessa vez é vdd|minha cabeça ta explodindo|tomei {10|8|12} {cerveja|dose|copo}}" },
+      { "role": "responder", "type": "text", "text": "{toma engov|come algo gorduroso|descansa hj}" }
+    ]
+  },
+  {
+    "name": "jogo-online",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{bora jogar {lol|valorant|fortnite|free fire|fifa}?|to on bora uma partida|ce ta jogando oq}" },
+      { "role": "responder", "type": "text", "text": "{bora|to jogando {valorant|lol|cs}|agr nao posso}" },
+      { "role": "initiator", "type": "text", "text": "{vem jogar cmg|me add la|qual teu nick}" },
+      { "role": "responder", "type": "text", "text": "{ja to entrando|meu nick é {XxNomeXx|ProPlayer123}|pera 5 min}" },
+      { "role": "initiator", "type": "text", "text": "{de boa|chama quando entrar|to na sala ja}" },
+      { "role": "responder", "type": "text", "text": "{entrando|pronto|vamos}" }
+    ]
+  },
+  {
+    "name": "encomenda-correios",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{minha encomenda ta parada faz {10|15|20} dias|os correios é uma piada|meu pacote sumiu}" },
+      { "role": "responder", "type": "text", "text": "{correios né|rastreia pelo site|oq vc comprou}" },
+      { "role": "initiator", "type": "text", "text": "{comprei {um tenis|celular|roupa} na {shopee|shein|aliexpress}|ta dizendo q ta em {curitiba|sao paulo|cajamar} faz 1 semana|acho q perderam}" },
+      { "role": "responder", "type": "text", "text": "{acontece isso msm|reclama no site|compra na loja fisica kkkk}" }
+    ]
+  },
+  {
+    "name": "dentista-medo",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{tenho dentista hj e to morrendo de medo|vou ter q fazer canal|dentista é meu maior trauma}" },
+      { "role": "responder", "type": "text", "text": "{relaxa nao doi tanto|vai com anestesia|eu tbm tenho medo}" },
+      { "role": "initiator", "type": "text", "text": "{facil falar|ultima vez doeu dms|to pensando em desmarcar}" },
+      { "role": "responder", "type": "text", "text": "{nao desmarca vai piorar|pensa em outra coisa|dps ce agradece}" }
+    ]
+  },
+  {
+    "name": "faxina-casa",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{to limpando a casa e é infinito|minha casa ta imunda|preciso fazer faxina e to com preguiça}" },
+      { "role": "responder", "type": "text", "text": "{coloca uma musica e vai|a minha tbm ta|faz um pouco por dia}" },
+      { "role": "initiator", "type": "text", "text": "{comecei pelo banheiro ja to cansado|tem louça de 3 dias|quero contratar uma diarista}" },
+      { "role": "responder", "type": "text", "text": "{diarista é a melhor coisa|lava a louça pelo menos|adultar é horrivel}" }
+    ]
+  },
+  {
+    "name": "dieta-comendo",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{comecei dieta hj|to tentando comer saudavel|cortei {refri|doce|pao|fritura}}" },
+      { "role": "responder", "type": "text", "text": "{boa mano|vai durar quanto tempo kkkk|eu tbm preciso}" },
+      { "role": "initiator", "type": "text", "text": "{dessa vez é serio|ja quebrei a dieta no almoco kkkk|é muito dificil}" },
+      { "role": "responder", "type": "text", "text": "{KKKK sabia|calma vai aos poucos|normal no começo}" }
+    ]
+  },
+  {
+    "name": "reacao-noticia-chocante",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{NÃO ACREDITO NISSO|VCS VIRAM ISSO?|MANO OLHA}" },
+      { "role": "responder", "type": "text", "text": "{OQ|FALA|q foi}" },
+      { "role": "initiator", "type": "text", "text": "{fulano {morreu|casou|foi preso|traiu}|{o dolar|bitcoin|gasolina} {subiu|caiu} dms|saiu o resultado do {concurso|enem|vestibular}}" },
+      { "role": "responder", "type": "text", "text": "{NAO|COMO ASSIM|ta de brincadeira ne}" }
+    ]
+  },
+  {
+    "name": "tatoo-nova",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{fiz uma tatoo nova|vou tatuar {amanha|semana q vem}|olha minha tatuagem}" },
+      { "role": "initiator", "type": "image", "text": "[foto]" },
+      { "role": "responder", "type": "text", "text": "{ficou dahora|onde fez|doeu?" },
+      { "role": "initiator", "type": "text", "text": "{fiz no {braço|perna|costela|pulso}|doeu {pouco|muito|nada}|paguei {300|500|800|1000}}" },
+      { "role": "responder", "type": "text", "text": "{quero fazer uma tbm|ficou top|corajoso}" }
+    ]
+  },
+  {
+    "name": "entrega-ifood",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano o ifood ta demorando {1 hora|40 min|2 horas}|meu pedido ta {atrasado|perdido}|o entregador ta {longe|parado|indo pro lado errado}}" },
+      { "role": "responder", "type": "text", "text": "{cancela|fala com o suporte|ta com fome ne}" },
+      { "role": "initiator", "type": "text", "text": "{se cancelar perco o dinheiro|o suporte é um lixo|ja comi meu estoque de {bolacha|miojo|pao}}" },
+      { "role": "responder", "type": "text", "text": "{kkkk|q raiva|pede em outro lugar}" }
+    ]
+  },
+  {
+    "name": "chuva-sem-guarda",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano comecou a chover e eu to sem guarda chuva|to encharcado|essa chuva me pegou no meio da rua}" },
+      { "role": "responder", "type": "text", "text": "{kkkkkk|eu avisei q ia chover|entra em algum lugar}" },
+      { "role": "initiator", "type": "text", "text": "{to debaixo de um {toldo|marquise|ponto de onibus}|molhei tudo|meu celular quase molhou}" },
+      { "role": "responder", "type": "text", "text": "{espera passar|pede um uber|kkk coitado}" }
+    ]
+  },
+  {
+    "name": "comida-fitness",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{almocei {frango com batata doce|salada|ovo cozido} hj|to comendo so coisa fit|marmita fitness todo dia}" },
+      { "role": "responder", "type": "text", "text": "{q triste kkkk|ta focado em|eu comi {hamburguer|pizza|miojo}}" },
+      { "role": "initiator", "type": "text", "text": "{para de me tentar|é temporario|ja to vendo resultado}" },
+      { "role": "responder", "type": "text", "text": "{ta ficando {magro|grande|definido}?|manda foto|quanto vc perdeu}" }
+    ]
+  },
+  {
+    "name": "barulho-obra",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{tem uma obra do lado da minha casa 6 da manha|acordei com barulho de {martelo|furadeira|britadeira}|parece q tao demolindo o predio}" },
+      { "role": "responder", "type": "text", "text": "{mds que inferno|faz quanto tempo|reclama na prefeitura}" },
+      { "role": "initiator", "type": "text", "text": "{faz {2|3|4} {semanas|meses}|nao tem previsao de acabar|todo santo dia}" },
+      { "role": "responder", "type": "text", "text": "{compra um fone bom|muda pra outro lugar|q horror}" }
+    ]
+  },
+  {
+    "name": "praia-chamando",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{bora praia {sabado|domingo|amanha}??|dia perfeito pra praia|quero ir pra praia" },
+      { "role": "responder", "type": "text", "text": "{BORA|qual praia|quem vai}" },
+      { "role": "initiator", "type": "text", "text": "{pensei em ir pra {guaruja|santos|ubatuba|maresias|bertioga}|qualquer uma|a mais perto}" },
+      { "role": "responder", "type": "text", "text": "{fechou|que horas sai|vou chamar mais gente}" },
+      { "role": "initiator", "type": "text", "text": "{sair cedo tipo {6|7|8} da manha|chama sim|leva {protetor|canga|cooler}}" },
+      { "role": "responder", "type": "text", "text": "{blz to dentro|levo cerveja tbm|ansiosa}" }
+    ]
+  },
+  {
+    "name": "tiktok-vicio",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano passei {3|4|5} horas no tiktok sem perceber|o tiktok me consumiu|vi um tiktok mt bom}" },
+      { "role": "responder", "type": "text", "text": "{eu tbm kkkk|vicio dms|manda}" },
+      { "role": "initiator", "type": "text", "text": "{aquele app é droga|nao consigo parar|era pra eu ta {dormindo|estudando|trabalhando}}" },
+      { "role": "responder", "type": "text", "text": "{deleta o app|coloca limite de tempo|somos 2}" }
+    ]
+  },
+  {
+    "name": "gato-rua",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{achei um {gato|cachorro|gatinho|filhote} na rua|olha esse bichinho q achei|alguem quer adotar}" },
+      { "role": "initiator", "type": "image", "text": "[foto]" },
+      { "role": "responder", "type": "text", "text": "{q fofoo|leva pro vet|vc vai ficar com ele?}" },
+      { "role": "initiator", "type": "text", "text": "{quero mas moro em {ap|apartamento} {pequeno|q nao pode}|ja tenho {2|3} em casa|to procurando alguem}" },
+      { "role": "responder", "type": "text", "text": "{vou perguntar pra galera|posta no facebook|eu queria mas nao posso}" }
+    ]
+  },
+  {
+    "name": "pneu-furou",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano furou meu pneu|to parado na rua com pneu furado|nao sei trocar pneu}" },
+      { "role": "responder", "type": "text", "text": "{tem estepe?|chama o seguro|quer q eu va ai}" },
+      { "role": "initiator", "type": "text", "text": "{tenho mas nao sei usar o macaco|o seguro demora 2 horas|to na {marginal|rodovia|rua escura}}" },
+      { "role": "responder", "type": "text", "text": "{youtube ensina|eu vou ai me manda a localização|cuidado}" }
+    ]
+  },
+  {
+    "name": "presente-ideia",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{oq eu dou de presente pro {pai|mae|namorada|amigo}?|preciso de ideia de presente|aniversario {dele|dela} ta chegando e nao sei oq dar}" },
+      { "role": "responder", "type": "text", "text": "{quanto ce quer gastar|da um {perfume|livro|vale presente}|oq {ele|ela} gosta}" },
+      { "role": "initiator", "type": "text", "text": "{tipo uns {100|200|50|300}|{ele|ela} gosta de {tecnologia|moda|esporte|musica}|nao faco ideia}" },
+      { "role": "responder", "type": "text", "text": "{compra um {fone|relogio|tenis|carteira}|faz algo personalizado|da dinheiro msm}" }
+    ]
+  },
+  {
+    "name": "gripe-doente",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{to gripado|mano peguei uma gripe forte|to morrendo de {gripe|resfriado|tosse}}" },
+      { "role": "responder", "type": "text", "text": "{toma remedinho|fica de repouso|vai no medico}" },
+      { "role": "initiator", "type": "text", "text": "{to tomando {antigripal|vitamina c|cha de limao|mel}|nao consigo nem levantar|meu nariz ta entupido}" },
+      { "role": "responder", "type": "text", "text": "{melhoras|faz uma canja|descansa q passa}" }
+    ]
+  },
+  {
+    "name": "cartao-estourou",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano estourei meu cartao|a fatura veio {2000|3000|5000} reais|to endividado}" },
+      { "role": "responder", "type": "text", "text": "{como assim|para de gastar|faz um controle financeiro}" },
+      { "role": "initiator", "type": "text", "text": "{comprei umas coisa q nao devia|parcelei tudo e agora ta tudo vindo junto|nao sei como vou pagar}" },
+      { "role": "responder", "type": "text", "text": "{negocia com o banco|corta os gastos|isso q da parcelar em 12x}" }
+    ]
+  },
+  {
+    "name": "podcast-indicando",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{ce ouve podcast?|mano ouvi um podcast mt bom|conhece o {flow|podpah|inteligencia ltda}}" },
+      { "role": "responder", "type": "text", "text": "{ouco sim|qual|gosto do {flow|podpah|joel jota}}" },
+      { "role": "initiator", "type": "text", "text": "{ouve o episodio com {fulano|ciclano}|é sobre {empreendedorismo|politica|historia|comedia}|saiu um ep novo hj}" },
+      { "role": "responder", "type": "text", "text": "{vou ouvir|coloco pra ouvir no {trampo|onibus|academia}|esse ep é grande?}" }
+    ]
+  },
+  {
+    "name": "forgot-somewhere",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{esqueci meu {celular|carteira|chave|documento} em {casa|no trabalho|no uber|no restaurante}|perdi meu {celular|carteira|fone}|nao acho minha {chave|carteira} em lugar nenhum}" },
+      { "role": "responder", "type": "text", "text": "{volta la|liga pro seu celular|olha no achados e perdidos}" },
+      { "role": "initiator", "type": "text", "text": "{ja voltei e nao ta|ninguem atende|to desesperado}" },
+      { "role": "responder", "type": "text", "text": "{calma vai aparecer|bloqueia o cartao|faz um bo}" }
+    ]
+  },
+  {
+    "name": "cerveja-chamando",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{uma cerveja hj cai bem|bora tomar uma geladinha|SEXTOU bora beber}" },
+      { "role": "responder", "type": "text", "text": "{BORA|onde|to precisando msm}" },
+      { "role": "initiator", "type": "text", "text": "{naquele {bar|boteco|posto} la|em casa msm|qualquer lugar}" },
+      { "role": "responder", "type": "text", "text": "{fechou q horas|levo {petisco|amendoim|calabresa}|ja to saindo}" }
+    ]
+  },
+  {
+    "name": "fila-esperando",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{to numa fila {enorme|gigante|infinita}|fila do {banco|sus|cartorio|poupatempo} é sacanagem|faz {1|2|3} horas q to esperando}" },
+      { "role": "responder", "type": "text", "text": "{mds|faz pelo app|paciencia}" },
+      { "role": "initiator", "type": "text", "text": "{o app nao funciona|nao tem como fazer online|odeio burocracia}" },
+      { "role": "responder", "type": "text", "text": "{brasil ne|boa sorte|pelo menos leva um livro}" }
+    ]
+  },
+  {
+    "name": "golpe-cuidado",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano quase cai num golpe|recebi uma {ligacao|msg} estranha|me mandaram um link suspeito}" },
+      { "role": "responder", "type": "text", "text": "{oq era|nao clica em nada|q tipo de golpe}" },
+      { "role": "initiator", "type": "text", "text": "{falando q era do {banco|correios|governo}|pedindo {cpf|senha|codigo}|era o golpe do {pix|whatsapp|boleto}}" },
+      { "role": "responder", "type": "text", "text": "{bloqueia o numero|denuncia|ta cheio disso}" }
+    ]
+  },
+  {
+    "name": "formatura-convite",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano vou me formar!!|convite pra minha formatura|finalmente vou formar}" },
+      { "role": "responder", "type": "text", "text": "{PARABENS|mds q orgulho|quando é}" },
+      { "role": "initiator", "type": "text", "text": "{dia {15|20|25|30} de {dezembro|novembro|marco}|vai ser no {buffet|salao|hotel} la|quero mt q vc va}" },
+      { "role": "responder", "type": "text", "text": "{vou sim com certeza|ja to confirmando|merecido dms}" },
+      { "role": "initiator", "type": "text", "text": "{obg!! significa mt pra mim|o convite ta {100|150|200} kkkk|vai ser mt bom}" },
+      { "role": "responder", "type": "text", "text": "{pago com prazer|nao perderia|ansiosa}" }
+    ]
+  },
+  {
+    "name": "mudanca-ajuda",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{vou mudar de {casa|apartamento|cidade}|preciso de ajuda pra mudar|to de mudanca}" },
+      { "role": "responder", "type": "text", "text": "{quando|pra onde|precisa de ajuda}" },
+      { "role": "initiator", "type": "text", "text": "{{sabado|domingo} q vem|to indo pra {outro bairro|outra cidade|mais perto do trabalho}|ce pode me ajudar a carregar as coisa?}" },
+      { "role": "responder", "type": "text", "text": "{posso sim|levo meu carro|mando um caminhao de mudanca}" },
+      { "role": "initiator", "type": "text", "text": "{valeu dms|ja contratei frete mas preciso de braço|te pago uma pizza dps}" },
+      { "role": "responder", "type": "text", "text": "{por pizza eu faço qualquer coisa|pode contar cmg|q horas}" }
+    ]
+  },
+  {
+    "name": "netflix-dividir",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{ce quer dividir {netflix|spotify|disney+|hbo} cmg?|mano a netflix aumentou dnv|to pensando em cancelar o {streaming|netflix|amazon}}" },
+      { "role": "responder", "type": "text", "text": "{bora dividir|quanto fica|eu uso conta emprestada}" },
+      { "role": "initiator", "type": "text", "text": "{fica {15|20|25} cada|o plano é {35|55|45} dividido por {2|3|4}|mais barato q pagar sozinho}" },
+      { "role": "responder", "type": "text", "text": "{fechou|pode ser|manda o pix q eu pago}" }
+    ]
+  },
+  {
+    "name": "brigadeiro-fazendo",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{to fazendo brigadeiro|fiz {brigadeiro|bolo|brownie} e ficou mt bom|quem quer brigadeiro}" },
+      { "role": "responder", "type": "text", "text": "{EU|mds quero|manda pra mim}" },
+      { "role": "initiator", "type": "image", "text": "[foto]" },
+      { "role": "responder", "type": "reaction", "text": "🤤" },
+      { "role": "initiator", "type": "text", "text": "{vem buscar|fiz uma panela inteira|sobrou mt}" },
+      { "role": "responder", "type": "text", "text": "{to indo|guarda pra mim|amo vc}" }
+    ]
+  },
+  {
+    "name": "vizinho-festa",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{o vizinho ta fazendo festa DE NOVO|som alto {meia noite|1 da manha|11 da noite|sabado de manha}|nao da pra morar nesse predio}" },
+      { "role": "responder", "type": "text", "text": "{chama a pm|reclama no sindico|coloca fone}" },
+      { "role": "initiator", "type": "audio", "text": "[audio]" },
+      { "role": "responder", "type": "text", "text": "{mds ouvi daqui|q barulho|isso é sacanagem}" },
+      { "role": "initiator", "type": "text", "text": "{to quase batendo na porta|vou gravar e denunciar|quero mudar daqui}" },
+      { "role": "responder", "type": "text", "text": "{grava msm|calma nao vai arrumar briga|chama a policia}" }
+    ]
+  },
+  {
+    "name": "cafe-viciado",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{ja to no meu {3|4|5|6}o cafe hj|sem cafe eu nao funciono|preciso de cafe URGENTE}" },
+      { "role": "responder", "type": "text", "text": "{viciado kkkk|eu tbm|faz mal hein}" },
+      { "role": "initiator", "type": "text", "text": "{nao ligo|é meu combustivel|tentei parar e desisti no msm dia}" },
+      { "role": "responder", "type": "text", "text": "{kkkkk|pelo menos toma sem açucar|te entendo}" }
+    ]
+  },
+  {
+    "name": "sol-bronzeado",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano me queimei inteiro|to parecendo um {camarao|tomate|pimentao}|esqueci o protetor solar}" },
+      { "role": "responder", "type": "text", "text": "{kkkkkk|passa bepantol|ta doendo?}" },
+      { "role": "initiator", "type": "image", "text": "[foto]" },
+      { "role": "responder", "type": "text", "text": "{KKKKKK mds|ta vermelho msm|ai ce fez certinho ein}" }
+    ]
+  },
+  {
+    "name": "salario-atrasou",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano meu salario nao caiu|a empresa atrasou o pagamento|to sem grana a conta nao caiu}" },
+      { "role": "responder", "type": "text", "text": "{de novo?|fala com o rh|q absurdo}" },
+      { "role": "initiator", "type": "text", "text": "{ja falei e ficam enrolando|ta {3|5|10} dias atrasado|tenho conta pra pagar}" },
+      { "role": "responder", "type": "text", "text": "{denuncia|procura seus direitos|se precisar me fala}" }
+    ]
+  },
+  {
+    "name": "escada-elevador",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{o elevador do predio quebrou|to subindo {10|15|8} andares de escada|elevador ta em manutencao faz {3|5|7} dias}" },
+      { "role": "responder", "type": "text", "text": "{mds|pelo menos é exercicio kkkk|reclama pro sindico}" },
+      { "role": "initiator", "type": "text", "text": "{exercicio nada to morrendo|chego suando no ap|com sacola de mercado entao}" },
+      { "role": "responder", "type": "text", "text": "{kkkkk coitado|muda pro terreo|é foda}" }
+    ]
+  },
+  {
+    "name": "churros-vendedor",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{comprei um churros na rua e to no paraiso|comi um {churros|pastel|tapioca|acai} q tava divino|mano esse {salgado|coxinha|empada} é o melhor}" },
+      { "role": "responder", "type": "text", "text": "{quero|onde|mds q fome}" },
+      { "role": "initiator", "type": "text", "text": "{na {esquina|praca|estacao de metro|frente da escola}|o cara faz o melhor da cidade|{5|7|10} reais}" },
+      { "role": "responder", "type": "text", "text": "{barato|vou la|traz um pra mim}" }
+    ]
+  },
+  {
+    "name": "insonia-madrugada",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{alguem acordado??|to com insonia|{3|4|2} da manha e nao consigo dormir}" },
+      { "role": "responder", "type": "text", "text": "{eu kkk|tbm to|oq ce ta fazendo}" },
+      { "role": "initiator", "type": "text", "text": "{olhando pro teto|mexendo no celular|pensando em {tudo|nada|besteira}}" },
+      { "role": "responder", "type": "text", "text": "{bota um asmr|conta carneiro|toma um cha}" },
+      { "role": "initiator", "type": "text", "text": "{ja tentei tudo|minha mente nao para|amanha vou ta um zumbi}" },
+      { "role": "responder", "type": "text", "text": "{te entendo|dorme logo|boa noite vai}" }
+    ]
+  },
+  {
+    "name": "video-engraçado",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{KKKKKKK OLHA ISSO|mano assiste esse video|morrendo de rir}" },
+      { "role": "responder", "type": "text", "text": "{manda|kkkk|oq é}" },
+      { "role": "initiator", "type": "text", "text": "{é um {cara|cachorro|gato|bebe} fazendo {besteira|arte|dancinha}|peguei no {tiktok|insta|twitter}|olha la mandei}" },
+      { "role": "responder", "type": "text", "text": "{KKKKKKKKKK|morri|mano muito bom}" },
+      { "role": "responder", "type": "reaction", "text": "😂" }
+    ]
+  },
+  {
+    "name": "corte-cabelo-ruim",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{o barbeiro destruiu meu cabelo|cortaram meu cabelo torto|to parecendo um {boneco|doido|et}}" },
+      { "role": "responder", "type": "text", "text": "{kkkkk manda foto|nao deve ta tao ruim|serio?}" },
+      { "role": "initiator", "type": "image", "text": "[foto]" },
+      { "role": "responder", "type": "text", "text": "{KKKKKKKKKKKK|mds|ta... diferente}" },
+      { "role": "initiator", "type": "text", "text": "{vou usar bone {1|2|3} {semana|mes}|nunca mais vou nesse barbeiro|quero chorar}" },
+      { "role": "responder", "type": "text", "text": "{cabelo cresce kkk|vai em outro pra arrumar|é fase}" }
+    ]
+  },
+  {
+    "name": "piada-sem-graca",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{escuta essa: {oq o pato disse pro outro pato|pq a galinha atravessou a rua|como chama um elevador}|tenho uma piada boa|quer ouvir uma piada}" },
+      { "role": "responder", "type": "text", "text": "{fala|vai ser ruim ne|conta}" },
+      { "role": "initiator", "type": "text", "text": "{kkkk é boa juro|{pra ficar perto do quack|pra chegar do outro lado|aperta o botao} kkkkkk|e ai gostou}" },
+      { "role": "responder", "type": "text", "text": "{...|horrivel|KKKKK pior q eu ri}" }
+    ]
+  },
+  {
+    "name": "celular-lento",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{meu celular ta mais lento q uma tartaruga|esse cel nao aguenta mais nada|travou dnv esse lixo}" },
+      { "role": "responder", "type": "text", "text": "{limpa a memoria|formata|ta na hora de trocar}" },
+      { "role": "initiator", "type": "text", "text": "{ja limpei tudo|nao tenho grana pra trocar|formatei mes passado e ja ta ruim}" },
+      { "role": "responder", "type": "text", "text": "{compra um xiaomi q é barato|desinstala uns app|rip celular}" }
+    ]
+  },
+  {
+    "name": "estranho-no-zap",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{um numero estranho me mandou msg|recebi msg de um desconhecido|um cara me adicionou do nada}" },
+      { "role": "responder", "type": "text", "text": "{oq falou|bloqueia|cuidado é golpe}" },
+      { "role": "initiator", "type": "text", "text": "{falou {oi meu amor|ta vendendo algo|quer ganhar dinheiro}|mandou {foto|audio|link}|acho q é golpe msm}" },
+      { "role": "responder", "type": "text", "text": "{bloqueia e denuncia|nao responde|certeza q é golpe}" }
+    ]
+  },
+  {
+    "name": "cozinha-queimou",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{queimei o {arroz|macarrao|bolo|feijao}|esqueci a panela no fogo|a cozinha ta cheirando queimado}" },
+      { "role": "responder", "type": "text", "text": "{kkkkkk|de novo?|masterchef ein}" },
+      { "role": "initiator", "type": "text", "text": "{fui mexer no celular e esqueci|a panela grudou tudo|vou ter q pedir delivery}" },
+      { "role": "responder", "type": "text", "text": "{coloca alarme da proxima vez|pede um ifood|kkkkk nao sabe nem fritar ovo}" }
+    ]
+  },
+  {
+    "name": "uber-motorista-doido",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano o uber ta dirigindo como um louco|to num uber q parece piloto de f1|achei q ia morrer no uber}" },
+      { "role": "responder", "type": "text", "text": "{mds|pede pra diminuir|da 1 estrela}" },
+      { "role": "initiator", "type": "text", "text": "{tenho vergonha de falar|ja to quase chegando graças a deus|o cara ta a {120|140|160} numa rua normal}" },
+      { "role": "responder", "type": "text", "text": "{kkkkk|reza|pelo menos chega rapido}" }
+    ]
+  },
+  {
+    "name": "reuniao-chata",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{to numa reuniao que podia ser um email|reuniao faz {1|2|3} hora ja|mds essa reuniao nao acaba}" },
+      { "role": "responder", "type": "text", "text": "{kkkk classico|fingindo q ta prestando atencao?|rip}" },
+      { "role": "initiator", "type": "text", "text": "{sim kkkk|to no celular por baixo da mesa|quero morrer}" },
+      { "role": "responder", "type": "text", "text": "{nao deixa te pegarem|aguenta firme|daqui a pouco acaba}" }
+    ]
+  },
+  {
+    "name": "sono-segunda",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{segunda feira é o pior dia|odeeeeio segunda|quem inventou segunda feira devia ser preso}" },
+      { "role": "responder", "type": "text", "text": "{ne mano|queria estar na cama|faltam 5 dias pro fds}" },
+      { "role": "initiator", "type": "text", "text": "{5 dias... mds|nao devia ter dormido tarde ontem|quero férias}" },
+      { "role": "responder", "type": "text", "text": "{somos todos assim|bora trabalhar vai|cafe ajuda}" }
+    ]
+  },
+  {
+    "name": "bateu-carro",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano bati o carro|sofri um acidente|raspei o carro inteiro}" },
+      { "role": "responder", "type": "text", "text": "{CE TA BEM??|oq aconteceu|mds}" },
+      { "role": "initiator", "type": "text", "text": "{to bem so o carro q ficou feio|o outro carro q bateu em mim|foi so um arranhão mas vai custar}" },
+      { "role": "responder", "type": "text", "text": "{o importante é q vc ta bem|tem seguro?|fez bo?}" },
+      { "role": "initiator", "type": "text", "text": "{tenho mas o {seguro|franquia} é {2000|3000|1500}|nao tenho seguro|vou ter q pagar do bolso}" },
+      { "role": "responder", "type": "text", "text": "{eita|pelo menos foi so material|carro da dor de cabeça}" }
+    ]
+  },
+  {
+    "name": "banho-gelado",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano o chuveiro queimou to tomando banho gelado|sem agua quente {3|5|2} dias|o gas acabou}" },
+      { "role": "responder", "type": "text", "text": "{mds coitado|chama um eletricista|compra gas}" },
+      { "role": "initiator", "type": "text", "text": "{o eletricista so vem {amanha|semana q vem|segunda}|o gas ta {120|100|130} reais|quase morri de frio}" },
+      { "role": "responder", "type": "text", "text": "{esquenta agua na panela|vem tomar banho aqui|kkk nao tem como}" }
+    ]
+  },
+  {
+    "name": "role-cancelado",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano cancelaram o role|o {show|evento|festa} foi cancelado|nao vai ter mais}" },
+      { "role": "responder", "type": "text", "text": "{pq??|que sacanagem|eu ja tinha comprado {ingresso|roupa nova}}" },
+      { "role": "initiator", "type": "text", "text": "{disseram q foi por {chuva|falta de publico|problema tecnico}|nao sei|vao devolver o dinheiro pelo menos}" },
+      { "role": "responder", "type": "text", "text": "{tomara|to puto|vamo fazer outra coisa entao}" }
+    ]
+  },
+  {
+    "name": "wifi-senha",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{qual a senha do wifi?|me passa o wifi|nao to conseguindo conectar}" },
+      { "role": "responder", "type": "text", "text": "{pera vou ver|é {12345678|senha123|nomecasa2024}|ta escrito atras do roteador}" },
+      { "role": "initiator", "type": "text", "text": "{nao funcionou|conectei vlw|ta lento}" },
+      { "role": "responder", "type": "text", "text": "{tenta de novo|de nada|tem muita gente conectado}" }
+    ]
+  },
+  {
+    "name": "bicho-em-casa",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{TEM UMA {BARATA|ARANHA|RATO|LAGARTIXA} NA MINHA CASA|mano uma {barata voadora|aranha enorme|rato} apareceu aqui|SOCORROOO}" },
+      { "role": "responder", "type": "text", "text": "{KKKKKKK|mata|chama alguem}" },
+      { "role": "initiator", "type": "text", "text": "{EU NAO CHEGO PERTO|to em cima da cama|ela ta {voando|correndo|me olhando}}" },
+      { "role": "responder", "type": "text", "text": "{pega um chinelo|joga veneno|kkkk para de drama}" }
+    ]
+  },
+  {
+    "name": "comprou-errado",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{comprei o {tamanho|cor|modelo} errado|veio errado minha encomenda|pedi {M|P|G} e veio {GG|PP|outro}}" },
+      { "role": "responder", "type": "text", "text": "{devolve|troca|comprou onde}" },
+      { "role": "initiator", "type": "text", "text": "{comprei na {shopee|shein|mercado livre|site}|a devolução é um saco|vou ter q pagar frete dnv}" },
+      { "role": "responder", "type": "text", "text": "{reclama q eles pagam|faz reclamação|da pra alguem}" }
+    ]
+  },
+  {
+    "name": "banheiro-emergencia",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{pera vou no banheiro|rapidinho to no banheiro|urgencia kkkk}" },
+      { "role": "responder", "type": "text", "text": "{ok kkkk|vai la|tmi}" },
+      { "role": "initiator", "type": "text", "text": "{voltei|pronto|desculpa a demora}" },
+      { "role": "responder", "type": "text", "text": "{kkkk|blz|pensei q tinha morrido}" }
+    ]
+  },
+  {
+    "name": "ar-condicionado",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{o ar condicionado do escritorio ta {gelando|queimando|quebrado}|to {congelando|suando} no trabalho|quem mexeu no ar condicionado}" },
+      { "role": "responder", "type": "text", "text": "{sempre isso|poe uma blusa|o meu ta desligado}" },
+      { "role": "initiator", "type": "text", "text": "{ta {16|18|20} graus aqui|ninguem concorda na temperatura|ja reclamei e ninguem liga}" },
+      { "role": "responder", "type": "text", "text": "{kkkk guerra do ar condicionado|coloca no {22|24|25}|vida de escritorio}" }
+    ]
+  },
+  {
+    "name": "sorvete-calor",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{preciso de um sorvete AGORA|vou no {mcdonalds|burger king|sorveteria} pegar um sorvete|alguem quer sorvete}" },
+      { "role": "responder", "type": "text", "text": "{traz um pra mim|qual sabor|sim pelo amor}" },
+      { "role": "initiator", "type": "text", "text": "{oq vc quer|vou pegar {chocolate|morango|flocos|acai}|ta {5|8|12} reais}" },
+      { "role": "responder", "type": "text", "text": "{{chocolate|morango|ninho com nutella}|qualquer um|pega o maior}" }
+    ]
+  },
+  {
+    "name": "escorpiao-apareceu",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{APARECEU UM ESCORPIÃO NA MINHA CASA|achei um escorpião no {banheiro|quintal|cozinha}|mano é um escorpião isso??}" },
+      { "role": "initiator", "type": "image", "text": "[foto]" },
+      { "role": "responder", "type": "text", "text": "{SAI DAÍ|chama a zoonoses|nao encosta}" },
+      { "role": "initiator", "type": "text", "text": "{to com medo|ja matei|chamei a prefeitura}" },
+      { "role": "responder", "type": "text", "text": "{cuidado com os sapatos|olha embaixo das coisas|tem q dedetizar}" }
+    ]
+  },
+  {
+    "name": "motoboy-rapido",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{o motoboy trouxe minha comida em {5|8|10} min|o entregador voou|achei q ia demorar e chegou rapido}" },
+      { "role": "responder", "type": "text", "text": "{boa|dei gorjeta?|q milagre}" },
+      { "role": "initiator", "type": "text", "text": "{dei {5|3|2} de gorjeta|o cara merece|veio quentinho ainda}" },
+      { "role": "responder", "type": "text", "text": "{fez certo|bom apetite|manda foto da comida}" }
+    ]
+  },
+  {
+    "name": "treino-foto",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{treinei pesado hj|acabei o treino morto|shape ta vindo}" },
+      { "role": "initiator", "type": "image", "text": "[foto]" },
+      { "role": "responder", "type": "text", "text": "{ta ficando monstro|boaa|shape vem}" },
+      { "role": "responder", "type": "reaction", "text": "💪" },
+      { "role": "initiator", "type": "text", "text": "{obg!! {3|4|6} meses de academia|ainda falta mt|disciplina}" },
+      { "role": "responder", "type": "text", "text": "{ja da pra ver diferença|continua assim|me motiva tbm}" }
+    ]
+  },
+  {
+    "name": "cnh-tirando",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{to tirando cnh|fiz a {prova teorica|aula pratica|baliza} hj|cnh ta custando uma fortuna}" },
+      { "role": "responder", "type": "text", "text": "{como foi|quanto ta|boa sorte}" },
+      { "role": "initiator", "type": "text", "text": "{passei na {teorica|pratica}|reprovei na baliza|ta {3000|4000|2500} o processo todo}" },
+      { "role": "responder", "type": "text", "text": "{parabens|a baliza é o pior|carissimo}" },
+      { "role": "initiator", "type": "text", "text": "{vlw|vou ter q refazer|mas preciso pra {trabalho|faculdade|dia a dia}}" },
+      { "role": "responder", "type": "text", "text": "{vai dar certo|treina mais|vale a pena}" }
+    ]
+  },
+  {
+    "name": "celular-caiu-agua",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano meu cel caiu na {agua|privada|piscina|chuva}|molhei o celular inteiro|meu celular morreu caiu na agua}" },
+      { "role": "responder", "type": "text", "text": "{desliga agora|poe no arroz|eita}" },
+      { "role": "initiator", "type": "text", "text": "{ja coloquei no arroz|ta desligado|acho q morreu}" },
+      { "role": "responder", "type": "text", "text": "{espera {24|48} horas|leva numa assistencia|F}" }
+    ]
+  },
+  {
+    "name": "horario-verao",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{odeio quando escurece {cedo|as 5|as 6}|no verao é bom pq fica claro ate tarde|esse horario confunde tudo}" },
+      { "role": "responder", "type": "text", "text": "{ne|prefiro {verao|inverno}|nao sinto diferença}" },
+      { "role": "initiator", "type": "text", "text": "{eu gosto de ficar claro ate {7|8}|quando escurece cedo da preguiça de tudo|parece q o dia acabou}" },
+      { "role": "responder", "type": "text", "text": "{vdd|é deprimente|pelo menos amanha {é fds|vai chover menos|vai fazer sol}}" }
+    ]
+  },
+  {
+    "name": "comida-japao",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{to com vontade de {japa|sushi|temaki|yakisoba}|bora num japones|vamo pedir japa}" },
+      { "role": "responder", "type": "text", "text": "{bora|amo japa|ta caro dms}" },
+      { "role": "initiator", "type": "text", "text": "{achei um rodizio por {60|80|90} reais|vamo naquele do bairro|pede pelo app q tem desconto}" },
+      { "role": "responder", "type": "text", "text": "{por esse preco bora|qual dia|amo combo de temaki}" },
+      { "role": "initiator", "type": "text", "text": "{{sexta|sabado|amanha} pode ser?|{8|7|9} horas|reserva uma mesa}" },
+      { "role": "responder", "type": "text", "text": "{fechado|la estarei|ja to com agua na boca}" }
+    ]
+  },
+  {
+    "name": "aspirador-robo",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{comprei um aspirador robo|o aspirador robo comeu o {tapete|fio|meia}|melhor compra q ja fiz}" },
+      { "role": "responder", "type": "text", "text": "{vale a pena?|quanto foi|kkkkk}" },
+      { "role": "initiator", "type": "text", "text": "{vale dms|paguei {300|500|800} no {shopee|ml}|ele limpa tudo sozinho}" },
+      { "role": "responder", "type": "text", "text": "{quero um|parece bom|o futuro chegou}" }
+    ]
+  },
+  {
+    "name": "argumento-besteira",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano voce ta errado|eu discordo total|nao é assim}" },
+      { "role": "responder", "type": "text", "text": "{como nao|eu to certo|fala entao}" },
+      { "role": "initiator", "type": "text", "text": "{{coca|pepsi} é melhor q {pepsi|coca}|{gato|cachorro} é melhor q {cachorro|gato}|{pizza doce|pizza salgada} é superior}" },
+      { "role": "responder", "type": "text", "text": "{ce ta maluco|nao tem nem comparação|errado}" },
+      { "role": "initiator", "type": "text", "text": "{vc q ta maluco|todo mundo sabe q eu to certo|pesquisa ai}" },
+      { "role": "responder", "type": "text", "text": "{cada um com sua opiniao errada|kkkk|concordamos em discordar}" }
+    ]
+  },
+  {
+    "name": "gato-fugiu",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano meu {gato|cachorro} fugiu|nao acho meu {gato|cachorro} em lugar nenhum|ele saiu e nao voltou}" },
+      { "role": "responder", "type": "text", "text": "{mds|faz quanto tempo|coloca comida na porta}" },
+      { "role": "initiator", "type": "text", "text": "{faz {2|3|5} {horas|dias}|ja procurei na rua toda|to desesperado}" },
+      { "role": "responder", "type": "text", "text": "{posta em grupo de {facebook|whatsapp|bairro}|ele volta|coloca cartaz}" },
+      { "role": "initiator", "type": "text", "text": "{ja postei|to rezando|se vc ver avisa}" },
+      { "role": "responder", "type": "text", "text": "{com certeza|vai aparecer|mando msg se eu ver}" }
+    ]
+  },
+  {
+    "name": "musica-alta-carro",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano indo pro trabalho no som|melhor parte do dia é o caminho ouvindo musica|a playlist ta boa hj}" },
+      { "role": "responder", "type": "text", "text": "{oq ce ta ouvindo|manda a playlist|eu vou de fone no onibus}" },
+      { "role": "initiator", "type": "text", "text": "{ouvindo {sertanejo|funk|rap|rock|pagode}|to viciado em {matuê|henrique e juliano|anitta}|uma mistura de tudo}" },
+      { "role": "responder", "type": "text", "text": "{gosto bom|cada um com seus gostos kkkk|manda o link do spotify}" }
+    ]
+  },
+  {
+    "name": "elevador-preso",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{MANO FIQUEI PRESO NO ELEVADOR|o elevador parou e nao abre|to preso faz {10|20|30} minutos}" },
+      { "role": "responder", "type": "text", "text": "{MDS|aperta o botao de emergencia|liga pro {zelador|bombeiro|porteiro}}" },
+      { "role": "initiator", "type": "text", "text": "{ja apertei e ninguem vem|to ligando e nao atendem|to com claustrofobia}" },
+      { "role": "responder", "type": "text", "text": "{calma|eu vou ai|liga 193}" }
+    ]
+  },
+  {
+    "name": "compras-online-impulsiva",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{comprei um monte de coisa na {shopee|shein|amazon} de madrugada|acordei e vi q comprei {5|8|10} coisas|meu cartao nao me perdoa}" },
+      { "role": "responder", "type": "text", "text": "{KKKK de novo|oq vc comprou|cancela}" },
+      { "role": "initiator", "type": "text", "text": "{comprei {roupa|maquiagem|eletronico|decoracao} q eu nem preciso|ja mandaram|tava com desconto nao resisti}" },
+      { "role": "responder", "type": "text", "text": "{desconto é armadilha|vai devolver?|desinstala o app}" }
+    ]
+  },
+  {
+    "name": "chovendo-roupa",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{comecou a chover e minha roupa ta no varal|MINHA ROUPA|corre q ta chovendo e tem roupa la fora}" },
+      { "role": "responder", "type": "text", "text": "{corre la|kkkkkk|vai la rapido}" },
+      { "role": "initiator", "type": "text", "text": "{ja molhou tudo|consegui salvar {metade|umas|quase tudo}|vou ter q lavar tudo de novo}" },
+      { "role": "responder", "type": "text", "text": "{kkkk classico|compra uma secadora|olha a previsao antes}" }
+    ]
+  },
+  {
+    "name": "dor-nas-costas",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano to com as costas travadas|dormi torto e agr to {travado|duro|com dor}|to andando igual um robo}" },
+      { "role": "responder", "type": "text", "text": "{melhoras|passa uma pomada|faz alongamento}" },
+      { "role": "initiator", "type": "text", "text": "{ja passei {cataflan|voltaren|salonpas}|nao consigo nem virar|preciso de um {quiropraxista|fisioterapeuta|massagista}}" },
+      { "role": "responder", "type": "text", "text": "{eu conheço um bom|coloca compressa quente|nao fica sentado mt tempo}" }
+    ]
+  },
+  {
+    "name": "conta-luz-cara",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{minha conta de luz veio {300|400|500|600} reais|bandeira vermelha é sacanagem|to gastando mt de energia}" },
+      { "role": "responder", "type": "text", "text": "{caraca|tira o ar condicionado|a minha veio {200|350|450}}" },
+      { "role": "initiator", "type": "text", "text": "{uso ar condicionado todo dia|o chuveiro gasta mt|vou morar no escuro}" },
+      { "role": "responder", "type": "text", "text": "{troca pra led|desliga oq nao ta usando|é o ar com certeza}" }
+    ]
+  },
+  {
+    "name": "comprou-carro",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{MANO COMPREI UM CARRO|olha meu carro novo|finalmente consegui comprar um carro}" },
+      { "role": "responder", "type": "text", "text": "{PARABENS|qual modelo|manda foto}" },
+      { "role": "initiator", "type": "image", "text": "[foto]" },
+      { "role": "responder", "type": "text", "text": "{bonitao|ta {novo|seminovo}|que cor massa}" },
+      { "role": "initiator", "type": "text", "text": "{é um {gol|onix|hb20|polo|argo} {2020|2022|2024}|peguei {financiado|a vista|consorcio}|to mt feliz}" },
+      { "role": "responder", "type": "text", "text": "{merecido|bora dar um rolê|cuida bem}" }
+    ]
+  },
+  {
+    "name": "mosquito-dengue",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{to cheio de picada de mosquito|os mosquitos tao me comendo vivo|mano olha meu braco}" },
+      { "role": "responder", "type": "text", "text": "{passa repelente|cuidado com dengue|ta cheio de caso}" },
+      { "role": "initiator", "type": "text", "text": "{ja to com medo|{3|5|2} pessoas do meu predio pegaram dengue|odeio mosquito}" },
+      { "role": "responder", "type": "text", "text": "{nao deixa agua parada|passa {repelente|off|sbp}|qualquer febre vai no medico}" }
+    ]
+  },
+  {
+    "name": "procurando-emprego-linkedin",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano o linkedin é uma piada|todo mundo fingindo ser feliz no linkedin|vi um post no linkedin mt cringe}" },
+      { "role": "responder", "type": "text", "text": "{kkkk concordo|oq era o post|odeio linkedin}" },
+      { "role": "initiator", "type": "text", "text": "{um cara falando q {acordava as 4|trabalhava 18 horas|amava segunda feira}|aqueles textao motivacional|gente agradecendo demissão}" },
+      { "role": "responder", "type": "text", "text": "{KKKK odeio isso|gente q agradece demissao é o pior|linkedin coach}" }
+    ]
+  },
+  {
+    "name": "churros-ou-acai",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{ce prefere {acai ou sorvete|pizza ou hamburguer|coxinha ou empada|salgado ou doce}|pergunta seria:" },
+      { "role": "responder", "type": "text", "text": "{{acai|sorvete|pizza|hamburguer|coxinha|empada|salgado|doce} com certeza|os dois kkkk|dificil}" },
+      { "role": "initiator", "type": "text", "text": "{errado|concordo|hmmm discordo}" },
+      { "role": "responder", "type": "text", "text": "{kkkk cada um cada um|nao tem errado|vc q é estranho}" }
+    ]
+  },
+  {
+    "name": "pesadelo-acordou",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano tive um pesadelo horrivel|acordei {suando|gritando|assustado}|sonhei q {morri|cai|tava sendo perseguido}}" },
+      { "role": "responder", "type": "text", "text": "{kkkk relaxa|oq vc sonhou|foi so um sonho}" },
+      { "role": "initiator", "type": "text", "text": "{sonhei q {tava no trabalho|caia de um prédio|chegava atrasado|perdia os dentes}|foi mt real|to traumatizado}" },
+      { "role": "responder", "type": "text", "text": "{perder dentes é classico|mds kkk|ta estressado ne}" }
+    ]
+  },
+  {
+    "name": "pao-de-queijo",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{fiz pao de queijo caseiro|comprei pao de queijo {congelado|fresco|na padaria}|mano pao de queijo quente é a melhor coisa}" },
+      { "role": "responder", "type": "text", "text": "{CONCORDO|manda pra ca|com cafe entao}" },
+      { "role": "initiator", "type": "text", "text": "{com cafe e pao de queijo to feliz|comi {5|8|10} de uma vez|nao sobrou nada}" },
+      { "role": "responder", "type": "text", "text": "{{5|8|10}?? mano|guloso|eu como mais}" }
+    ]
+  },
+  {
+    "name": "entrevista-emprego",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{tenho entrevista de emprego {amanha|hj|semana q vem}|to nervoso pra entrevista|fui chamado pra uma entrevista}" },
+      { "role": "responder", "type": "text", "text": "{boa sorte!!|ce vai se dar bem|é pra q vaga}" },
+      { "role": "initiator", "type": "text", "text": "{é pra {analista|vendedor|estagiario|programador|atendente}|o salario é {2000|3000|5000|8000}|to rezando}" },
+      { "role": "responder", "type": "text", "text": "{vai preparado|pesquisa sobre a empresa|confia em vc}" },
+      { "role": "initiator", "type": "text", "text": "{obg!! vou dar meu melhor|to estudando|me desejem sorte}" },
+      { "role": "responder", "type": "text", "text": "{toda sorte do mundo|vai la e arrasa|depois me conta}" }
+    ]
+  },
+  {
+    "name": "sol-escaldante",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano {38|40|42} graus hj|ta {impossivel|insuportavel|demais} esse calor|MORRENDO}" },
+      { "role": "responder", "type": "text", "text": "{nem saio de casa|bebe agua|aqui tbm ta horrivel}" },
+      { "role": "initiator", "type": "text", "text": "{to bebendo {2|3|4} litros de agua por dia|queria um ar condicionado|ate o ventilador ta jogando ar quente}" },
+      { "role": "responder", "type": "text", "text": "{ar quente no ventilador é o pior|aqui tem ar gracas a deus|to com pena de quem ta na rua}" }
+    ]
+  },
+  {
+    "name": "sapato-apertado",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{comprei um sapato e ta apertando|meu pe ta doendo desse sapato|devia ter experimentado antes}" },
+      { "role": "responder", "type": "text", "text": "{devolve|usa meia fina|da pra alargar}" },
+      { "role": "initiator", "type": "text", "text": "{comprei online nao da pra devolver|to com bolha no pe|vou usar assim msm}" },
+      { "role": "responder", "type": "text", "text": "{vai machucar o pe|troca de numero|por isso eu compro na loja}" }
+    ]
+  },
+  {
+    "name": "comida-estragou",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{a comida estragou na geladeira|esqueci {carne|leite|sobra} fora da geladeira|ta com cheiro estranho}" },
+      { "role": "responder", "type": "text", "text": "{joga fora|cheira e ve|nem prova}" },
+      { "role": "initiator", "type": "text", "text": "{joguei {20|50|30} reais de comida fora|odeio desperdiçar|a geladeira ta {velha|ruim|desregulada}}" },
+      { "role": "responder", "type": "text", "text": "{é a vida|congela as coisas|acontece}" }
+    ]
+  },
+  {
+    "name": "relogio-atrasou",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano cheguei {30|40|20} min atrasado|perdi a hora|meu despertador nao tocou}" },
+      { "role": "responder", "type": "text", "text": "{de novo?? kkkk|o chefe viu?|bota {3|5|10} alarmes}" },
+      { "role": "initiator", "type": "text", "text": "{botei e desliguei dormindo|tenho o sono pesado dms|nao me orgulho disso}" },
+      { "role": "responder", "type": "text", "text": "{coloca o celular longe da cama|dorme mais cedo|te ligo amanha pra te acordar kkkk}" }
+    ]
+  },
+  {
+    "name": "serie-spoiler",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{NAO ME DA SPOILER|alguem me deu spoiler de {game of thrones|round 6|stranger things}|odeio gente q da spoiler}" },
+      { "role": "responder", "type": "text", "text": "{kkkk quem foi|eu nao fui|q serie}" },
+      { "role": "initiator", "type": "text", "text": "{o {fulano|maldito|desgraçado} falou q {morre|acontece tal coisa|o final é}|vi no {twitter|tiktok|insta}|to com raiva}" },
+      { "role": "responder", "type": "text", "text": "{sai da internet quando tiver assistindo|mds q odio|eu tbm odeio}" }
+    ]
+  },
+  {
+    "name": "pipoca-filme",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{vou ver filme com pipoca hj|fiz {pipoca|microondas|panela} e vo assistir algo|sessao cinema em casa}" },
+      { "role": "responder", "type": "text", "text": "{boa|oq vai ver|me chama}" },
+      { "role": "initiator", "type": "text", "text": "{ainda nao decidi|to entre {terror|comedia|acao|romance}|aceito sugestao}" },
+      { "role": "responder", "type": "text", "text": "{assiste {aquele filme novo|interstellar|parasita|coringa}|terror!! kkkk|comedia pra relaxar}" }
+    ]
+  },
+  {
+    "name": "casamento-convite",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano o {fulano|amigo|primo|colega} vai casar|fui convidado pra um casamento|tem casamento {mes q vem|em dezembro|sabado}}" },
+      { "role": "responder", "type": "text", "text": "{serio?? quem|vc vai?|oq vai vestir}" },
+      { "role": "initiator", "type": "text", "text": "{vou mas nao tenho roupa|preciso comprar um {presente|terno|vestido}|a lista de presente é absurda}" },
+      { "role": "responder", "type": "text", "text": "{da dinheiro kkkk|compra uma roupa nova|casamento é caro pra todo mundo}" }
+    ]
+  },
+  {
+    "name": "cachorro-latindo",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{o cachorro do vizinho nao para de latir|CALAAAA ESSE CACHORRO|latindo faz {3|4|5} horas}" },
+      { "role": "responder", "type": "text", "text": "{coitado do dog deve ta sozinho|fala com o dono|coloca fone}" },
+      { "role": "initiator", "type": "text", "text": "{o dono nao ta nem ai|toda noite é isso|to ficando maluco}" },
+      { "role": "responder", "type": "text", "text": "{denuncia por maus tratos|mds|mudança ne}" }
+    ]
+  },
+  {
+    "name": "celular-caiu-tela",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{MANO A TELA DO MEU CELULAR TRINCOU|derrubei o celular e estilhaçou|to com a tela toda quebrada}" },
+      { "role": "responder", "type": "text", "text": "{mds tem conserto?|usa pelicula|quanto custa pra trocar}" },
+      { "role": "initiator", "type": "image", "text": "[foto]" },
+      { "role": "responder", "type": "text", "text": "{caraca|F|ta cortando o dedo ne}" },
+      { "role": "initiator", "type": "text", "text": "{a troca de tela custa {300|500|800}|vou usar assim msm|quase o preco de um celular novo}" },
+      { "role": "responder", "type": "text", "text": "{compra capinha|investe num seguro|boa sorte}" }
+    ]
+  },
+  {
+    "name": "karaoke-chamando",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{bora num karaoke {sexta|sabado}|saudade de um karaoke|quero cantar hj}" },
+      { "role": "responder", "type": "text", "text": "{BORA|eu canto mt mal kkkk|onde}" },
+      { "role": "initiator", "type": "text", "text": "{todo mundo canta mal é isso q é bom|naquele la da {liberdade|centro|vila}|so precisa de {coragem|cerveja}}" },
+      { "role": "responder", "type": "text", "text": "{com cerveja eu canto kkk|fechou|chama mais gente}" }
+    ]
+  },
+  {
+    "name": "pao-na-chapa",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{fui na padaria e comi um pao na chapa divino|nada melhor q {pao na chapa|cafe com leite|misto quente} de manha|a padaria nova do bairro é boa}" },
+      { "role": "responder", "type": "text", "text": "{quero|que padaria|amo pao na chapa}" },
+      { "role": "initiator", "type": "text", "text": "{aquela da {esquina|rua tal|praca}|o {pao de queijo|sonho|coxinha} de la tbm é bom|fui gastar {10|15|20} reais la}" },
+      { "role": "responder", "type": "text", "text": "{vou la amanha|padaria é minha perdição|barato}" }
+    ]
+  },
+  {
+    "name": "bolo-aniversario",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{to encomendando bolo pro {aniversario|niver} e ta tudo caro|bolo ta {100|200|300} reais|vou fazer bolo caseiro msm}" },
+      { "role": "responder", "type": "text", "text": "{faz em casa sai mais barato|{100|200|300}?? absurdo|eu faco pra vc}" },
+      { "role": "initiator", "type": "text", "text": "{serio?? faz?|vou tentar fazer|é de q {sabor|recheio}}" },
+      { "role": "responder", "type": "text", "text": "{{chocolate|morango|ninho|prestigio}|mando a receita|vamo fazer juntos}" }
+    ]
+  },
+  {
+    "name": "multa-transito",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{tomei uma multa de {200|300|500|900} reais|o radar me pegou|recebi multa por {velocidade|semaforo|estacionamento}}" },
+      { "role": "responder", "type": "text", "text": "{eita|recorre|tava acima do limite?}" },
+      { "role": "initiator", "type": "text", "text": "{tava {10|20|30} km acima|nao vi o radar|nao sabia q era proibido estacionar}" },
+      { "role": "responder", "type": "text", "text": "{recorre q as vezes cancela|aceita e paga|waze avisa os radares}" }
+    ]
+  },
+  {
+    "name": "corinthians-flamengo",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{meu time é uma vergonha|{corinthians|flamengo|palmeiras|sao paulo|santos|gremio|vasco} nao ganha nada|quero desistir desse time}" },
+      { "role": "responder", "type": "text", "text": "{kkkk sempre fala isso|o meu tbm ta ruim|faz parte}" },
+      { "role": "initiator", "type": "text", "text": "{mas dessa vez é serio|o tecnico é horrivel|time ta devendo dms}" },
+      { "role": "responder", "type": "text", "text": "{ano q vem melhora|sofrer é parte de ser torcedor|pelo menos nao é rebaixamento}" }
+    ]
+  },
+  {
+    "name": "carregador-sumiu",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{cade meu carregador|alguem pegou meu carregador|to sem carregador e com {5|10|3}% de bateria}" },
+      { "role": "responder", "type": "text", "text": "{nao fui eu|olha na {tomada|gaveta|mochila}|compra outro}" },
+      { "role": "initiator", "type": "text", "text": "{ja olhei em tudo|aposto q {fulano|alguem} pegou|vou desligar o cel}" },
+      { "role": "responder", "type": "text", "text": "{vem carregar aqui|compra no {mercado livre|shopee} por {20|30|15}|F}" }
+    ]
+  },
+  {
+    "name": "roleta-russa-restaurante",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{fui num restaurante novo e a comida era {otima|pessima|mais ou menos}|almocei num lugar {bom dms|horrivel|caro dms}|achei um restaurante massa}" },
+      { "role": "responder", "type": "text", "text": "{onde|qual|bom?}" },
+      { "role": "initiator", "type": "text", "text": "{la no {centro|bairro|shopping}|chama {nome restaurante}|paguei {30|50|80|100} no prato}" },
+      { "role": "responder", "type": "text", "text": "{caro|vou la|{30|50} ta ok pro q é}" }
+    ]
+  },
+  {
+    "name": "ferias-contando",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{faltam {10|15|30|60} dias pras ferias|to contando os dias|nao vejo a hora de sair de ferias}" },
+      { "role": "responder", "type": "text", "text": "{eu tbm|vai fazer oq nas ferias|to precisando dms}" },
+      { "role": "initiator", "type": "text", "text": "{vou {viajar|ficar em casa|dormir mt|ir pra praia}|nada kkkk so descansar|ainda nao sei}" },
+      { "role": "responder", "type": "text", "text": "{descansaar é bom|bora viajar junto|aproveita}" }
+    ]
+  },
+  {
+    "name": "acordo-trabalhista",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano to pensando em pedir as contas|quero fazer acordo com a empresa|to infeliz no trabalho}" },
+      { "role": "responder", "type": "text", "text": "{ja tem algo em vista?|acordo é melhor q pedir conta|pensa bem}" },
+      { "role": "initiator", "type": "text", "text": "{nao tenho nada ainda mas nao aguento mais|vou conversar com o rh|tenho {1|2|3} anos de empresa}" },
+      { "role": "responder", "type": "text", "text": "{fala com um advogado trabalhista|vê seus direitos primeiro|nao sai sem ter outra coisa}" }
+    ]
+  },
+  {
+    "name": "alergia-atacou",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{minha alergia atacou|to {espirrando|com coceira|inchado} dms|rinite ta me matando}" },
+      { "role": "responder", "type": "text", "text": "{toma {loratadina|antialergico|allegra}|é o tempo|coitado}" },
+      { "role": "initiator", "type": "text", "text": "{ja tomei e nao fez efeito|é o {po|mofo|frio|mudanca de tempo}|to com o nariz {entupido|escorrendo}}" },
+      { "role": "responder", "type": "text", "text": "{faz lavagem nasal|vai no alergista|melhoras}" }
+    ]
+  },
+  {
+    "name": "café-com-amigo",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{bora tomar um café?|vamo num {café|starbucks|cafeteria}|saudade de tomar café contigo}" },
+      { "role": "responder", "type": "text", "text": "{bora|quando|to precisando sair de casa}" },
+      { "role": "initiator", "type": "text", "text": "{{hj|amanha|sabado} de {tarde|manha}|naquela cafeteria da {rua|praca|shopping}|qualquer horario}" },
+      { "role": "responder", "type": "text", "text": "{fechado|te vejo la|ansiosa}" }
+    ]
+  },
+  {
+    "name": "portaria-encomenda",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{o porteiro nao ta na portaria|minha encomenda chegou e ngm recebeu|a portaria ta fechada}" },
+      { "role": "responder", "type": "text", "text": "{q predio|liga pro porteiro|deixaram bilhete?}" },
+      { "role": "initiator", "type": "text", "text": "{o cara saiu pra almocar e nao voltou|nao atende|vou ter q remarcar a entrega}" },
+      { "role": "responder", "type": "text", "text": "{reclama no sindico|acontece|q raiva}" }
+    ]
+  },
+  {
+    "name": "pastel-feira",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano comi pastel na feira|pastel de feira é o melhor q tem|fui na feira e comi {3|4|5} pastel}" },
+      { "role": "responder", "type": "text", "text": "{com caldo de cana??|amo|qual sabor}" },
+      { "role": "initiator", "type": "text", "text": "{SIM com caldo de cana|{carne|queijo|frango|pizza} e {carne|queijo|palmito}|combinacao perfeita}" },
+      { "role": "responder", "type": "text", "text": "{to com inveja|melhor refeição|{3|4|5}?? guloso}" }
+    ]
+  },
+  {
+    "name": "filtro-foto-insta",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{ce viu o novo filtro do {insta|tiktok|snapchat}|olha como fiquei com esse filtro|esse filtro é mt bom}" },
+      { "role": "initiator", "type": "image", "text": "[foto]" },
+      { "role": "responder", "type": "text", "text": "{KKKKKK|ficou {bom|estranho|diferente}|qual filtro}" },
+      { "role": "initiator", "type": "text", "text": "{aquele de {envelhecer|bebe|anime|gato}|é viral no tiktok|faz no seu tbm}" },
+      { "role": "responder", "type": "text", "text": "{vou fazer|kkkkk ta bizarro|mandei o meu}" },
+      { "role": "responder", "type": "image", "text": "[foto]" }
+    ]
+  },
+  {
+    "name": "agua-acabou",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{acabou a agua do galao|preciso comprar agua|to sem agua}" },
+      { "role": "responder", "type": "text", "text": "{pede pelo app|vai no deposito|de quanto litros}" },
+      { "role": "initiator", "type": "text", "text": "{de {20|10} litros|o galao ta {12|15|18} reais|pedir pelo app é mais caro}" },
+      { "role": "responder", "type": "text", "text": "{bebe da torneira kkkk|vai no deposito msm|eu pago {10|12} no meu}" }
+    ]
+  },
+  {
+    "name": "gemidao-whatsapp",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{MANO ABRI UM AUDIO NO VOLUME MAXIMO|o {gemidao|audio troll} tocou no {onibus|trabalho|aula}|quase morri de vergonha}" },
+      { "role": "responder", "type": "text", "text": "{KKKKKKKKKKKK|mds|aprendeu a lição}" },
+      { "role": "initiator", "type": "text", "text": "{geral olhou pra mim|queria sumir|quem mandou essa porcaria}" },
+      { "role": "responder", "type": "text", "text": "{KKKKK coitado|nunca abre audio em publico|kkk classico}" }
+    ]
+  },
+  {
+    "name": "aula-online",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{to tendo aula online e quero dormir|aula online é impossivel prestar atencao|o professor ta {falando sozinho|monotono|chato}}" },
+      { "role": "responder", "type": "text", "text": "{desliga a camera e faz outra coisa kkkk|eu dormia|faz presenca e sai}" },
+      { "role": "initiator", "type": "text", "text": "{ele {chama pelo nome|faz chamada|ve quem ta com camera ligada}|ja fiz isso e ele me pegou|to fazendo outra coisa ja}" },
+      { "role": "responder", "type": "text", "text": "{kkkk|cuidado|a faculdade é assim msm}" }
+    ]
+  },
+  {
+    "name": "cesta-basica",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{fui no mercado e gastei {300|400|500|600} em nada|a cesta basica ta impossível|tudo subiu de preco}" },
+      { "role": "responder", "type": "text", "text": "{ta horrível|{arroz|carne|oleo|leite} ta quanto|o salario nao acompanha}" },
+      { "role": "initiator", "type": "text", "text": "{o kg de carne ta {40|50|60|70}|{oleo|leite|cafe} ta o dobro do ano passado|vou virar vegetariano}" },
+      { "role": "responder", "type": "text", "text": "{kkkk vegetariano forçado|compra no atacadao|ta foda}" }
+    ]
+  },
+  {
+    "name": "impressora-problema",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{a impressora nao funciona|esse treco nao imprime|to brigando com a impressora faz {1|2} hora}" },
+      { "role": "responder", "type": "text", "text": "{reinicia|tem tinta?|qual o erro}" },
+      { "role": "initiator", "type": "text", "text": "{ja reiniciei {3|5} vezes|a tinta ta cheia|ta aparecendo erro {de papel|offline|de conexao}}" },
+      { "role": "responder", "type": "text", "text": "{impressora é o pior invento|imprime numa grafica|joga pela janela}" }
+    ]
+  },
+  {
+    "name": "vizinha-fofoca",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{a vizinha veio falar mal de todo mundo|a {dona maria|sindica|vizinha} é muito fofoqueira|ela sabe da vida de todo mundo}" },
+      { "role": "responder", "type": "text", "text": "{kkkk|toda rua tem uma|oq ela falou}" },
+      { "role": "initiator", "type": "text", "text": "{falou q o fulano {ta devendo|se separou|ta desempregado}|me contou q a vizinha do {3|4|5}o andar {ta gravida|vai mudar|brigou com o marido}|ela viu {o fulano|a fulana} saindo com outra pessoa}" },
+      { "role": "responder", "type": "text", "text": "{MANO|kkkkk q fofoqueira|nao se envolve}" }
+    ]
+  },
+  {
+    "name": "reacao-gol-perdido",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{NAO ACREDITO Q ELE PERDEU ESSE GOL|COMO PERDE UM GOL DESSE|era so empurrar pra dentro}" },
+      { "role": "responder", "type": "text", "text": "{KKKK|gol feito|eu fazia}" },
+      { "role": "initiator", "type": "text", "text": "{ate minha avó fazia|esse jogador ganha {milhoes|milhao} pra isso|quero chorar}" },
+      { "role": "responder", "type": "text", "text": "{futebol brasileiro é isso|nao pode ne|gol perdido doi}" }
+    ]
+  },
+  {
+    "name": "sono-pos-almoco",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{aquele sono pos almoço|mano to quase dormindo na mesa|comi dms e agr to morrendo}" },
+      { "role": "responder", "type": "text", "text": "{eu tbm|toma um café|cochila 10 min}" },
+      { "role": "initiator", "type": "text", "text": "{cafe nao ta fazendo efeito|queria uma rede|ainda tem {4|5|3} horas de trabalho}" },
+      { "role": "responder", "type": "text", "text": "{come menos no almoço|aguenta firme|kkk sofrimento}" }
+    ]
+  },
+  {
+    "name": "maratona-serie",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{maratonei {uma|a} temporada inteira ontem|vi {8|10|12|13} episodios seguidos|nao dormi pra terminar a serie}" },
+      { "role": "responder", "type": "text", "text": "{qual serie|mano|saudavel kkkk}" },
+      { "role": "initiator", "type": "text", "text": "{{breaking bad|game of thrones|stranger things|la casa de papel|dark}|valeu a pena|agr nao tenho mais nada pra ver}" },
+      { "role": "responder", "type": "text", "text": "{boa serie|vai dormir agr|o vazio pos serie}" }
+    ]
+  },
+  {
+    "name": "barba-bigode",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{fiz a barba hj|rasguei a barba toda|olha como ficou a barba}" },
+      { "role": "initiator", "type": "image", "text": "[foto]" },
+      { "role": "responder", "type": "text", "text": "{ficou bom|gostei|ta {diferente|estranho|mais velho|mais novo}}" },
+      { "role": "initiator", "type": "text", "text": "{sera?|obg|acho q ficou {bom|ruim|ok}}" },
+      { "role": "responder", "type": "text", "text": "{combinou|cresce rapido se nao gostar|aproveita}" }
+    ]
+  },
+  {
+    "name": "tomada-celular-uber",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{esqueci meu {celular|carteira|fone|guarda chuva} no uber|deixei no {taxi|uber|99}|o motorista nao atende}" },
+      { "role": "responder", "type": "text", "text": "{abre o app e fala com o motorista|reclama pelo app|eita}" },
+      { "role": "initiator", "type": "text", "text": "{ja mandei msg pelo app|ele respondeu q vai devolver|nao responde}" },
+      { "role": "responder", "type": "text", "text": "{ainda bem|vai buscar aonde|se nao devolver denuncia}" }
+    ]
+  },
+  {
+    "name": "teclado-bugado",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{meu teclado ta bugado|o autocorreto do celular me odeia|olha oq eu mandei pro meu chefe}" },
+      { "role": "responder", "type": "text", "text": "{oq vc mandou kkkk|mds|conta}" },
+      { "role": "initiator", "type": "text", "text": "{quis escrever {bom dia|obrigado|ok} e saiu {outra coisa|emoji errado|palavrao}|o corretor trocou a palavra|mandei {figurinha|emoji} errado}" },
+      { "role": "responder", "type": "text", "text": "{KKKKKKKKKK|desativa o autocorretor|acontece mano}" }
+    ]
+  },
+  {
+    "name": "amigo-sumido",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano ce ta vivo?|sumiu do mapa|faz {semana|mes|tempo} q nao fala cmg}" },
+      { "role": "responder", "type": "text", "text": "{mals mano tava {corrido|sem tempo|enrolado}|to vivo kkkk|foi mal}" },
+      { "role": "initiator", "type": "text", "text": "{pensei q tinha morrido|nao custa mandar um oi|achei q tava com raiva de mim}" },
+      { "role": "responder", "type": "text", "text": "{que nada|desculpa msm|vamo marcar algo pra compensar}" },
+      { "role": "initiator", "type": "text", "text": "{bora|quero ver msm|ce fala e nao faz}" },
+      { "role": "responder", "type": "text", "text": "{dessa vez eu vou|juro|marca la}" }
+    ]
+  },
+  {
+    "name": "bicicleta-roubada",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{roubaram minha {bicicleta|bike|bic}|mano levaram minha bike|sai do mercado e a bike nao tava mais}" },
+      { "role": "responder", "type": "text", "text": "{mds|tava com cadeado?|faz bo}" },
+      { "role": "initiator", "type": "text", "text": "{tava com cadeado e quebraram|nao tinha cadeado foi rapido|era {nova|boa|cara}}" },
+      { "role": "responder", "type": "text", "text": "{que raiva|esse pais|olha no olx as vezes aparece}" }
+    ]
+  },
+  {
+    "name": "piscina-chamando",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{vem pra ca a piscina ta otima|liberaram a piscina do {predio|condominio|clube}|dia de piscina}" },
+      { "role": "responder", "type": "text", "text": "{to indo|que inveja|queria}" },
+      { "role": "initiator", "type": "image", "text": "[foto]" },
+      { "role": "responder", "type": "text", "text": "{qro|vou ja|me espera}" },
+      { "role": "initiator", "type": "text", "text": "{vem logo|traz {protetor|toalha|cerveja}|to aqui te esperando}" },
+      { "role": "responder", "type": "text", "text": "{ja saindo|levo {cerveja|refri|salgadinho}|chego em {20|30|40} min}" }
+    ]
+  },
+  {
+    "name": "escorregou-caiu",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{cai no meio da rua|escorreguei e cai de bunda no chao|mano tropecei e quase morri}" },
+      { "role": "responder", "type": "text", "text": "{KKKKKK|ce ta bem?|alguem viu?}" },
+      { "role": "initiator", "type": "text", "text": "{TODO MUNDO VIU|to bem mas minha dignidade nao|ralei o {joelho|cotovelo|mao}}" },
+      { "role": "responder", "type": "text", "text": "{kkkkk mds|limpa o machucado|acontece}" }
+    ]
+  },
+  {
+    "name": "raio-trovao",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{MEU DEUS Q RAIO|um raio caiu {perto|aqui do lado|no vizinho}|to com medo dessa tempestade}" },
+      { "role": "responder", "type": "text", "text": "{mds|desliga tudo da tomada|aqui tbm ta feio}" },
+      { "role": "initiator", "type": "text", "text": "{ja desconectei tudo|a luz {piscou|apagou|fez um barulho}|meu {roteador|tv|computador} queimou}" },
+      { "role": "responder", "type": "text", "text": "{se protege|fica longe da janela|cuidado}" }
+    ]
+  },
+  {
+    "name": "chaves-trancado-fora",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{MANO FIQUEI TRANCADO PRA FORA|esqueci a chave dentro de casa|a porta bateu e eu to sem chave}" },
+      { "role": "responder", "type": "text", "text": "{mds|chama um chaveiro|tem chave reserva?}" },
+      { "role": "initiator", "type": "text", "text": "{o chaveiro quer cobrar {100|200|150}|a reserva ta {com minha mae|no trabalho|sei la onde}|to na porta do ap parecendo um idiota}" },
+      { "role": "responder", "type": "text", "text": "{paga o chaveiro|vou levar a chave|kkkk acontece}" }
+    ]
+  },
+  {
+    "name": "bebê-nasceu",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{NASCEUUU|o {bebe|nenem|filho|filha} nasceu!!|sou {pai|mae|tio|tia}!!!!}" },
+      { "role": "responder", "type": "text", "text": "{PARABENSSS|mds q emoção|como ta {ele|ela}}" },
+      { "role": "initiator", "type": "image", "text": "[foto]" },
+      { "role": "responder", "type": "reaction", "text": "❤️" },
+      { "role": "initiator", "type": "text", "text": "{ta {lindo|linda|perfeito|perfeita}|{3|3.5|4} kg|mãe e bebe bem}" },
+      { "role": "responder", "type": "text", "text": "{to chorando|muito lindo|quando posso visitar}" }
+    ]
+  },
+  {
+    "name": "comeu-demais",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{comi tanto q to passando mal|mano exagerei no {almoco|jantar|rodizio|churrasco}|to estufado}" },
+      { "role": "responder", "type": "text", "text": "{mereceu kkkk|toma um {digestivo|cha|eno}|glutao}" },
+      { "role": "initiator", "type": "text", "text": "{nao consigo nem andar|parece q vou explodir|nunca mais como tanto}" },
+      { "role": "responder", "type": "text", "text": "{falou isso da ultima vez|kkkk|deita do lado esquerdo}" }
+    ]
+  },
+  {
+    "name": "limpeza-ouvido",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano fui no otorrino limpar o ouvido|tava com o ouvido {entupido|zuando|doendo}|lavagem de ouvido é bizarro}" },
+      { "role": "responder", "type": "text", "text": "{como foi|doeu?|eca}" },
+      { "role": "initiator", "type": "text", "text": "{mano saiu {muita coisa|cera|um negocio nojento}|to ouvindo {tudo|muito melhor|sons q nao ouvia}|nao doeu mas é estranho}" },
+      { "role": "responder", "type": "text", "text": "{kkkkk nojento|preciso ir tbm|q bom q ta melhor}" }
+    ]
+  },
+  {
+    "name": "black-friday",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{ce vai comprar algo na black friday?|black friday é tudo golpe|vi umas promoções boas}" },
+      { "role": "responder", "type": "text", "text": "{metade do dobro kkkk|to de olho num {celular|notebook|tv}|nao confio}" },
+      { "role": "initiator", "type": "text", "text": "{tem q pesquisar antes|uso o {zoom|buscape|google shopping}|ja coloquei no carrinho}" },
+      { "role": "responder", "type": "text", "text": "{esperto|boa|me avisa se achar algo bom}" }
+    ]
+  },
+  {
+    "name": "andar-cansado",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{andei {10|15|20} mil passos hj|to com o pe destruido|andei o dia inteiro}" },
+      { "role": "responder", "type": "text", "text": "{mds|ta treinando?|coitado do pe}" },
+      { "role": "initiator", "type": "text", "text": "{fui resolver coisa na rua|nao tinha uber|fiquei andando no {shopping|centro|feira}}" },
+      { "role": "responder", "type": "text", "text": "{pelo menos queimou caloria|descansa agr|coloca o pe pra cima}" }
+    ]
+  },
+  {
+    "name": "reaction-to-audio",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "audio", "text": "[audio]" },
+      { "role": "responder", "type": "reaction", "text": "😂" },
+      { "role": "responder", "type": "text", "text": "{KKKKKKKK|mano nao tankei|vc é doido}" }
+    ]
+  },
+  {
+    "name": "reaction-selfie-linda",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "image", "text": "[foto]" },
+      { "role": "responder", "type": "reaction", "text": "😍" },
+      { "role": "responder", "type": "text", "text": "{gata dms|lindaaa|arrasou}" }
+    ]
+  },
+  {
+    "name": "sticker-bom-dia",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "sticker", "text": "[figurinha]" },
+      { "role": "responder", "type": "text", "text": "{kkkk boa|bom dia|figurinha de tia}" }
+    ]
+  },
+  {
+    "name": "foto-comida-reaction",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{olha meu almoco|o q eu comi hj|gastro}" },
+      { "role": "initiator", "type": "image", "text": "[foto]" },
+      { "role": "responder", "type": "reaction", "text": "🤤" },
+      { "role": "responder", "type": "text", "text": "{querooo|ta {bonito|lindo|gostoso}|fome}" }
+    ]
+  },
+  {
+    "name": "figurinha-humor",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{tenho uma figurinha perfeita pra isso|olha essa figurinha|essa aqui resume tudo}" },
+      { "role": "initiator", "type": "sticker", "text": "[figurinha]" },
+      { "role": "responder", "type": "text", "text": "{KKKKKKKK|manda pra mim essa|perfeita}" }
+    ]
+  },
+  {
+    "name": "audio-resumo",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{vou mandar audio pq da preguica de digitar|pera vou mandar audio|mando audio?}" },
+      { "role": "responder", "type": "text", "text": "{manda|to sem fone escreve|pode mandar}" },
+      { "role": "initiator", "type": "audio", "text": "[audio]" },
+      { "role": "responder", "type": "text", "text": "{entendi|blz|vou te responder em texto msm}" }
+    ]
+  },
+  {
+    "name": "foto-lugar-bonito",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{olha q lugar lindo|vem ver onde eu to|mds esse lugar}" },
+      { "role": "initiator", "type": "image", "text": "[foto]" },
+      { "role": "responder", "type": "text", "text": "{onde é isso|mds q lindo|parece {paraiso|wallpaper|cartao postal}}" },
+      { "role": "responder", "type": "reaction", "text": "😍" }
+    ]
+  },
+  {
+    "name": "sticker-raiva",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{to com raiva|ai q odio|nao aguento}" },
+      { "role": "responder", "type": "sticker", "text": "[figurinha]" },
+      { "role": "initiator", "type": "text", "text": "{kkkkk essa figurinha|pelo menos me fez rir|boa}" }
+    ]
+  },
+  {
+    "name": "foto-pet-doente",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{meu {dog|gato} ta dodoi|levei no vet e ele ta {com verme|doente|fraco}|coitadinho}" },
+      { "role": "initiator", "type": "image", "text": "[foto]" },
+      { "role": "responder", "type": "text", "text": "{coitadinho|melhoras pro bichinho|oq o vet falou}" },
+      { "role": "responder", "type": "reaction", "text": "🥺" }
+    ]
+  },
+  {
+    "name": "audio-fofoca",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{ouve esse audio|vou te mandar um audio BOMBÁSTICO|segura esse audio}" },
+      { "role": "initiator", "type": "audio", "text": "[audio]" },
+      { "role": "responder", "type": "text", "text": "{MDS|NAO ACREDITO|como vc soube disso}" },
+      { "role": "initiator", "type": "text", "text": "{me contaram|eu vi|todo mundo sabe ja}" }
+    ]
+  },
+  {
+    "name": "reaction-surprise",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{passei no {concurso|vestibular|exame|teste}!!|CONSEGUI O EMPREGO|fui {aprovado|promovido|aceito}}" },
+      { "role": "responder", "type": "reaction", "text": "🎉" },
+      { "role": "responder", "type": "text", "text": "{PARABENS DMS|merecido|to mt feliz por vc}" }
+    ]
+  },
+  {
+    "name": "reaction-sad-news",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano aconteceu uma coisa ruim|to triste|nao to legal}" },
+      { "role": "responder", "type": "reaction", "text": "🥺" },
+      { "role": "responder", "type": "text", "text": "{oq foi|to aqui pra vc|conta q aconteceu}" }
+    ]
+  },
+  {
+    "name": "image-before-after",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{olha o antes e depois|{3|6|12} meses de diferença|transformação}" },
+      { "role": "initiator", "type": "image", "text": "[foto]" },
+      { "role": "responder", "type": "reaction", "text": "🔥" },
+      { "role": "responder", "type": "text", "text": "{caraca|que diferença|ta {otimo|incrivel|monstro}}" }
+    ]
+  },
+  {
+    "name": "mid-convo-opiniao",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mas entao oq vc acha|ai eu falei pra ele|continuando oq eu tava falando}" },
+      { "role": "responder", "type": "text", "text": "{acho q vc ta certo|e dai oq ele respondeu|fala}" },
+      { "role": "initiator", "type": "text", "text": "{ne? tbm acho|ele ficou {puto|calado|sem resposta}|basicamente {isso ai|foi isso|acabou nisso}}" },
+      { "role": "responder", "type": "text", "text": "{esperado|mereceu|e agr oq vc vai fazer}" }
+    ]
+  },
+  {
+    "name": "mid-convo-continuacao",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{ah e outra coisa|esqueci de falar|lembrei de uma coisa}" },
+      { "role": "responder", "type": "text", "text": "{fala|oq|hmm}" },
+      { "role": "initiator", "type": "text", "text": "{o {fulano|cara|professor|chefe} falou q {vai mudar|cancelou|adiou|confirmou}|preciso {ir la|fazer aquilo|comprar o negocio}|vc viu q {mudou|aconteceu|saiu}}" },
+      { "role": "responder", "type": "text", "text": "{ah sim|ta|blz}" }
+    ]
+  },
+  {
+    "name": "pix-cobrando",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{e aquele pix|mano lembra do dinheiro|vc ia me pagar hj}" },
+      { "role": "responder", "type": "text", "text": "{mds esqueci|vou mandar agr|pera}" },
+      { "role": "initiator", "type": "text", "text": "{blz|ta precisando? posso esperar mais|era {50|100|30} ne}" },
+      { "role": "responder", "type": "text", "text": "{nao nao vou mandar agr|mandei confere|me desculpa pelo atraso}" }
+    ]
+  },
+  {
+    "name": "comeco-abrupto-reclamacao",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{NÃO É POSSÍVEL|TO PUTO|MANO QUE RAIVA}" },
+      { "role": "responder", "type": "text", "text": "{respira|oq foi agr|eita}" },
+      { "role": "initiator", "type": "text", "text": "{o {banco|governo|trabalho|vizinho|mercado|correios} me tirou do serio|mano eu nao mereço isso|eh mt sacanagem}" },
+      { "role": "responder", "type": "text", "text": "{calma conta direito|oq fizeram|senta e respira}" }
+    ]
+  },
+  {
+    "name": "random-pensamento",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{tava pensando aqui|mano voce ja parou pra pensar q|uma duvida existencial}" },
+      { "role": "responder", "type": "text", "text": "{la vem|fala|ih}" },
+      { "role": "initiator", "type": "text", "text": "{se a gente vive pra trabalhar ou trabalha pra viver|o universo é infinito e a gente ta aqui no zap|pq {pizza redonda|caixa quadrada|fatia triangular}}" },
+      { "role": "responder", "type": "text", "text": "{vai dormir|kkkkk ta fumando oq|{3|4} da {manha|tarde} e vc ta filosofando}" }
+    ]
+  },
+  {
+    "name": "atrasado-role",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano onde vc ta|ta atrasado|era pra vc ta aqui {as 8|as 7|faz 1 hora}}" },
+      { "role": "responder", "type": "text", "text": "{ja to chegando|mano {transito|perdi a hora|demorei no banho}|5 minutinhos}" },
+      { "role": "initiator", "type": "text", "text": "{5 minutinhos seus são 30 min|todo mundo ja ta aqui|geral te esperando}" },
+      { "role": "responder", "type": "text", "text": "{desculpaaaa|to virando a esquina|chegandooo}" }
+    ]
+  },
+  {
+    "name": "vizinho-mudou",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mudou um vizinho novo|entrou gente nova no {prédio|condomínio|rua}|tem vizinho novo}" },
+      { "role": "responder", "type": "text", "text": "{como é|ja falou com eles|barulhento?}" },
+      { "role": "initiator", "type": "text", "text": "{parece {gente boa|estranho|tranquilo}|tem {criança|cachorro|gato}|fizeram uma reforma de {2|3} semanas}" },
+      { "role": "responder", "type": "text", "text": "{tomara q seja de boa|vai la se apresentar|boa sorte}" }
+    ]
+  },
+  {
+    "name": "chuva-alagamento",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano alagou tudo aqui|a rua ta um rio|agua invadiu {a casa|o carro|a garagem}}" },
+      { "role": "responder", "type": "text", "text": "{mds|vc ta bem?|cuidado}" },
+      { "role": "initiator", "type": "image", "text": "[foto]" },
+      { "role": "responder", "type": "text", "text": "{que horror|nao sai de casa|isso é {sempre|todo ano|absurdo}}" },
+      { "role": "initiator", "type": "text", "text": "{ja ta baixando|perdi umas coisa|nao tem como sair}" },
+      { "role": "responder", "type": "text", "text": "{fica seguro|se precisar me fala|forca ai}" }
+    ]
+  },
+  {
+    "name": "cartao-clonaram",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{CLONARAM MEU CARTÃO|apareceu compra q eu nao fiz|tem {500|1000|2000} de compra estranha}" },
+      { "role": "responder", "type": "text", "text": "{bloqueia AGORA|liga pro banco|mds}" },
+      { "role": "initiator", "type": "text", "text": "{ja bloqueei|compraram {no aliexpress|uber|ifood|netflix} com meu cartao|to no telefone com o banco}" },
+      { "role": "responder", "type": "text", "text": "{eles estornam|faz bo|q raiva}" }
+    ]
+  },
+  {
+    "name": "pizza-sabor",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{oq pedir de pizza|metade {calabresa|mussarela|portuguesa} metade oq|pizza doce ou salgada}" },
+      { "role": "responder", "type": "text", "text": "{{frango catupiry|4 queijos|margherita|pepperoni}|salgada obv|as duas}" },
+      { "role": "initiator", "type": "text", "text": "{boa|{calabresa|frango} com {mussarela|catupiry}|fechou}" },
+      { "role": "responder", "type": "text", "text": "{perfeito|com borda {recheada|de catupiry|de cheddar}|manda ver}" }
+    ]
+  },
+  {
+    "name": "dormiu-demais",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{dormi {12|14|16} horas|mano apaguei|acordei agr e ja é {2|3|4} da tarde}" },
+      { "role": "responder", "type": "text", "text": "{urso|{12|14|16}?? mds|tava precisando ne}" },
+      { "role": "initiator", "type": "text", "text": "{tava exausto|nao ouvi nem o despertador|perdi o dia todo}" },
+      { "role": "responder", "type": "text", "text": "{pelo menos descansou|ainda da tempo de fazer algo|kkk}" }
+    ]
+  },
+  {
+    "name": "conta-restaurante",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{a conta do restaurante veio {200|300|400} pra 2 pessoas|comi {80|100|150} reais de comida|nunca mais volto naquele restaurante}" },
+      { "role": "responder", "type": "text", "text": "{caraca|oq ce comeu|ta maluco}" },
+      { "role": "initiator", "type": "text", "text": "{comi {2 pratos|uma entrada e prato principal|um prato e uma bebida} so|a bebida era {40|60|80}|os {10%|gorjeta} ainda}" },
+      { "role": "responder", "type": "text", "text": "{por isso como em casa|absurdo|roubo}" }
+    ]
+  },
+  {
+    "name": "tatuagem-arrependeu",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{to arrependido da minha tatoo|acho q minha tatuagem ficou {ruim|torta|feia}|quero cobrir minha tattoo}" },
+      { "role": "responder", "type": "text", "text": "{qual|manda foto|nem deve ta tao ruim}" },
+      { "role": "initiator", "type": "image", "text": "[foto]" },
+      { "role": "responder", "type": "text", "text": "{ah ta {ok|normal|bonita}|é.. realmente kkkk|cobre com outra}" }
+    ]
+  },
+  {
+    "name": "fogos-artificio",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano quem ta soltando fogos|fogos de {artificio|ano novo} numa {terça|quarta}??|meu {cachorro|gato} ta surtando com os fogos}" },
+      { "role": "responder", "type": "text", "text": "{deve ser {aniversario|jogo|festa}|aqui tbm ouvi|coitado do bichinho}" },
+      { "role": "initiator", "type": "text", "text": "{ele ta {tremendo|embaixo da cama|chorando}|nao deviam soltar fogos|absurdo}" },
+      { "role": "responder", "type": "text", "text": "{abraça ele|coloca musica pra abafar|é horrivel pra animal}" }
+    ]
+  },
+  {
+    "name": "mid-convo-esqueceu",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{ia te falar uma coisa e esqueci|mano tava na ponta da lingua|lembrei!! nao pera esqueci de novo}" },
+      { "role": "responder", "type": "text", "text": "{kkkk|tenta lembrar|era importante?}" },
+      { "role": "initiator", "type": "text", "text": "{acho q era {sobre o role|do trabalho|da faculdade|nada dms}|LEMBREI|sla acho q nao}" },
+      { "role": "responder", "type": "text", "text": "{fala|kkkkk|quando lembrar fala}" }
+    ]
+  },
+  {
+    "name": "chovendo-frio-cafe",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{dia perfeito pra ficar na cama com cafe|ta {chovendo|frio} e eu to debaixo do cobertor|nao saio de casa hj por nada}" },
+      { "role": "responder", "type": "text", "text": "{queria ta assim|eu to no {trabalho|onibus|rua}|q inveja}" },
+      { "role": "initiator", "type": "text", "text": "{kkkkk desculpa|fiz um {café|chocolate quente|chá}|to vendo {netflix|serie|filme}}" },
+      { "role": "responder", "type": "text", "text": "{para de me dar inveja|aproveita|odio de vc}" }
+    ]
+  },
+  {
+    "name": "compras-desnecessarias",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{fui comprar {1|uma} coisa e voltei com {5|10|20}|sai do mercado com {200|300} e fui comprar pao|nao consigo ir no {mercado|shopping|loja} e comprar so oq preciso}" },
+      { "role": "responder", "type": "text", "text": "{KKKK classico|oq ce comprou|eu sou assim tbm}" },
+      { "role": "initiator", "type": "text", "text": "{comprei {besteira|doce|coisa q nao preciso|tudo q vi pela frente}|nao sei pq peguei {isso|aquilo}|impulso}" },
+      { "role": "responder", "type": "text", "text": "{marketing funciona|faz lista antes de ir|consumista}" }
+    ]
+  },
+  {
+    "name": "carro-lavou",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{lavei o carro e choveu|acabei de lavar o carro olha|gastei {40|50|80} pra lavar e 1 hora dps choveu}" },
+      { "role": "responder", "type": "text", "text": "{KKKK lei de murphy|ta brilhando|classico}" },
+      { "role": "initiator", "type": "text", "text": "{sempre acontece cmg|nunca mais lavo|ta {limpo|brilhando|cheiroso} pelo menos por {1|2} hora}" },
+      { "role": "responder", "type": "text", "text": "{lava na chuva kkk|é a vida|pelo menos tentou}" }
+    ]
+  },
+  {
+    "name": "corte-energia-trabalho",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{caiu a luz no {escritorio|home office} e eu tava {numa reuniao|salvando arquivo|no meio de algo}|perdi tudo q tava fazendo|o notebook morreu no meio da {reuniao|call|apresentacao}}" },
+      { "role": "responder", "type": "text", "text": "{mds|compra um nobreak|F}" },
+      { "role": "initiator", "type": "text", "text": "{nao salvei nada|meu chefe achou q eu {sai|desconectei de proposito}|{3|4|2} horas de trabalho perdido}" },
+      { "role": "responder", "type": "text", "text": "{ctrl+s é seu amigo|explica pra ele|q azar}" }
+    ]
+  },
+  {
+    "name": "cerveja-gelada",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{cerveja gelada num dia de calor é a melhor coisa|abrindo a {primeira|segunda|terceira} aqui|sextou com cervejinha}" },
+      { "role": "initiator", "type": "image", "text": "[foto]" },
+      { "role": "responder", "type": "text", "text": "{q inveja|to indo|manda uma pra ca}" },
+      { "role": "responder", "type": "reaction", "text": "🍺" }
+    ]
+  },
+  {
+    "name": "quick-ta-on",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{ta on?|ta ai?|online?}" },
+      { "role": "responder", "type": "text", "text": "{to|sim|fala}" }
+    ]
+  },
+  {
+    "name": "quick-oxi",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{oxe|oxi|ué}" },
+      { "role": "responder", "type": "text", "text": "{oq|q foi|??}" }
+    ]
+  },
+  {
+    "name": "quick-lkk",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{kkk ta bom|kkkkkkkk|kkk blz}" },
+      { "role": "responder", "type": "text", "text": "{kk|👍|kkkkk}" }
+    ]
+  },
+  {
+    "name": "quick-mds-2",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mds|meu deus|ai meu deus}" },
+      { "role": "responder", "type": "text", "text": "{oq|kkkk|fala}" }
+    ]
+  },
+  {
+    "name": "quick-partiu",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{partiu|simbora|vamooo}" },
+      { "role": "responder", "type": "text", "text": "{bora|partiu|onde}" }
+    ]
+  },
+  {
+    "name": "quick-duvida",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{sera?|hmmm|acho q nao}" },
+      { "role": "responder", "type": "text", "text": "{acho q sim|tbm nao sei|sla}" }
+    ]
+  },
+  {
+    "name": "quick-fds",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{fds|dane-se|to nem ai}" },
+      { "role": "responder", "type": "text", "text": "{kkkk|calma|relaxa}" }
+    ]
+  },
+  {
+    "name": "horario-almoco",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{ja almocou?|comeu oq no almoço|hora do rango}" },
+      { "role": "responder", "type": "text", "text": "{sim comi {arroz feijão|marmita|lanche}|nao ainda|to sem fome}" },
+      { "role": "initiator", "type": "text", "text": "{eu comi {pf|marmita|salgado}|come algo mano|como assim sem fome}" },
+      { "role": "responder", "type": "text", "text": "{bom apetite|vou comer depois|kkkk nao to com fome msm}" }
+    ]
+  },
+  {
+    "name": "cpf-nota",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{ce coloca cpf na nota?|mano descobri q tenho credito na {nota fiscal|nota paulista}|vale a pena colocar cpf}" },
+      { "role": "responder", "type": "text", "text": "{coloco sim|nao sabia q dava credito|as vezes}" },
+      { "role": "initiator", "type": "text", "text": "{tinha {30|50|100} reais la|eh pouco mas é honesto|todo mes pinga alguma coisa}" },
+      { "role": "responder", "type": "text", "text": "{vou começar a colocar|boa|dinheiro é dinheiro}" }
+    ]
+  },
+  {
+    "name": "whats-caiu-mundo",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{o whatsapp caiu?|ta fora do ar?|meu zap nao ta funcionando}" },
+      { "role": "responder", "type": "text", "text": "{aqui ta normal|caiu msm|ve no {twitter|downdetector}}" },
+      { "role": "initiator", "type": "text", "text": "{pelo visto caiu pra geral|ja voltou|menos mal}" },
+      { "role": "responder", "type": "text", "text": "{é sempre assim|caiu e o brasil parou|telegram laughing}" }
+    ]
+  },
+  {
+    "name": "banco-fila-app",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano o app do {banco|nubank|itau|bradesco|bb} ta fora|nao consigo {entrar|transferir|pagar|ver saldo}|app bugou}" },
+      { "role": "responder", "type": "text", "text": "{tenta pelo site|aqui ta normal|os app de banco vivem bugando}" },
+      { "role": "initiator", "type": "text", "text": "{preciso pagar um boleto hj|ja tentei tudo|meu dinheiro ta preso la}" },
+      { "role": "responder", "type": "text", "text": "{vai na agencia|espera um pouco|usa outro banco}" }
+    ]
+  },
+  {
+    "name": "pao-de-forma-acabou",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{acabou o {pao|leite|cafe|papel higienico|sabonete} e eu nao quero sair|preciso ir no mercado mas to com preguica|quem inventou de acabar as coisas}" },
+      { "role": "responder", "type": "text", "text": "{pede no {rappi|ifood|cornershop}|vai logo|kkkk}" },
+      { "role": "initiator", "type": "text", "text": "{a taxa de entrega é {10|15|8} reais por um pão|vou ter q ir ne|preguica infinita}" },
+      { "role": "responder", "type": "text", "text": "{vai sim|anda logo|nao morre nao}" }
+    ]
+  },
+  {
+    "name": "sonho-estranho",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{sonhei com voce|tive um sonho mt estranho|mano meu sonho foi bizarro}" },
+      { "role": "responder", "type": "text", "text": "{comigo?? kkkk|oq foi|conta}" },
+      { "role": "initiator", "type": "text", "text": "{sonhei q a gente tava {voando|num apocalipse|na escola|fugindo de algo}|era mt louco|nao fazia sentido nenhum}" },
+      { "role": "responder", "type": "text", "text": "{kkkkkk|ta usando drogas?|seu cerebro é doido}" }
+    ]
+  },
+  {
+    "name": "gasolina-subiu",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{a gasolina subiu dnv|to pagando {6|7|8} reais o litro|vou ter q andar de bike}" },
+      { "role": "responder", "type": "text", "text": "{ta loko|aqui tbm ta {caro|absurdo}|pega etanol}" },
+      { "role": "initiator", "type": "text", "text": "{etanol tbm ta caro|gastei {200|300|400} so de gasolina esse mes|quero um carro eletrico}" },
+      { "role": "responder", "type": "text", "text": "{eletrico custa {200|300} mil kkkk|anda de onibus|é o brasil}" }
+    ]
+  },
+  {
+    "name": "choveu-goteira",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{ta gotejando no meu {quarto|sala|banheiro}|apareceu uma goteira|a infiltração ta pior}" },
+      { "role": "responder", "type": "text", "text": "{coloca um balde|chama um pedreiro|reclama pro proprietario}" },
+      { "role": "initiator", "type": "text", "text": "{ja tem {3|5|2} baldes aqui|o pedreiro quer {500|1000|2000}|meu colchao quase molhou}" },
+      { "role": "responder", "type": "text", "text": "{q horror|faz o seguro pagar|muda de casa}" }
+    ]
+  },
+  {
+    "name": "voltei-depois-horas",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{voltei|to aqui|eae respondi}" },
+      { "role": "responder", "type": "text", "text": "{demorou {5|3|8} horas|pensei q tinha morrido|oi}" },
+      { "role": "initiator", "type": "text", "text": "{mals tava {trabalhando|dormindo|sem celular|ocupado}|foi mal|esqueci de responder}" },
+      { "role": "responder", "type": "text", "text": "{de boa|sem problema|entendo}" }
+    ]
+  },
+  {
+    "name": "quick-fome-2",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{FOME|fomeeeee|quero comer}" },
+      { "role": "responder", "type": "text", "text": "{come|pede algo|eu tbm}" }
+    ]
+  },
+  {
+    "name": "quick-cansado",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{to morto|exausto|acabado}" },
+      { "role": "responder", "type": "text", "text": "{descansa|vai dormir|coitado}" }
+    ]
+  },
+  {
+    "name": "quick-socorro",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{socorro|me ajuda|help}" },
+      { "role": "responder", "type": "text", "text": "{oq foi|fala|q aconteceu}" }
+    ]
+  },
+  {
+    "name": "quick-hahaha",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{hahahahaha|HAHAHA|ahahaha}" },
+      { "role": "responder", "type": "text", "text": "{oq foi|kkkk|??}" }
+    ]
+  },
+  {
+    "name": "quick-otimo",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{otimo|perfeito|maravilha}" },
+      { "role": "responder", "type": "text", "text": "{👍|bom|show}" }
+    ]
+  },
+  {
+    "name": "trocar-operadora",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{to pensando em trocar de {operadora|plano|celular}|meu plano ta {caro|ruim|sem dados}|qual {operadora|plano} vc usa}" },
+      { "role": "responder", "type": "text", "text": "{uso {vivo|claro|tim|oi}|o meu é {40|60|80} por mes|troca pra pre pago}" },
+      { "role": "initiator", "type": "text", "text": "{quanto de {gigas|dados|internet} vc tem|to pagando {50|80|100} e so tenho {5|10|15}gb|é bom?}" },
+      { "role": "responder", "type": "text", "text": "{tenho {15|25|50}gb|da e sobra|compra chip novo q tem promoção}" }
+    ]
+  },
+  {
+    "name": "caixa-som-vizinho",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{o vizinho comprou uma caixa de som nova e ta testando|parece q to numa balada involuntária|funk a todo volume" },
+      { "role": "responder", "type": "text", "text": "{kkkk|q musica|pede pra abaixar}" },
+      { "role": "initiator", "type": "text", "text": "{é {funk|sertanejo|piseiro|pagode} no ultimo volume|as {8|9|10|11} da {manha|noite}|os vidros tao tremendo}" },
+      { "role": "responder", "type": "text", "text": "{chama a pm se for de noite|paciência|mora em prédio é assim}" }
+    ]
+  },
+  {
+    "name": "provas-semana",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{semana de prova é a pior coisa|tenho {3|4|5} provas essa semana|nao estudei nada e as provas sao {amanha|hj|essa semana}}" },
+      { "role": "responder", "type": "text", "text": "{começa agr|eu tbm to nessa|boa sorte}" },
+      { "role": "initiator", "type": "text", "text": "{vou virar a noite|ja perdi a esperança kkkk|quero trancar a {facul|escola|curso}}" },
+      { "role": "responder", "type": "text", "text": "{nao tranca|faz oq da|café e fé}" }
+    ]
+  },
+  {
+    "name": "gato-teclado",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{kjasdhasjkdh|ghjfkghdfkg|aaa}" },
+      { "role": "responder", "type": "text", "text": "{??? ta bem?|oq|kkkk}" },
+      { "role": "initiator", "type": "text", "text": "{desculpa meu gato pisou no teclado|sentei no celular|foi sem querer}" },
+      { "role": "responder", "type": "text", "text": "{kkkkkk|achei q vc tava tendo um avc|kkk de boa}" }
+    ]
+  },
+  {
+    "name": "casamento-briga",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{briguei com {meu namorado|minha namorada|meu marido|minha esposa}|to puto com {ele|ela}|a gente discutiu feio}" },
+      { "role": "responder", "type": "text", "text": "{oq aconteceu|dnv?|calma conta}" },
+      { "role": "initiator", "type": "text", "text": "{foi por causa de {besteira|dinheiro|ciumes|familia|falta de atenção}|nao quero nem olhar pra {cara dele|cara dela}|to dormindo no sofa}" },
+      { "role": "responder", "type": "text", "text": "{conversa com calma|todo casal briga|da um tempo e volta a falar}" }
+    ]
+  },
+  {
+    "name": "relogio-smartwatch",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{comprei um smartwatch|mano esse relogio inteligente é dms|to contando meus passos agr}" },
+      { "role": "responder", "type": "text", "text": "{qual vc pegou|vale a pena?|quantos passos hj}" },
+      { "role": "initiator", "type": "text", "text": "{peguei um {xiaomi|apple watch|samsung|amazfit}|{3000|5000|8000|10000} passos|dei {200|500|1500} nele}" },
+      { "role": "responder", "type": "text", "text": "{ta bom|quero um tbm|fitness agr ne}" }
+    ]
+  },
+  {
+    "name": "reaction-sticker-combo",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{consegui!!|DEU CERTO|mano passei}" },
+      { "role": "responder", "type": "reaction", "text": "🎉" },
+      { "role": "responder", "type": "sticker", "text": "[figurinha]" },
+      { "role": "responder", "type": "text", "text": "{PARABENS|sabia q vc ia conseguir|mereceee}" }
+    ]
+  },
+  {
+    "name": "quick-tipo",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{tipo|sabe|entende}" },
+      { "role": "responder", "type": "text", "text": "{sim|sei|entendo}" }
+    ]
+  },
+  {
+    "name": "quick-relaxa",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{relaxa|de boa|tranquilo}" },
+      { "role": "responder", "type": "text", "text": "{ok|👍|blz}" }
+    ]
+  },
+  {
+    "name": "quick-claro",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{claro|com certeza|obvio}" },
+      { "role": "responder", "type": "text", "text": "{show|blz|valeu}" }
+    ]
+  },
+  {
+    "name": "quick-to-chegando",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{to chegando|quase la|5 min}" },
+      { "role": "responder", "type": "text", "text": "{ok|blz|te espero}" }
+    ]
+  },
+  {
+    "name": "quick-manda",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{manda|envia|me passa}" },
+      { "role": "responder", "type": "text", "text": "{pera|ja vou|ta ai}" }
+    ]
+  },
+  {
+    "name": "assalto-medo",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano quase fui assaltado|tem um cara suspeito na {rua|esquina|ponto}|to com medo de sair de casa}" },
+      { "role": "responder", "type": "text", "text": "{mds cuidado|vc ta bem?|nao sai sozinho}" },
+      { "role": "initiator", "type": "text", "text": "{to bem mas levei um susto|vi {assaltando|roubando|mexendo} no {carro|celular|bolsa} de alguem|essa cidade ta perigosa}" },
+      { "role": "responder", "type": "text", "text": "{ta horrivel msm|anda sem celular na mao|cuidado}" }
+    ]
+  },
+  {
+    "name": "forno-microondas",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{coloquei {aluminio|metal|garfo} no microondas|o microondas fez um barulho estranho|acho q quebrei o microondas}" },
+      { "role": "responder", "type": "text", "text": "{MANO NAO|como assim metal|vc ta inteiro?}" },
+      { "role": "initiator", "type": "text", "text": "{fez umas faiscas|esqueci q nao podia|ele ta funcionando ainda pelo menos}" },
+      { "role": "responder", "type": "text", "text": "{ce podia ter tocado fogo|cuidado|pelo amor de deus}" }
+    ]
+  },
+  {
+    "name": "emprestou-nao-devolveu",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano {fulano|o cara|a mina} nao me devolveu {o livro|o dinheiro|minha roupa|meu fone}|emprestei e sumiram|ja faz {1|2|3} {meses|semanas}}" },
+      { "role": "responder", "type": "text", "text": "{cobra|manda msg|nunca mais empresta}" },
+      { "role": "initiator", "type": "text", "text": "{tenho vergonha de cobrar|ja mandei indiretas|acho q esqueceu}" },
+      { "role": "responder", "type": "text", "text": "{manda direto|fala q precisa|nao tem q ter vergonha}" }
+    ]
+  },
+  {
+    "name": "academia-preguica",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{paguei a academia e nao fui nenhuma vez esse mes|to pagando {100|150|200} pra nao ir|academia mais cara do mundo pq eu nao vou}" },
+      { "role": "responder", "type": "text", "text": "{cancela entao|vai amanha|todo mundo é assim}" },
+      { "role": "initiator", "type": "text", "text": "{se eu cancelar ai q nao vou msm|amanha eu juro|to pagando o ar condicionado da academia}" },
+      { "role": "responder", "type": "text", "text": "{KKKK|vai logo|te arrasto se precisar}" }
+    ]
+  },
+  {
+    "name": "quick-num-sei",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{num sei|sla|tanto faz}" },
+      { "role": "responder", "type": "text", "text": "{decide|kk|ok}" }
+    ]
+  },
+  {
+    "name": "quick-falou",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{falou|flw|ate mais}" },
+      { "role": "responder", "type": "text", "text": "{flw|ate|👋}" }
+    ]
+  },
+  {
+    "name": "quick-eita",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{eita|caramba|carai}" },
+      { "role": "responder", "type": "text", "text": "{oq|kkk|q}" }
+    ]
+  },
+  {
+    "name": "rodizio-all-you-can-eat",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{bora num rodizio {sabado|domingo|hj}|achei um rodizio por {50|60|80}|quero comer ate nao aguentar}" },
+      { "role": "responder", "type": "text", "text": "{BORA|de {pizza|carne|japa}|to dentro}" },
+      { "role": "initiator", "type": "text", "text": "{de {carne|pizza|sushi}|tem sobremesa inclusa|come bastante pra valer}" },
+      { "role": "responder", "type": "text", "text": "{vou de barriga vazia|nao como nada antes|ja to salivando}" }
+    ]
+  },
+  {
+    "name": "alguem-parecido",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano vi um cara IGUALZINHO a vc|teu sosia ta andando por ai|juro q era vc na rua}" },
+      { "role": "responder", "type": "text", "text": "{kkkk|serio?? onde|mentira}" },
+      { "role": "initiator", "type": "text", "text": "{no {shopping|mercado|metro|onibus}|era identico juro|quase chamei}" },
+      { "role": "responder", "type": "text", "text": "{devia ter tirado foto|kkkk q bizarro|meu clone}" }
+    ]
+  },
+  {
+    "name": "boleto-venceu",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{esqueci de pagar o boleto e venceu|mano meu boleto venceu {ontem|semana passada|faz 3 dias}|vou ter q pagar juros}" },
+      { "role": "responder", "type": "text", "text": "{pede segunda via|coloca pra debito automatico|quanto de juros}" },
+      { "role": "initiator", "type": "text", "text": "{juros de {5|10|20|50} reais|sempre esqueço|preciso me organizar}" },
+      { "role": "responder", "type": "text", "text": "{bota alarme|usa app de controle|adultar é dificil}" }
+    ]
+  },
+  {
+    "name": "entregador-errado",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{o ifood entregou o pedido errado|veio a comida de outra pessoa|pedi {pizza|hamburger} e veio {sushi|salada}}" },
+      { "role": "responder", "type": "text", "text": "{kkkkkk|reclama no app|come msm assim}" },
+      { "role": "initiator", "type": "text", "text": "{ja reclamei|pelo menos veio {mais|melhor|maior} do q eu pedi|quero meu dinheiro de volta}" },
+      { "role": "responder", "type": "text", "text": "{eles devolvem|aproveita|azar do outro q nao recebeu kkkk}" }
+    ]
+  },
+  {
+    "name": "image-sunset-reaction",
+    "category": "natural",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{olha esse por do sol|mano q ceu lindo}" },
+      { "role": "initiator", "type": "image", "text": "[foto]" },
+      { "role": "responder", "type": "reaction", "text": "😍" },
+      { "role": "responder", "type": "text", "text": "{lindo dms|parece pintura|q lugar é esse}" }
+    ]
+  }
+]

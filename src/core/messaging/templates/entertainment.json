@@ -1,0 +1,287 @@
+[
+  {
+    "name": "serie-netflix-recomendacao",
+    "category": "entertainment",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Mano|Cara|Vei|Parsa}, {ja viu|tu assistiu|comecou a ver} {aquela serie nova da Netflix|a serie que ta todo mundo falando|aquela serie que lancou agora}?" },
+      { "role": "responder", "type": "text", "text": "{Qual|Qual serie|Que serie}? {To por fora|Nao vi nada|Nem sei qual e} {kkk|rsrs|haha}" },
+      { "role": "initiator", "type": "text", "text": "{Aquela|A} {que ta em primeiro no top 10|que todo mundo ta postando spoiler|que o povo nao para de falar}! {E muito boa|Cara e viciante|Slk e insana} {mano|vei|tlgd}" },
+      { "role": "responder", "type": "text", "text": "{Ah sim|Aaa|Ah}, {ja ouvi falar|vi o trailer|me falaram dessa}! {Vou comecar hoje|Bora maratonar|Vou assistir no fds|To precisando de serie nova mesmo}!" },
+      { "role": "initiator", "type": "text", "text": "{Assiste|Vê|Começa logo} {que tu nao vai se arrepender|e me fala depois|e depois a gente troca ideia}! {Nao le spoiler|Nao entra no twitter|Cuidado com spoiler} {kkk|haha|rsrs}" },
+      { "role": "responder", "type": "reaction", "emoji": "{🔥|👀|🍿}" }
+    ]
+  },
+  {
+    "name": "serie-spoiler-reacao",
+    "category": "entertainment",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{MANO|CARA|VEI|SLK}! {Acabei de ver o ultimo episodio|Vi o final da temporada|Terminei a serie agora} {e to sem chao|e to chocado|e nao acredito}" },
+      { "role": "responder", "type": "text", "text": "{Para|Pelo amor de Deus|Perai|Calma} {NAO me da spoiler|nao fala nada|nao conta nada}! {To no episodio 3|Ainda to no comeco|Nem comecei direito} {kkk|rsrs}!" },
+      { "role": "initiator", "type": "text", "text": "{Rlx|Relaxa|Tranquilo|Fica suave}, {nao vou falar nada|sem spoiler|juro que nao conto}. {So vou dizer que|So falo que|Te digo que} {tu vai surtar|tu vai pirar|cê vai ficar maluco} {no final|no ultimo ep|quando chegar la}!" },
+      { "role": "responder", "type": "text", "text": "{Agora fiquei ansioso|Agora vou ter que maratonar|Vou assistir tudo hoje|Slk agora nao vou dormir} {kkk|haha|rsrs}!" },
+      { "role": "initiator", "type": "reaction", "emoji": "{😂|🔥|🍿}" }
+    ]
+  },
+  {
+    "name": "streaming-maratona",
+    "category": "entertainment",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{E ai|Fala}, {o que tu ta assistindo|ta vendo alguma serie boa|tem indicacao de serie}? {To sem nada pra ver|To precisando de serie nova|Ja terminei tudo que tinha} {kkk|rsrs}" },
+      { "role": "responder", "type": "text", "text": "{To vendo|Comecei|To maratonando} {uma la na HBO|uma da Prime Video|uma da Disney+|uma da Netflix} {que e muito boa|que e show|que ta me viciando}! {Tu curte|Gosta de} {suspense|acao|comedia|drama|terror}?" },
+      { "role": "initiator", "type": "text", "text": "{Curto sim|Gosto demais|Amo|Depende}! {Manda o nome|Qual que e|Fala ai o nome} {que vou comecar|pra eu ver|que ja vou pesquisar}!" },
+      { "role": "responder", "type": "text", "text": "{Anota ai|Olha|Entao}, {o nome e|chama|se chama}... {depois tu me fala o que achou|me conta o que tu achar|assiste e me diz} {kkk|haha}!" },
+      { "role": "initiator", "type": "text", "text": "{Anotado|Beleza|Valeu|Show}! {Hoje mesmo começo|Vou ver agora|Ja vou colocar pra assistir}!" },
+      { "role": "responder", "type": "reaction", "emoji": "{🍿|👍|🔥}" }
+    ]
+  },
+  {
+    "name": "serie-debate",
+    "category": "entertainment",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Mano|Cara|Vei}, {tu acha que|ce acha que|na tua opiniao} {aquele personagem mereceu morrer|o final foi bom|a temporada nova ta melhor que a antiga}?" },
+      { "role": "responder", "type": "text", "text": "{Olha|Entao|Sinceramente}, {eu acho que sim|eu acho que nao|tenho opiniao dividida} {kkk|rsrs}. {O roteiro podia ser melhor|Tava previsivel|Me surpreendeu|Achei fraco} {tlgd|mano|vei}" },
+      { "role": "initiator", "type": "text", "text": "{Concordo|Discordo total|Mais ou menos|Exato}! {Pra mim|Eu acho que|Na minha opiniao} {a serie caiu de qualidade|ta cada vez melhor|essa temporada e a melhor} {mano|cara|vei}" },
+      { "role": "responder", "type": "text", "text": "{E|Pois e|Entao}, {vamos ver o proximo episodio|vamos esperar a proxima temporada|torcer pra melhorar}. {Mas que vicia|Mas e bom demais|Nao consigo parar de assistir} {kkk|haha|rsrs}!" },
+      { "role": "initiator", "type": "reaction", "emoji": "{😂|🤔|🔥}" }
+    ]
+  },
+  {
+    "name": "musica-show-concert",
+    "category": "entertainment",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Mano|Cara|Vei|Parsa}, {viu que|soube que|tu viu que} {vai ter show|tem show|vai vir} {do|da} {sertanejo|pagode|funk|rap|rock} {na cidade|aqui perto|no mes que vem}?" },
+      { "role": "responder", "type": "text", "text": "{Serio|Jura|Slk|Nossa}?! {Quem vai tocar|Qual artista|De quem}? {Quero muito ir|To precisando de um show|Faz tempo que nao vou em show} {mano|vei}!" },
+      { "role": "initiator", "type": "text", "text": "{Vai ser|E o show do|E da} {nome ai que eu esqueci kkk|aquele artista la|tu sabe ne}! {Os ingressos ja tao vendendo|Ja abriu venda|Ta barato ainda}. {Bora|Vamos|Cola comigo}?" },
+      { "role": "responder", "type": "text", "text": "{Bora demais|Fechou|To dentro|Conta comigo}! {Manda o link|Me passa onde compra|Depois me fala os detalhes}! {Vai ser top|Vai ser insano|Nao posso perder} {kkk|rsrs}!" },
+      { "role": "initiator", "type": "text", "text": "{Show|Fechou entao|Beleza}! {Te mando depois|Ja te passo|Vou te mandar o link}. {Vai ser demais|Bora que bora|Ansioooso} {🔥|🎶|🎵}!" },
+      { "role": "responder", "type": "reaction", "emoji": "{🔥|🎶|🙌}" }
+    ]
+  },
+  {
+    "name": "musica-album-novo",
+    "category": "entertainment",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Tu ouviu|Ja escutou|Mano cê ouviu} {o album novo|a musica nova|o EP novo} {que lancou|que saiu} {hoje|ontem|essa semana}?" },
+      { "role": "responder", "type": "text", "text": "{De quem|Qual|Que musica}? {Nao vi nada|To por fora|Nem vi que lancou} {kkk|rsrs}" },
+      { "role": "initiator", "type": "text", "text": "{Mano|Cara|Vei}, {ta muito bom|e hit certeza|e braba demais|ficou insana}! {Escuta la|Vai ouvir|Coloca pra tocar} {que tu vai curtir|que e tua vibe|que tu vai viciar}!" },
+      { "role": "responder", "type": "text", "text": "{Vou ouvir agora|Ja vou escutar|Vou colocar pra tocar ja}! {Manda o link|Qual o nome|Ta no Spotify}?" },
+      { "role": "initiator", "type": "text", "text": "{Ta sim|Ja ta em tudo|Em todas as plataformas}! {Depois me fala|Me diz o que achou|Comenta aqui depois} {kkk|haha}!" },
+      { "role": "responder", "type": "reaction", "emoji": "{🎵|🔥|🎶}" }
+    ]
+  },
+  {
+    "name": "musica-favorita",
+    "category": "entertainment",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{E ai|Fala|Mano}, {qual musica tu ta ouvindo no repeat|qual tua musica do momento|o que ta tocando ai}? {Preciso de musica nova|Quero indicacao|To sem playlist} {kkk|rsrs}" },
+      { "role": "responder", "type": "text", "text": "{To viciado em|Nao paro de ouvir|Minha musica do momento e} {uma que e muito boa|um hit|uma que gruda na cabeca}! {E {sertanejo|funk|pop|rap|pagode}|Tu curte de tudo}?" },
+      { "role": "initiator", "type": "text", "text": "{Curto sim|Manda|Gosto de tudo|Depende do humor} {kkk|haha}! {Manda ai|Passa o nome|Compartilha} {que eu coloco na minha playlist|pra eu ouvir|que eu escuto}!" },
+      { "role": "responder", "type": "text", "text": "{Mandei|Olha la|Segue ai}! {Tu vai amar|Aposto que vai curtir|Depois me agradece} {kkk|rsrs|haha}!" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🎵|❤️|🔥}" }
+    ]
+  },
+  {
+    "name": "games-jogo-novo",
+    "category": "entertainment",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Mano|Cara|Parsa|Vei}, {ja comprou|tu viu|baixou} {o jogo novo|aquele jogo que lancou|o game novo} {que ta todo mundo jogando|que ta hypado|que o povo ta falando}?" },
+      { "role": "responder", "type": "text", "text": "{Qual|Que jogo|Qual jogo}? {To jogando outra coisa|To por fora|Nao vi nada} {kkk|rsrs}. {E de que|Pra qual plataforma|E de {PC|PS5|Xbox|celular}}?" },
+      { "role": "initiator", "type": "text", "text": "{E pra {PC|console|PS5|Xbox|celular}|Tem pra tudo}! {Mano e muito bom|Cara o jogo e insano|Vei o game e viciante demais}! {Os graficos|A gameplay|A historia} {sao de outro nivel|e absurda|e incrivel} {tlgd|mano}" },
+      { "role": "responder", "type": "text", "text": "{Slk|Nossa|Caramba|Eita}, {agora fiquei interessado|vou ter que comprar|preciso jogar isso}! {Tu joga online|Da pra jogar junto|Tem multiplayer}? {Bora jogar junto|Cola comigo se tiver|Vamo fazer squad}!" },
+      { "role": "initiator", "type": "text", "text": "{Bora|Da sim|Tem online sim}! {Te chamo quando for jogar|Depois marco|A gente joga no fds}! {Vai ser top|Vai ser bom demais|Bora dominar} {kkk|haha}!" },
+      { "role": "responder", "type": "reaction", "emoji": "{🎮|🔥|💪}" }
+    ]
+  },
+  {
+    "name": "games-partida-online",
+    "category": "entertainment",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Bora|Vamo|Cola pra} {jogar|uma partida|umas ranked|uns jogos} {hoje a noite|agora|mais tarde|no fds}? {To precisando de alguem|Preciso de duo|Falta gente no squad}" },
+      { "role": "responder", "type": "text", "text": "{Bora|Chama|To dentro|Pode ser}! {Que horas|Que horas tu vai on|Qual horario}? {Hoje to livre|Acho que da|Depende do horario} {kkk|rsrs}" },
+      { "role": "initiator", "type": "text", "text": "{Umas {8|9|10} da noite|Depois do jantar|La pras {20h|21h|22h}}, {pode ser|da pra ti|ta bom}?" },
+      { "role": "responder", "type": "text", "text": "{Fechou|Perfeito|De boa|Blz}! {Te chamo la|Fico online|Entro no horario}. {Hoje a gente ganha tudo|Bora ganhar|Hoje nois destrói} {kkk|haha|rsrs}!" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🎮|💪|🔥}" }
+    ]
+  },
+  {
+    "name": "games-rage-reclamacao",
+    "category": "entertainment",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Mano|Cara|Vei}, {to com raiva|perdi uma partida absurda|to tiltado demais|mano eu nao aguento mais} {kkk|rsrs}! {O time era horrivel|O lag me matou|Tomei hack|O jogo ta bugado} {demais|vei|mano}!" },
+      { "role": "responder", "type": "text", "text": "{Kkkkk|Hahahaha|Rsrsrs} {eu te entendo|ja passei por isso|todo dia isso|faz parte}! {Respira|Calma|Relaxa} {que piora se tu ficar nervoso|kkk|senao tu joga pior ainda} {rsrs|haha}!" },
+      { "role": "initiator", "type": "text", "text": "{Eu sei|Verdade|Eu tento|E foda} {kkk|rsrs}! {Mas e dificil|Mas da raiva|Mas o jogo ajuda ne} {quando o time nao coopera|quando da lag|quando tu faz tudo certo e perde} {mano|vei|cara}" },
+      { "role": "responder", "type": "text", "text": "{Vai dormir|Vai beber agua|Vai dar uma pausa|Larga o jogo um pouco} {kkk|haha|rsrs}! {Amanha tu volta melhor|Depois melhora|Descansa que ajuda}!" },
+      { "role": "initiator", "type": "text", "text": "{E isso ai|Tu ta certo|Vou fazer isso|Boa ideia} {kkk|rsrs}. {Valeu parsa|Valeu mano|Tmj vei}!" },
+      { "role": "responder", "type": "reaction", "emoji": "{😂|💀|🎮}" }
+    ]
+  },
+  {
+    "name": "meme-viral",
+    "category": "entertainment",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Mano|Cara|Vei} {tu viu|cê viu|viu} {aquele meme|o meme|aquele video} {que ta viralizando|que ta em todo lugar|que todo mundo ta compartilhando}? {Kkk|Hahaha|Rsrs} {e muito bom|morri de rir|to chorando de rir}!" },
+      { "role": "responder", "type": "text", "text": "{Qual|Vi nao|Manda|Nao vi}! {Manda ai|Quero ver|Manda o link|Compartilha} {que to precisando rir|kkk|rsrs|que adoro meme}!" },
+      { "role": "initiator", "type": "text", "text": "{Olha ai|Toma|Segue|La vai} {kkk|haha|rsrs}! {Tu vai morrer de rir|Prepara que e bom|Cuidado pra nao rir alto|Nao bebe nada enquanto ve} {kkk|haha}!" },
+      { "role": "responder", "type": "text", "text": "{KKKKKKK|HAHAHAHAHA|MANO|MORRI} {muito bom|genial|eu nao aguento|sensacional}! {Vou mandar pra todo mundo|Vou compartilhar|Quem faz isso e genio} {kkk|rsrs|haha}!" },
+      { "role": "initiator", "type": "reaction", "emoji": "{😂|💀|🤣}" }
+    ]
+  },
+  {
+    "name": "meme-situacao-engracada",
+    "category": "entertainment",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Mano|Cara|Vei}, {aconteceu um negocio muito engracado|uma parada muito engraçada aconteceu|mano tu nao vai acreditar no que aconteceu} {comigo|aqui|hoje} {kkk|rsrs}" },
+      { "role": "responder", "type": "text", "text": "{Conta|Fala|O que foi|Manda} {kkk|rsrs}! {To curioso|Quero saber|Fala logo} {mano|cara|vei}!" },
+      { "role": "initiator", "type": "text", "text": "{Tropecei na rua do nada|Mandei mensagem no grupo errado|Chamei o professor de pai|Acenei pra alguem que nao era pra mim|Falei sozinho e tinham gente do lado} {kkk|rsrs|haha}! {Quase morri de vergonha|Queria sumir|Fingi que nada aconteceu} {kkkkk|rsrsrs}!" },
+      { "role": "responder", "type": "text", "text": "{KKKKKKK|HAHAHAHAHA|MANO NAO|MORRI} {eu ia morrer|imagino a cena|ja aconteceu comigo|isso e muito tu} {kkk|haha|rsrs}! {Queria ter visto|Tinha que ter filmado|Pena que nao vi ao vivo} {kkk|rsrs}!" },
+      { "role": "initiator", "type": "text", "text": "{Nunca mais|Juro que nunca mais|Na proxima eu some|To traumatizado} {kkk|haha|rsrs}! {Pelo menos rendeu historia|Pelo menos tu riu|Ao menos serve de meme} ne {kkk|haha}!" },
+      { "role": "responder", "type": "reaction", "emoji": "{😂|💀|🤣}" }
+    ]
+  },
+  {
+    "name": "meme-trend-internet",
+    "category": "entertainment",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Mano|Cara|Vei} {a internet hoje ta impossivel|o twitter hoje ta impagavel|o tiktok hoje ta demais} {kkk|rsrs|haha}! {Nao consigo parar de rir|Cada meme melhor que o outro|O povo e muito criativo}" },
+      { "role": "responder", "type": "text", "text": "{O que aconteceu|Ta rolando o que|Perdi alguma coisa|To por fora}? {Conta|Me atualiza|Fala} {que to sem tempo de ver|que nao abri nada hoje|kkk}!" },
+      { "role": "initiator", "type": "text", "text": "{E porque|E que} {alguem fez uma coisa absurda|um famoso postou um negocio|rolou uma treta|aconteceu uma parada} e {o povo ta zoando demais|a galera nao perdoa|os memes tao voando} {kkk|rsrs|haha}!" },
+      { "role": "responder", "type": "text", "text": "{Vou abrir agora|Preciso ver isso|La vou eu perder tempo no celular|Agora vou ficar la 2 horas} {kkk|rsrs|haha}! {Obrigado por me viciar|Valeu pela info|Agora nao vou fazer mais nada} {kkk|rsrs}!" },
+      { "role": "initiator", "type": "reaction", "emoji": "{😂|💀|🤣}" }
+    ]
+  },
+  {
+    "name": "meme-piada-interna",
+    "category": "entertainment",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Mano|Cara|Vei}, {lembrei daquele dia|lembrei daquela vez|lembrei daquilo} {que a gente|que tu|que nos} {fez aquela parada|passou aquela vergonha|fez aquela besteira} {kkk|rsrs|haha}" },
+      { "role": "responder", "type": "text", "text": "{KKKKK|Hahaha|Para|Nao me lembra disso} {mano|vei|cara}! {Quase morri naquele dia|Foi muito vergonhoso|Ate hoje passo mal lembrando} {kkk|rsrs}!" },
+      { "role": "initiator", "type": "text", "text": "{Melhor momento|Nunca vou esquecer|Icônico demais|Lendário} {kkk|haha|rsrs}! {Bons tempos|Que saudade|Tem que repetir} {kkk|rsrs}!" },
+      { "role": "responder", "type": "text", "text": "{Bons tempos mesmo|Saudade disso|A gente era maluco|Que epoca boa} {kkk|rsrs|haha}! {Precisamos repetir|Bora fazer de novo|Marcar algo logo}!" },
+      { "role": "initiator", "type": "reaction", "emoji": "{😂|❤️|🤣}" }
+    ]
+  },
+  {
+    "name": "filme-cinema",
+    "category": "entertainment",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{E ai|Mano|Cara}, {bora no cinema|vamo no cinema|quer ir no cinema} {esse fds|essa semana|semana que vem}? {Tem filme bom em cartaz|Lancou um filme que quero ver|To querendo ver aquele filme}" },
+      { "role": "responder", "type": "text", "text": "{Bora|Pode ser|Quero|To dentro}! {Qual filme|Que filme tu quer ver|Qual tu ta querendo ver}? {Tanto faz pra mim|Quero ver algo bom|Depende do filme} {kkk|rsrs}" },
+      { "role": "initiator", "type": "text", "text": "{Aquele de {acao|terror|comedia|super heroi|ficcao}|O novo da Marvel|O que ta em primeiro nas bilheterias}! {Dizem que e muito bom|O povo ta elogiando|As notas tao altas}. {Cola|Bora|Vamo}?" },
+      { "role": "responder", "type": "text", "text": "{Fechou|Bora|To dentro|Marca ai}! {Compra o ingresso|Vê a sessao|Olha o horario} {e me avisa|que eu vou|e a gente fecha}! {Leva pipoca|Quero pipoca grande|Sem pipoca nao vou} {kkk|rsrs|haha}!" },
+      { "role": "initiator", "type": "text", "text": "{Obvio|Claro|Pipoca e obrigatorio} {kkk|haha|rsrs}! {Te aviso o horario|Depois mando a sessao|Ja vou ver os horarios}!" },
+      { "role": "responder", "type": "reaction", "emoji": "{🍿|🎬|🔥}" }
+    ]
+  },
+  {
+    "name": "filme-opiniao",
+    "category": "entertainment",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Mano|Cara|Vei}, {assisti aquele filme|vi o filme|fui no cinema ver aquele filme} {ontem|no fds|outro dia} e {achei {muito bom|mais ou menos|uma bomba|incrivel}|{gostei demais|nao curti|amei|odiei}} {kkk|rsrs}" },
+      { "role": "responder", "type": "text", "text": "{Serio|Qual|Ah e}? {Eu queria ver esse|Tava pensando em ir|Me falaram desse}! {O que tu achou|Era bom mesmo|Vale a pena}? {Sem spoiler|Nao conta o final|So fala se e bom} {kkk|rsrs|haha}!" },
+      { "role": "initiator", "type": "text", "text": "{Sem spoiler|Tranquilo|Vou so dizer que}: {os efeitos sao insanos|a historia e muito boa|as atuacoes sao otimas|o roteiro surpreende}. {Nota {8|9|7|10} de 10|Recomendo demais|Vale cada centavo|Cinema e outro nivel} {mano|vei|cara}!" },
+      { "role": "responder", "type": "text", "text": "{Show|Beleza|Boa|Vou assistir entao}! {Vou ver esse fds|Ja vou comprar ingresso|Vou maratonar em casa quando sair no streaming}. {Valeu pela dica|Obrigado pela recomendacao|Tmj} {kkk|rsrs}!" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🎬|🍿|👍}" }
+    ]
+  },
+  {
+    "name": "filme-heroi-debate",
+    "category": "entertainment",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Mano|Cara|Vei}, {Marvel ou DC|qual universo tu prefere|tu e mais Marvel ou DC}? {Quero saber tua opiniao|To curioso|Debate serio agora} {kkk|rsrs}" },
+      { "role": "responder", "type": "text", "text": "{Marvel|DC|Os dois|Nenhum} {facil|sem pensar|com certeza|kkk}! {Os filmes sao melhores|As historias sao mais legais|Os personagens sao mais fodas}. {E tu|Tu prefere o que|E voce}?" },
+      { "role": "initiator", "type": "text", "text": "{Concordo|Discordo|Mais ou menos|Respeito mas discordo} {kkk|rsrs|haha}! {Pra mim|Eu acho que|Na minha opiniao} {Marvel ganha|DC e subestimada|os dois tem coisa boa|depende do filme}. {Mas e gosto ne|Cada um cada um|Nao tem certo ou errado} {kkk|rsrs}" },
+      { "role": "responder", "type": "text", "text": "{Verdade|Exato|Isso ai} {kkk|rsrs}! {O importante e curtir|O que importa e o filme ser bom|Nerd e nerd ne} {kkk|haha|rsrs}!" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🦸|🔥|😂}" }
+    ]
+  },
+  {
+    "name": "rede-social-trend",
+    "category": "entertainment",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Mano|Cara|Vei}, {tu viu|viu|cê viu} {a trend nova do TikTok|o challenge novo|aquele trend que ta bombando|a dancinha nova}? {Ta em todo lugar|Todo mundo ta fazendo|Nao para de aparecer no meu feed} {kkk|rsrs}" },
+      { "role": "responder", "type": "text", "text": "{Vi sim|Nao vi|Qual|Essa eu perdi} {kkk|rsrs}! {Todo mundo fazendo|O povo nao cansa|E viciante ne} {kkk|haha}? {Tu vai fazer|Bora fazer|Tu tem coragem de fazer}?" },
+      { "role": "initiator", "type": "text", "text": "{Ja fiz|Quero fazer|Nem morto|To pensando} {kkk|haha|rsrs}! {Ficou {bom|pessimo|engracado|vergonhoso}|{Vergonha|Medo de postar|Se der view eu posto}} {kkk|rsrs|haha}!" },
+      { "role": "responder", "type": "text", "text": "{Manda|Quero ver|Posta logo|Coragem} {kkk|haha|rsrs}! {Vai viralizar|Vai bombar|Vai flopar bonito|Tu vai ficar famoso} {kkk|rsrs|haha}!" },
+      { "role": "initiator", "type": "reaction", "emoji": "{😂|🔥|💀}" }
+    ]
+  },
+  {
+    "name": "rede-social-influencer",
+    "category": "entertainment",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Tu segue|Cê acompanha|Tu ve} {aquele influencer|aquela influencer|aquele canal|aquele perfil} {que e muito bom|que e engracado demais|que posta umas paradas legais}? {O conteudo e top|Os videos sao incriveis|E muito bom}" },
+      { "role": "responder", "type": "text", "text": "{Qual|Quem|Nao conhego|Sigo sim}! {Manda o @|Fala o nome|Me indica} {que eu vou seguir|quero ver|pra eu acompanhar}!" },
+      { "role": "initiator", "type": "text", "text": "{Vou te mandar|Segue la|Procura la que acha facil}! {Tu vai viciar|E muito bom|Tu vai amar o conteudo|Perde horas assistindo} {kkk|rsrs|haha}!" },
+      { "role": "responder", "type": "text", "text": "{Vou seguir|Ja vou la|Beleza|Show}! {Mais uma coisa pra me viciar|La se vai meu tempo|Obrigado por me apresentar|Valeu pela dica} {kkk|rsrs|haha}!" },
+      { "role": "initiator", "type": "reaction", "emoji": "{😂|🔥|👍}" }
+    ]
+  },
+  {
+    "name": "rede-social-postagem",
+    "category": "entertainment",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Mano|Cara|Vei}, {postei uma foto|fiz um story|postei um reels} e {ta bombando|ninguem curtiu|to com vergonha|ficou top} {kkk|rsrs|haha}! {Vai la ver|Olha la|Comenta la}" },
+      { "role": "responder", "type": "text", "text": "{Vou la|Ja vou ver|Manda o link|Deixa eu ver} {kkk|rsrs}! {Aposto que ficou bom|Sempre arrasa|Tu e fotogenico|Ce e brabo} {kkk|rsrs|haha}!" },
+      { "role": "initiator", "type": "text", "text": "{Para|Que isso|Imagina|Obrigado} {kkk|rsrs|haha}! {So quero umas curtidas|Preciso de engajamento|Me ajuda a viralizar} {kkk|rsrs|haha}!" },
+      { "role": "responder", "type": "text", "text": "{Ja curti|Deixei meu like|Comentei la|Compartilhei} {kkk|rsrs|haha}! {Tmj|Conte comigo|Sempre|De nada} {kkk|rsrs}!" },
+      { "role": "initiator", "type": "reaction", "emoji": "{❤️|🔥|😂}" }
+    ]
+  },
+  {
+    "name": "fofoca-famoso",
+    "category": "entertainment",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Mano|Cara|Vei}, {tu viu|soube|ficou sabendo} {da treta|do barraco|da fofoca|do bafão} {daquele famoso|que rolou|dos famosos} {kkk|rsrs}? {To chocado|Nao acredito|E real}" },
+      { "role": "responder", "type": "text", "text": "{Nao|Vi sim|Qual|Me conta} {kkk|rsrs}! {Amo fofoca|To curioso|Fala tudo|Conta logo} {kkk|haha|rsrs}! {O que aconteceu|Quem fez o que|Me atualiza}?" },
+      { "role": "initiator", "type": "text", "text": "{Entao|Mano}, {um falou mal do outro publicamente|postou indireta|se separou do nada|fez um escandalo|brigaram ao vivo}! {O twitter ta pegando fogo|A internet ta a loucura|Os fas tao surtando} {kkk|rsrs|haha}!" },
+      { "role": "responder", "type": "text", "text": "{KKKKK|Nao acredito|Serio|Que isso} {mano|vei|cara}! {Famoso e outro nivel|O povo nao tem sossego|E cada uma} {kkk|rsrs|haha}! {Vou acompanhar|Quero saber o desfecho|Preciso de mais detalhes}!" },
+      { "role": "initiator", "type": "text", "text": "{Se rolar mais coisa te aviso|Te mantenho atualizado|Qualquer novidade te falo} {kkk|rsrs}! {A gente adora ne|Fofoca e vida|Quem nao gosta ta mentindo} {kkk|haha|rsrs}!" },
+      { "role": "responder", "type": "reaction", "emoji": "{😂|👀|🍿}" }
+    ]
+  },
+  {
+    "name": "fofoca-casal-famoso",
+    "category": "entertainment",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Vei|Mano|Cara}, {aquele casal famoso|aqueles dois|os famosos} {terminaram|voltaram|tao juntos de novo|se separaram}! {Acredita|Pode isso|Nao e possivel} {kkk|rsrs}?" },
+      { "role": "responder", "type": "text", "text": "{De novo|Jura|Outra vez|Serio} {kkk|rsrs|haha}?! {Essa novela nao acaba|Toda semana isso|Ja perdi as contas|E o casal ioio} {kkk|rsrs}!" },
+      { "role": "initiator", "type": "text", "text": "{Pois e|Exato|Demais} {kkk|rsrs}! {Mas dessa vez parece serio|Acho que agora e de verdade|Sera que dessa vez e pra valer|Vai saber ne} {kkk|rsrs|haha}" },
+      { "role": "responder", "type": "text", "text": "{Duvido|Aposto que voltam|Em uma semana tao juntos|Ja vi esse filme} {kkk|haha|rsrs}! {Famoso e assim|Relacionamento de famoso e complicado|A gente so assiste} {kkk|rsrs}!" },
+      { "role": "initiator", "type": "reaction", "emoji": "{😂|🍿|👀}" }
+    ]
+  },
+  {
+    "name": "futebol-resultado-jogo",
+    "category": "entertainment",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Mano|Cara|Vei|Parsa}, {viu o jogo|assistiu o jogo|viu a partida} {de ontem|de hoje|do teu time|do brasileirao}? {Que jogo|Que partida|Slk} {hein|mano|vei}!" },
+      { "role": "responder", "type": "text", "text": "{Vi sim|Assisti|Claro|Nao perdi} {mano|vei|cara}! {Foi {incrivel|horrivel|sofrido|emocionante}|{Ganhamos|Perdemos|Empatamos} {de lavada|no sufoco|de virada|injustamente}}! {Quase tive um infarto|Gritei demais|Quase chorei|Pulei do sofa} {kkk|rsrs|haha}!" },
+      { "role": "initiator", "type": "text", "text": "{O gol|A jogada|O lance|Aquele momento} {foi absurdo|foi insano|foi de outro mundo|foi ridiculo} {mano|vei|cara}! {O juiz|O VAR|O tecnico} {ajudou|atrapalhou|foi justo|foi uma vergonha} {ne|kkk|rsrs}?" },
+      { "role": "responder", "type": "text", "text": "{Nem me fala|Exato|Concordo|Discordo} {kkk|rsrs}! {Proximo jogo a gente ganha|Agora e torcer pro proximo|Brasileirao e assim|Futebol brasileiro e louco} {kkk|rsrs|haha}! {Nao desisto nunca|Fiel ate o fim|Meu time e minha vida} {kkk|rsrs}!" },
+      { "role": "initiator", "type": "reaction", "emoji": "{⚽|🔥|💪}" }
+    ]
+  },
+  {
+    "name": "futebol-escalacao-tecnico",
+    "category": "entertainment",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Mano|Cara|Vei}, {viu a escalacao|viu quem vai jogar|tu acredita na escalacao} {pro jogo de hoje|pro proximo jogo|que o tecnico montou}? {To revoltado|To confiante|Nao concordo|Achei boa} {kkk|rsrs}" },
+      { "role": "responder", "type": "text", "text": "{Nao vi|Vi sim|Qual foi|Me fala} {kkk|rsrs}! {O tecnico e maluco|Esse tecnico sabe o que faz|Nao entendo as escolhas dele|Confio no mister} {mano|vei|cara}?" },
+      { "role": "initiator", "type": "text", "text": "{Ele botou|Colocou|Escalou} {um time estranho|um time ofensivo|o time reserva|os moleques da base}! {Vai dar ruim|Vai dar bom|Nao sei o que pensar|To com medo} {kkk|rsrs|haha}" },
+      { "role": "responder", "type": "text", "text": "{Vamos ver|E torcer|So rezando|Confiando} {kkk|rsrs|haha}! {Futebol e caixinha de surpresas|Vai que da|Hoje tem|Nao da pra prever} {mano|vei|cara}! {Bora torcer|Vamo que vamo|E nois} {kkk|rsrs}!" },
+      { "role": "initiator", "type": "text", "text": "{Bora|Vamo|E nois|Hoje tem}! {Se ganhar eu te pago um acai|Se perder eu te culpo|Depois a gente comenta|Me chama pra assistir junto} {kkk|rsrs|haha}!" },
+      { "role": "responder", "type": "reaction", "emoji": "{⚽|🔥|😂}" }
+    ]
+  },
+  {
+    "name": "futebol-contratacao-mercado",
+    "category": "entertainment",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Mano|Cara|Vei|Parsa}, {viu que|soube que|saiu a noticia que} {tao contratando|vao contratar|fecharam com|negociando com} {um jogador gringo|um reforco bom|um craque|um nome pesado} {pro teu time|pro meu time|la}?" },
+      { "role": "responder", "type": "text", "text": "{Serio|Jura|Vi sim|Quem} {mano|vei}?! {Se for verdade|Tomara que feche|Que venha|Sera que e bom} {kkk|rsrs}? {O time precisa|Precisamos de reforco|Ja era hora} {demais|ne|mano}!" },
+      { "role": "initiator", "type": "text", "text": "{E verdade sim|Os jornalistas confirmaram|Ta quase fechado|E especulacao ainda} {kkk|rsrs}! {Se vier vai ser bom|Acho que vai agregar|Nao sei se vale o investimento|Vai ser o melhor do time} {mano|vei|cara}" },
+      { "role": "responder", "type": "text", "text": "{Vamos ver|Tomara|Confiando|Ansioso} {kkk|rsrs|haha}! {Janela de transferencia e assim|Mercado da bola e louco|So acredito vendo|Enquanto nao assinar} {kkk|rsrs}! {Bora torcer|Que venha|Vamo que vamo}!" },
+      { "role": "initiator", "type": "reaction", "emoji": "{⚽|🔥|🤞}" }
+    ]
+  }
+]

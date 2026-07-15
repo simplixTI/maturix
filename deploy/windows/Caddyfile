@@ -1,0 +1,19 @@
+# Caddy = proxy reverso + HTTPS automático (Let's Encrypt) no Windows.
+# Troque "maturador.SEUDOMINIO.com" pelo seu subdomínio (o DNS A já deve
+# apontar para o IP do VPS). O 2-deploy.ps1 faz essa substituição.
+#
+# Serve o painel (build estático do Vite) e encaminha API + WebSocket para o
+# backend Node em 127.0.0.1:3000.
+
+maturador.SEUDOMINIO.com {
+	encode gzip
+
+	# API REST, health check e Socket.IO (WebSocket) → backend Node
+	@backend path /api/* /socket.io/* /health
+	reverse_proxy @backend 127.0.0.1:3000
+
+	# Painel (SPA React/Vite). Caminho do build estático no servidor:
+	root * C:/maturador/web/dist
+	try_files {path} /index.html
+	file_server
+}

@@ -1,0 +1,309 @@
+[
+  {
+    "name": "group-contact-casual",
+    "category": "greeting",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Oi|Eai|Opa}, {td bem|tudo bem|blz}? {Peguei seu contato|Vi seu número|Achei seu contato} {lá no|do} grupo {e resolvi mandar msg|e quis te chamar|e vim te add}" },
+      { "role": "responder", "type": "text", "text": "{Oi|Oii|Eai}! {Td bem sim|Tudo ótimo|Blz}, e {vc|você}?" },
+      { "role": "initiator", "type": "text", "text": "{De boa|Suave|Tranquilo} {tb|também}! {Qual seu nome|Como posso te chamar|Me diz teu nome}?" },
+      { "role": "responder", "type": "text", "text": "{Pode me chamar de|Meu nome é|Sou o} {Ana|Carlos|Marcos|Fernanda|Lucas|Juliana} {e o seu|e vc}?" },
+      { "role": "initiator", "type": "text", "text": "{Prazer|Muito prazer}, {sou o|me chama de|meu nome é} {Pedro|Rafael|Bruno|Maria|Camila|Gabriel}! {Bom te conhecer|Que bom te conhecer|Prazer em te conhecer}" },
+      { "role": "responder", "type": "reaction", "emoji": "{😊|🤝|👋}" }
+    ]
+  },
+  {
+    "name": "group-contact-direct",
+    "category": "greeting",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Fala|E aí|Opa}, {beleza|blz|suave}? {Te achei|Vi vc|Peguei teu contato} no grupo {do WhatsApp|de vendas|da galera|do face}" },
+      { "role": "responder", "type": "text", "text": "{Ah sim|Ahh|Opa}! {Qual grupo|De qual grupo vc tá falando|Que grupo}?" },
+      { "role": "initiator", "type": "text", "text": "{Aquele grupo|O grupo} {de negócios|de vendas|da comunidade|do bairro}. {Vc tava comentando|Vi que vc postou|Vc mandou msg lá} {esses dias|outro dia|ontem}" },
+      { "role": "responder", "type": "text", "text": "{Ahhh|Ah} {sim sim|lembro|verdade}! {Que legal|Boa|Show}. {E aí, no que posso ajudar|Fala aí|Manda ver}" },
+      { "role": "initiator", "type": "text", "text": "{Queria trocar uma ideia|Queria bater um papo|Queria conversar} {contigo|com vc} {sobre aquilo|sobre o assunto|melhor}" },
+      { "role": "responder", "type": "text", "text": "{Bora|Pode falar|Manda|Claro, manda aí}" }
+    ]
+  },
+  {
+    "name": "group-contact-friendly",
+    "category": "greeting",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Oii|Oi oi|Olá}! {Tudo bem|Td bem|Como vai}? {Salvei seu número|Peguei seu zap|Vi seu número} {do grupo|lá do grupo|no grupo}" },
+      { "role": "responder", "type": "text", "text": "{Oi|Oii}! {Td bem|Tudo joia|Tudo ótimo} {graças a Deus|por aqui} {e vc|e contigo}?" },
+      { "role": "initiator", "type": "text", "text": "{Tô bem|Tudo certo|De boa} {tb|também}! {Achei legal o que vc falou|Gostei do seu comentário|Curti o que vc postou} {no grupo|lá}" },
+      { "role": "responder", "type": "text", "text": "{Que bom|Fico feliz|Obrigado}! {Sempre bom|Legal} {conhecer gente nova|fazer contato|trocar ideia com gente nova}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{😄|🙏|❤️}" }
+    ]
+  },
+  {
+    "name": "group-contact-question",
+    "category": "greeting",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Oi|Eai}, {tudo bem|blz|como vai}? {Desculpa chegar assim|Sei que a gente não se conhece|Não me leva a mal} mas {peguei seu contato do grupo|achei seu número no grupo|vi seu zap no grupo}" },
+      { "role": "responder", "type": "text", "text": "{Oi|Olá|Eai}! {Sem problema|Tranquilo|De boa}. {Qual grupo|Que grupo é esse}?" },
+      { "role": "initiator", "type": "text", "text": "{O grupo|Aquele} {sobre empreendedorismo|de marketing|de vendas online|da nossa cidade}! {Vc é de onde|Vc mora onde|De que cidade vc é}?" },
+      { "role": "responder", "type": "text", "text": "{Sou de|Moro em} {SP|Rio|BH|Curitiba|Recife|Salvador|Fortaleza}! {E vc|De onde vc é}?" },
+      { "role": "initiator", "type": "text", "text": "{Massa|Show|Que legal}! {Sou de|Moro em|Tô em} {SP|Rio|BH|Brasília|Porto Alegre} {tb|também}. {Bom te conhecer|Prazer|TMJ}" },
+      { "role": "responder", "type": "reaction", "emoji": "{🤝|😊|👍}" }
+    ]
+  },
+  {
+    "name": "group-contact-business",
+    "category": "greeting",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Boa tarde|Bom dia|Boa noite}! {Peguei seu contato|Vi seu número|Achei vc} {no grupo|pelo grupo} {de negócios|de empreendedores|profissional}" },
+      { "role": "responder", "type": "text", "text": "{Boa|Oi|Olá}! {Td bem|Tudo certo}? {Vc trabalha com o que|O que vc faz|Qual sua área}?" },
+      { "role": "initiator", "type": "text", "text": "{Trabalho com|Sou da área de|Atuo com} {marketing digital|vendas|tecnologia|consultoria}. {E vc|Vc tb é da área|E por aí}?" },
+      { "role": "responder", "type": "text", "text": "{Que legal|Massa|Show}! {Eu trabalho com|Sou|Tô na área de} {design|finanças|e-commerce|social media}. {Podemos trocar ideia|Vamos conversar mais|Bora se conectar}" },
+      { "role": "initiator", "type": "text", "text": "{Com certeza|Bora|Claro que sim}! {Vai ser bom|Vai agregar|Sempre bom networking}" },
+      { "role": "responder", "type": "reaction", "emoji": "{🤝|💪|🚀}" }
+    ]
+  },
+  {
+    "name": "group-contact-humor",
+    "category": "greeting",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Fala|E aí|Opa}! {Não estranha não|Calma que não sou golpista|Relaxa} {kkk|rsrs|haha}. {Peguei seu contato|Te achei|Vi vc} {no grupo|lá no grupo}" },
+      { "role": "responder", "type": "text", "text": "{Kkk|Haha|Rsrs} {que isso|imagina|tranquilo}! {Ainda bem que avisou|Ia achar que era golpe|Já ia bloquear} {kkk|rsrs}" },
+      { "role": "initiator", "type": "text", "text": "{Haha|Kkk|Rsrs} {juro que sou gente boa|prometo que sou de paz|pode confiar}! {Só quis te add|Queria trocar ideia|Vim fazer amizade}" },
+      { "role": "responder", "type": "text", "text": "{Tá bom|Blz|Suave} {vou confiar|confiando|acredito} {kkk|rsrs}. {Td bem|Blz} {então|por aí}?" },
+      { "role": "initiator", "type": "text", "text": "{Td ótimo|De boa|Tranquilo}! {Vamos se falando|Bora trocar ideia|TMJ}" },
+      { "role": "responder", "type": "reaction", "emoji": "{😂|🤣|😆}" }
+    ]
+  },
+  {
+    "name": "meeting-new-casual",
+    "category": "greeting",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Eai|Oi|Fala}, {td bem|blz|suave}? {Me passaram seu contato|Uma amiga me passou seu zap|Um amigo me indicou vc}" },
+      { "role": "responder", "type": "text", "text": "{Oi|Eai|Opa}! {Quem te passou|Quem foi|Quem te deu meu número}? {haha|kkk}" },
+      { "role": "initiator", "type": "text", "text": "{Foi o|A|O} {João|Maria|Pedro|Carla|Marcos|Fernanda}, {disse que vc é gente boa|falou bem de vc|me indicou vc}" },
+      { "role": "responder", "type": "text", "text": "{Ahhh|Ah sim|Opa} {conheço|sei quem é|claro}! {Que legal|Que bom|Show}. {Prazer|Prazer em te conhecer|Bom te conhecer}" },
+      { "role": "initiator", "type": "text", "text": "{Prazer é meu|Igualmente|O prazer é meu}! {Vamos trocando ideia|Bora conversar|Vamos nos falando}" },
+      { "role": "responder", "type": "text", "text": "{Bora|Com certeza|Vamos sim}! {Fica à vontade|Pode chamar quando quiser|TMJ}" }
+    ]
+  },
+  {
+    "name": "meeting-new-event",
+    "category": "greeting",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Oi|Eai|Olá}! {A gente se conheceu|Te conheci|Nos encontramos} {naquele evento|na festa|no encontro|na palestra} {lembra|se lembra}?" },
+      { "role": "responder", "type": "text", "text": "{Hmm|Opa}... {me ajuda a lembrar|não tô lembrando|qual evento}? {Desculpa|Foi mal} {kkk|rsrs}" },
+      { "role": "initiator", "type": "text", "text": "{Aquele|O} {evento de sábado|encontro da semana passada|workshop|happy hour}! {Eu tava de|Tava com} {camisa azul|boné|camiseta preta}" },
+      { "role": "responder", "type": "text", "text": "{Ahhh|Ah} {lembrei|agora sim|verdade}!! {Que legal vc ter mandado msg|Que bom que chamou|Boa}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{😄|🤙|😁}" }
+    ]
+  },
+  {
+    "name": "meeting-new-mutual-friend",
+    "category": "greeting",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{E aí|Oi|Opa}, {beleza|td certo|como vai}? {Sou amigo do|Conheço a|Sou amiga da} {Lucas|Amanda|Thiago|Juliana}, {ele|ela} {me passou seu zap|falou de vc}" },
+      { "role": "responder", "type": "text", "text": "{Ahh|Oi|Opa} {massa|legal|que bom}! {Ele|Ela} {já tinha falado de vc|mencionou vc|me avisou}. {Td bem|Tudo certo}?" },
+      { "role": "initiator", "type": "text", "text": "{Td ótimo|Tô bem|De boa}! {Ele|Ela} {falou que a gente tinha que se conhecer|disse pra eu te chamar|pediu pra eu entrar em contato}" },
+      { "role": "responder", "type": "text", "text": "{Que legal|Show|Boa}! {Bom te conhecer|Prazer|Bem vindo} {então|hein}" },
+      { "role": "initiator", "type": "text", "text": "{Prazer|Igualmente|O prazer é meu}! {Vamos nos falando|Bora trocar ideia|Fica à vontade tb}" },
+      { "role": "responder", "type": "reaction", "emoji": "{😊|🤝|👍}" }
+    ]
+  },
+  {
+    "name": "meeting-new-neighbor",
+    "category": "greeting",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Oi|Olá|Eai}! {Sou seu vizinho|Moro aqui perto|Sou do prédio|A gente é vizinho} {né|haha}? {Peguei seu número|Consegui seu contato} {com o síndico|no grupo do condomínio|com a vizinha}" },
+      { "role": "responder", "type": "text", "text": "{Oi|Olá|Eai}! {Ah sim|Verdade|É isso aí}. {Mora em qual apartamento|Vc é de qual andar|De qual bloco}?" },
+      { "role": "initiator", "type": "text", "text": "{Moro no|Sou do|Fico no} {301|502|ap 12|bloco B}. {Mudei faz pouco|Tô aqui há uns meses|Moro aqui já tem um tempo}" },
+      { "role": "responder", "type": "text", "text": "{Que legal|Boa|Show}! {Bem vindo|Qualquer coisa pode chamar|Se precisar de algo é só falar}" },
+      { "role": "initiator", "type": "text", "text": "{Valeu|Obrigado|Brigadão}! {TMJ|Igualmente pra vc}" },
+      { "role": "responder", "type": "reaction", "emoji": "{👍|😊|🏠}" }
+    ]
+  },
+  {
+    "name": "meeting-new-work",
+    "category": "greeting",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Oi|Olá|Bom dia}, {td bem|tudo certo}? {Sou o novo|Entrei agora|Comecei essa semana} {na empresa|no time|na equipe}" },
+      { "role": "responder", "type": "text", "text": "{Oi|Eai|Olá}! {Seja bem vindo|Bem vindo|Que bom ter vc no time}! {Vc vai ficar em qual setor|Qual sua área|Vai trabalhar com o que}?" },
+      { "role": "initiator", "type": "text", "text": "{Vou ficar no|Tô no|Entrei pro} {comercial|marketing|desenvolvimento|suporte}. {Tô animado|Empolgado|Ansioso pra começar}" },
+      { "role": "responder", "type": "text", "text": "{Que legal|Massa|Boa}! {Qualquer dúvida pode perguntar|Se precisar de algo me chama|Tô aqui pra ajudar}. {TMJ|Vamos que vamos}" }
+    ]
+  },
+  {
+    "name": "meeting-new-instagram",
+    "category": "greeting",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Oi|Eai|Olá}! {Te sigo|Vi vc|Te acompanho} {no Instagram|no insta|nas redes} e {resolvi chamar aqui|vim te mandar msg|quis falar contigo} {no zap|aqui}" },
+      { "role": "responder", "type": "text", "text": "{Oi|Eai|Olá}! {Que legal|Ah que bom|Opa}! {Qual seu @|Como é seu insta|Me fala seu arroba} {pra eu te seguir tb|que eu te sigo de volta}?" },
+      { "role": "initiator", "type": "text", "text": "{É|Meu @ é|Me acha por} @{pedro_silva|mari.santos|lucas.oficial|ju_ferreira}. {Me segue lá|Dá uma olhada|Segue lá}" },
+      { "role": "responder", "type": "text", "text": "{Vou seguir|Já vou lá|Seguindo}! {Prazer em te conhecer|Bom te conhecer|Prazer}" }
+    ]
+  },
+  {
+    "name": "reconnect-long-time",
+    "category": "greeting",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Caramba|Nossa|Eai}, {quanto tempo|faz tempo hein|sumiu}! {Vc tá bem|Como vc tá|Td bem}?" },
+      { "role": "responder", "type": "text", "text": "{Nossa|Verdade|É mesmo}, {quanto tempo|faz muito tempo|nem lembrava}! {Tô bem|Td ótimo|Tô ótimo} {graças a Deus|por aqui}. {E vc|Como vc tá}?" },
+      { "role": "initiator", "type": "text", "text": "{Tô bem tb|De boa|Na correria mas tô bem}! {Lembrei de vc|Tava pensando em vc|Vi uma foto sua} {e resolvi mandar msg|e vim te chamar|aí quis falar contigo}" },
+      { "role": "responder", "type": "text", "text": "{Que legal|Que bom|Fico feliz}! {A gente precisa se ver|Temos que marcar algo|Bora marcar de sair}" },
+      { "role": "initiator", "type": "text", "text": "{Com certeza|Bora|Vamos marcar sim}! {Saudade de|Faz falta aqueles|Lembro dos} {nossos papos|nossos rolês|encontros da galera}" },
+      { "role": "responder", "type": "text", "text": "{Demais|Muito|Sim}! {Vamos combinar|Marca aí|Bora organizar} {essa semana|qualquer dia|logo}" }
+    ]
+  },
+  {
+    "name": "reconnect-old-friend",
+    "category": "greeting",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Oi|E aí} {sumido|desaparecido|sumida}! {Quanto tempo que a gente não se fala|Faz séculos|Tem anos} {hein|né}! {kkk|rsrs}" },
+      { "role": "responder", "type": "text", "text": "{Meu Deus|Caramba|Nossa senhora}! {Quanto tempo mesmo|Nem acredito|Achei que tinha esquecido de mim} {kkk|haha|rsrs}" },
+      { "role": "initiator", "type": "text", "text": "{Imagina|Que nada|Nunca}! {Sempre lembro de vc|Vc é inesquecível|Como vou esquecer}. {O que vc tá fazendo da vida|Conta as novidades|Me atualiza aí}" },
+      { "role": "responder", "type": "text", "text": "{Ah|Então}, {muita coisa mudou|tô num momento novo|aconteceu tanta coisa}! {Depois te conto|Te conto tudo|Tem muito pra falar}. {E vc|Mas e vc hein}?" },
+      { "role": "initiator", "type": "text", "text": "{Tb tô diferente|Mudou bastante coisa|Aqui tb mudou tudo}! {Bora marcar um café|Vamos se ver|A gente precisa conversar direito}" },
+      { "role": "responder", "type": "reaction", "emoji": "{❤️|🥰|😍}" }
+    ]
+  },
+  {
+    "name": "reconnect-school",
+    "category": "greeting",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Ei|Oi|Fala}! {Vc lembra de mim|Se lembra|Lembra}? {A gente estudou junto|Éramos da mesma turma|Fomos colegas} {no colégio|na escola|na faculdade}" },
+      { "role": "responder", "type": "text", "text": "{Claro que lembro|Lembro sim|Obvio}! {Como vc tá|Td bem|Quanto tempo}! {Faz muito tempo|Nem acredito}" },
+      { "role": "initiator", "type": "text", "text": "{Pois é|É verdade|Sim}! {Vi vc no face|Achei seu contato|Lembrei de vc} {e resolvi chamar|e vim falar|e quis mandar msg}. {Saudade daquela época|Bons tempos|Que saudade}" },
+      { "role": "responder", "type": "text", "text": "{Demais|Muito|Sim}! {Tempos bons|Época boa|Saudade}. {Vc tá morando onde|O que vc tá fazendo|Como tá a vida}?" },
+      { "role": "initiator", "type": "text", "text": "{Tô em|Moro em|Fui pra} {SP|Rio|Minas|Curitiba}. {Trabalhando bastante|Na correria|Vida de adulto né} {kkk|rsrs|haha}" },
+      { "role": "responder", "type": "text", "text": "{Haha|Kkk|Rsrs} {sei como é|te entendo|somos dois}! {Bom falar contigo|Que bom que chamou|Fico feliz}" }
+    ]
+  },
+  {
+    "name": "reconnect-family",
+    "category": "greeting",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Oi|Eai} {primo|prima|tio|tia|parente}! {Quanto tempo|Sumiu hein|Cadê vc}? {Td bem|Como vc tá}?" },
+      { "role": "responder", "type": "text", "text": "{Oi|Eai} {querido|querida}! {Td bem|Tô ótimo|De boa} {e vc|e por aí}? {Família td bem|Pessoal td bem|Como tá a família}?" },
+      { "role": "initiator", "type": "text", "text": "{Td ótimo|Tamos bem|Graças a Deus td certo}! {Minha mãe|Meu pai|A família} {tava perguntando de vc|lembrou de vc|mandou abraço}" },
+      { "role": "responder", "type": "text", "text": "{Ahhh que lindo|Que bom|Manda um abraço} {pra ela|pra ele|pra todo mundo}! {A gente precisa se reunir|Vamos marcar um almoço|Bora fazer um churrasco}" },
+      { "role": "initiator", "type": "text", "text": "{Bora|Vamos sim|Com certeza}! {Faz muito tempo que a família não se junta|A gente tem que se ver mais|Temos que marcar}" }
+    ]
+  },
+  {
+    "name": "reconnect-ex-coworker",
+    "category": "greeting",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{E aí|Opa|Fala}, {blz|td certo|suave}? {Lembra de mim|Se lembra}? {Trabalhamos juntos|A gente era da mesma empresa|Fomos colegas de trabalho} {lá na|na} {empresa|firma|antiga empresa}" },
+      { "role": "responder", "type": "text", "text": "{Claro|Lembro|Obvio que lembro}! {Quanto tempo|Como vc tá|Faz tempo hein}! {Saiu de lá tb|Ainda tá lá|Mudou de área}?" },
+      { "role": "initiator", "type": "text", "text": "{Saí faz tempo|Mudei de empresa|Tô em outro lugar já}. {Tô trabalhando com|Agora faço|Fui pra} {outra coisa|algo diferente|nova área}. {E vc|Vc continua lá}?" },
+      { "role": "responder", "type": "text", "text": "{Tb saí|Saí logo depois|Ainda tô lá}! {A gente devia|Vamos|Bora} {tomar uma cerveja|marcar um café|se encontrar}" },
+      { "role": "initiator", "type": "text", "text": "{Bora|Fechado|Vamos}! {Me manda sua agenda|Marca aí|Quando vc pode}?" },
+      { "role": "responder", "type": "reaction", "emoji": "{🍻|🤝|👊}" }
+    ]
+  },
+  {
+    "name": "reconnect-birthday",
+    "category": "greeting",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{E aí|Oi|Opa}! {Vi que|O face me lembrou que|Lembrei que} {foi seu aniversário|vc fez aniversário|é seu niver}! {Parabéns|Feliz aniversário|Tudo de bom} {atrasado|com atraso} {kkk|rsrs|haha}" },
+      { "role": "responder", "type": "text", "text": "{Kkk|Haha|Rsrs} {obrigado|valeu|brigadão}! {Antes tarde do que nunca|Pelo menos lembrou|Melhor atrasado do que nunca} {né|kkk|rsrs}" },
+      { "role": "initiator", "type": "text", "text": "{É verdade|Pois é|Kkk}! {Quanto tempo que a gente não se fala|Sumimos hein|Faz tempo}. {Como vc tá|Td bem|Me conta as novidades}" },
+      { "role": "responder", "type": "text", "text": "{Tô bem|Tô ótimo|De boa}! {Faz tempo mesmo|Verdade|Sumimos}. {Bom vc ter lembrado|Fico feliz|Que bom que chamou}" },
+      { "role": "initiator", "type": "text", "text": "{Sempre|Claro|Imagina}! {Vamos nos falar mais|A gente tem que se ver|Bora não sumir mais}" },
+      { "role": "responder", "type": "reaction", "emoji": "{🎂|❤️|🥳}" }
+    ]
+  },
+  {
+    "name": "morning-greeting-casual",
+    "category": "greeting",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Bom dia|Bom diaa|Dia}! {Td bem|Como vc tá|Dormiu bem}? {Já acordou|Tá de pé já|Levantou cedo tb}? {kkk|rsrs}" },
+      { "role": "responder", "type": "text", "text": "{Bom dia|Diaa|Bom diaa}! {Tô acordando ainda|Quase dormindo de novo|Acabei de levantar} {kkk|haha|rsrs}. {E vc|Td bem}?" },
+      { "role": "initiator", "type": "text", "text": "{Já tô de pé|Acordei cedo hj|Já tô na ativa}! {Bora que hoje vai ser bom|Que o dia seja produtivo|Vamos que vamos}" },
+      { "role": "responder", "type": "text", "text": "{Amém|Com fé|Deus te ouça}! {Bom dia pra nós|Que seja um ótimo dia|TMJ}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{☀️|🌅|😊}" }
+    ]
+  },
+  {
+    "name": "morning-greeting-energetic",
+    "category": "greeting",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{BOM DIA|Bom diaaa|Acorda}! {Hoje é dia de|Bora pra|Partiu} {vencer|correr atrás|fazer acontecer}!" },
+      { "role": "responder", "type": "text", "text": "{Haha|Kkk|Rsrs} {vc já acordou animado|que energia|tá elétrico} {hein|né}! {Bom dia|Dia}!" },
+      { "role": "initiator", "type": "text", "text": "{Sempre|Tem que ser assim|É assim que tem que ser}! {Café já tá pronto|Tomando meu café|Cafézinho feito}. {E vc|Já tomou café}?" },
+      { "role": "responder", "type": "text", "text": "{Tô tomando agora|Vou tomar já|Acabei de fazer}. {Bom dia e bom café|Bora pro dia|Vamos nessa}" }
+    ]
+  },
+  {
+    "name": "morning-greeting-sweet",
+    "category": "greeting",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Bom dia|Bom diaa} {flor|querido|querida}! {Passando pra desejar|Vim te desejar|Só pra dizer} um {ótimo dia|lindo dia|dia maravilhoso} pra vc" },
+      { "role": "responder", "type": "text", "text": "{Aiii|Ownt|Que fofo} {que lindo|obrigado|obrigada}! {Bom dia pra vc tb|Igualmente|Vc tb merece um dia lindo}!" },
+      { "role": "initiator", "type": "text", "text": "{Que seu dia seja|Desejo que hj seja|Espero que tenha} {cheio de coisas boas|abençoado|incrível}! {Depois me conta como foi|A gente se fala|Te mando msg mais tarde}" },
+      { "role": "responder", "type": "reaction", "emoji": "{❤️|🥰|😘}" }
+    ]
+  },
+  {
+    "name": "afternoon-greeting-check-in",
+    "category": "greeting",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Boa tarde|Tardee|Boa}! {Como tá indo o dia|Td bem por aí|Sobrevivendo}? {kkk|rsrs}" },
+      { "role": "responder", "type": "text", "text": "{Boa tarde|Boa}! {Na correria|Trabalhando|Tô no corre}! {Mas tô bem|De boa|Suave}. {E vc|Por aí}?" },
+      { "role": "initiator", "type": "text", "text": "{Tb na luta|Aqui tb corrido|Normal né}! {Mas quis dar um oi|Passei pra falar oi|Vim dar um alô}" },
+      { "role": "responder", "type": "text", "text": "{Que legal|Valeu|Obrigado}! {Sempre bom receber msg|Alegrou meu dia|TMJ}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{😊|🤗|👍}" }
+    ]
+  },
+  {
+    "name": "afternoon-greeting-quick",
+    "category": "greeting",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Boa tarde|Tardee}! {Rapidinho|Passando rápido|Só um oi}: {como vc tá|td bem|tudo certo}?" },
+      { "role": "responder", "type": "text", "text": "{Boa|Boa tarde}! {Tô bem|Td certo|De boa}! {Vc tb|E por aí|E vc}?" },
+      { "role": "initiator", "type": "text", "text": "{Tô bem|Suave|Na paz}! {Só queria saber se tá tudo bem|Passei pra dar um oi|Queria falar contigo}. {Depois a gente conversa melhor|Te chamo mais tarde|A gente se fala}" },
+      { "role": "responder", "type": "text", "text": "{Blz|Tá bom|Ok}! {Valeu por lembrar|Obrigado|Fico feliz}. {Até mais|Falou|TMJ}" }
+    ]
+  },
+  {
+    "name": "evening-greeting-relaxed",
+    "category": "greeting",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Boa noite|Noitee|Boa}! {Acabou o expediente|Já descansando|Finalmente em casa}? {Que dia hein|Dia longo né}" },
+      { "role": "responder", "type": "text", "text": "{Boa noite|Noite}! {Sim|Pois é|Finalmente}! {Tô morto|Tô acabado|Exausto} {kkk|rsrs}. {Mas tô de boa|Mas agora relax|Agora é descansar}" },
+      { "role": "initiator", "type": "text", "text": "{Merece descansar|Descansa que vc merece|Relaxa agora}! {Assistindo algo|Vai ver série|Jantou já}?" },
+      { "role": "responder", "type": "text", "text": "{Vou assistir|Tô vendo|Já tô na} {Netflix|série|TV}. {E vc|Vc tb vai descansar}?" },
+      { "role": "initiator", "type": "text", "text": "{Tb vou|Vou sim|Já tô relaxando}. {Boa noite|Descansa bem|Dorme bem}!" },
+      { "role": "responder", "type": "reaction", "emoji": "{😴|🌙|💤}" }
+    ]
+  },
+  {
+    "name": "holiday-christmas",
+    "category": "greeting",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Feliz Natal|Natal feliz|Feliz Natal pra vc}! {Que Deus abençoe|Muita paz e amor|Tudo de bom} {pra vc e sua família|pra vc|pra toda família}!" },
+      { "role": "responder", "type": "text", "text": "{Feliz Natal|Obrigado|Igualmente}! {Pra vc tb|Vc tb merece tudo de bom|Igualmente pra vc e os seus}! {Muito amor|Muita saúde|Paz e prosperidade}" },
+      { "role": "initiator", "type": "text", "text": "{Amém|Obrigado|Valeu}! {Aproveita bastante|Curte com a família|Que seja um natal lindo}. {Tá com a família|Vai ter ceia}?" },
+      { "role": "responder", "type": "text", "text": "{Sim|Vou sim|Tô com todo mundo aqui}! {Casa cheia|Família toda reunida|Tá lotado aqui} {kkk|rsrs|haha}. {Aproveita vc tb|Curte bastante|Feliz Natal}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🎄|❤️|🎅}" }
+    ]
+  },
+  {
+    "name": "holiday-new-year",
+    "category": "greeting",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Feliz Ano Novo|Feliz ano novo|Ano novo vida nova}! {Que esse ano|Que o novo ano} {seja incrível|traga muitas bênçãos|seja o melhor} {pra vc|pra nós|pra gente}!" },
+      { "role": "responder", "type": "text", "text": "{Feliz Ano Novo|Igualmente|Pra vc tb}! {Que venha|Bora pra} {um ano de muita prosperidade|muita saúde e amor|realizações}!" },
+      { "role": "initiator", "type": "text", "text": "{Amém|Com fé|Deus te ouça}! {Bora fazer desse ano|Vamos fazer|Esse ano vai ser} {o melhor|diferente|nosso ano}!" },
+      { "role": "responder", "type": "text", "text": "{Bora|Com certeza|Vamos}! {TMJ|Conte comigo|Estamos juntos}. {Abraço|Felicidades|Tudo de bom}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🎆|🥂|❤️}" }
+    ]
+  },
+  {
+    "name": "holiday-generic",
+    "category": "greeting",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Oi|Eai|Olá}! {Passando pra te desejar|Vim te desejar|Quero te desejar} um {ótimo feriado|feliz feriado|bom descanso}! {Aproveita|Curte|Descansa bastante}!" },
+      { "role": "responder", "type": "text", "text": "{Oi|Eai}! {Que fofo|Obrigado|Valeu}! {Pra vc tb|Igualmente|Vc tb merece}! {Vai viajar|Vai ficar em casa|Tem planos pro feriado}?" },
+      { "role": "initiator", "type": "text", "text": "{Vou ficar de boa|Penso em viajar|Vou descansar} {em casa|com a família|um pouco}. {E vc|Vc vai fazer o que}?" },
+      { "role": "responder", "type": "text", "text": "{Tb vou descansar|Vou viajar|Vou aproveitar} {bastante|um pouco|com calma}. {Bom feriado|Aproveita|Descansa}" },
+      { "role": "initiator", "type": "text", "text": "{Vc tb|Igualmente|Bom descanso}! {Depois a gente se fala|Te mando msg depois|A gente conversa}" },
+      { "role": "responder", "type": "reaction", "emoji": "{🙏|😊|❤️}" }
+    ]
+  }
+]

@@ -1,0 +1,2119 @@
+[
+  {
+    "name": "meme-tiktok-viral",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|cara|vei} {tu viu|ce viu|viu} {aquele tiktok|o video|aquele reels} {do cara|do maluco|do mano} {dançando|fazendo parkour|caindo}? kkkkk" },
+      { "role": "responder", "type": "text", "text": "{KKKKKKK|MDSSS|SLKKK} {sim|simmm|vi demais} {muito bom|genial|obra de arte}" },
+      { "role": "responder", "type": "reaction", "emoji": "😂" },
+      { "role": "initiator", "type": "text", "text": "{eu quase morri|chorei de rir|passei mal} {de rir|kkkkk|rsrsrs}" },
+      { "role": "responder", "type": "text", "text": "{manda o link|me manda|passa o link} {dnv|de novo|ai} q eu {perdi|n achei|quero mandar pra galera}" }
+    ]
+  },
+  {
+    "name": "meme-twitter-trending",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{o twitter|o x|a timeline} ta {insuportavel|impossivel|demais} hoje {kkkkk|mano|slk}" },
+      { "role": "responder", "type": "text", "text": "{pq|por que|oq aconteceu}? {nem abri|to por fora|n vi nada}" },
+      { "role": "initiator", "type": "text", "text": "{todo mundo|geral|a galera} {tuitando|postando|falando} sobre {o meme do|a treta do|o video do} {bonoro|elon musk|juliette}" },
+      { "role": "responder", "type": "text", "text": "{ai n|la vem|de novo isso} kkkk {esse povo n cansa|Brasil n tem jeito|é todo dia isso}" },
+      { "role": "initiator", "type": "reaction", "emoji": "💀" }
+    ]
+  },
+  {
+    "name": "meme-instagram-reels",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{vei|mano|cara} o {reels|algoritmo|instagram} so me {mostra|entrega|manda} {video de gato|meme de relacionamento|trend de dança} {kkk|slk|mds}" },
+      { "role": "responder", "type": "text", "text": "{o meu tb|aqui tbm|somos 2} {kkkkk|rsrs|haha} {acho q o algoritmo|o insta} {me conhece bem|sabe q eu sou trouxa|desistiu de mim}" },
+      { "role": "initiator", "type": "text", "text": "{eu fico|fico|passo} {horas|a madrugada|a vida} {vendo|rolando|scrollando} essa {porcaria|bosta|desgraça}" },
+      { "role": "responder", "type": "text", "text": "{é um vicio|n tem como parar|a gente é refem} {memo|msm|ne} {kkk|rsrs}" }
+    ]
+  },
+  {
+    "name": "meme-figurinha-grupo",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{parsa|mano|vei} {manda|tem|passa} {aquela figurinha|a sticker|o pacote de figurinha} {do cachorro|do gato|do meme} {rindo|chorando|dançando}" },
+      { "role": "responder", "type": "text", "text": "{qual|qual delas|tenho mil} kkkkk {manda contexto|descreve melhor|q cachorro}" },
+      { "role": "initiator", "type": "text", "text": "{aquela|a} q {o bixo ta|o dog ta|ele ta} com {cara de paisagem|oculos escuro|bone} {kkk|slk}" },
+      { "role": "responder", "type": "text", "text": "{ACHEI|toma|essa?}" },
+      { "role": "initiator", "type": "reaction", "emoji": "🤣" },
+      { "role": "initiator", "type": "text", "text": "{ESSA|ISSO|PERFEITA} kkkkkkkk {vou tacar no grupo|vou mandar na firma|os cara vao morrer}" }
+    ]
+  },
+  {
+    "name": "meme-nostalgia-orkut",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {lembrei|achei um print|vi um post} {do orkut|da epoca do orkut|dos depoimentos do orkut} {kkkkk|mds|slk}" },
+      { "role": "responder", "type": "text", "text": "{PARA|n me lembra disso|ai q vergonha} kkkkk {eu era mt cringe|meus depoimentos eram horriveis|minha comunidade era 'eu odeio acordar cedo'}" },
+      { "role": "initiator", "type": "text", "text": "{todo mundo|geral} {era cringe|era bizarro|passava vergonha} {la|naquela epoca} {ne|kkk|rsrs}" },
+      { "role": "responder", "type": "text", "text": "{bons tempos|saudades|era mais simples} {memo|ne|kkk}" }
+    ]
+  },
+  {
+    "name": "meme-shitpost",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{olha isso|vei olha|mano ve isso} {q eu achei|q apareceu|do nada}" },
+      { "role": "responder", "type": "text", "text": "{oq|manda|to com medo}" },
+      { "role": "initiator", "type": "text", "text": "{é um shitpost|meme aleatorio|humor de 3am} {sobre|com} {capivara pilotando aviao|pombo de terno|gato cozinhando} {kkkk|slk|mds}" },
+      { "role": "responder", "type": "text", "text": "{PQP|MDSSS|KKKKKKK} {q merda|q lixo|genial} {eu amei|odiei e amei|é tao ruim q é bom}" },
+      { "role": "initiator", "type": "reaction", "emoji": "💀" }
+    ]
+  },
+  {
+    "name": "meme-brasil-gringo",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{vei|mano|cara} {os gringo|um gringo} {reagindo|vendo|experimentando} {comida brasileira|funk|carnaval} {é muito bom|é hilario|n tem preço} kkkkk" },
+      { "role": "responder", "type": "text", "text": "{SIMM|demais|adoro esses video} {a cara deles|eles piram|ficam chocados} {quando provam|com o tempero|com a musica} {ne|kkk}" },
+      { "role": "initiator", "type": "text", "text": "{o cara|o maluco|o bixo} {quase chorou|surtou|pirou} {comendo coxinha|ouvindo pagode|vendo passinho}" },
+      { "role": "responder", "type": "text", "text": "{brasil é outro nivel|somos superiores|n tem como competir} {kkkkk|slk|é fato}" }
+    ]
+  },
+  {
+    "name": "meme-gato-cachorro",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mds|vei|olha} {meu gato|meu cachorro|o bixo} {ta fazendo|fez|aprontou} {de novo|outra vez}" },
+      { "role": "responder", "type": "text", "text": "{oq ele fez|manda foto|video|conta}" },
+      { "role": "initiator", "type": "text", "text": "{subiu no telhado|comeu minha comida|destruiu o sofá|dormiu em cima do notebook} {kkkkk|slk|mds}" },
+      { "role": "responder", "type": "text", "text": "{KKKKKK|coitado|ídolo} {manda foto|quero ver|filma}" },
+      { "role": "initiator", "type": "reaction", "emoji": "😹" }
+    ]
+  },
+  {
+    "name": "meme-deepfake-ia",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {tu viu|viu|olha} {o deepfake|a IA|o chatgpt} {fazendo|que fez|criando} {video do lula cantando rock|bolsonaro dançando funk|neymar jogando xadrez} {kkkkk|mds}" },
+      { "role": "responder", "type": "text", "text": "{SLKKK|PQP|KKKKKK} {essa IA vai dominar o mundo|estamos perdidos|n confio mais em nada}" },
+      { "role": "initiator", "type": "text", "text": "{é muito real|parece verdade|da medo} {mano|slk|vei}" },
+      { "role": "responder", "type": "text", "text": "{o futuro chegou|e a gente usando pra meme|prioridades ne}" },
+      { "role": "responder", "type": "reaction", "emoji": "🤖" }
+    ]
+  },
+  {
+    "name": "meme-print-conversa",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{olha|vei olha|mano ve} {esse print|essa conversa|esse zap} {q me mandaram|q achei|de um grupo}" },
+      { "role": "responder", "type": "text", "text": "{manda|to preparado|la vem bomba}" },
+      { "role": "initiator", "type": "text", "text": "{o cara|a mina|o maluco} {mandou|falou|escreveu} {pro chefe|pra mae|pro crush}: {\"vc me paga\"|\"te amo\" no grupo errado|\"odeio esse lugar\"} {KKKKK|mds|slk}" },
+      { "role": "responder", "type": "text", "text": "{MORRI|PASSOU DESSA VIDA|F} {kkkkkkkk|kkk|hahaha} {coitado|mereceu|RIP}" },
+      { "role": "initiator", "type": "reaction", "emoji": "☠️" }
+    ]
+  },
+  {
+    "name": "meme-copypasta-grupo",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {mandaram|jogaram|soltaram} {aquele textão|copypasta|corrente} {no grupo|no zap|no gc} {de novo|pela centesima vez|mds}" },
+      { "role": "responder", "type": "text", "text": "{qual|oq era|manda kkk}" },
+      { "role": "initiator", "type": "text", "text": "{\"fulano saiu do grupo\"|\"bom dia grupo\"|\"quem n reagir vai ser removido\"} {tipo 7 da manha|do nada|kkkkk}" },
+      { "role": "responder", "type": "text", "text": "{KKKKKK|classico|admin do grupo é uma raça} {silencia o grupo|sai fora|finge q n viu} {kkk|ne|é melhor}" }
+    ]
+  },
+  {
+    "name": "meme-ia-substituir",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {a IA|o chatgpt|a inteligencia artificial} {vai substituir|vai roubar|vai tomar} {meu emprego|nosso trabalho|tudo} {to com medo|mds|sera}" },
+      { "role": "responder", "type": "text", "text": "{relaxa|calma|para de paranoia} {kkk|ne|mano} {vai demorar|n é assim|a IA n faz tudo}" },
+      { "role": "initiator", "type": "text", "text": "{mas ela ja|o chatgpt ja|a IA ja} {escreve melhor q eu|faz codigo|passa em prova|cria arte} {mds|slk|é assustador}" },
+      { "role": "responder", "type": "text", "text": "{mas n sabe|ela n consegue|ainda n} {fazer fofoca|zoar amigo|pegar crush|ter ressaca} {kkkkk|isso é nosso|humanos 1 x 0 IA}" },
+      { "role": "initiator", "type": "reaction", "emoji": "🤖" }
+    ]
+  },
+  {
+    "name": "crush-mensagem-primeira",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|cara|vei|parsa} {eu mandei msg|chamei|puxei assunto} {pro crush|pra mina|pro boy} {e to tremendo|e agora to nervoso|mds oq eu fiz}" },
+      { "role": "responder", "type": "text", "text": "{AAAA|eita|ihhh} {mandou oq|falou oq|oq tu disse}??" },
+      { "role": "initiator", "type": "text", "text": "{mandei um oi|respondi o story|reagi com 🔥} {kkkkk|slk|mds} {to me achando|patético ne|era oq tinha}" },
+      { "role": "responder", "type": "text", "text": "{respondeu|ja viu|visualizou}?" },
+      { "role": "initiator", "type": "text", "text": "{visualizou e n respondeu|ta digitando|respondeu com kkk} {F|mds|amém}" },
+      { "role": "responder", "type": "text", "text": "{KKKKK|ai|eita} {boa sorte|vai dar certo|F no chat} {guerreiro|soldado|parsa}" }
+    ]
+  },
+  {
+    "name": "crush-stalkeando-insta",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{vei|mano|cara} {eu tava|tava} {stalkiando|fuçando|vendo o insta} {do crush|da mina|do boy} e {curti uma foto de 2019|dei like sem querer|toquei na tela errado} {SOCORRO|MDS|PQP}" },
+      { "role": "responder", "type": "text", "text": "{KKKKKKKKK|NAOOO|MORRI} {descurti rapido|e ai|ainda ta la o like}??" },
+      { "role": "initiator", "type": "text", "text": "{descurti em 0.5 segundos|ja tirei|SIM AINDA TA LA} {mas acho q {notificou|ela viu|apareceu}|to rezando|quero sumir}" },
+      { "role": "responder", "type": "text", "text": "{F|meus pesames|já era} {kkkkk|mano|slk} {finge q morreu|muda de estado|deleta a conta}" }
+    ]
+  },
+  {
+    "name": "crush-ficante-sumiu",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|cara|vei} {o ficante|o crush|a pessoa} {sumiu|parou de responder|deu ghosting} {do nada|sem motivo|simplesmente}" },
+      { "role": "responder", "type": "text", "text": "{de novo|outra vez|classic} {kkk|ne|mano}? {faz quanto tempo|desde quando|ultimo msg}" },
+      { "role": "initiator", "type": "text", "text": "{3 dias|uma semana|desde sábado} {sem responder|no vacuo|visualizou e sumiu} {mds|slk|pqp}" },
+      { "role": "responder", "type": "text", "text": "{parte pra outra|segue o baile|bola pra frente} {mano|parsa|vei} {quem some n merece|ghosting é coisa de gente fraca|vc merece mais}" },
+      { "role": "initiator", "type": "reaction", "emoji": "😔" }
+    ]
+  },
+  {
+    "name": "crush-conselho-cantada",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{me ajuda|preciso de ajuda|socorro} {a pensar numa cantada|oq eu mando|como eu chego} {pro crush|na mina|no boy}" },
+      { "role": "responder", "type": "text", "text": "{fala oq vc sente|seja vc mesmo|manda a real} {kkk|ne|uai}" },
+      { "role": "initiator", "type": "text", "text": "{isso n funciona|muito cringe|quero algo criativo} {tipo|sei la|algo como} {\"se beleza matasse vc era serial killer\"|\"vc é wifi pq to sentindo conexao\"|\"cê é Google? pq tem tudo q eu procuro\"}" },
+      { "role": "responder", "type": "text", "text": "{PELO AMOR DE DEUS|NÃO FAZ ISSO|mano pelo amor} {kkkkkkk|hahaha|rsrsrs} {vai ser bloqueado|vai tomar block|RIP}" },
+      { "role": "initiator", "type": "reaction", "emoji": "😭" },
+      { "role": "responder", "type": "text", "text": "{vai na humildade|chega de boa|conversa normal} {q é melhor|confia|funciona mais}" }
+    ]
+  },
+  {
+    "name": "crush-ex-voltou",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{MANO|VEI|GENTE} {o ex|a ex|meu ex} {mandou msg|apareceu|voltou} {do nada|depois de meses|as 3 da manha}" },
+      { "role": "responder", "type": "text", "text": "{NÃO RESPONDE|bloqueia|pelo amor} {kkkkk|mano|vei} {é cilada|furada|armadilha} {Bino|total|certeza}" },
+      { "role": "initiator", "type": "text", "text": "{mas ele mandou|ela falou|a msg foi}: \"{to com saudade|pensei em vc|a gente podia conversar}\" {mds|slk|pqp}" },
+      { "role": "responder", "type": "text", "text": "{CLASSICO|tipico|previsivel} {kkkkk|ne|mano} {manda um ok e ignora|visualiza e n responde|bloqueia sem dó}" }
+    ]
+  },
+  {
+    "name": "crush-termino-desabafo",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{cara|mano|vei} {acabou|terminamos|levei um fora} {to mal|to na merda|quero sumir}" },
+      { "role": "responder", "type": "text", "text": "{poxa|caramba|sinto muito} {mano|vei|parsa} {oq aconteceu|me conta|quer desabafar}?" },
+      { "role": "initiator", "type": "text", "text": "{disse q n me ama mais|arrumou outra pessoa|simplesmente acabou} {do nada|sem mais nem menos|mds}" },
+      { "role": "responder", "type": "text", "text": "{vai passar|doi agora mas melhora|bola pra frente} {to aqui|conta comigo|nois ta junto} {mano|parsa|irmao}" },
+      { "role": "responder", "type": "reaction", "emoji": "❤️" }
+    ]
+  },
+  {
+    "name": "crush-date-preparacao",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{MANO|VEI|GENTE} {tenho um date|vou sair com o crush|marquei de sair} {hoje|amanha|sabado} {e to surtando|e n sei oq vestir|SOCORRO}" },
+      { "role": "responder", "type": "text", "text": "{AAAAAA|eita|boa} {vai aonde|pra onde|qual o role}?" },
+      { "role": "initiator", "type": "text", "text": "{num bar|jantar|cinema|sorvete} {la no centro|no shopping|perto de casa}" },
+      { "role": "responder", "type": "text", "text": "{vai de|usa|bota} {jeans e camiseta|algo casual|roupa q vc se sinta bem} {e seja vc mesmo|e relaxa|e n fala de ex} {kkk|ne|tlgd}" },
+      { "role": "initiator", "type": "text", "text": "{to nervoso demais|mao suando|coração acelerado} {kkkkk|mds|slk}" },
+      { "role": "responder", "type": "text", "text": "{vai dar bom|confia|vc é incrivel} {depois me conta tudo|quero detalhes|boa sorte}" }
+    ]
+  },
+  {
+    "name": "crush-match-tinder",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{DEI MATCH|matchei|deu match} {com uma gata|com um gato|com alguem mt bonito} {no tinder|no bumble|no happn} {mds|kkk|slk}" },
+      { "role": "responder", "type": "text", "text": "{BOAAA|aeee|finalmente} {kkkkk|mano|vei} {manda msg|puxa assunto|chama logo}" },
+      { "role": "initiator", "type": "text", "text": "{e se der errado|mando oq|to travado} {kkk|mds|slk}" },
+      { "role": "responder", "type": "text", "text": "{pergunta algo do perfil|comenta uma foto|fala de algo em comum} {e para de ser medroso|vai na fé|coragem}" }
+    ]
+  },
+  {
+    "name": "crush-reagiu-story",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{MANO|VEI|GENTE} {o crush|a pessoa|ele/ela} {reagiu|respondeu|mandou emoji} {no meu story|nos meus stories|na minha foto} {TO SURTANDO|mds|aaaa}" },
+      { "role": "responder", "type": "text", "text": "{AAAAAA|eita|bom sinal} {oq mandou|reagiu como|qual emoji}??" },
+      { "role": "initiator", "type": "text", "text": "{mandou 🔥|mandou 😍|respondeu com \"que foto\"} {MANO|mds|oq eu faço}" },
+      { "role": "responder", "type": "text", "text": "{RESPONDE|puxa assunto|conversa|n deixa morrer} {kkk|mano|vei} {é sua chance|agora ou nunca|vai}" },
+      { "role": "initiator", "type": "reaction", "emoji": "❤️‍🔥" }
+    ]
+  },
+  {
+    "name": "crush-indirect-story",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {postei|soltei|mandei} {uma indireta|um story|uma frase} {pro crush|pra pessoa|sabendo q ele/ela ia ver} {e {visualizou|viu|abriu}} {SERA Q ENTENDEU|mds|to nervoso}" },
+      { "role": "responder", "type": "text", "text": "{oq vc postou|manda|qual foi a indireta}? {kkk|mano|vei}" },
+      { "role": "initiator", "type": "text", "text": "{uma musica romantica|frase de amor|\"saudade de quem ta perto\"} {sutil ne|bem discreto|ninguem percebe} {KKKKK|mds|slk}" },
+      { "role": "responder", "type": "text", "text": "{SUTIL|discretissimo|ninguem vai perceber} {KKKKKKK|mano|ironia} {todo mundo sabe|é obvio|so falta um outdoor} {manda msg direto|para de indireta|chega e fala}" },
+      { "role": "initiator", "type": "reaction", "emoji": "🫣" }
+    ]
+  },
+  {
+    "name": "crush-zona-amizade",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {o crush|a pessoa|ele/ela} {me chamou de|falou q eu sou|disse q sou} {\"melhor amigo\"|\"como um irmão\"|\"amigo querido\"} {F|morri|foi bonito enquanto durou} {mds|pqp|kkk}" },
+      { "role": "responder", "type": "text", "text": "{FFFFFFF|meus pesames|caiu na friendzone} {kkkkkkk|mano|slk} {dor|sofrimento|zona mais cruel q existe}" },
+      { "role": "initiator", "type": "text", "text": "{\"vc é importante DEMAIS pra eu estragar com namoro\"|\"nunca quero te perder\"|\"vc é especial como amigo\"} {MDS|cada palavra doeu|facada}" },
+      { "role": "responder", "type": "text", "text": "{parte pra outra|segue em frente|tem mais gente no mundo} {kkk|ne|mano} {friendzone n tem saida|aceita e bola pra frente|vai dar certo com outra pessoa}" },
+      { "role": "initiator", "type": "reaction", "emoji": "💔" }
+    ]
+  },
+  {
+    "name": "crush-ciumes-besteira",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {o crush|o ficante|a pessoa} {curtiu|comentou|reagiu} {na foto|no post|no story} {de outra pessoa|de {um gato|uma gata|alguem bonito}} {to com ciumes|mds|pqp} {é besteira ne|to exagerando|kkk}" },
+      { "role": "responder", "type": "text", "text": "{mano|vei} {é uma curtida|é so um like|vc ta viajando} {kkkkk|ne|slk} {relaxa|n é nada|para de stalker}" },
+      { "role": "initiator", "type": "text", "text": "{eu sei|eu sei q é besteira|racionalmente eu sei} {mas|porém|so que} {o coração|a mente|o ciumes} {n escuta|n liga|é irracional} {kkk|mds|slk}" },
+      { "role": "responder", "type": "text", "text": "{larga o celular|para de stalkear|desinstala o insta} {kkkkk|mano|ne} {ciumes de like é o começo do fim|se acalma|respira}" },
+      { "role": "initiator", "type": "reaction", "emoji": "🫠" }
+    ]
+  },
+  {
+    "name": "balada-convite-sabado",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{e ai|fala|salve} {mano|parsa|vei} {bora|vamo|cola} {na balada|no rolê|na festa} {sábado|sexta|hoje à noite}?" },
+      { "role": "responder", "type": "text", "text": "{bora|vamo|to dentro} {demais|com certeza|sim} {qual|onde|aonde} {é o rolê|vai ser|ta rolando}?" },
+      { "role": "initiator", "type": "text", "text": "{na|tem uma festa na|vai ter no} {vila|centro|barra} {open bar|com DJ tal|ingresso 50 conto}" },
+      { "role": "responder", "type": "text", "text": "{50 conto|open bar|DJ bom}? {to dentro|fechou|bora} {passo ai|a gente se encontra la|uber junto}?" },
+      { "role": "initiator", "type": "text", "text": "{uber junto|racha o uber|te pego as 23h} {sai mais barato|economiza|ne}" },
+      { "role": "responder", "type": "reaction", "emoji": "🔥" }
+    ]
+  },
+  {
+    "name": "balada-ressaca-domingo",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {to destruido|to morto|quero morrer} {de ressaca|ressaca braba|nunca mais bebo}" },
+      { "role": "responder", "type": "text", "text": "{kkkkkkk|eu tb|somos 2} {tu bebeu demais|exagerou|foi pesado ontem} {ne|kkk}" },
+      { "role": "initiator", "type": "text", "text": "{n lembro de nada|apaguei|bagulho ficou louco} {depois das 2h|quando chegou a tequila|mds}" },
+      { "role": "responder", "type": "text", "text": "{tu|vc|mano vc} {dançou em cima da mesa|cantou no karaoke|caiu no chao} {kkkkkkk|tenho video|foi epico}" },
+      { "role": "initiator", "type": "text", "text": "{APAGA ESSE VIDEO|pelo amor|n mostra pra ninguem} {kkkkk|mds|pqp}" },
+      { "role": "responder", "type": "reaction", "emoji": "🤣" }
+    ]
+  },
+  {
+    "name": "balada-fila-entrada",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|slk} {a fila|essa fila|fila da balada} ta {enorme|gigante|absurda} {to aqui faz|ja tem} {30 min|1 hora|uma eternidade}" },
+      { "role": "responder", "type": "text", "text": "{tamo chegando|ja to indo|calma} {guarda lugar|n sai dai|espera nois}" },
+      { "role": "initiator", "type": "text", "text": "{se demorar mais|se n entrar logo|mais 10 min} {eu vou embora|desisto|viro uber e volto pra casa} {kkk|slk|pqp}" },
+      { "role": "responder", "type": "text", "text": "{CALMA|aguenta firme|ja ja entra} {dramatico|kkk|exagerado}" }
+    ]
+  },
+  {
+    "name": "balada-bebida-cara",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {a long neck|a vodka|o drink} ta {30 conto|40 reais|um absurdo} {aqui|nessa balada|nesse lugar}" },
+      { "role": "responder", "type": "text", "text": "{OQUEEE|ce ta de sacanagem|ta maluco} {kkkkk|mds|slk} {é ouro|vem com diamante|pelo menos}" },
+      { "role": "initiator", "type": "text", "text": "{devia ter feito|a gente devia ter feito|proximo rolê é} {esquenta antes|pre game em casa|beber antes de sair}" },
+      { "role": "responder", "type": "text", "text": "{com certeza|anotado|nunca mais venho sem esquenta} {kkkkk|slk|ne}" }
+    ]
+  },
+  {
+    "name": "balada-perdi-amigo",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{MANO|VEI|CADÊ VC} {te perdi|sumiu|onde tu ta} {na balada|na festa|no rolê}" },
+      { "role": "responder", "type": "text", "text": "{TO NO BAR|to la fora|perto do DJ|no banheiro} {me acha|vem aqui|to de camiseta preta}" },
+      { "role": "initiator", "type": "text", "text": "{camiseta preta|de preto} {mano|vei} {todo mundo ta de preto|isso n ajuda|genio} {kkkkk|slk}" },
+      { "role": "responder", "type": "text", "text": "{KKKK|verdade|foi mal} {vou ficar pulando|acende o flash|manda localizacao}" },
+      { "role": "initiator", "type": "reaction", "emoji": "📍" }
+    ]
+  },
+  {
+    "name": "balada-pegacao",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|parsa} {fiquei|beijei|peguei} {uma mina|um cara|alguem} {mt gato|mt gata|incrivel} {ontem|na festa|no rolê} {mds|kkk|slk}" },
+      { "role": "responder", "type": "text", "text": "{BOAAA|isso ai|pegador} {kkkkk|slk|mano} {pegou insta|pegou numero|vai rolar de novo}?" },
+      { "role": "initiator", "type": "text", "text": "{peguei o insta|sim peguei zap|esqueci de pedir} {mds|kkk|mas to feliz}" },
+      { "role": "responder", "type": "text", "text": "{se esqueceu|n pegou contato|ai n} {F|triste|kkkkk} {mas pelo menos curtiu ne|a noite foi boa|valeu a pena}" }
+    ]
+  },
+  {
+    "name": "balada-uber-madrugada",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {o uber|a 99|o taxi} ta {50 reais|dinamica 3x|impossivel} {agora|essa hora|de madrugada} {mds|pqp|slk}" },
+      { "role": "responder", "type": "text", "text": "{racha comigo|vamo dividir|bora junto} {sai mais barato|ne|kkk}" },
+      { "role": "initiator", "type": "text", "text": "{bora|vamo|fechou} {mas espera baixar|vamo esperar um pouco|pede daqui 10 min} {a dinamica|o preço|essa loucura}" },
+      { "role": "responder", "type": "text", "text": "{enquanto isso|beleza|ok} {vou comer um dogão|bora comer algo|tem um lanche ali} {kkk|to com fome|bora}" }
+    ]
+  },
+  {
+    "name": "balada-dress-code",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {a balada|o rolê|a festa} {pede|exige|tem} {dress code|traje social|sapato fechado} {e eu so tenho|meu melhor sapato é|mds} {tenis|havaianas|chinelo} {kkk|slk|pqp}" },
+      { "role": "responder", "type": "text", "text": "{KKKK|compra um sapato|pede emprestado} {kkk|ne|mano} {vai de tenis escuro|tenis preto passa|finge q é sapato}" },
+      { "role": "initiator", "type": "text", "text": "{e se n deixar entrar|ja aconteceu de|tenho trauma} {barrar na porta|n entrar|ficar de fora} {mds|pqp|kkk}" },
+      { "role": "responder", "type": "text", "text": "{confia no tenis preto|entra com confiança|age como se pertencesse} {kkkkk|é psicologico|ne}" }
+    ]
+  },
+  {
+    "name": "musica-playlist-nova",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {escuta essa|ouve essa|da play} {musica|playlist|album} {q eu achei|nova|q saiu hoje}" },
+      { "role": "responder", "type": "text", "text": "{manda|qual|de quem}?" },
+      { "role": "initiator", "type": "text", "text": "{é do|nova do|lançamento do} {matuê|veigh|WIU|filipe ret|mc hariel|ludmilla|anitta} {ta mt boa|obra prima|genial}" },
+      { "role": "responder", "type": "text", "text": "{vou ouvir|to ouvindo|ja abri} {agora|ja|aqui} {spotify|no fone|alto}" },
+      { "role": "responder", "type": "reaction", "emoji": "🎵" },
+      { "role": "responder", "type": "text", "text": "{mano|vei|cara} {mt boa|que isso|pesadao} {viciei|vou botar na playlist|repeat o dia todo}" }
+    ]
+  },
+  {
+    "name": "musica-show-ingresso",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {vai ter show|tem show|sai ingresso} {do|da|de} {coldplay|rbd|taylor swift|matuê|henrique e juliano} {aqui|na cidade|em SP} {bora|vamo|cola}" },
+      { "role": "responder", "type": "text", "text": "{BORA|vamo|quero} {quanto ta|qual o preço|ta quanto o ingresso}?" },
+      { "role": "initiator", "type": "text", "text": "{pista ta|o mais barato ta|saindo por} {200|350|500|800} {conto|reais|pila}" },
+      { "role": "responder", "type": "text", "text": "{mds|pqp|slk} {caro|salgado|absurdo} {mas vale a pena|mas bora|foda-se vou} {kkkkk|ne|mano}" },
+      { "role": "initiator", "type": "text", "text": "{compra logo|n demora|vai esgotar} {q esgota rapido|em 5 min acaba|corre}" }
+    ]
+  },
+  {
+    "name": "musica-festival-lama",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{vei|mano|cara} {o festival|lolla|rock in rio|o evento} {foi|ta sendo} {demais|insano|melhor dia da minha vida}" },
+      { "role": "responder", "type": "text", "text": "{to morrendo de inveja|queria ta ai|desgraçado} {kkkkk|mds|slk}" },
+      { "role": "initiator", "type": "text", "text": "{mas to|so q to} {todo molhado|na lama|morrendo de calor|sem bateria} {kkk|slk|mds}" },
+      { "role": "responder", "type": "text", "text": "{sofrimento com estilo|festival é isso|faz parte} {kkkkk|ne|mano} {manda foto|filma|stories}" }
+    ]
+  },
+  {
+    "name": "musica-karaoke-vergonha",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {ontem no karaoke|no karaoke} {eu cantei|soltei a voz} {e foi pessimo|e todo mundo ficou olhando|mds}" },
+      { "role": "responder", "type": "text", "text": "{KKKKKKK|imagino|coitado} {cantou oq|qual musica|q vergonha}" },
+      { "role": "initiator", "type": "text", "text": "{evidencias|lepo lepo|calcinha preta|linkin park} {e errei toda a letra|desafinei demais|esqueci a letra no meio} {kkkkk|mds|pqp}" },
+      { "role": "responder", "type": "text", "text": "{MORRI|KKKKKK|imagino a cena} {queria ter visto|alguem filmou|me chama no proximo}" }
+    ]
+  },
+  {
+    "name": "musica-guerra-genero",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{sertanejo|funk|pagode|k-pop} {é o melhor genero|é superior|>>>>> tudo}" },
+      { "role": "responder", "type": "text", "text": "{ta doido|vc ta bem|precisa de ajuda} {kkkkk|mano|vei} {rock|rap|mpb|eletronica} {é muito melhor|>>>>|nem compara}" },
+      { "role": "initiator", "type": "text", "text": "{a gente nunca vai concordar|guerra eterna|essa discussao n tem fim} {kkk|ne|slk}" },
+      { "role": "responder", "type": "text", "text": "{pelo menos a gente concorda que|todo mundo sabe que|fato é que} {Raul Seixas é deus|Tim Maia é o GOAT|Caetano é gênio}" },
+      { "role": "initiator", "type": "reaction", "emoji": "🤝" }
+    ]
+  },
+  {
+    "name": "musica-fone-quebrou",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {esqueci meu fone|meu fone quebrou|perdi meu fone} {e to no bus|e to no metro|no trabalho} {sem musica|mds|vou morrer}" },
+      { "role": "responder", "type": "text", "text": "{F|meus pesames|tragedia} {kkkkk|mano|slk} {fica sem msm|compra um novo|usa o alto falante e foda-se}" },
+      { "role": "initiator", "type": "text", "text": "{alto falante no bus|n sou esse tipo de pessoa|os tio do metro ja fazem isso} {kkkkk|ne|slk}" },
+      { "role": "responder", "type": "text", "text": "{KKKK|verdade|realmente} {vai na shopee|compra um baratinho|tem fone de 15 conto}" }
+    ]
+  },
+  {
+    "name": "musica-sertanejo-sofrencia",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {to ouvindo|botei|n paro de ouvir} {sertanejo sofrência|modão|musica triste} {e to quase chorando|bateu uma bad|mds}" },
+      { "role": "responder", "type": "text", "text": "{eita|oq houve|ta bem}? {brigou com alguem|saudade de ex|bad do nada}?" },
+      { "role": "initiator", "type": "text", "text": "{nada|to de boa|é so a musica} {q mexe|q bate|q pega} {kkkkk|mds|slk} {marilia mendonça me destroi|henrique e juliano é tiro no peito|gusttavo lima é choradeira}" },
+      { "role": "responder", "type": "text", "text": "{sertanejo faz isso|musica brasileira é pesada|é uma terapia} {kkkkk|ne|mano} {bota um funk pra animar|troca de playlist|sai dessa}" }
+    ]
+  },
+  {
+    "name": "musica-funkeiro-guilty-pleasure",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{confissao|vou admitir|preciso confessar} {mano|vei}: {eu gosto de|to ouvindo|viciei em} {funk|mc poze|kevin o chris|mc cabelinho} {e n tenho vergonha|julgue-me|kkk}" },
+      { "role": "responder", "type": "text", "text": "{KKKKKK|assumiu|finalmente} {todo mundo ouve|quem n gosta ta mentindo|é bom demais} {kkk|ne|mano}" },
+      { "role": "initiator", "type": "text", "text": "{no carro|no fone|no chuveiro} {eu solto a voz|boto no talo|canto tudo} {kkkkk|mds|slk} {é meu segredo|guilty pleasure|ninguem pode saber}" },
+      { "role": "responder", "type": "text", "text": "{seu segredo ta safe|n conto pra ninguem|segredo de estado} {kkkkkkk|ne|mano} {mentira vou contar pra todo mundo|ja printei|brincadeira}" }
+    ]
+  },
+  {
+    "name": "games-ranked-rage",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{MANO|VEI|PQP} {perdi|tomei|levei} {5 ranked seguidas|de virada|de goleada} {no lol|no valorant|no cs|no fortnite} {to putasso|quero desinstalar|nunca mais jogo}" },
+      { "role": "responder", "type": "text", "text": "{KKKKKKK|calma|normal} {acontece|faz parte|é fase} {kkk|mano|vei}" },
+      { "role": "initiator", "type": "text", "text": "{meu time|os random|a equipe} {era horrivel|n sabia jogar|tudo bot} {mds|pqp|slk}" },
+      { "role": "responder", "type": "text", "text": "{a culpa é sempre do time ne|classico|todo mundo fala isso} {kkkkkkk|haha|rsrs}" },
+      { "role": "initiator", "type": "text", "text": "{MAS É VERDADE|dessa vez era memo|juro por deus} {o cara foi 0/15|o suporte n wardou|ninguem comunicava}" },
+      { "role": "responder", "type": "reaction", "emoji": "🎮" }
+    ]
+  },
+  {
+    "name": "games-novo-lancamento",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{vei|mano|cara} {saiu|lançou|comprei} {o jogo novo|aquele game|o tal jogo} {e ta incrivel|e é mt bom|e viciei}" },
+      { "role": "responder", "type": "text", "text": "{qual|que jogo|fala}" },
+      { "role": "initiator", "type": "text", "text": "{GTA 6|elden ring|zelda|hogwarts|spider man|god of war} {cara é perfeito|mano do ceu|obra prima}" },
+      { "role": "responder", "type": "text", "text": "{to querendo|tb quero|preciso comprar} {mas ta caro|300 conto|n tenho grana} {mds|pqp|kkk}" },
+      { "role": "initiator", "type": "text", "text": "{racha comigo|pega emprestado|espera a promoção} {kkk|ne|vai}" }
+    ]
+  },
+  {
+    "name": "games-live-twitch",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {o gaules|o casimiro|o loud|o streamer} {ta ao vivo|live agora|fazendo live} {jogando|reagindo|abrindo} {vem ver|cola|bora assistir}" },
+      { "role": "responder", "type": "text", "text": "{bora|vou abrir|to la} {manda link|qual canal|ja sei}" },
+      { "role": "initiator", "type": "text", "text": "{o chat ta insano|a live ta mt boa|ele ta jogando demais} {kkkkk|slk|mds}" },
+      { "role": "responder", "type": "text", "text": "{abri aqui|to vendo|cheguei} {KKKKK|mt bom|que isso}" },
+      { "role": "responder", "type": "reaction", "emoji": "📺" }
+    ]
+  },
+  {
+    "name": "games-discord-call",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{entra|cola|vem} {no discord|na call|no server} {bora jogar|pra jogar|vamo meter um game}" },
+      { "role": "responder", "type": "text", "text": "{da uns|espera uns|to entrando em} {5 min|10 min|já já} {vou so|deixa eu|to terminando de} {comer|tomar banho|terminar aqui}" },
+      { "role": "initiator", "type": "text", "text": "{de boa|suave|tranquilo} {ja tem|ta tendo} {mais gente|3 pessoas|o fulano la} {online|na call|no server}" },
+      { "role": "responder", "type": "text", "text": "{massa|beleza|show} {ja to entrando|em 5 to ai|bora}" }
+    ]
+  },
+  {
+    "name": "games-skin-pay2win",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {gastei|torrei|meti} {100 reais|200 conto|meu salario} {em skin|no battle pass|em V-bucks|em RP} {mds|slk|pqp}" },
+      { "role": "responder", "type": "text", "text": "{VC É DOIDO|ta maluco|prioridades ne} {kkkkkkk|mano|vei}" },
+      { "role": "initiator", "type": "text", "text": "{mas ficou mt bonito|a skin é linda|valeu cada centavo} {olha|vê}" },
+      { "role": "responder", "type": "text", "text": "{bonito é pagar boleto|lindo é ter dinheiro pra comer|fashion souls ne} {kkkk|kkk|haha}" },
+      { "role": "initiator", "type": "reaction", "emoji": "💸" }
+    ]
+  },
+  {
+    "name": "games-internet-caiu",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{MANO|VEI|PQP} {a net caiu|minha internet morreu|lag desgraçado} {NO MEIO DA RANKED|na hora da luta|quando tava ganhando} {quero chorar|vou processar a vivo|MDS}" },
+      { "role": "responder", "type": "text", "text": "{F|KKKKKK|meus pesames} {a gente perdeu|tomamo|ficou 4v5} {por sua causa|culpa da net|kkk}" },
+      { "role": "initiator", "type": "text", "text": "{n foi minha culpa|é a operadora|pago caro pra isso} {mds|pqp|vou mudar de provedor}" },
+      { "role": "responder", "type": "text", "text": "{muda pra fibra|pega outra operadora|compra um cabo melhor} {kkk|slk|ne}" }
+    ]
+  },
+  {
+    "name": "games-madrugada-insonia",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {joguei|fiquei jogando|to jogando} {ate as 5 da manha|a madrugada toda|a noite inteira} {e amanha tenho|e hj cedo tenho} {aula|trabalho|prova} {mds|pqp|F}" },
+      { "role": "responder", "type": "text", "text": "{prioridades|KKKK|vc ta bem?} {larga o jogo|vai dormir|desliga isso} {ne|mano|pelo amor}" },
+      { "role": "initiator", "type": "text", "text": "{\"so mais uma partida\"|\"ultima rodada\"|disse isso 3 horas atras} {kkkkk|mds|n consigo parar}" },
+      { "role": "responder", "type": "text", "text": "{isso é vicio|precisa de ajuda|desinstala|larga} {kkkkk|mano|slk} {amanha vc vai ta um zumbi|vai dormir em pe|rip}" },
+      { "role": "initiator", "type": "reaction", "emoji": "🧟" }
+    ]
+  },
+  {
+    "name": "games-console-vs-pc",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {PC|console|ps5} {é superior|>>>>|ganha de lavada} {e ponto final|fato|n tem discussao}" },
+      { "role": "responder", "type": "text", "text": "{ta maluco|errado|discordo} {kkkk|mano|vei} {console|PC|xbox} {é muito melhor|é mais pratico|é mais barato}" },
+      { "role": "initiator", "type": "text", "text": "{a gente nunca vai concordar|eterna guerra|briga sem fim} {kkk|ne|slk}" },
+      { "role": "responder", "type": "text", "text": "{o importante é jogar|tanto faz|joga no q der|ate no celular vale} {kkkkk|ne|mano} {gamer de verdade joga em tudo|n é sobre plataforma}" },
+      { "role": "initiator", "type": "reaction", "emoji": "🎮" }
+    ]
+  },
+  {
+    "name": "games-rage-quit-clip",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {dei rage quit|quebrei o mouse|joguei o controle|soquei a mesa} {na ranked|no jogo|na partida} {de raiva|de nervoso|pqp}" },
+      { "role": "responder", "type": "text", "text": "{KKKKKKKK|calma|é so um jogo} {kkk|mano|vei} {controle custa caro|mouse n é barato|a mesa n tem culpa}" },
+      { "role": "initiator", "type": "text", "text": "{eu sei|me arrependi|foi no impulso} {agora tenho q comprar outro|ta quebrado|mds} {gastei dinheiro atoa|pqp|slk}" },
+      { "role": "responder", "type": "text", "text": "{compra um travesseiro|soca almofada|respira fundo} {kkkkk|mano|ne} {raiva de jogo é real|gamer sofre|n é facil}" },
+      { "role": "initiator", "type": "reaction", "emoji": "🤬" }
+    ]
+  },
+  {
+    "name": "games-compra-steam",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {a steam|promoção da steam|sale da steam} {ta com|tem jogo} {desconto de 90%|baratissimo|preço de banana} {comprei {10|15|20} jogos|torrei minha grana|gastei tudo} {mds|kkk|slk}" },
+      { "role": "responder", "type": "text", "text": "{KKKK|classico|todo mundo faz isso} {e vai jogar|e joga quando|aposto q n vai jogar} {nenhum|kkk|ne}" },
+      { "role": "initiator", "type": "text", "text": "{tenho {200|300|500} jogos|minha biblioteca ta enorme} {e jogo|e so abro} {os mesmos 3|lol|valorant|minecraft} {kkkkk|mds|é a vida}" },
+      { "role": "responder", "type": "text", "text": "{acumulador digital|colecionador|steam é armadilha} {kkkkkkk|ne|mano} {pelo menos foi barato|investimento|kkk}" }
+    ]
+  },
+  {
+    "name": "anime-novo-episodio",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{MANO|VEI|CARA} {saiu ep novo|episodio novo|novo ep} {de|do} {one piece|jujutsu kaisen|demon slayer|attack on titan|dragon ball} {e eu to CHOCADO|MDS|q episodio}" },
+      { "role": "responder", "type": "text", "text": "{NÃO DA SPOILER|PARA|CALA A BOCA} {ainda n vi|vou ver hj a noite|n assisti}" },
+      { "role": "initiator", "type": "text", "text": "{ta bom n falo nada|ok ok|desculpa} {mas mano|mas vei} {ASSISTE LOGO|corre ver|é urgente}" },
+      { "role": "responder", "type": "text", "text": "{to baixando|ja to abrindo|hj a noite eu vejo} {se der spoiler|se falar algo} {te mato|te bloqueio|amizade acabou} {kkk|slk}" }
+    ]
+  },
+  {
+    "name": "anime-manga-capitulo",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{li o capitulo novo|o scan saiu|manga novo} {do one piece|de jjk|de chainsaw man|de my hero} {e to sem chao|PQP|chorei}" },
+      { "role": "responder", "type": "text", "text": "{manda|conta|oq aconteceu} {eu leio scan|eu tb li|quero saber}" },
+      { "role": "initiator", "type": "text", "text": "{o protagonista|o vilao|o personagem} {morreu|voltou|evoluiu|traiu todo mundo} {MANO|MDS|n acredito}" },
+      { "role": "responder", "type": "text", "text": "{NAOOOOO|COMO ASSIM|QUE|MENTIRA} {impossivel|n creio|o autor é genio ou maluco}" },
+      { "role": "initiator", "type": "reaction", "emoji": "🤯" }
+    ]
+  },
+  {
+    "name": "anime-cosplay-evento",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {vai ter|tem|bora no} {anime friends|CCXP|comic con|evento de anime} {bora|vamo|cola}" },
+      { "role": "responder", "type": "text", "text": "{bora|quero|to dentro} {vai de cosplay|vai fantasiado|vai normal}?" },
+      { "role": "initiator", "type": "text", "text": "{to pensando em ir de|quero ir de|vou de} {naruto|goku|tanjiro|luffy|eren} {kkk|slk|seria top}" },
+      { "role": "responder", "type": "text", "text": "{vai ficar mt bom|vc de cosplay|imagino a cena} {kkkkk|mds|slk} {eu vou de|tb quero ir de|vou normal msm}" }
+    ]
+  },
+  {
+    "name": "anime-waifu-debate",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {hinata|sakura|zero two|mikasa|yor} é {a melhor waifu|a mais bonita|top 1} {e n tem discussao|fato|ponto final}" },
+      { "role": "responder", "type": "text", "text": "{VC TA LOUCO|errado|gosto ruim} {kkkkkk|mano|vei} {a melhor é|top 1 é|nem compara com} {rem|robin|makima|nezuko}" },
+      { "role": "initiator", "type": "text", "text": "{essa discussao|esse debate|a gente} {nunca vai acabar|n tem fim|briga todo dia por isso} {kkk|ne|slk}" },
+      { "role": "responder", "type": "text", "text": "{2D > 3D|a gente precisa de ajuda|prioridades da vida} {kkkkk|haha|rsrs}" },
+      { "role": "initiator", "type": "reaction", "emoji": "🗿" }
+    ]
+  },
+  {
+    "name": "anime-sub-vs-dub",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {sub|legendado} {é mil vezes melhor|>>>>|é superior} {q dublado|que dub|kkk}" },
+      { "role": "responder", "type": "text", "text": "{discordo|errado|a dublagem BR é boa} {kkk|mano|vei} {cavaleiros do zodiaco|dragon ball|naruto} {dublado é classico|dub BR é perfeita|icônico}" },
+      { "role": "initiator", "type": "text", "text": "{ok ok|td bem|justo} {mas anime novo|mas os novos|lançamento} {tem q ser sub|é sub|original é melhor}" },
+      { "role": "responder", "type": "text", "text": "{ai concordo|nisso concordo|ok aceito} {kkk|ne|faz sentido}" }
+    ]
+  },
+  {
+    "name": "anime-filler-raiva",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {naruto|boruto|one piece|bleach} {tem tanto filler|ep de filler|é so filler} {q eu quero desistir|mds|pqp} {perdi 3 horas|vi 10 eps de nada|odiei}" },
+      { "role": "responder", "type": "text", "text": "{pula o filler|tem lista de filler|ignora} {kkk|ne|mano} {so assiste o canon|vai direto|filtra}" },
+      { "role": "initiator", "type": "text", "text": "{eu sei|ja to pulando|mas as vezes n percebo} {e quando vejo|ai q descubro|mds} {perdi tempo|era filler|raiva}" },
+      { "role": "responder", "type": "text", "text": "{usa o animefillerlist|tem site pra isso|pesquisa antes} {kkkkk|ne|mano} {facilita a vida|salva horas|confia}" }
+    ]
+  },
+  {
+    "name": "anime-figurinha-japones",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {aprendi|sei falar|decorei} {umas palavras|japones|frases} {de tanto ver anime|so de anime|assistindo} {sugoi|nani|baka|kawaii|yamete} {kkkkk|mds|slk}" },
+      { "role": "responder", "type": "text", "text": "{KKKKKK|otaku raiz|weeb assumido} {kkk|ne|mano} {fala mais|manda ver|te desafio}" },
+      { "role": "initiator", "type": "text", "text": "{omae wa mou shindeiru|dattebayo|sasuke!|gomu gomu no} {KKKK|sou fluente|basicamente japones}" },
+      { "role": "responder", "type": "text", "text": "{bota no curriculo|fluente em anime|lingua: otaku avançado} {kkkkkkkkk|mano|slk} {vc precisa sair de casa|vai ver o sol|kkk}" },
+      { "role": "initiator", "type": "reaction", "emoji": "🇯🇵" }
+    ]
+  },
+  {
+    "name": "fofoca-bbb-eliminacao",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{MANO|VEI|GENTE} {saiu|eliminou|foi eliminado} {o fulano|a fulana|aquele chato} {do bbb|do reality|da casa} {AMÉM|finalmente|era hora}" },
+      { "role": "responder", "type": "text", "text": "{BOAAAA|JUSTIÇA|até que enfim} {kkkkkkk|mds|slk} {merecia|n aguentava mais|chato demais}" },
+      { "role": "initiator", "type": "text", "text": "{com {98|95|89}% dos votos|foi massacrado|o povo decidiu} {kkkkk|slk|merecido}" },
+      { "role": "responder", "type": "text", "text": "{agora torço pro|quero q ganhe|meu favorito é} {o tal|a tal|aquele do cabelo} {ne|kkk|mano}" },
+      { "role": "initiator", "type": "reaction", "emoji": "🏠" }
+    ]
+  },
+  {
+    "name": "fofoca-famoso-traicao",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{MANO|VEI|GENTE} {o famoso|a celebridade|o cantor} {traiu|foi pego|vazou audio} {mds|pqp|slk} {ta em tudo q é lugar|trending no twitter|bombou}" },
+      { "role": "responder", "type": "text", "text": "{SEMPRE SOUBE|eu sabia|ninguem se surpreendeu} {kkkkk|ne|mano} {homem é tudo igual|gente famosa é assim|nenhuma novidade}" },
+      { "role": "initiator", "type": "text", "text": "{e a esposa|o parceiro|a pessoa} {postou indiretas|soltou textao|fez stories chorando} {mds|coitada|pqp}" },
+      { "role": "responder", "type": "text", "text": "{eu amo uma treta|adoro fofoca|vou pegar pipoca} {kkkkk|haha|isso é melhor q novela}" }
+    ]
+  },
+  {
+    "name": "fofoca-rico-ostentando",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{viu o story|viu o post|olha la} {do influencer|da blogueira|do famoso} {em dubai|no iate|no carro de luxo} {ostentando|humilhando|mds}" },
+      { "role": "responder", "type": "text", "text": "{enquanto eu aqui|eu comendo miojo|minha realidade é bem diferente} {kkkkk|mds|slk} {come caviar|e eu no busao|triste}" },
+      { "role": "initiator", "type": "text", "text": "{deve ser golpe|ninguém fica rico assim|é tudo alugado} {kkk|ne|mano} {desconfio de tudo|marketing}" },
+      { "role": "responder", "type": "text", "text": "{com certeza|esquema|curso de coach} {kkkkk|slk|tipico}" }
+    ]
+  },
+  {
+    "name": "fofoca-casal-terminou",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{GENTE|VEI|MANO} {o casal|fulano e ciclana|os dois} {famoso|do insta|influencer} {terminaram|acabou|separaram} {mds|n acredito|como assim}" },
+      { "role": "responder", "type": "text", "text": "{nao creio|sério?|como assim} {eles pareciam|achava q era|todo mundo achava} {tao bem|o casal perfeito|pra sempre}" },
+      { "role": "initiator", "type": "text", "text": "{é tudo fachada|rede social é mentira|n da pra acreditar em nada} {ne|kkk|mano}" },
+      { "role": "responder", "type": "text", "text": "{realmente|faz sentido|a gente nunca sabe} {se nem eles deram certo|imagina nois|F pra todos} {kkkkk|ne}" }
+    ]
+  },
+  {
+    "name": "fofoca-polemica-cancelamento",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {cancelaram|tao cancelando|o twitter cancelou} {o fulano|a influencer|o youtuber} {de novo|pela milésima vez|agora vai}" },
+      { "role": "responder", "type": "text", "text": "{oq fez|dessa vez oq|qual foi}" },
+      { "role": "initiator", "type": "text", "text": "{falou merda|fez piada sem graça|postou coisa errada|ficou com a pessoa errada} {num podcast|ao vivo|no twitter}" },
+      { "role": "responder", "type": "text", "text": "{merecido|exagerado|depende do contexto} {kkk|ne|mano} {cancelamento n funciona|semana q vem ngm lembra|vai voltar como se nada}" },
+      { "role": "initiator", "type": "reaction", "emoji": "🍿" }
+    ]
+  },
+  {
+    "name": "fofoca-bbb-casal",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{MANO|VEI|GENTE} {o casal|os dois|fulano e ciclana} {do bbb|da casa|do reality} {se beijaram|ficaram|assumiram} {TO SHIPPANDO|mds|FINALMENTE}" },
+      { "role": "responder", "type": "text", "text": "{AAAAAAA|SHIPPO|MELHORES} {kkkkk|mds|slk} {sabia q ia rolar|tava na cara|era questao de tempo}" },
+      { "role": "initiator", "type": "text", "text": "{o nome do casal|o ship|ja criaram} {é {\"fulanela\"|\"ciclanito\"|\"os queridinhos\"}|kkkkk|mds} {twitter ta enlouquecido|tag no trending|geral pirando}" },
+      { "role": "responder", "type": "text", "text": "{torço pra dar certo|quero na final|protejam eles} {kkkkk|ne|mano} {bbb é minha novela|vivo pra isso|entretenimento}" }
+    ]
+  },
+  {
+    "name": "fofoca-reality-paredao",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {votei|to votando|ja votei} {umas 50 vezes|mil vezes|a madrugada toda} {pra eliminar|pra tirar|contra} {o fulano|aquela pessoa|o chato} {do bbb|do reality|da casa}" },
+      { "role": "responder", "type": "text", "text": "{eu tb|somos nos|tamo junto} {kkkkk|ne|mano} {tem q sair|n aguento mais|insuportavel}" },
+      { "role": "initiator", "type": "text", "text": "{se n sair|se ficar|se continuar} {eu paro de assistir|vou surtar|desisto} {mds|pqp|slk}" },
+      { "role": "responder", "type": "text", "text": "{vc fala isso toda semana|e continua assistindo|nunca para|mentira} {kkkkkkk|ne|admite}" },
+      { "role": "initiator", "type": "reaction", "emoji": "📺" }
+    ]
+  },
+  {
+    "name": "fofoca-vizinha-fuxiqueira",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {a vizinha|a dona maria|a senhora do 201} {ficou me olhando|tava me espionando|viu eu chegando} {de madrugada|com alguem|com sacola de bebida} {e sei q vai|com certeza vai|ja deve ta} {falar pra todo mundo|fofocando|contando pro predio} {mds|kkk|slk}" },
+      { "role": "responder", "type": "text", "text": "{KKKKKK|vizinha raiz|classica dona maria} {toda rua tem|é universal|FBI particular} {kkk|ne|mano}" },
+      { "role": "initiator", "type": "text", "text": "{ela sabe|essa mulher sabe|a bixinha sabe} {mais da minha vida|meus horarios|minhas visitas} {do q eu mesmo|do q minha mae|é impressionante} {kkk|mds|slk}" },
+      { "role": "responder", "type": "text", "text": "{contrata ela como detetive|ela devia trabalhar na ABIN|serviço de inteligência gratuito} {kkkkkkk|ne|mano}" }
+    ]
+  },
+  {
+    "name": "fofoca-influencer-exposed",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{MANO|VEI|GENTE} {vazou|expuseram|saiu video} {do influencer|da blogueira|do youtuber} {sendo|falando|fazendo} {racista|preconceituoso|grosso com fas|coisa errada} {mds|pqp|absurdo}" },
+      { "role": "responder", "type": "text", "text": "{sempre desconfiei|eu sabia|ninguem se surpreende} {kkk|ne|mano} {mascara caiu|mostrou quem é|era questao de tempo}" },
+      { "role": "initiator", "type": "text", "text": "{e as marcas|os patrocinadores|as empresas} {ja tao|tao comecando a} {cancelar contrato|se afastando|soltando nota} {mds|merecido|pqp}" },
+      { "role": "responder", "type": "text", "text": "{merecido|justo|consequencias|bem feito} {kkk|ne|mano} {fama n é desculpa|dinheiro n compra caráter|gente ruim se expõe}" },
+      { "role": "responder", "type": "reaction", "emoji": "🎭" }
+    ]
+  },
+  {
+    "name": "piada-trocadilho-ruim",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {ouve essa|escuta|piada}: {por que o pão foi no médico? pq tava de mau fermento|o q o zero disse pro oito? bonito cinto|qual o contrario de volátil? vem cá sobrinho}" },
+      { "role": "responder", "type": "text", "text": "{VOU TE BLOQUEAR|PELO AMOR|PARA COM ISSO} {kkkkkkk|mds|pqp} {piada de tio|humor de pai|cringe total}" },
+      { "role": "initiator", "type": "text", "text": "{admite q riu|fala q n riu|tu riu eu sei} {kkkkk|haha|confessa}" },
+      { "role": "responder", "type": "text", "text": "{NÃO RI|talvez|ok ri um pouco} {mas foi de nervoso|por desespero|de vergonha alheia} {kkk|mds}" }
+    ]
+  },
+  {
+    "name": "piada-zoeira-amigo",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{lembra|vei lembra|mano lembra} {quando tu|aquela vez q vc|quando ce} {caiu na frente de todo mundo|falou merda pro professor|mandou msg pro crush errado} {KKKKK|nunca superei|melhor dia}" },
+      { "role": "responder", "type": "text", "text": "{PARA|n me lembra|isso n aconteceu} {kkkk|mds|vei} {eu superei|ja esqueci|trauma} {mentira nunca vou superar|kkk}" },
+      { "role": "initiator", "type": "text", "text": "{eu tenho video|tenho print|ta gravado pra sempre} {KKKKKK|é minha arma secreta|pra quando precisar}" },
+      { "role": "responder", "type": "text", "text": "{APAGA ISSO|se vazar eu te mato|eu tb tenho coisa sua} {kkkkk|guerra fria ne|empate}" },
+      { "role": "initiator", "type": "reaction", "emoji": "😈" }
+    ]
+  },
+  {
+    "name": "piada-pergunta-boba",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {vc ja pensou|ja parou pra pensar|reflexão}: {se o peixe bebe água do mar ele fica com sede?|o Adão tinha umbigo?|quem ensinou o primeiro professor?}" },
+      { "role": "responder", "type": "text", "text": "{mano|vei|cara} {são 3 da manhã|vc ta chapado|q tipo de pergunta é essa} {kkkkk|mds|slk}" },
+      { "role": "initiator", "type": "text", "text": "{MAS PENSA|é sério|n é besteira} {mds|cara|kkk}" },
+      { "role": "responder", "type": "text", "text": "{vai dormir|larga o celular|vc precisa de ajuda} {kkkkkkk|pelo amor|mds}" }
+    ]
+  },
+  {
+    "name": "piada-audio-zoado",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|escuta} {esse audio|o audio|q me mandaram} {é a coisa mais engraçada|eu chorei|passei mal} {kkkkk|mds|slk}" },
+      { "role": "responder", "type": "text", "text": "{to no bus|to no trabalho|to sem fone} {posso ouvir dps|manda q eu ouco em casa|descreve}" },
+      { "role": "initiator", "type": "text", "text": "{é um cara|a mina|o maluco} {brigando com a alexa|xingando o GPS|discutindo com siri} {kkkkk|mt bom|morro}" },
+      { "role": "responder", "type": "text", "text": "{KKKKKK|preciso ouvir|cheguei em casa ja ouco} {briga com IA é o futuro|coitada da alexa|tecnologia ne}" }
+    ]
+  },
+  {
+    "name": "piada-grupo-familia",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {minha tia|minha vó|meu tio} {mandou|compartilhou|postou} {fake news|bom dia florido|corrente de whatsapp} {no grupo da familia|no zap da familia} {de novo|pela centesima vez} {mds|kkk|slk}" },
+      { "role": "responder", "type": "text", "text": "{KKKKKK|classico|tipico} {a minha tb|todo grupo de familia|é universal} {kkk|ne|mano}" },
+      { "role": "initiator", "type": "text", "text": "{\"se n repassar vai ter azar\"|\"bom dia com flores\"|\"cuidado com golpe do pix\"} {KKKK|mds|socorro}" },
+      { "role": "responder", "type": "text", "text": "{melhor silenciar|eu ja silenciei o meu|é a unica saida} {kkkkk|ne|mano}" },
+      { "role": "initiator", "type": "reaction", "emoji": "🤦" }
+    ]
+  },
+  {
+    "name": "piada-autocorretor",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei} {o corretor|o autocorretor|o teclado} {me fez|trocou|corrigiu} {mandar|enviar} {\"eu teamo\" pro chefe|\"gostosa\" pra minha mae|\"odiei\" em vez de \"adorei\"} {SOCORRO|MDS|PQP}" },
+      { "role": "responder", "type": "text", "text": "{KKKKKKKKK|MORRI|NÃO} {e responderam oq|oq falaram|a pessoa viu}??" },
+      { "role": "initiator", "type": "text", "text": "{sim|visualizou|RESPONDEU COM ?????} {to querendo sumir|vou mudar de nome|preciso de um buraco}" },
+      { "role": "responder", "type": "text", "text": "{desativa esse corretor|pelo amor|vc é um perigo} {kkkkkkk|mds|slk}" }
+    ]
+  },
+  {
+    "name": "piada-nome-grupo-zap",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {mudaram o nome|trocaram o nome|olha o nome} {do grupo|do gc|do zap} {pra|agora é} {\"terapia coletiva\"|\"boleto em dia\"|\"sobreviventes da segunda\"|\"formados em sofrimento\"} {KKKKKK|mds|slk}" },
+      { "role": "responder", "type": "text", "text": "{KKKKKKK|perfeito|combina com a gente} {quem mudou|foi vc|genio} {kkk|mano}" },
+      { "role": "initiator", "type": "text", "text": "{foi o fulano|n sei|apareceu do nada} {as 3 da manha|de madrugada|do nada} {inspiração noturna|kkkkk|mds}" },
+      { "role": "responder", "type": "text", "text": "{melhor nome|mantém|n muda mais} {kkkkk|perfeito|icônico}" }
+    ]
+  },
+  {
+    "name": "perrengue-transporte-lotado",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {o bus|o metro|o trem} ta {lotado|impossivel|uma lata de sardinha} {n consigo respirar|to espremido|mds}" },
+      { "role": "responder", "type": "text", "text": "{F|forças|meus pesames} {kkkkk|mano|slk} {horário de pico|é assim todo dia|SP/RJ feelings}" },
+      { "role": "initiator", "type": "text", "text": "{tem um cara|uma pessoa|alguem} {com sovaco no meu nariz|ouvindo funk no alto falante|comendo ovo cozido} {MDS|PQP|quero morrer}" },
+      { "role": "responder", "type": "text", "text": "{KKKKKKK|clássico|o combo completo} {transporte publico é uma aventura|Brasil ne|faz parte}" },
+      { "role": "initiator", "type": "reaction", "emoji": "😷" }
+    ]
+  },
+  {
+    "name": "perrengue-chuva-sem-guarda-chuva",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{MANO|VEI|CARA} {começou a chover|chuva do nada|temporal} {e eu to sem guarda chuva|na rua|no ponto de ônibus} {to encharcado|virei piscina|mds}" },
+      { "role": "responder", "type": "text", "text": "{KKKKKK|coitado|mano} {entra em algum lugar|corre|aceita} {kkk|ne|slk}" },
+      { "role": "initiator", "type": "text", "text": "{n tem onde se esconder|to no meio do nada|a parada n tem teto} {pqp|mds|slk}" },
+      { "role": "responder", "type": "text", "text": "{F|vc agora é anfibio|pelo menos ta tomando banho} {kkkkkkk|mano|slk}" }
+    ]
+  },
+  {
+    "name": "perrengue-celular-quebrou",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {meu cel|meu celular|meu telefone} {caiu|quebrou a tela|parou de funcionar} {to usando o cel velho|to pelo pc|pedi emprestado} {mds|pqp|slk}" },
+      { "role": "responder", "type": "text", "text": "{F|meus pesames|coitado} {conserto ta caro|tela ta quanto|vai arrumar}?" },
+      { "role": "initiator", "type": "text", "text": "{orçaram|ta custando|pediram} {500|800|quase o preço de um novo} {pra arrumar|pela tela|mds}" },
+      { "role": "responder", "type": "text", "text": "{melhor comprar um novo|por esse preço|absurdo} {compra na promoção|espera a black friday|shopee tem barato} {kkk|ne|slk}" }
+    ]
+  },
+  {
+    "name": "perrengue-entrevista-emprego",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {tive entrevista|fui na entrevista|entrevista de emprego} {e passei|e dei mole|e travei} {vergonha total|quero sumir|mds}" },
+      { "role": "responder", "type": "text", "text": "{oq aconteceu|conta|fala}" },
+      { "role": "initiator", "type": "text", "text": "{perguntaram meu defeito e eu falei \"sou perfeccionista\"|falei q meu hobby é dormir|chamei o entrevistador pelo nome errado} {KKKKK|MDS|PQP}" },
+      { "role": "responder", "type": "text", "text": "{KKKKKKK|MORRI|clássico} {pelo menos foi sincero|acontece|ja era}" },
+      { "role": "initiator", "type": "reaction", "emoji": "🤡" }
+    ]
+  },
+  {
+    "name": "perrengue-comida-delivery",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {pedi no ifood|fiz pedido|delivery} {e veio tudo errado|e esqueceram meu lanche|e demorou 2 horas} {MDS|PQP|to com fome}" },
+      { "role": "responder", "type": "text", "text": "{classico|ifood né|sempre isso} {kkk|mano|slk} {pede reembolso|reclama|da nota baixa}" },
+      { "role": "initiator", "type": "text", "text": "{pedi X e veio Y|a batata tava fria|a coca tava quente} {inadmissivel|crime|mds}" },
+      { "role": "responder", "type": "text", "text": "{coca quente é crime|isso é motivo pra processo|deveria ser ilegal} {kkkkk|fato|concordo totalmente}" },
+      { "role": "initiator", "type": "reaction", "emoji": "😤" }
+    ]
+  },
+  {
+    "name": "perrengue-alarme-n-tocou",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{MANO|VEI|SOCORRO} {o alarme n tocou|dormi demais|acordei atrasado} {to {30 min|1 hora|2 horas} atrasado} {pro trabalho|pra aula|pra prova} {MDS|PQP|vou ser demitido}" },
+      { "role": "responder", "type": "text", "text": "{KKKKKK|F|corre} {inventa uma desculpa|fala q o bus quebrou|fala q teve acidente no caminho}" },
+      { "role": "initiator", "type": "text", "text": "{vou falar q|minha desculpa vai ser|vou dizer que} {tive problema de saude|o transito tava ruim|minha mae passou mal}" },
+      { "role": "responder", "type": "text", "text": "{boa|criativo|classico} {mas bota mais alarme|compra um despertador|dorme mais cedo} {ne|kkk|mano}" }
+    ]
+  },
+  {
+    "name": "perrengue-vizinho-barulho",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {meu vizinho|o vizinho|o desgraçado do lado} {ta fazendo obra|ligou som alto|ta com festa} {as 7 da manha|num domingo|de madrugada} {MDS|PQP|vou surtar}" },
+      { "role": "responder", "type": "text", "text": "{liga pro sindico|chama a policia|bate la e conversa} {kkk|ne|mano}" },
+      { "role": "initiator", "type": "text", "text": "{ja reclamei|ja falei|ja chamei o sindico} {3 vezes|mil vezes|toda semana} {e nada muda|e ele caga|sem resultado}" },
+      { "role": "responder", "type": "text", "text": "{muda de ap|compra um fone|bota som mais alto|começa a fazer barulho tb} {kkkkk|é guerra|slk}" }
+    ]
+  },
+  {
+    "name": "perrengue-wifi-caiu",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{MANO|VEI|PQP} {a internet|o wifi|a net} {caiu|morreu|ta fora} {e eu tava|no meio de|bem na hora} {uma call de trabalho|aula online|download|filme|ranked} {MDS|PQP|vou surtar}" },
+      { "role": "responder", "type": "text", "text": "{F|classico|sempre na pior hora} {kkk|ne|mano} {reinicia o modem|desliga e liga|faz a dança da chuva}" },
+      { "role": "initiator", "type": "text", "text": "{ja reiniciei|ja desliguei|ja fiz de tudo} {3 vezes|mil vezes|nada funciona} {vou ligar pra operadora|mds|quero morrer}" },
+      { "role": "responder", "type": "text", "text": "{\"ja tentou desligar e ligar\"|vai ouvir isso 50 vezes|atendimento da operadora é outro perrengue} {kkkkkkk|mano|slk} {boa sorte|vai precisar|F}" }
+    ]
+  },
+  {
+    "name": "perrengue-chave-trancado",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{MANO|VEI|SOCORRO} {esqueci a chave|me tranquei pra fora|a porta trancou} {e to na rua|e n consigo entrar|sem chave} {mds|pqp|vou dormir na rua}" },
+      { "role": "responder", "type": "text", "text": "{KKKKKK|de novo|sempre vc} {chama chaveiro|pede pro vizinho|tem janela aberta}?" },
+      { "role": "initiator", "type": "text", "text": "{chaveiro quer|pediram} {200 reais|150|300} {pra abrir|pela porta|mds} {é um roubo|mais caro q o aluguel|pqp}" },
+      { "role": "responder", "type": "text", "text": "{vem dormir aqui|meu sofa ta disponivel|vem pra ca} {kkk|ne|mano} {amanha resolve|paga o chaveiro|faz copia da chave depois}" },
+      { "role": "initiator", "type": "reaction", "emoji": "🔑" }
+    ]
+  },
+  {
+    "name": "perrengue-roupa-errada",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{MANO|VEI|SOCORRO} {cheguei|vim|fui} {no evento|na festa|no rolê} {e to vestido|e to usando|e vim de} {totalmente errado|roupa errada|casual num lugar chique|chique num lugar casual} {mds|pqp|quero sumir}" },
+      { "role": "responder", "type": "text", "text": "{KKKKKKK|coitado|classico} {ta de oq|como vc ta|descreve} {kkk|mano|vei}" },
+      { "role": "initiator", "type": "text", "text": "{to de bermuda e havaianas|de terno|de moletom} {e todo mundo de|e a galera ta de} {social|casual|fantasia} {MDS|to passando vergonha|vou embora}" },
+      { "role": "responder", "type": "text", "text": "{finge q é proposital|fala q é estilo|confiança é tudo} {kkkkkkk|mano|ne} {ou vai embora memo|uber ta ai|kkk}" }
+    ]
+  },
+  {
+    "name": "perrengue-foto-documento",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {tirei foto|fiz a foto} {pro documento|3x4|pro RG|pra CNH} {e ficou HORRIVEL|pareco um criminoso|mds} {pareco {doente|assustado|bêbado}|pqp|slk}" },
+      { "role": "responder", "type": "text", "text": "{KKKKKK|todo mundo fica feio|é universal} {kkk|ne|mano} {ninguem fica bonito|foto 3x4 é cruel|é a lei}" },
+      { "role": "initiator", "type": "text", "text": "{vou ter q usar isso|esse documento|essa foto} {por 10 anos|pra sempre|o resto da vida} {MDS|PQP|quero chorar}" },
+      { "role": "responder", "type": "text", "text": "{pensa q podia ser pior|pelo menos n precisa mostrar pra ninguem|guarda no bolso} {kkkkkkk|ne|mano}" }
+    ]
+  },
+  {
+    "name": "perrengue-banho-frio",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{MANO|VEI|PQP} {o chuveiro|a agua|o gas} {acabou|ta frio|n ta esquentando} {e to {ensaboado|no meio do banho|com shampoo na cabeça}} {MDS|SOCORRO|vou morrer de frio}" },
+      { "role": "responder", "type": "text", "text": "{KKKKKKK|F|meus pesames} {aquece agua no fogao|ferve uma panela|vai de panela} {kkk|ne|mano}" },
+      { "role": "initiator", "type": "text", "text": "{ja terminei|tomei gelado|morri mas passei} {to tremendo|hipotermia|congelei} {mds|pqp|kkk}" },
+      { "role": "responder", "type": "text", "text": "{heroi|guerreiro|sobrevivente} {kkkkkkk|mano|ne} {liga pro tecnico|troca o chuveiro|compra um aquecedor}" }
+    ]
+  },
+  {
+    "name": "fds-planos-sabado",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{e ai|fala|salve} {mano|parsa|vei} {oq vai fazer|qual o plano|bora fazer algo} {no sabado|nesse fds|amanha}?" },
+      { "role": "responder", "type": "text", "text": "{nada|to livre|sem planos} {por enquanto|ainda|acho} {por que|oq tu quer fazer|manda ai}" },
+      { "role": "initiator", "type": "text", "text": "{bora no|vamo pro|cola no} {shopping|parque|churrasco|cinema|praia|bar}?" },
+      { "role": "responder", "type": "text", "text": "{bora|fechou|to dentro} {que horas|marca a hora|quando}?" },
+      { "role": "initiator", "type": "text", "text": "{umas 14h|meio dia|15h|de tardezinha} {beleza|suave|de boa}?" },
+      { "role": "responder", "type": "text", "text": "{fechado|combinado|feito} {te chamo|marco no grupo|aviso a galera}" }
+    ]
+  },
+  {
+    "name": "fds-netflix-sofa",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {meu plano pro fds|hj meu plano|sabado} é {netflix e sofá|maratonar serie|nao sair da cama} {e ninguem me tira isso|prioridade|merecido}" },
+      { "role": "responder", "type": "text", "text": "{te entendo|somos 2|plano perfeito} {kkk|ne|mano} {vai ver oq|qual serie|oq vai assistir}?" },
+      { "role": "initiator", "type": "text", "text": "{to pensando em|vou começar|quero ver} {round 6|stranger things|one piece live action|a serie nova} {recomendaram mt|todo mundo ta vendo|parece boa}" },
+      { "role": "responder", "type": "text", "text": "{é boa demais|assisti|muito boa} {vai viciar|n vai parar|cuidado q vicia} {kkk|slk|mano}" }
+    ]
+  },
+  {
+    "name": "fds-churrasco-organizacao",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{BORA|vamo|marca} {um churras|churrasco|carninha} {nesse fds|sabado|domingo} {na minha casa|la em casa|no terraço}?" },
+      { "role": "responder", "type": "text", "text": "{BORA|to dentro|ja quero} {oq eu levo|levo oq|quanto cada um da}?" },
+      { "role": "initiator", "type": "text", "text": "{cada um da|vaquinha de} {30|50|40} {reais|conto|pila} {pra carne e bebida|pra tudo|eu compro tudo}" },
+      { "role": "responder", "type": "text", "text": "{fechou|beleza|combinado} {eu levo|posso levar|trago} {carvao|gelo|farofa|pao de alho} {ne|kkk|suave}" },
+      { "role": "initiator", "type": "text", "text": "{perfeito|show|massa} {chama mais gente|convida a galera|quanto mais melhor}" },
+      { "role": "responder", "type": "reaction", "emoji": "🥩" }
+    ]
+  },
+  {
+    "name": "fds-praia-sol",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {ta sol|dia lindo|tempo bom} {bora na praia|vamo pra praia|praia hj}?" },
+      { "role": "responder", "type": "text", "text": "{bora|vamo|quero} {mas|so que} {n tenho carro|quem dirige|como a gente vai}?" },
+      { "role": "initiator", "type": "text", "text": "{o fulano vai de carro|a gente pega carona|uber ate la} {cabe todo mundo|vai dar certo|da pra ir}" },
+      { "role": "responder", "type": "text", "text": "{show|fechou|bora} {vou levar|trago} {protetor|canga|isopor com cerveja|cadeira} {kkk|ne}" }
+    ]
+  },
+  {
+    "name": "fds-cancelar-plano",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {n vou poder|vou ter q cancelar|surgiu um imprevisto} {pro role de hj|pro plano|mds} {desculpa|foi mal|perdão}" },
+      { "role": "responder", "type": "text", "text": "{ah n|serio|de novo} {mano|vei|cara} {vc sempre cancela|toda vez|é a 3a vez}" },
+      { "role": "initiator", "type": "text", "text": "{eu sei|desculpa|dessa vez é serio} {minha mae pediu|tenho q trabalhar|to doente} {juro q proximo eu vou|marco dnv|semana q vem}" },
+      { "role": "responder", "type": "text", "text": "{td bem|suave|blz} {melhoras|boa sorte|ate mais} {mas n me da bolo dnv|kkk|ne}" },
+      { "role": "initiator", "type": "reaction", "emoji": "🙏" }
+    ]
+  },
+  {
+    "name": "fds-futebol-pelada",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{salve|fala|e ai} {mano|parsa|vei} {tem pelada|vai ter fut|bola} {domingo|sabado|hj de tarde} {vamo|bora|cola}?" },
+      { "role": "responder", "type": "text", "text": "{bora|vamo|to precisando} {que horas|onde|qual campo}?" },
+      { "role": "initiator", "type": "text", "text": "{as 10h|9h|de manha} {no campinho|na quadra|no society} {perto de casa|la do bairro|do lado do shopping}" },
+      { "role": "responder", "type": "text", "text": "{fechou|to la|combinado} {vou levar|trago} {agua|bola|colete}" }
+    ]
+  },
+  {
+    "name": "fds-chuva-cancelou",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {vai chover|ta chovendo|previsao de chuva} {o fds todo|sabado e domingo|sem parar} {la se foi|adeus|RIP} {meus planos|o churras|a praia}" },
+      { "role": "responder", "type": "text", "text": "{F|classico Brasil|toda vez} {kkk|ne|mano} {plano B|faz oq em casa|netflix entao}?" },
+      { "role": "initiator", "type": "text", "text": "{maratona de serie|game o dia todo|dormir ate segunda} {é a saida|kkk|unica opcao}" },
+      { "role": "responder", "type": "text", "text": "{honestamente|sinceramente|vdd} {melhor q sair|prefiro assim|mais barato tb} {kkkkk|ne|mano}" }
+    ]
+  },
+  {
+    "name": "fds-trilha-natureza",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {bora fazer|vamo numa|que tal} {trilha|caminhada|hiking} {no fds|sabado|domingo} {tem uma trilha|vi um lugar|achei um local} {mt bonito|incrivel|com cachoeira}" },
+      { "role": "responder", "type": "text", "text": "{bora|quero|to dentro} {mas|so q} {é longe|precisa de carro|é puxada}?" },
+      { "role": "initiator", "type": "text", "text": "{uns 40 min de carro|pertinho|1 hora} {e a trilha é|o percurso é} {tranquilo|moderado|suave} {2km|5km|leve}" },
+      { "role": "responder", "type": "text", "text": "{show|fechou|vamo} {vou levar|levo} {agua|lanche|protetor|repelente} {sai a que horas|quando a gente vai|cedo ne}" }
+    ]
+  },
+  {
+    "name": "fds-piscina-condominio",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {fui na piscina|desci pra piscina|to na piscina} {do condominio|do prédio} {e ta|e tava} {LOTADA|cheia|impossivel|mais gente q agua} {mds|kkk|slk}" },
+      { "role": "responder", "type": "text", "text": "{KKKK|fds + calor|obvio ne} {todo mundo|a cidade inteira|o prédio todo} {teve a mesma ideia|desceu|kkk}" },
+      { "role": "initiator", "type": "text", "text": "{tem criança|moleque|gente} {gritando|pulando|fazendo onda|correndo} {parece parque aquático|parece tsunami|mds}" },
+      { "role": "responder", "type": "text", "text": "{volta pra casa|desiste|vai pro chuveiro} {kkkkkkk|ne|mano} {chuveiro gelado mesmo|banho de mangueira|é a vida de condomínio}" }
+    ]
+  },
+  {
+    "name": "fds-jogo-tabuleiro",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {bora jogar|vamo jogar|que tal} {war|banco imobiliario|uno|truco|detetive} {no fds|sabado|domingo a tarde}? {la em casa|na minha|aqui}" },
+      { "role": "responder", "type": "text", "text": "{BORA|vamo|to dentro} {mas|so q} {ultimo war|ultima vez|da ultima vez} {a gente quase brigou|quase saiu tapa|acabou amizade} {kkkkk|ne|mano}" },
+      { "role": "initiator", "type": "text", "text": "{dessa vez|agr|nesse} {vai ser de boa|sem briga|tranquilo} {kkk|confia|prometo}" },
+      { "role": "responder", "type": "text", "text": "{sei|confio|mentira} {kkkkkkk|mano|slk} {war destrói amizade|uno é divorcio|truco é guerra} {mas bora|to la|ne}" }
+    ]
+  },
+  {
+    "name": "preco-supermercado-caro",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {fui no mercado|fui no super|compras do mes} {e gastei|deu} {500|700|800} {conto|reais|pila} {e trouxe NADA|2 sacolas|quase nada} {MDS|PQP|socorro}" },
+      { "role": "responder", "type": "text", "text": "{ta impossivel|ta tudo caro|inflacao ta comendo|n da mais} {kkk|ne|mano} {o arroz|a carne|o ovo} {ta quanto|absurdo|ouro}" },
+      { "role": "initiator", "type": "text", "text": "{o quilo da carne|1kg de picanha|frango} {ta {40|50|60} reais|ta absurdo|virou artigo de luxo} {mds|slk|pqp}" },
+      { "role": "responder", "type": "text", "text": "{vou virar vegano|só miojo|vou plantar em casa} {kkkkk|é a saida|n aguento mais}" }
+    ]
+  },
+  {
+    "name": "preco-gasolina-absurdo",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {abasteci|coloquei gasolina|fui no posto} {e chorei|e quase morri|mds} {a gasolina ta|o litro ta} {{6|7|8} reais|um absurdo|mais caro q perfume}" },
+      { "role": "responder", "type": "text", "text": "{por isso ando de bus|vou de bike|to andando a pé} {kkkkk|mano|slk} {carro virou artigo de luxo|é pra milionario|n compensa}" },
+      { "role": "initiator", "type": "text", "text": "{vou vender o carro|trocar por bicicleta|andar a cavalo} {sai mais barato|kkk|mds}" },
+      { "role": "responder", "type": "text", "text": "{o cavalo come capim|de graça|pelo menos kkk|combustivel renovavel} {kkkkk|haha|ne}" }
+    ]
+  },
+  {
+    "name": "preco-aluguel-impossivel",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {to procurando ap|querendo alugar|vendo aluguel} {e ta tudo|e os preços tao} {absurdo|impossivel|um roubo} {mds|pqp|slk}" },
+      { "role": "responder", "type": "text", "text": "{quanto tao pedindo|ta quanto|qual a faixa}?" },
+      { "role": "initiator", "type": "text", "text": "{kitnet|studio|quitinete} {de 20m²|minuscula|cabe só a cama} {por {1500|2000|2500} reais|por um rim|por um orgão}" },
+      { "role": "responder", "type": "text", "text": "{vou morar na rua|debaixo da ponte|voltar pra casa dos pais} {kkkkk|é a realidade|n tem como} {esse país|essa cidade|impossivel}" }
+    ]
+  },
+  {
+    "name": "preco-streaming-subiu",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {a netflix|o spotify|o streaming} {aumentou dnv|subiu de preço|ta mais caro} {agora ta {40|50|60} por mes|MDS|pqp}" },
+      { "role": "responder", "type": "text", "text": "{é por isso q existe|hora do|bora pro} {torrent|stremio|pirataria} {kkkkk|ne|mano} {brincadeira|mentira|zueira}" },
+      { "role": "initiator", "type": "text", "text": "{divide comigo|racha a conta|bora dividir} {a assinatura|o plano familia|a senha} {sai mais barato|ne|kkk}" },
+      { "role": "responder", "type": "text", "text": "{bora|fechou|vamo} {mas a netflix ta caçando|eles bloqueiam|ta dificil dividir agora} {kkk|ne|mds}" }
+    ]
+  },
+  {
+    "name": "preco-cinema-absurdo",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {fui no cinema|ingresso do cinema|o cinema} {ta cobrando|custa|pediram} {60|70|80} {reais|conto} {pelo ingresso|com pipoca|mds} {MAIS a pipoca|fora o lanche|sem contar comida}" },
+      { "role": "responder", "type": "text", "text": "{OQUEEE|absurdo|roubo} {kkkkk|mano|slk} {pipoca+refri é mais caro q o filme|cinema virou luxo|era mais barato uma viagem}" },
+      { "role": "initiator", "type": "text", "text": "{vou voltar pro|melhor ver no|é hora do} {torrent|streaming|stremio} {kkkkk|mds|chega}" },
+      { "role": "responder", "type": "text", "text": "{faz a pipoca em casa|compra o milho|microondas resolve} {e assiste no sofá|na TV|de boa} {kkkkk|economia|ne}" }
+    ]
+  },
+  {
+    "name": "preco-dolar-viagem",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {o dolar|a cotacao|o cambio} {ta {5|6|7} reais|ta absurdo|ta impossivel} {como q viaja|adeus disney|mds} {n da pra sair do pais|pqp|slk}" },
+      { "role": "responder", "type": "text", "text": "{viaja pro nordeste|brasil tem praia bonita|pra q sair do pais} {kkkkk|ne|mano} {com esse dolar|melhor ficar aqui|aceita}" },
+      { "role": "initiator", "type": "text", "text": "{mas eu queria|meu sonho era|planejei ir} {pra disney|pra europa|pro japao|pra NY} {e agora custa|e o preço é|impossivel} {um rim|meu salario do ano|mds}" },
+      { "role": "responder", "type": "text", "text": "{proxima vida|quando o real valorizar|em 2050|nunca} {kkkkkkk|ne|mano} {triste realidade|é o Brasil|aceita e chora}" }
+    ]
+  },
+  {
+    "name": "preco-farmacia-remedio",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {fui na farmacia|comprei remedio|precisei de um remedio} {e o {remédio|antibiótico|anti-inflamatório}} {custou|saiu por} {{80|120|200} reais|uma fortuna|um absurdo} {mds|pqp|slk}" },
+      { "role": "responder", "type": "text", "text": "{saude n tem preço|mas tem|é caro ser doente} {kkk|ne|mano} {pega genérico|tem similar|farmácia popular}" },
+      { "role": "initiator", "type": "text", "text": "{JA ERA generico|n tem similar|so tem esse|era esse ou morrer} {kkk|mds|slk} {escolha dificil|quase q eu morro|pqp}" },
+      { "role": "responder", "type": "text", "text": "{KKKKK|n morre n|vale a pena o investimento} {na saude|kkk|ne} {melhoras|se cuida|sara logo}" }
+    ]
+  },
+  {
+    "name": "preco-pet-veterinario",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {levei meu {gato|cachorro|dog|pet}} {no veterinário|no vet|na consulta} {e a conta veio|e custou|e paguei} {{300|500|800} reais|uma fortuna|mds} {so pela consulta|por um exame|pqp}" },
+      { "role": "responder", "type": "text", "text": "{vet é mais caro q medico|plano de saude pra pet|pet é filho ne} {kkk|mano|slk} {custa caro ter bixo|mas vale a pena|a gente faz tudo por eles}" },
+      { "role": "initiator", "type": "text", "text": "{eu pago|faco de tudo|dou meu rim} {pelo meu bixo|pelo meu pet|por ele/ela} {sem pensar|mds|amo demais}" },
+      { "role": "responder", "type": "text", "text": "{pai/mae de pet é assim|normal|amor incondicional} {kkkkk|ne|mano} {melhoras pro bixo|ele merece|cuida bem}" },
+      { "role": "responder", "type": "reaction", "emoji": "🐾" }
+    ]
+  },
+  {
+    "name": "uber-motorista-perdido",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {o uber|o motorista|a 99} {ta perdido|n acha minha casa|passou reto 3 vezes} {MDS|PQP|slk}" },
+      { "role": "responder", "type": "text", "text": "{KKKK|classico|acontece direto} {manda a localizacao|fala ponto de referencia|vai ate ele} {ne|kkk|mano}" },
+      { "role": "initiator", "type": "text", "text": "{JA MANDEI|ele n olha o gps|acho q ele ta sem oculos} {kkkkk|mds|to aqui faz 15 min}" },
+      { "role": "responder", "type": "text", "text": "{cancela e pede outro|pede moto|vai andando} {kkkkk|é mais rapido|ne}" }
+    ]
+  },
+  {
+    "name": "uber-nota-motorista",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {o uber|o motorista} {me deu nota baixa|baixou minha nota|reclamou de mim} {pq eu {bati a porta|demorei pra descer|comi no carro}|mds|pqp}" },
+      { "role": "responder", "type": "text", "text": "{KKKK|mereceu|justo} {vc bate a porta memo|come no carro é foda|demorar é sacanagem} {kkk|ne|mano}" },
+      { "role": "initiator", "type": "text", "text": "{n foi de proposito|n fiz nada|exagerado} {minha nota ta {4.5|4.3|4.0}|to quase sendo banido|mds}" },
+      { "role": "responder", "type": "text", "text": "{melhora essa nota|da 5 estrelas pra todo mundo|seja gentil} {kkkkk|ne|mano} {senao ninguem te aceita|vai andar a pe|F}" }
+    ]
+  },
+  {
+    "name": "uber-preco-dinamica",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {a corrida|o uber|a 99} {ta cobrando|quer} {80|100|120} {reais|conto} {pra ir|ate} {o centro|o shopping|a faculdade} {q fica a 5km|pertinho|MDS}" },
+      { "role": "responder", "type": "text", "text": "{ta com dinamica|horario de pico|tao roubando} {kkk|ne|mano} {espera baixar|pega bus|vai andando}" },
+      { "role": "initiator", "type": "text", "text": "{to atrasado|n posso esperar|é urgente} {vou ter q pagar|chorei e aceitei|foda-se} {mds|pqp|kkk}" },
+      { "role": "responder", "type": "text", "text": "{RIP carteira|F pro saldo|meus pesames} {kkkkk|ne|mano}" },
+      { "role": "initiator", "type": "reaction", "emoji": "💸" }
+    ]
+  },
+  {
+    "name": "uber-conversa-motorista",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {o motorista|o uber|o cara} {ficou me contando|começo a falar|puxou assunto sobre} {a vida dele|politica|futebol|ex esposa} {a viagem toda|os 40 min|sem parar} {MDS|kkk|slk}" },
+      { "role": "responder", "type": "text", "text": "{KKKK|coitado|classico} {bota o fone|finge q dormiu|fica no celular} {ne|kkk|mano}" },
+      { "role": "initiator", "type": "text", "text": "{eu botei fone|tentei dormir|fingi q tava ocupado} {e ele continuou falando|e ele n parou|nao adiantou} {kkkkk|mds|slk}" },
+      { "role": "responder", "type": "text", "text": "{uber terapia|sessao de graça|melhor q psicologo} {kkkkkkk|pelo menos foi de graca|ne}" }
+    ]
+  },
+  {
+    "name": "uber-moto-adrenalina",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {peguei um uber moto|fui de 99 moto|moto taxi} {e o cara|e o piloto|e o maluco} {voou|correu demais|parecia MotoGP} {vi minha vida passar|quase morri|testamento pronto} {mds|pqp|kkk}" },
+      { "role": "responder", "type": "text", "text": "{KKKKKKKK|imagino|terror} {pelo menos chegou rapido|chegou vivo|ta inteiro}? {kkk|ne|mano}" },
+      { "role": "initiator", "type": "text", "text": "{cheguei em 5 min|economizei 40 min|foi rapido} {mas envelhecii 10 anos|mas meu coração parou|mas nunca mais} {kkkkk|mds|slk}" },
+      { "role": "responder", "type": "text", "text": "{proximo vai de bus|uber carro|anda a pe} {kkkkkkk|mais seguro|ne} {moto é pra corajoso|rip}" }
+    ]
+  },
+  {
+    "name": "uber-rota-errada",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {o uber|o motorista|a 99} {ta indo|foi} {pela rota errada|pelo caminho mais longo|por outro lugar} {e o preço|e a corrida|e ta ficando} {mais cara|subindo|absurdo} {MDS|pqp|slk}" },
+      { "role": "responder", "type": "text", "text": "{fala pra ele|avisa|mostra o GPS} {kkk|ne|mano} {as vezes é o waze|GPS bugou|ta errado memo}" },
+      { "role": "initiator", "type": "text", "text": "{falei|avisei|mostrei} {e ele disse|e o cara falou} {\"eu sei um atalho\"|\"confia em mim\"|\"esse caminho é melhor\"} {MDS|pqp|kkk} {atalho pro inferno|mais caro sim|n confio}" },
+      { "role": "responder", "type": "text", "text": "{reclama no app|pede reembolso|da 1 estrela} {kkkkk|ne|mano} {uber é loteria|cada corrida uma aventura|slk}" }
+    ]
+  },
+  {
+    "name": "academia-comecando",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {comecei|me matriculei|entrei} {na academia|na musculação|pra treinar} {hoje|essa semana|ontem} {to morrendo|meu corpo doi|n consigo andar}" },
+      { "role": "responder", "type": "text", "text": "{BOAAA|parabens|isso ai} {kkk|mano|vei} {a primeira semana|o comeco|os primeiros dias} {é assim|doi memo|é o pior}" },
+      { "role": "initiator", "type": "text", "text": "{n consigo|nem|to com dor pra} {levantar o braço|subir escada|sentar no vaso} {kkkkk|mds|pqp}" },
+      { "role": "responder", "type": "text", "text": "{normal|passa|em 1 semana melhora} {mas n para|continua|nao desiste} {senao foi atoa|kkk|ne}" },
+      { "role": "initiator", "type": "reaction", "emoji": "💪" }
+    ]
+  },
+  {
+    "name": "academia-shape-verao",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {faltam|so tem} {3 meses|2 meses|60 dias} {pro verao|pra praia|pro carnaval} {e meu shape|e meu corpo|e eu to} {uma desgraça|horrivel|longe do ideal} {mds|kkk|socorro}" },
+      { "role": "responder", "type": "text", "text": "{KKKKK|calma|da tempo} {se correr|se focar|se comer bem e treinar} {da pra melhorar|vai ficar suave|milagre acontece}" },
+      { "role": "initiator", "type": "text", "text": "{vou fazer|to pensando em|bora} {low carb|jejum|dieta do ovo|cortar refrigerante} {começando amanha|segunda eu começo|agora vai}" },
+      { "role": "responder", "type": "text", "text": "{\"segunda eu começo\"|amanha amanha|classico} {kkkkkkk|ne|nunca começa} {começa HOJE|vai agora|para de enrolar}" }
+    ]
+  },
+  {
+    "name": "academia-suplemento",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {comprei|to tomando|experimentei} {whey|creatina|pre treino|BCAA} {e mds|e pqp|e slk} {é caro demais|custa um rim|meu salario foi embora}" },
+      { "role": "responder", "type": "text", "text": "{qual|de qual marca|quanto pagou}?" },
+      { "role": "initiator", "type": "text", "text": "{paguei|saiu por|custou} {150|200|250} {no whey de 900g|1kg|e ja ta acabando} {kkk|mds|slk}" },
+      { "role": "responder", "type": "text", "text": "{come ovo|frango é mais barato|whey de pobre é ovo cozido} {kkkkk|ne|mano} {suplemento é luxo|gasta com comida|come mais}" }
+    ]
+  },
+  {
+    "name": "academia-personal-terror",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {o personal|o professor|o instrutor} {quase me matou|me destruiu|acabou comigo} {hoje|no treino|na academia} {to morto|n sinto as pernas|mds}" },
+      { "role": "responder", "type": "text", "text": "{KKKK|vc pediu|é bom} {dor é evolução|no pain no gain|sem dor sem ganho} {kkk|ne|mano}" },
+      { "role": "initiator", "type": "text", "text": "{ele me fez|tive q fazer|o treino foi} {100 agachamentos|20 series de perna|leg press ate chorar} {NUNCA MAIS|mds|pqp}" },
+      { "role": "responder", "type": "text", "text": "{amanha vc n vai andar|rip pernas|dia de perna é sagrado} {kkkkk|slk|F}" },
+      { "role": "initiator", "type": "reaction", "emoji": "🦵" }
+    ]
+  },
+  {
+    "name": "academia-espelho-selfie",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {tirei uma selfie|foto no espelho|registrei|fotinha} {na academia|no treino|pos treino} {e to {grande|monstro|shapado|inchado}} {mentira|a luz ajuda|era o angulo} {kkkkk|slk|mds}" },
+      { "role": "responder", "type": "text", "text": "{manda|deixa ver|mostra} {kkk|mano|vei}" },
+      { "role": "initiator", "type": "text", "text": "{olha|vê|aqui} {mas é o pump|tava congestionado|era a luz da academia} {kkk|ne|mano} {em casa some tudo|no dia seguinte desincha|é ilusão}" },
+      { "role": "responder", "type": "text", "text": "{KKKK|ta bom sim|evoluiu|ficou bom} {pump é droga|a melhor hora|luz da academia é photoshop natural} {kkkkk|ne|mano}" },
+      { "role": "responder", "type": "reaction", "emoji": "💪" }
+    ]
+  },
+  {
+    "name": "academia-dieta-fracasso",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {o nutricionista|a nutri|a dieta} {mandou eu comer|passou|prescreveu} {frango com batata doce|ovo e brócolis|arroz integral} {TODA refeição|todos os dias|o resto da vida} {mds|pqp|eu vou morrer}" },
+      { "role": "responder", "type": "text", "text": "{KKKK|vida fitness|sofre mas fica bonito} {kkk|ne|mano} {faz tempo|ta seguindo|quantos dias}" },
+      { "role": "initiator", "type": "text", "text": "{2 dias|faz 3 dias|comecei ontem} {e ja to sonhando com|e to morrendo de vontade de|quero muito} {pizza|hamburguer|chocolate|açaí} {mds|pqp|slk}" },
+      { "role": "responder", "type": "text", "text": "{o dia do lixo|cheat meal|uma vez por semana pode} {kkkkk|ne|mano} {se n der pra seguir 100%|faz 80/20|relaxa um pouco}" }
+    ]
+  },
+  {
+    "name": "tattoo-primeira-vez",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {vou fazer|to querendo|marquei} {minha primeira tattoo|uma tatuagem|pra tatuar} {to nervoso|to com medo|sera q doi}" },
+      { "role": "responder", "type": "text", "text": "{doi|um pouco|depende do lugar} {mas é suave|aguenta|vale a pena} {kkk|ne|mano} {vai fazer oq|qual desenho|onde}?" },
+      { "role": "initiator", "type": "text", "text": "{to pensando em|quero fazer|vou de} {um tribal|escrita|lobo|flor|caveira|ancora|leão} {no braço|na costela|no antebraço|na perna}" },
+      { "role": "responder", "type": "text", "text": "{vai ficar massa|show|bom gosto} {só n faz|evita|pelo amor n faz} {nome de ex|infinito|carpa|homenagem arriscada} {kkkkk|ne|slk}" },
+      { "role": "initiator", "type": "reaction", "emoji": "🎨" }
+    ]
+  },
+  {
+    "name": "tattoo-arrependimento",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {to arrependido|odeio|n gostei} {da minha tattoo|da tatuagem q fiz|mds} {ficou horrorosa|n ficou como eu queria|pqp}" },
+      { "role": "responder", "type": "text", "text": "{mostra|manda foto|deixa ver} {kkk|mano|vei}" },
+      { "role": "initiator", "type": "text", "text": "{era pra ser|pedi um|queria} {um leão|uma aguia|um dragão} {e ficou|mas parece|e saiu} {um gato|um frango|uma lagartixa} {MDS|PQP|KKKKK}" },
+      { "role": "responder", "type": "text", "text": "{KKKKKKKKK|MORRI|NÃO É POSSIVEL} {faz um cover up|cobre com outra|laser existe} {kkk|ne|mano}" }
+    ]
+  },
+  {
+    "name": "tattoo-piercing-mae",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {minha mae|meu pai|minha familia} {vai me matar|ainda n viu|n sabe} {da tattoo|do piercing|q eu fiz} {to com medo|mds|socorro}" },
+      { "role": "responder", "type": "text", "text": "{KKKK|F|boa sorte} {esconde|usa manga comprida|fala q é temporaria} {kkk|ne|mano}" },
+      { "role": "initiator", "type": "text", "text": "{é no braço|é no pescoço|é grande demais} {n tem como esconder|impossível|ela vai ver} {mds|pqp|rip}" },
+      { "role": "responder", "type": "text", "text": "{RIP|foi bom te conhecer|conta e corre} {kkkkkkk|mano|slk} {mae brasileira n perdoa|vai dar uma chinelada|faz um chá antes de contar}" }
+    ]
+  },
+  {
+    "name": "tattoo-significado-inventado",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {toda vez q|quando|sempre q} {alguem pergunta|perguntam|me perguntam} {o significado da minha tattoo|oq minha tattoo significa} {eu invento uma historia|falo algo diferente|mudo a resposta} {kkkkk|mds|slk}" },
+      { "role": "responder", "type": "text", "text": "{KKKKK|classico|genial} {e qual é|oq vc fala|qual a historia da vez}?" },
+      { "role": "initiator", "type": "text", "text": "{hj falei q era|dessa vez disse q|inventei q} {\"homenagem ao meu avo\"|\"simbolo de superação\"|\"representa minha jornada\"} {sendo q fiz pq|mas na real|verdade é q} {achei bonito|tava bebado|foi aposta} {KKKKK|mds|slk}" },
+      { "role": "responder", "type": "text", "text": "{MORRI|KKKKKK|honesto pelo menos} {todo mundo faz isso|eu tb invento|é universal} {kkk|ne|mano}" }
+    ]
+  },
+  {
+    "name": "tattoo-dor-choro",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {to fazendo|to no meio|to na sessao} {da tattoo|da tatuagem} {e ta doendo|e mano doi|PQP a dor} {demais|absurdo|quero chorar} {mds|slk|socorro}" },
+      { "role": "responder", "type": "text", "text": "{aguenta|segura|é assim memo} {kkk|ne|mano} {onde ta fazendo|qual parte|area sensivel}?" },
+      { "role": "initiator", "type": "text", "text": "{costela|virilha|pé|cotovelo|pescoco} {VEI|mano|cara} {parece q to morrendo|é tortura|nunca senti tanta dor}" },
+      { "role": "responder", "type": "text", "text": "{essa area doi memo|pior lugar|heroico} {kkkkk|ne|mano} {ja ja acaba|pensa no resultado|vai valer a pena} {respira|confia|quase la}" },
+      { "role": "initiator", "type": "reaction", "emoji": "😵" }
+    ]
+  },
+  {
+    "name": "tinder-match-fantasma",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {dei match|matchei|conversei} {no tinder|no bumble|no happn} {a conversa tava boa|tava fluindo|parecia q ia rolar} {e a pessoa sumiu|e levei ghost|e desapareceu} {mds|kkk|slk}" },
+      { "role": "responder", "type": "text", "text": "{classico tinder|normal|acontece com todo mundo} {kkk|ne|mano} {app de namoro é isso|ghosting é esporte|faz parte}" },
+      { "role": "initiator", "type": "text", "text": "{mas tava tao bom|a conversa era boa|n entendo pq} {mds|pqp|slk}" },
+      { "role": "responder", "type": "text", "text": "{next|segue o baile|tem mais gente no app} {bola pra frente|não fica nessa|parte pra outra} {kkk|ne|mano}" }
+    ]
+  },
+  {
+    "name": "tinder-bio-ajuda",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {me ajuda|socorro|preciso de ajuda} {com minha bio|a fazer minha bio|meu perfil} {do tinder|do bumble|do app} {ta horrivel|ninguem da like|n ta dando match}" },
+      { "role": "responder", "type": "text", "text": "{manda|mostra|oq ta escrito} {kkk|vei|mano}" },
+      { "role": "initiator", "type": "text", "text": "{\"sou gente boa\"|\"procuro algo sério\"|\"amo pizza e cerveja\"|\"6'0 já que importa\"} {kkk|é isso|mds}" },
+      { "role": "responder", "type": "text", "text": "{MANO|VEI|PELO AMOR} {isso ta generico demais|todo mundo escreve isso|zero criatividade} {kkkkk|mds|slk} {bota humor|faz algo diferente|menos cringe}" },
+      { "role": "initiator", "type": "reaction", "emoji": "😅" }
+    ]
+  },
+  {
+    "name": "tinder-catfish",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {cai num catfish|era fake|as fotos eram de outra pessoa} {no tinder|no app|no bumble} {mds|pqp|to chocado}" },
+      { "role": "responder", "type": "text", "text": "{NÃO|serio|como descobriu}? {kkk|mds|vei}" },
+      { "role": "initiator", "type": "text", "text": "{a pessoa|ele/ela|o perfil} {era completamente diferente|era outra pessoa|as fotos eram de 10 anos atras} {quando encontrei|no date|ao vivo}" },
+      { "role": "responder", "type": "text", "text": "{KKKKKK|F|mds} {e vc fez oq|ficou|saiu correndo}?" },
+      { "role": "initiator", "type": "text", "text": "{fiquei por educação|inventei uma desculpa|fingi q recebi uma ligação e sai} {kkkkk|mds|nunca mais}" },
+      { "role": "responder", "type": "reaction", "emoji": "🏃" }
+    ]
+  },
+  {
+    "name": "tinder-app-paquera-fracasso",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {to ha|faz} {3 meses|6 meses|1 ano} {no tinder|no bumble|no happn} {e ZERO dates|nenhum match|ninguém|nada} {mds|pqp|to feio assim}" },
+      { "role": "responder", "type": "text", "text": "{muda as fotos|melhora o perfil|coloca foto com cachorro} {kkk|ne|mano} {sempre funciona|cachorro é cheat code|todo mundo gosta}" },
+      { "role": "initiator", "type": "text", "text": "{n tenho cachorro|nem gato|n tenho pet|meu gato é feio} {kkkkk|mds|slk} {pego emprestado|vou no petshop|to pensando}" },
+      { "role": "responder", "type": "text", "text": "{KKKKKK|pega emprestado memo|vai no parque e tira foto|aluga um golden} {kkk|é investimento|ne}" }
+    ]
+  },
+  {
+    "name": "podcast-recomendacao",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {comecei a ouvir|to ouvindo|descobri} {um podcast|o podcast|o flow|o podpah|o inteligencia ltda} {e é muito bom|viciei|mt bom}" },
+      { "role": "responder", "type": "text", "text": "{qual|qual ep|sobre oq}?" },
+      { "role": "initiator", "type": "text", "text": "{o episodio com|o ep do|a entrevista com} {o fulano|aquele cara|o cientista|o comediante} {sobre {vida|ciencia|humor|politica|games}|ta demais|imperdivel}" },
+      { "role": "responder", "type": "text", "text": "{vou ouvir|to baixando|manda link} {ouço no|vou ouvir no} {bus|trabalho|academia|antes de dormir} {kkk|ne|mano}" }
+    ]
+  },
+  {
+    "name": "podcast-youtube-drama",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {o youtuber|o cara|o canal} {saiu do|brigou com|fez video sobre} {o outro youtuber|o parceiro|o amigo} {treta|drama|exposed} {MANO|mds|slk}" },
+      { "role": "responder", "type": "text", "text": "{adoro uma treta|me conta|pipoca pronta} {kkkkk|mano|vei} {quem brigou|oq rolou|qual o barraco}" },
+      { "role": "initiator", "type": "text", "text": "{um acusou o outro de|falou q o cara|expôs que} {copiar conteudo|roubar view|mentir|ser falso} {mds|pqp|slk}" },
+      { "role": "responder", "type": "text", "text": "{youtube drama é melhor q novela|eu amo|entretenimento puro} {kkkkk|ne|mano} {vou ver o video|to assistindo|preciso ver}" },
+      { "role": "initiator", "type": "reaction", "emoji": "🍿" }
+    ]
+  },
+  {
+    "name": "youtube-algoritmo-estranho",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {o youtube|o algoritmo|as recomendacoes} {me mandou|me sugeriu|apareceu} {um video de|algo sobre} {como fazer fogo com gelo|cirurgia em banana|ASMR de marreta} {kkkkk|mds|oq}" },
+      { "role": "responder", "type": "text", "text": "{KKKKKK|que|oq é isso} {o algoritmo te conhece|ele sabe algo q vc n sabe|vc ta bem?} {kkk|mano|mds}" },
+      { "role": "initiator", "type": "text", "text": "{o pior|e adivinha|confesso q} {é q eu assisti|vi inteiro|fiquei hipnotizado} {kkkkkkk|mds|slk}" },
+      { "role": "responder", "type": "text", "text": "{vc precisa de ajuda|vai tomar um ar|larga o celular} {kkkkk|mano|pelo amor}" }
+    ]
+  },
+  {
+    "name": "podcast-true-crime",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {to ouvindo|comecei a ouvir|viciei em} {podcast de crime|true crime|caso criminal} {e to com medo|e agora desconfio de tudo|n durmo mais} {mds|kkk|slk}" },
+      { "role": "responder", "type": "text", "text": "{KKKK|paranoia|normal} {eu tb fico|da medo memo|é assustador} {kkk|ne|mano} {qual podcast|oq vc ta ouvindo|me indica}" },
+      { "role": "initiator", "type": "text", "text": "{caso evandro|praia dos ossos|modus operandi|serial killers BR} {mano|vei} {n consigo parar|to hipnotizado|é muito bom e assustador}" },
+      { "role": "responder", "type": "text", "text": "{vou ouvir|to curioso|manda link} {mas vou ouvir de dia|n ouço de noite|com a luz acesa} {kkkkk|por segurança|ne}" }
+    ]
+  },
+  {
+    "name": "comida-lanche-madrugada",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {to com uma fome|bateu a larica|fome da madrugada} {e n tem nada|geladeira vazia|so tem ovo} {mds|pqp|slk}" },
+      { "role": "responder", "type": "text", "text": "{pede ifood|delivery|manda ver no app} {kkk|ne|mano}" },
+      { "role": "initiator", "type": "text", "text": "{ta tudo fechado|nada aberto|3 da manha mano} {so tem um dogão|so aquele lanche duvidoso|nada presta} {kkk|mds|slk}" },
+      { "role": "responder", "type": "text", "text": "{faz um miojo|ovo frito|pão com manteiga} {comida de sobrevivencia|gastronomia de madrugada|cozinha criativa} {kkkkk|ne|é oq tem}" }
+    ]
+  },
+  {
+    "name": "comida-dieta-fracasso",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {comecei a dieta|to de dieta|entrei na dieta} {segunda|ontem|essa semana} {e ja comi|e acabei de comer|e cai em tentação com} {um Big Mac|pizza|chocolate|coxinha} {mds|pqp|sou fraco}" },
+      { "role": "responder", "type": "text", "text": "{KKKKKK|classico|todo mundo|previsivel} {durou {1 dia|2 horas|ate o almoço}|recorde|kkk}" },
+      { "role": "initiator", "type": "text", "text": "{n foi minha culpa|me ofereceram|tava na minha frente|o cheiro me chamou} {kkkkk|mds|sou viciado}" },
+      { "role": "responder", "type": "text", "text": "{amanha recomeça|segunda a gente começa|proxima vida|aceita q doi menos} {kkkkkkk|ne|mano}" },
+      { "role": "initiator", "type": "reaction", "emoji": "🍕" }
+    ]
+  },
+  {
+    "name": "comida-restaurante-caro",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {fui num restaurante|comi fora|jantei} {e a conta veio|e paguei|e deu} {200|300|400} {reais|conto} {por {2 pratos|um jantar|quase nada}} {MDS|PQP|roubaram}" },
+      { "role": "responder", "type": "text", "text": "{ce comeu ouro|era folha de ouro|restaurante de rico} {kkkkk|mano|slk} {era bom pelo menos|valeu a pena|gostoso}?" },
+      { "role": "initiator", "type": "text", "text": "{era bom|tava gostoso|nem tanto} {mas o prato|mas a porção} {era minuscula|cabia na palma da mao|era decoração} {kkk|mds|slk}" },
+      { "role": "responder", "type": "text", "text": "{restaurante chique|gastronomia|alta cozinha} {vc paga pela experiencia|pela foto do insta|pela humilhação} {kkkkkkk|ne|mano}" }
+    ]
+  },
+  {
+    "name": "comida-cozinhando-desastre",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {tentei cozinhar|fiz comida|cozinhei} {e {queimei tudo|ficou horrivel|explodiu no microondas|tacou fogo na panela}} {SOCORRO|mds|pqp}" },
+      { "role": "responder", "type": "text", "text": "{KKKKKKK|chef master|gordon ramsay} {oq vc tentou fazer|era oq|conta}" },
+      { "role": "initiator", "type": "text", "text": "{era pra ser|tentei fazer|queria um} {arroz|macarrao|ovo frito|bolo} {simples|basico|facil} {e virou carvao|e grudou tudo|e ficou cru por dentro} {kkkk|mds|culinaria}" },
+      { "role": "responder", "type": "text", "text": "{pede ifood|desiste|volta pro miojo} {kkkkkkk|é melhor|mais seguro} {cozinha n é pra todos|talento nato|ne}" }
+    ]
+  },
+  {
+    "name": "comida-acai-vicio",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {to viciado|n consigo parar|como todo dia} {açaí|acai|creme de acai} {já gastei|esse mes gastei|to torrando} {200|300|500} {reais so em acai|nessa desgraça|mds}" },
+      { "role": "responder", "type": "text", "text": "{KKKKKK|viciado|precisa de ajuda} {kkk|mano|vei} {isso é mais caro q droga|acai é o crack legal|vicio caro}" },
+      { "role": "initiator", "type": "text", "text": "{mas é tao bom|com granola|leite ninho e morango|nutella e banana} {MDS|n tem como resistir|é perfeito}" },
+      { "role": "responder", "type": "text", "text": "{concordo|realmente|justo} {acai é sagrado|brasileiro é movido a acai|eu tb como todo dia} {kkkkk|ne|somos dois viciados}" }
+    ]
+  },
+  {
+    "name": "comida-rodizio-explodir",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {fui no rodizio|comi rodizio|almocei no rodizio} {e comi tanto|e exagerei|e passei mal} {q to deitado|n consigo levantar|vou explodir} {mds|pqp|kkk}" },
+      { "role": "responder", "type": "text", "text": "{KKKKKK|classico|mereceu} {quantos pratos|quantas rodadas|oq comeu}?" },
+      { "role": "initiator", "type": "text", "text": "{perdi a conta|uns 8 pratos|comi ate a sobremesa|experimentei TUDO} {e ainda repeti|e voltei pro sushi|e comi mais} {mds|kkk|slk}" },
+      { "role": "responder", "type": "text", "text": "{pelo menos valeu o dinheiro|aproveitou ne|comeu por 3} {kkkkkkk|ne|mano} {agora sofre|digestão vai demorar uma semana|F pro estomago}" },
+      { "role": "initiator", "type": "reaction", "emoji": "🤰" }
+    ]
+  },
+  {
+    "name": "comida-dogao-madruga",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {aquele dogão|hot dog|cachorro quente} {de madrugada|da esquina|do carrinho|pos balada} {é a melhor coisa|é divino|n tem nada melhor} {do mundo|da vida|q existe}" },
+      { "role": "responder", "type": "text", "text": "{FATO|verdade absoluta|concordo 100%} {kkk|ne|mano} {com tudo|molho|purê|batata palha|vinagrete} {e maionese|mds|slk}" },
+      { "role": "initiator", "type": "text", "text": "{e custa|sai por|so} {8 reais|10 conto|baratinho} {melhor investimento|custo beneficio|vale mais q jantar caro} {kkk|ne|mano}" },
+      { "role": "responder", "type": "text", "text": "{gastronomia de rua|comida de rei|5 estrelas da madrugada} {kkkkkkk|ne|mano} {to com fome agr|quero um|bora}" },
+      { "role": "responder", "type": "reaction", "emoji": "🌭" }
+    ]
+  },
+  {
+    "name": "comida-cafe-viciado",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {to no meu|ja bebi|esse é o} {{4|5|6}o café|quinto café|café numero 6} {do dia|hoje|e são 14h} {mds|kkk|slk} {eu preciso de ajuda|sou viciado|n funciono sem}" },
+      { "role": "responder", "type": "text", "text": "{KKKK|isso n é saudavel|vc ta bem?} {kkk|ne|mano} {bebe agua|come algo|para de café}" },
+      { "role": "initiator", "type": "text", "text": "{sem café eu morro|n existo|viro planta|n funciono} {é a unica coisa|é meu combustível|é minha gasolina} {q me mantem vivo|kkk|mds}" },
+      { "role": "responder", "type": "text", "text": "{vc vai ter um infarto|rip coração|arritmia chegando} {kkkkk|mano|ne} {pelo menos morre acordado|produtivo ate o fim|kkk}" }
+    ]
+  },
+  {
+    "name": "faculdade-prova-desespero",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{MANO|VEI|SOCORRO} {tenho prova|prova amanha|prova em 2 horas} {e n estudei nada|e to zerado|e abri o caderno agora} {mds|pqp|vou reprovar}" },
+      { "role": "responder", "type": "text", "text": "{KKKKKK|classico|eu tb|todo semestre isso} {faz um resumao|estuda o basico|reza} {kkk|ne|mano}" },
+      { "role": "initiator", "type": "text", "text": "{n da tempo|é muita materia|impossivel|o professor cobra tudo} {vou na fé|vou no feeling|chute é a saida}" },
+      { "role": "responder", "type": "text", "text": "{alternativa C|quando n souber marca B|vai de intuicao} {kkkkk|boa sorte|vai precisar} {depois me conta a nota|F antecipado|ne}" },
+      { "role": "initiator", "type": "reaction", "emoji": "📚" }
+    ]
+  },
+  {
+    "name": "faculdade-professor-chato",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {o professor|o prof|a professora} {de {calculo|fisica|quimica|direito|estatistica}} {é insuportavel|é horrivel|n sabe explicar|é um monstro}" },
+      { "role": "responder", "type": "text", "text": "{KKKK|coitado|sei como é} {o meu tb|tenho um assim|é universal} {kkk|ne|mano}" },
+      { "role": "initiator", "type": "text", "text": "{ele fala|o cara|o prof} {olhando pra parede|lendo slide|sussurrando} {e acha q ta ensinando|e cobra na prova|e da nota baixa pra todos} {mds|pqp|slk}" },
+      { "role": "responder", "type": "text", "text": "{assiste aula no youtube|tem canal q explica melhor|vai no me salva|estuda sozinho} {kkk|é a saida|ne}" }
+    ]
+  },
+  {
+    "name": "faculdade-tcc-desespero",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {o TCC|meu TCC|a monografia} {ta me matando|vai me matar|n anda} {mds|pqp|to desesperado}" },
+      { "role": "responder", "type": "text", "text": "{ta em q parte|falta muito|ja fez quanto}?" },
+      { "role": "initiator", "type": "text", "text": "{fiz a capa|so tenho o titulo|fiz a introdução|to na pagina 3} {e entrega é {semana q vem|em 15 dias|mês q vem}} {mds|socorro|RIP}" },
+      { "role": "responder", "type": "text", "text": "{F|vai dar certo|foca|para de procrastinar} {kkkkk|mano|vei} {larga o zap|sai do tiktok|fecha o instagram} {e vai escrever|e produz|abre o Word}" }
+    ]
+  },
+  {
+    "name": "faculdade-formatura-finalmente",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{MANO|VEI|GENTE} {ME FORMEI|PASSEI|ACABOU} {finalmente|depois de {4|5|6|7} anos|AMEM|n acredito} {mds|kkkkk|cheguei la}" },
+      { "role": "responder", "type": "text", "text": "{PARABENS|BOOOA|MERECE DEMAIS} {kkkkk|mano|vei} {só {4|5|6|7} anos|só uma era geologica|rapido ne} {kkk|haha}" },
+      { "role": "responder", "type": "reaction", "emoji": "🎓" },
+      { "role": "initiator", "type": "text", "text": "{agora é|proximo passo|falta} {arrumar emprego|desemprego com diploma|chorar com canudo na mao} {kkkkk|mds|a realidade}" },
+      { "role": "responder", "type": "text", "text": "{KKKKKK|bem vindo ao clube|a vida adulta|mercado de trabalho te espera} {boa sorte|vai dar bom|confia}" }
+    ]
+  },
+  {
+    "name": "faculdade-grupo-trabalho",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{MANO|VEI|CARA} {o grupo|a galera do grupo|meus colegas} {do trabalho da facul|do seminario|da apresentação} {n fez nada|sumiu|ninguem fez a parte} {e entrega é amanha|apresenta hj|mds} {vou ter q fazer sozinho|pqp|socorro}" },
+      { "role": "responder", "type": "text", "text": "{CLASSICO|sempre acontece|trabalho em grupo é isso} {kkkkk|ne|mano} {um faz e os outros|vc sempre carrega|é a vida}" },
+      { "role": "initiator", "type": "text", "text": "{e vao querer|e com certeza vao|aposto q} {colocar o nome|pegar nota|levar credito} {mds|pqp|injusto}" },
+      { "role": "responder", "type": "text", "text": "{fala pro professor|denuncia|n bota o nome|manda a real} {kkk|ne|mano} {ou aceita e sofre|é o sistema|faculdade ne}" }
+    ]
+  },
+  {
+    "name": "faculdade-plagio-detector",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{MANO|VEI|SOCORRO} {o professor|a prof} {passou no detector|jogou no turnitin|checou plagio} {meu trabalho|meu TCC|minha redação} {e deu|e apareceu} {{70|80|60}% de similaridade|plagio|vermelho} {TO FERRADO|mds|pqp}" },
+      { "role": "responder", "type": "text", "text": "{KKKKKKK|mano|F} {ctrl c ctrl v|copiou da onde|wikipedia ne} {kkk|mano|vei}" },
+      { "role": "initiator", "type": "text", "text": "{n copiei|juro q n|eu parafrasei} {mas parece q|mas o sistema|mds} {pegou mesmo assim|detectou|kkk} {to morto|vou reprovar|RIP}" },
+      { "role": "responder", "type": "text", "text": "{refaz|reescreve|muda as palavras|usa chatgpt pra parafrasear} {KKKKK|brincadeira|zueira} {mas faz direito|dessa vez escreve vc|ne}" }
+    ]
+  },
+  {
+    "name": "trabalho-primeiro-dia",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {primeiro dia|hj é meu primeiro dia|comecei} {no trampo novo|no trabalho|no emprego} {to nervoso|to ansioso|mds}" },
+      { "role": "responder", "type": "text", "text": "{vai dar bom|fica tranquilo|relaxa} {kkk|mano|vei} {é so|no primeiro dia|a galera} {ser simpatico|faz perguntas|fica de boa} {q da certo|ne}" },
+      { "role": "initiator", "type": "text", "text": "{e se eu fizer merda|e se n gostar de mim|e se eu for burro} {mds|kkk|slk}" },
+      { "role": "responder", "type": "text", "text": "{todo mundo faz merda no inicio|é normal|ninguem espera perfeição} {relaxa|confia|vai ser bom}" },
+      { "role": "responder", "type": "reaction", "emoji": "🍀" }
+    ]
+  },
+  {
+    "name": "trabalho-chefe-maluco",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {meu chefe|meu gerente|o lider} {é maluco|pirou|surtou} {mandou eu|pediu pra|quer q eu} {refaça tudo|trabalhe no fds|fique ate 22h} {MDS|PQP|vou pedir demissao}" },
+      { "role": "responder", "type": "text", "text": "{que absurdo|isso é assédio|pede conta|relata pro RH} {kkk|mano|ne}" },
+      { "role": "initiator", "type": "text", "text": "{n posso|preciso do emprego|to com medo de perder|pago aluguel} {mds|pqp|é foda}" },
+      { "role": "responder", "type": "text", "text": "{aguenta firme|vai juntando provas|procura outro emprego|atualiza o linkedin} {enquanto ta la|kkk|ne} {ninguem merece isso|vc é bom demais pra isso}" }
+    ]
+  },
+  {
+    "name": "trabalho-salario-baixo",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {meu salario|ganho|recebo} {1500|2000|o minimo} {e o aluguel é {1200|1500|1800}|e n sobra nada|mds} {como q vive|impossivel|pqp}" },
+      { "role": "responder", "type": "text", "text": "{é foda|complicado|tamo tudo assim} {kkk|ne|mano} {o custo de vida|essa cidade|esse pais} {ta impossivel|n da|é absurdo}" },
+      { "role": "initiator", "type": "text", "text": "{to pensando em|vou ter q|preciso} {fazer freela|uber|vender coisa|bico} {pra complementar|pra sobreviver|mds}" },
+      { "role": "responder", "type": "text", "text": "{faz curso|investe em vc|muda de area|aprende programação} {kkk|ne|mano} {é o jeito|o mundo ta assim|vai melhorar}" }
+    ]
+  },
+  {
+    "name": "trabalho-demissao",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {me demitiram|fui mandado embora|perdi o emprego} {hoje|agora|do nada} {to em choque|mds|n esperava}" },
+      { "role": "responder", "type": "text", "text": "{caramba|poxa|serio} {mano|vei} {sinto muito|que barra|que merda} {oq aconteceu|pq|do nada}?" },
+      { "role": "initiator", "type": "text", "text": "{corte de gastos|reestruturação|n sei|implicaram comigo} {pelo menos {tem rescisao|recebo FGTS|tem seguro desemprego}|mds|pqp}" },
+      { "role": "responder", "type": "text", "text": "{vai dar certo|uma porta fecha outra abre|descansa um pouco e ja bota curriculo|to aqui pra oq precisar} {mano|vei|parsa}" },
+      { "role": "responder", "type": "reaction", "emoji": "💙" }
+    ]
+  },
+  {
+    "name": "trabalho-reuniao-desnecessaria",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {tive reunião|reuniao de 2 horas|meeting} {q podia ser|q era|q claramente deveria ser} {um email|uma msg|um comunicado} {perdi 2 horas|mds|quero morrer}" },
+      { "role": "responder", "type": "text", "text": "{KKKKKK|classico corporativo|todo mundo sofre} {kkk|ne|mano} {reunião pra marcar reunião|é o sistema|mundo corporativo}" },
+      { "role": "initiator", "type": "text", "text": "{e ainda pediram|e o chefe quis|e no final falaram} {\"vamos agendar outra reunião\"|\"continuamos na proxima\"|\"follow up na segunda\"} {MDS|PQP|mata eu}" },
+      { "role": "responder", "type": "text", "text": "{bem vindo ao mundo corporativo|CLT feelings|é pra isso q nos pagam|sera?} {kkkkkkk|ne|mano}" },
+      { "role": "initiator", "type": "reaction", "emoji": "💀" }
+    ]
+  },
+  {
+    "name": "trabalho-linkedin-cringe",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {abri o linkedin|vi no linkedin|o linkedin} {e tem um post|e um cara postou|e a pessoa escreveu} {\"fui demitido e agradeco\"|\"chorei na reunião e isso me fez lider\"|\"recusei 500k pra seguir meu sonho\"} {MDS|PQP|n é possivel}" },
+      { "role": "responder", "type": "text", "text": "{KKKKKKK|linkedin é uma piada|ficção corporativa} {kkk|ne|mano} {tudo mentira|ninguem faz isso|cringe total}" },
+      { "role": "initiator", "type": "text", "text": "{e tem 50 mil likes|e a galera aplaude|\"que inspirador\"} {nos comentarios|geral elogiando|mds} {to chocado|pqp|slk}" },
+      { "role": "responder", "type": "text", "text": "{o linkedin é o pior lugar|rede social mais falsa|faz o twitter parecer são} {kkkkkkk|ne|mano} {eu so uso pra procurar emprego|abro 1 vez por mes|evito}" }
+    ]
+  },
+  {
+    "name": "trabalho-email-errado",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{MANO|VEI|SOCORRO} {mandei email|enviei msg|disparei} {pro cliente errado|pro chefe errado|pra pessoa errada} {com {reclamacao|piada|conteudo errado}} {MDS|PQP|vou ser demitido}" },
+      { "role": "responder", "type": "text", "text": "{MORRI|F|RIP carreira} {kkkkkkk|mano|slk} {oq tinha no email|era oq|conta}" },
+      { "role": "initiator", "type": "text", "text": "{era pra ser pro colega|era interno|era zueira} {e mandei pro|e foi parar no|e o destinatario era} {diretor|cliente VIP|fornecedor} {MDS|to tremendo|pqp}" },
+      { "role": "responder", "type": "text", "text": "{manda outro email|\"desconsiderar o anterior\"|finge q foi hackeado} {kkkkk|mano|ne} {todo mundo ja fez isso|acontece|classico corporativo}" },
+      { "role": "initiator", "type": "reaction", "emoji": "😱" }
+    ]
+  },
+  {
+    "name": "vizinho-obra-sabado",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{MANO|VEI|PQP} {o vizinho|o cara de cima|o apartamento do lado} {ta fazendo obra|ligou a furadeira|martelando} {as 7 DA MANHA|num SABADO|cedo demais} {mds|vou surtar|n aguento}" },
+      { "role": "responder", "type": "text", "text": "{classico|sempre acontece|é lei de Murphy} {kkk|ne|mano} {no unico dia q da pra dormir|justo no fds|tipico}" },
+      { "role": "initiator", "type": "text", "text": "{ja to acordado|n consigo dormir|desisti de dormir} {com raiva|putasso|mds} {e parece q ta demolindo a parede|ta construindo um bunker|ta minerando bitcoin na marreta}" },
+      { "role": "responder", "type": "text", "text": "{KKKKKK|minerando na marreta|morri} {bota fone|bota tampão de ouvido|vai dormir na sala} {kkk|é a vida|condominio ne}" }
+    ]
+  },
+  {
+    "name": "vizinho-festa-madrugada",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {o vizinho|a galera de cima|o ap do lado} {ta com festa|som alto|pagodão} {as 3 da manha|essa hora|de madrugada} {e eu tenho q acordar cedo|amanha trabalho|mds}" },
+      { "role": "responder", "type": "text", "text": "{liga pro porteiro|bate la|chama policia} {kkk|ne|mano} {n da pra deixar|tem lei do silencio|é abusado}" },
+      { "role": "initiator", "type": "text", "text": "{ja liguei|ja reclamei|bati la} {e {aumentaram o som|riram da minha cara|mandaram eu relaxar}} {MDS|PQP|é uma provocação}" },
+      { "role": "responder", "type": "text", "text": "{documenta|filma|liga 190} {kkk|ne|mano} {ou aceita e entra na festa|se n pode vencer junte-se|kkkkk}" },
+      { "role": "initiator", "type": "reaction", "emoji": "😤" }
+    ]
+  },
+  {
+    "name": "vizinho-cheiro-comida",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {o vizinho|alguem|o ap do lado} {ta fazendo|cozinhando} {churrasco|strogonoff|bolo} {e o cheiro|e ta vindo o cheiro|e a casa toda} {ta me torturando|me dando fome|mds}" },
+      { "role": "responder", "type": "text", "text": "{KKKKK|tortura olfativa|guerra psicologica} {kkk|ne|mano} {bate la e pede|faz amizade|oferece pra lavar a louça} {em troca de comida|kkk}" },
+      { "role": "initiator", "type": "text", "text": "{nem conheço|tenho vergonha|n tenho intimidade} {vou ficar na vontade|sofrendo aqui|mds}" },
+      { "role": "responder", "type": "text", "text": "{pede ifood|faz o seu|cozinha tb} {kkkkk|ne|mano} {ou sofre calado|é a vida de predio}" }
+    ]
+  },
+  {
+    "name": "vizinho-cachorro-latindo",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {o cachorro|o dog|o bicho} {do vizinho|do andar de cima|do ap 302} {late|n para de latir|ta uivando} {a noite toda|24h|sem parar} {to ficando maluco|vou surtar|mds}" },
+      { "role": "responder", "type": "text", "text": "{coitado do dog|tadinho|deve ta sozinho} {kkk|ne|mano} {fala com o dono|conversa com o porteiro|coitado do cachorro}" },
+      { "role": "initiator", "type": "text", "text": "{o dono n ta nem ai|ja falei 5 vezes|ninguem faz nada} {mds|pqp|to dormindo com tampão}" },
+      { "role": "responder", "type": "text", "text": "{denuncia|faz abaixo assinado|junta os vizinhos|chama a zoonoses} {kkk|ne|mano} {o bicho precisa de atencao|é descaso com o animal}" }
+    ]
+  },
+  {
+    "name": "vizinho-elevador-constrangimento",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {encontrei|peguei elevador|cruzei} {com o vizinho|com a vizinha|com aquele morador} {q eu {n falo|n conheço|evito}} {e ficou|e foi} {aquele silencio constrangedor|30 segundos eternos|insuportavel} {mds|kkk|slk}" },
+      { "role": "responder", "type": "text", "text": "{KKKKK|classico elevador|odeeio isso} {kkk|ne|mano} {ficou olhando pro chao|olhou pro celular|fingiu q tava lendo}?" },
+      { "role": "initiator", "type": "text", "text": "{olhei pro celular|fingi q recebi msg|fiquei olhando os numeros dos andares} {como se fosse|igual|tipico} {a coisa mais interessante do mundo|kkkkk|mds}" },
+      { "role": "responder", "type": "text", "text": "{por isso eu uso escada|morar em prédio é isso|elevador é tortura social} {kkkkkkk|ne|mano}" }
+    ]
+  },
+  {
+    "name": "vizinho-encomenda-errada",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {minha encomenda|meu pacote|minha compra} {entregaram|deixaram|foi parar} {no vizinho|no ap errado|no andar errado} {e agora tenho q|vou ter q|preciso} {ir la pedir|bater la|interagir} {mds|kkk|slk}" },
+      { "role": "responder", "type": "text", "text": "{KKKK|vai la|bate na porta} {qual o problema|é so pedir|fala oi} {ne|mano|vei}" },
+      { "role": "initiator", "type": "text", "text": "{mano eu n falo com ninguem|tenho ansiedade social|n conheço ele|vergonha} {kkk|mds|slk} {prefiro perder o pacote|quero sumir|é mais facil comprar outro}" },
+      { "role": "responder", "type": "text", "text": "{vai logo|para de drama|é 30 segundos|vc consegue} {kkkkk|mano|vei} {introvertido problems|ansiedade ne|faz parte}" }
+    ]
+  },
+  {
+    "name": "vizinho-mudanca-barulho",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {o vizinho novo|ta tendo mudança|alguem ta se mudando} {e o barulho|e a zoeira|e o vai e vem} {ta {desde as 6|o dia todo|sem parar}} {mds|pqp|slk}" },
+      { "role": "responder", "type": "text", "text": "{pelo menos é so um dia|é temporario|passa} {kkk|ne|mano} {novo vizinho|sera q é gente boa|tomara q seja tranquilo}" },
+      { "role": "initiator", "type": "text", "text": "{tomara|espero|rezo} {pq o antigo|o q saiu|o ex vizinho} {era horrível|fazia festa todo dia|era um inferno} {kkk|mds|slk}" },
+      { "role": "responder", "type": "text", "text": "{boa sorte|torço por vc|quem sabe agora vai} {kkkkk|ne|mano} {se for pior|se der errado|se n prestar} {muda vc|kkk|F}" }
+    ]
+  },
+  {
+    "name": "vizinho-som-alto-musica",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {o vizinho|o cara|o maluco} {ta ouvindo|botou pra tocar|som no talo} {{sertanejo|funk|pagode|piseiro}} {altissimo|no maximo|estourando a caixa} {e eu to tentando|e preciso} {dormir|estudar|trabalhar} {mds|pqp|slk}" },
+      { "role": "responder", "type": "text", "text": "{bota o seu mais alto|guerra musical|contra ataca com rock} {kkkkk|mano|ne} {brincadeira|n faz isso|chama o porteiro}" },
+      { "role": "initiator", "type": "text", "text": "{se eu botar|se eu soltar} {metal|funk proibidão|baby shark no repeat} {ele aprende|ai sim|guerra declarada} {kkkkk|mds|slk}" },
+      { "role": "responder", "type": "text", "text": "{BABY SHARK é arma quimica|ninguem merece|proibido em Genebra} {KKKKKKK|mano|ne} {mas funciona|ia dar certo|kkk}" }
+    ]
+  },
+  {
+    "name": "meme-brasil-eliminado-copa",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{MANO|VEI|CARA} {o Brasil|a seleção|a amarelinha} {perdeu|foi eliminado|tomou de} {{7x1|goleada|vexame}} {de novo|outra vez|mds} {quero chorar|luto|nunca mais assisto}" },
+      { "role": "responder", "type": "text", "text": "{ja acostumei|normal|esperava} {kkkkk|ne|mano} {neymar n joga|falta craque|acabou o futebol brasileiro}" },
+      { "role": "initiator", "type": "text", "text": "{eu acreditei|tinha esperança|achei q ia|fui trouxa} {mds|pqp|slk} {nunca mais|todo ano isso|é tradição}" },
+      { "role": "responder", "type": "text", "text": "{ano q vem a gente fala a mesma coisa|é ciclico|eterno sofredor} {kkkkkkk|ne|mano} {pelo menos tem o meme|os memes salvam|humor brasileiro}" },
+      { "role": "initiator", "type": "reaction", "emoji": "⚽" }
+    ]
+  },
+  {
+    "name": "meme-minha-mae-mandou",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {minha mae|minha vó|minha tia} {me mandou|me ligou|veio falar} {pra eu {comer|sair do quarto|parar de jogar|arrumar emprego}} {MDS|kkk|slk}" },
+      { "role": "responder", "type": "text", "text": "{KKKKKK|mae brasileira|classico} {a minha tb|toda mae é assim|é universal} {kkk|ne|mano}" },
+      { "role": "initiator", "type": "text", "text": "{e se eu n obedecer|e se ignorar|e o pior é q} {vem chinelada|vai cortar o wifi|tira o cartão} {kkkkk|mds|slk}" },
+      { "role": "responder", "type": "text", "text": "{obedece|faz oq ela manda|mae n se contraria} {kkkkk|ne|mano} {mae é mae|respeita|kkk}" }
+    ]
+  },
+  {
+    "name": "meme-trend-dance",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {tentei fazer|gravei|fiz} {a trend|a dancinha|o challenge} {do tiktok|do reels|viral} {e ficou HORRIVEL|e n postei|e apaguei na hora} {kkkkk|mds|pqp}" },
+      { "role": "responder", "type": "text", "text": "{MANDA|quero ver|mostra} {kkkkk|mano|vei} {deve ta bom|vai ser engraçado|manda ai}" },
+      { "role": "initiator", "type": "text", "text": "{NUNCA|prefiro morrer|jamais} {pareco um robô|sem coordenação|dois pés esquerdos} {kkkkk|mds|slk}" },
+      { "role": "responder", "type": "text", "text": "{KKKKKK|eu tb sou assim|ninguem nasce sabendo} {pelo menos tentou|é isso|kkk}" },
+      { "role": "initiator", "type": "reaction", "emoji": "💃" }
+    ]
+  },
+  {
+    "name": "crush-duplo-check-azul",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{MANO|VEI|CARA} {mandei msg|falei com o crush|mandei} {e apareceu|e deu} {dois check azul|✓✓ azul|visualizado} {faz {2h|3h|5h}} {e NADA|sem resposta|vacuo total} {mds|pqp|F}" },
+      { "role": "responder", "type": "text", "text": "{F|dor|classico vacuo} {kkkkk|mano|slk} {talvez ta ocupado|pode ter esquecido|n surta}" },
+      { "role": "initiator", "type": "text", "text": "{ta online|postou story|curtiu foto} {MAS N RESPONDE|e me ignora|mds} {é de proposito|ne|pqp}" },
+      { "role": "responder", "type": "text", "text": "{ai sim é sacanagem|ok isso doi|F no chat} {kkkkk|ne|mano} {manda outro|ou esquece|segue o baile}" }
+    ]
+  },
+  {
+    "name": "balada-esquenta-casa",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{bora|vamo|marca} {esquenta|pre game|beber antes} {la em casa|na minha|aqui} {antes da balada|antes de sair|antes do role}" },
+      { "role": "responder", "type": "text", "text": "{BORA|melhor ideia|genial} {kkkkk|mano|vei} {economiza|sai mais barato|bebida de balada é roubo}" },
+      { "role": "initiator", "type": "text", "text": "{cada um traz|leva|traga} {uma garrafa|cerveja|vodka|whisky} {e a gente racha|e divide|e compartilha} {kkk|ne|suave}" },
+      { "role": "responder", "type": "text", "text": "{fechou|combinado|to la} {que horas|chego quando|marca ai} {kkk|ne|bora}" },
+      { "role": "responder", "type": "reaction", "emoji": "🍻" }
+    ]
+  },
+  {
+    "name": "musica-descoberta-indie",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {descobri|achei|to ouvindo} {uma banda|um artista|um cantor} {indie|underground|desconhecido} {q é MUITO bom|genial|obra prima} {e ninguem conhece|pouca gente sabe|underground total}" },
+      { "role": "responder", "type": "text", "text": "{manda|qual|nome}" },
+      { "role": "initiator", "type": "text", "text": "{se falar|quando ficar famoso|quando estourar} {eu conhecia antes|eu era fã antes|hipster aqui} {kkkkk|mds|slk}" },
+      { "role": "responder", "type": "text", "text": "{KKKKKK|hipster|descolado} {manda o link logo|para de enrolar|quero ouvir} {kkk|ne|mano}" }
+    ]
+  },
+  {
+    "name": "games-lag-desgraça",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{MANO|VEI|PQP} {to com|meu ping ta|o lag ta} {200 de ping|999ms|impossivel} {n consigo jogar|morrendo de lag|teleportando} {mds|pqp|slk}" },
+      { "role": "responder", "type": "text", "text": "{fecha o torrent|sua mae ta vendo netflix|tem gente no wifi} {kkk|ne|mano} {sempre isso|é a operadora|troca de provedor}" },
+      { "role": "initiator", "type": "text", "text": "{ta todo mundo dormindo|n tem ninguem|sou so eu} {e mesmo assim|e o lag continua|mds} {é a operadora|é o Brasil|é a vida}" },
+      { "role": "responder", "type": "text", "text": "{reinicia o modem|tenta cabo|desiste e vai dormir} {kkkkk|ne|mano} {internet BR é uma piada|pagamos caro pra isso|F}" }
+    ]
+  },
+  {
+    "name": "anime-opening-skip",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {quem pula|gente q skipa|se vc pula} {a opening|a abertura|a intro} {de anime|de {naruto|one piece|jjk|demon slayer}} {n merece respeito|é psicopata|n é de confiança}" },
+      { "role": "responder", "type": "text", "text": "{CONCORDO|FATO|verdade absoluta} {kkkkk|ne|mano} {opening é sagrada|melhor parte|a arte}" },
+      { "role": "initiator", "type": "text", "text": "{eu canto|eu dublo|eu danço} {toda vez|cada episodio|a abertura inteira} {kkkkk|mds|slk} {sou assim memo|admito|n me arrependo}" },
+      { "role": "responder", "type": "text", "text": "{somos 2|eu tb|normal} {kkkkk|ne|mano} {quem n faz isso ta errado|é obrigatorio|lei}" },
+      { "role": "initiator", "type": "reaction", "emoji": "🎶" }
+    ]
+  },
+  {
+    "name": "fofoca-casal-instagram",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {o casal|aqueles dois|fulano e ciclana} {q postavam|q viviam postando|reis do instagram} {apagaram todas as fotos juntos|tiraram do bio|sumiram do feed} {SERA Q TERMINARAM|mds|fofoca}" },
+      { "role": "responder", "type": "text", "text": "{eita|VEM FOFOCA|to investigando} {kkkkk|mano|slk} {quando some do insta|foto apagada|é sinal}" },
+      { "role": "initiator", "type": "text", "text": "{e ela|e ele} {postou musica triste|ta curtindo foto de outra pessoa|soltou indireta} {nos stories|no status|mds}" },
+      { "role": "responder", "type": "text", "text": "{CONFIRMADO|acabou|RIP casal} {kkkkk|ne|mano} {rede social entrega tudo|n da pra esconder|FBI brasileiro}" }
+    ]
+  },
+  {
+    "name": "piada-meme-antigo",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {lembrei|achei|vi} {daquele meme|o meme|um video} {de 2015|antigo|das antigas} {do {nazaré|faustao|catra|gretchen|dollynho}} {kkkkk|mds|saudades}" },
+      { "role": "responder", "type": "text", "text": "{CLASSICO|icônico|saudades} {kkkkk|ne|mano} {os memes antigos|era mais simples|internet raiz} {eram melhores|outro nivel|kkk}" },
+      { "role": "initiator", "type": "text", "text": "{hj em dia|agora|meme de 2024} {dura 2 dias|ninguem lembra|é descartavel} {antes durava meses|kkk|slk}" },
+      { "role": "responder", "type": "text", "text": "{verdade|fato|concordo} {kkkkk|ne|mano} {a internet acelerou demais|tudo é rapido|saudade do meme raiz}" }
+    ]
+  },
+  {
+    "name": "perrengue-pix-errado",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{MANO|VEI|SOCORRO} {fiz pix|mandei pix|transferi} {pra pessoa errada|pro numero errado|errei a chave} {{100|200|500} reais|mds|todo meu dinheiro} {PQP|SOCORRO|vou morrer}" },
+      { "role": "responder", "type": "text", "text": "{NÃO|sério|mds} {kkk|mano|vei} {manda msg pra pessoa|pede de volta|liga pro banco}" },
+      { "role": "initiator", "type": "text", "text": "{mandei|liguei|tentei} {e a pessoa|e o cara|e ninguem} {n respondeu|visualizou e ignorou|sumiu} {MDS|PQP|to ferrado}" },
+      { "role": "responder", "type": "text", "text": "{vai no banco|faz boletim|reclama no bacen} {kkk|ne|mano} {pix tem mecanismo de devolução|tenta pelo app|F pro dinheiro}" },
+      { "role": "initiator", "type": "reaction", "emoji": "💰" }
+    ]
+  },
+  {
+    "name": "fds-filme-pipoca",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {bora|vamo|cola} {assistir filme|maratonar|ver} {la em casa|aqui|na minha} {faço pipoca|tem lanche|trago cerveja}" },
+      { "role": "responder", "type": "text", "text": "{bora|vamo|to dentro} {oq vamo ver|qual filme|tem algo em mente}?" },
+      { "role": "initiator", "type": "text", "text": "{to querendo|pensei em|que tal} {terror|ação|comédia|marvel|anime filme} {kkk|ne|mano}" },
+      { "role": "responder", "type": "text", "text": "{bora de {terror|comédia|ação}|qualquer um|vc q escolhe} {levo|trago} {guarana|cerveja|salgadinho|chocolate} {kkk|ne|fechou}" }
+    ]
+  },
+  {
+    "name": "preco-ifood-taxa",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {a taxa do ifood|taxa de entrega|o frete} {ta {10|15|20} reais|mais cara q a comida|um absurdo} {mds|pqp|slk}" },
+      { "role": "responder", "type": "text", "text": "{OQUEEE|roubo|assalto legalizado} {kkkkk|mano|slk} {hamburguer 15 reais + taxa 18|a taxa custa mais|piada}" },
+      { "role": "initiator", "type": "text", "text": "{vou buscar a pe|vou andando|bicicleta} {sai mais barato|economizo|kkk}" },
+      { "role": "responder", "type": "text", "text": "{e mais saudável|pelo menos faz exercício|maromba + comida} {kkkkk|ne|mano} {ifood ta impossível|cozinha em casa|é o jeito}" }
+    ]
+  },
+  {
+    "name": "uber-rating-passageiro",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {descobri q|vi q|minha nota de} {passageiro|no uber|na 99} {ta {4.2|3.9|4.0}} {MANO|MDS|to chocado} {ninguem me aceita|demora pra achar corrida|sou um paria}" },
+      { "role": "responder", "type": "text", "text": "{KKKKKKK|oq vc fez|mereceu} {kkk|mano|vei} {nota abaixo de 4.5|é grave|ta na lista negra}" },
+      { "role": "initiator", "type": "text", "text": "{n sei|juro q sou educado|n faço nada} {talvez|acho q|pode ser} {demoro pra descer|bato a porta|faço rota ruim} {kkk|mds|slk}" },
+      { "role": "responder", "type": "text", "text": "{para de bater a porta|desce rapido|fala bom dia} {kkkkk|ne|mano} {melhora antes q te banam|vai andar a pe|kkk}" }
+    ]
+  },
+  {
+    "name": "academia-gym-crush",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {tem uma pessoa|tem alguem|o/a gym crush} {na academia|no treino} {q é MUITO {gato/gata|bonito/bonita|lindo/linda}} {e eu fico|sempre fico} {sem saber oq fazer|travado|olhando de longe} {kkk|mds|slk}" },
+      { "role": "responder", "type": "text", "text": "{vai la|chega|puxa assunto} {kkk|ne|mano} {pede ajuda num exercicio|pergunta sobre a serie|fala sobre suplemento}" },
+      { "role": "initiator", "type": "text", "text": "{E SE EU PAGAR MICO|e se for cringe|vergonha|mds} {kkk|slk|pqp} {e se ela/ele tiver namorando|e se me ignorar|ai n}" },
+      { "role": "responder", "type": "text", "text": "{vc vai pra academia pra treinar ou paquerar|foco no shape|prioridades} {kkkkk|ne|mano} {mas tenta|vai q da certo|coragem}" },
+      { "role": "initiator", "type": "reaction", "emoji": "😍" }
+    ]
+  },
+  {
+    "name": "tattoo-flash-day",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {vai ter|tem|achei} {flash day|flash tattoo|tattoo por {100|150|200} reais} {num studio|no estudio|la perto} {bora|vamo|cola}" },
+      { "role": "responder", "type": "text", "text": "{bora|quero|to dentro} {mas|so q} {minha mae me mata|to sem grana|n sei oq fazer} {kkk|ne|mano}" },
+      { "role": "initiator", "type": "text", "text": "{faz escondido|pega emprestado|faz pequena} {kkk|ne|slk} {vai ser rapido|é so um tracinho|ela n vai ver}" },
+      { "role": "responder", "type": "text", "text": "{\"so um tracinho\"|todo mundo fala isso|depois vira manga inteira} {kkkkk|ne|mano} {mas bora|fechou|vamo}" }
+    ]
+  },
+  {
+    "name": "tinder-primeira-vez-encontro",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {vou encontrar|marquei de ver|tenho encontro} {a pessoa do tinder|o match|do app} {pela primeira vez|ao vivo|pessoalmente} {e to morrendo|nervoso demais|mds}" },
+      { "role": "responder", "type": "text", "text": "{boa sorte|vai dar bom|relaxa} {kkk|ne|mano} {manda localizacao|avisa alguem|segurança primeiro}" },
+      { "role": "initiator", "type": "text", "text": "{e se for diferente da foto|e se n rolar|e se for catfish} {mds|slk|pqp} {to com medo|ansioso|quero cancelar}" },
+      { "role": "responder", "type": "text", "text": "{vai|n cancela|enfrenta} {kkk|ne|mano} {se der errado|se n gostar|worst case} {vc ganha uma historia|vira anedota|kkk}" },
+      { "role": "initiator", "type": "reaction", "emoji": "🤞" }
+    ]
+  },
+  {
+    "name": "podcast-motivacional-cringe",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {um amigo|um colega|alguem} {me mandou|me indicou|ta ouvindo} {podcast motivacional|podcast de coach|\"mindset\"} {e quer q eu ouça|e ta todo empolgado|mds}" },
+      { "role": "responder", "type": "text", "text": "{CORRE|foge|perigo} {kkkkk|mano|slk} {daqui a pouco|proximo passo|em breve} {te vende curso|convida pra piramide|vira coach} {kkk|ne}" },
+      { "role": "initiator", "type": "text", "text": "{ja falou de|ja mencionou|ja veio com} {\"mentalidade de leão\"|\"saia da zona de conforto\"|\"faturar 6 dígitos\"} {MDS|PQP|la vem}" },
+      { "role": "responder", "type": "text", "text": "{bloqueia|muda de amigo|era previsivel} {kkkkkkk|mano|ne} {coach é praga|virou epidemia|n tem cura}" }
+    ]
+  },
+  {
+    "name": "comida-pizza-debate",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {pizza doce|pizza de chocolate|pizza com abacaxi} {é {boa|horrivel|um crime|deliciosa}} {e quem {discorda|concorda} ta errado|fato|ponto final}" },
+      { "role": "responder", "type": "text", "text": "{VC TA {CERTO|MALUCO|DOIDO}} {kkkk|mano|vei} {pizza doce|pizza com abacaxi} {é {pecado|genial|crime italiano|evolução}} {kkk|ne|slk}" },
+      { "role": "initiator", "type": "text", "text": "{essa discussao|esse debate|a humanidade} {nunca vai concordar|n tem fim|briga eterna} {sobre pizza|kkk|mds}" },
+      { "role": "responder", "type": "text", "text": "{o importante é comer|toda pizza é boa|a melhor pizza é a de graça} {kkkkk|fato|verdade absoluta}" },
+      { "role": "initiator", "type": "reaction", "emoji": "🍕" }
+    ]
+  },
+  {
+    "name": "faculdade-estagio-explorado",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {meu estagio|o estagio|to estagiando} {e faço|e me pedem|e eu faço} {trabalho de CLT|coisa de senior|tudo} {ganhando {600|800|1000}|por mixaria|mds} {exploração|pqp|slk}" },
+      { "role": "responder", "type": "text", "text": "{classico|todo estagio|bem vindo} {kkk|ne|mano} {estagiario faz tudo|mão de obra barata|é a regra}" },
+      { "role": "initiator", "type": "text", "text": "{pelo menos|ao menos|a unica vantagem} {to aprendendo|ganhei experiencia|pra botar no curriculo} {ne|kkk|mds}" },
+      { "role": "responder", "type": "text", "text": "{exato|é por isso q aguenta|investe no curriculo} {kkkkk|ne|mano} {depois melhora|um dia vc vai ser chefe|ou n}" }
+    ]
+  },
+  {
+    "name": "trabalho-sexta-feira",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{MANO|VEI|GENTE} {SEXTOU|sexta feira|finalmente sexta} {to vivo|sobrevivi|aguentei} {a semana|esses 5 dias|o inferno} {AMEM|mds|aleluia}" },
+      { "role": "responder", "type": "text", "text": "{SEXTOUUU|aeee|finalmente} {kkkkk|mano|vei} {qual o plano|bora sair|oq vamo fazer}?" },
+      { "role": "initiator", "type": "text", "text": "{dormir|nada|vegetar|maratonar serie} {ate segunda|o fds todo|sem parar} {kkk|mds|merecido}" },
+      { "role": "responder", "type": "text", "text": "{plano perfeito|te entendo|idem} {kkkkk|ne|mano} {a gente merece|descanso é sagrado|recarregar}" }
+    ]
+  },
+  {
+    "name": "vizinho-wifi-roubando",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {acho q|tenho certeza q|descobri q} {o vizinho|alguem|o cara do lado} {ta roubando|ta usando|invadiu} {meu wifi|minha internet|minha rede} {mds|pqp|slk}" },
+      { "role": "responder", "type": "text", "text": "{KKKK|classico|q absurdo} {muda a senha|troca|bota senha forte} {kkk|ne|mano}" },
+      { "role": "initiator", "type": "text", "text": "{ja mudei|troquei|botei senha nova} {e misteriosamente|e do nada} {a net voltou ao normal|parou de cair|melhorou} {HMMM|coincidencia ne|mds}" },
+      { "role": "responder", "type": "text", "text": "{pego no flagra|era ele memo|safado} {kkkkkkk|ne|mano} {bota uma senha impossível|WPA3|nome da rede: \"pague seu proprio wifi\"} {kkk|genial}" }
+    ]
+  },
+  {
+    "name": "anime-merch-compra",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {comprei|chegou|pedi} {um figure|action figure|boneco|poster|mangá} {do {goku|naruto|luffy|tanjiro|zoro}} {e é LINDO|e ficou perfeito|mds} {gastei {100|200|300} reais|foi caro mas valeu|kkk}" },
+      { "role": "responder", "type": "text", "text": "{mostra|manda foto|quero ver} {kkk|mano|vei} {otaku raiz|colecionador|investimento}" },
+      { "role": "initiator", "type": "text", "text": "{olha|vê|toma} {ta na estante|botei na mesa|na prateleira} {do lado dos outros|com a coleção|ficou lindo}" },
+      { "role": "responder", "type": "text", "text": "{mt bom|ficou show|que isso} {kkk|ne|mano} {quero um tb|onde comprou|manda o link} {to com inveja|slk}" },
+      { "role": "initiator", "type": "reaction", "emoji": "🗾" }
+    ]
+  },
+  {
+    "name": "piada-crise-existencial",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {as 3 da manha|de madrugada|agora} {bateu|veio|chegou} {a crise existencial|ansiedade|questionamento da vida} {pra q a gente existe|oq é a vida|nada faz sentido} {mds|kkk|slk}" },
+      { "role": "responder", "type": "text", "text": "{larga o celular|vai dormir|bebe agua} {kkkkk|mano|vei} {madrugada faz isso|de noite tudo piora|é o horario}" },
+      { "role": "initiator", "type": "text", "text": "{mas é sério|to pensando|mano pensa comigo} {a gente é um pontinho|no universo infinito|nada importa} {mds|kkk|to viajando}" },
+      { "role": "responder", "type": "text", "text": "{vc ta chapado|bebeu oq|precisa de terapia} {KKKKKKK|mano|ne} {mas concordo|faz sentido|é pesado de noite} {agora dorme|kkk}" }
+    ]
+  },
+  {
+    "name": "perrengue-prova-nota-baixa",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{MANO|VEI|CARA} {tirei|peguei|minha nota foi} {{2|3|1.5|0.5}} {na prova|no teste|na avaliação} {de {calculo|fisica|quimica|direito}} {TO FERRADO|vou reprovar|mds}" },
+      { "role": "responder", "type": "text", "text": "{F|KKKKKK|meus pesames} {kkk|mano|vei} {fez a prova como|estudou|chutou tudo}?" },
+      { "role": "initiator", "type": "text", "text": "{chutei|fui na fe|n sabia NADA} {e errei até o nome|e o chute n funcionou|mds} {preciso de {8|9|10} na proxima|impossivel|RIP}" },
+      { "role": "responder", "type": "text", "text": "{milagre existe|estuda agora|boa sorte} {kkkkk|ne|mano} {ou tranca|ou vai na cola|brincadeira estuda}" }
+    ]
+  },
+  {
+    "name": "fds-rolê-sem-grana",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {quero sair|quero fazer algo|quero um role} {mas to {liso|sem grana|quebrado|sem 1 real}} {mds|pqp|slk} {oq faz sem dinheiro|socorro|ideias}" },
+      { "role": "responder", "type": "text", "text": "{parque|praia|praça|caminhada} {é de graça|n gasta nada|0 reais} {kkk|ne|mano}" },
+      { "role": "initiator", "type": "text", "text": "{vdd|faz sentido|é uma opção} {mas|so q} {queria comer algo|beber|fazer algo diferente} {kkk|mds|to sem criatividade}" },
+      { "role": "responder", "type": "text", "text": "{junta moeda|procura evento grátis|vem pra ca q eu pago|cada um traz algo} {kkkkk|ne|mano} {ser pobre é criativo|a gente se vira|improvisa}" },
+      { "role": "initiator", "type": "reaction", "emoji": "🥲" }
+    ]
+  },
+  {
+    "name": "preco-conta-luz",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{MANO|VEI|CARA} {a conta de luz|minha luz|a energia} {veio|chegou|ta} {{300|400|500} reais|um absurdo|impossivel} {MDS|PQP|vou morar no escuro}" },
+      { "role": "responder", "type": "text", "text": "{ce ta minerando bitcoin|tem um AC ligado 24h|lava roupa todo dia} {kkkkk|mano|slk} {que absurdo|ta caro|bandeira vermelha ne}" },
+      { "role": "initiator", "type": "text", "text": "{n fiz nada diferente|uso o mesmo|n mudei nada} {e veio o dobro|subiu do nada|mds} {é roubo|a concessionaria ta me roubando|pqp}" },
+      { "role": "responder", "type": "text", "text": "{pede revisão|reclama|usa vela|vira amish} {kkkkkkk|ne|mano} {conta de luz é o novo aluguel|triste|F}" }
+    ]
+  },
+  {
+    "name": "uber-musica-alta",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {o uber|o motorista} {ta ouvindo|botou|colocou} {{gospel|sertanejo|funk|pagode}} {no TALO|altissimo|ensurdecedor} {e eu to|e eu aqui} {fingindo q ta bom|sofrendo calado|querendo pular fora} {kkk|mds|slk}" },
+      { "role": "responder", "type": "text", "text": "{KKKKKK|coitado|classico} {pede pra baixar|fala algo|finge q gosta} {kkk|ne|mano}" },
+      { "role": "initiator", "type": "text", "text": "{mano n tenho coragem|sou muito educado|vergonha} {vou aguentar|sofrendo em silencio|mds} {ate chegar|os 30 min|kkk}" },
+      { "role": "responder", "type": "text", "text": "{pelo menos avalia|da 3 estrelas|comenta no app} {kkkkk|ne|mano} {\"boa musica mas prefiro silencio\"|kkk|brasileiro é assim}" }
+    ]
+  },
+  {
+    "name": "games-setup-novo",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {montei|comprei|cheguei} {meu setup|meu PC novo|minha setup gaming} {e ta LINDO|ficou insano|mds} {gastei {3000|5000|8000} reais|vendi um rim|parcelei em 12x}" },
+      { "role": "responder", "type": "text", "text": "{mostra|manda foto|quero ver} {kkk|mano|vei} {specs|config|oq tem}?" },
+      { "role": "initiator", "type": "text", "text": "{RTX {3060|4070|4090}|RX {6700|7800}|placa boa} {16gb ram|32gb|i7/ryzen 7} {roda TUDO|ultra em tudo|mds}" },
+      { "role": "responder", "type": "text", "text": "{inveja|quero|sonho} {kkkkk|mano|slk} {e eu aqui com|meu PC tem|minha placa é} {integrada|GT 710|batata} {kkkkk|F|triste}" },
+      { "role": "initiator", "type": "reaction", "emoji": "🖥️" }
+    ]
+  },
+  {
+    "name": "crush-foto-bonita",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {o crush|a pessoa|ele/ela} {postou uma foto|soltou foto|colocou foto} {q ta {MUITO bonita|perfeita|maravilhosa|de matar}} {e eu to {babando|sem ar|passando mal}} {mds|kkk|slk}" },
+      { "role": "responder", "type": "text", "text": "{reage|comenta|manda emoji} {kkk|ne|mano} {é sua chance|faz algo|n fica parado}" },
+      { "role": "initiator", "type": "text", "text": "{e mandar oq|falo oq|\"bonita\" é generico demais} {e se for cringe|e se ignorar|mds}" },
+      { "role": "responder", "type": "text", "text": "{manda 🔥|fala \"que foto\"|\"caramba\"|algo casual} {n pensa demais|vai|manda logo} {kkkkk|ne|mano}" }
+    ]
+  },
+  {
+    "name": "perrengue-cabelo-cortou-errado",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{MANO|VEI|SOCORRO} {fui no barbeiro|cortei o cabelo|fui no cabeleireiro} {e ficou HORRIVEL|e destruiram|e cortaram demais} {to parecendo|pareco} {um monge|capacete|tigela|militar} {MDS|PQP|quero chorar}" },
+      { "role": "responder", "type": "text", "text": "{MANDA FOTO|quero ver|mostra} {KKKKKK|mano|vei}" },
+      { "role": "initiator", "type": "text", "text": "{pedi {degrade|low fade|na tesoura}} {e ele fez|e saiu|e ficou} {careca|torto|desigual|um desastre} {mds|pqp|slk}" },
+      { "role": "responder", "type": "text", "text": "{usa bone|chapeu|gorro} {por {1 mes|2 semanas|ate crescer}} {kkkkkkk|ne|mano} {cabelo cresce|é temporario|vai ficar de boa}" },
+      { "role": "initiator", "type": "reaction", "emoji": "💇" }
+    ]
+  },
+  {
+    "name": "comida-gordice-delivery",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {pedi|to pedindo|encomendei} {hamburguer duplo|pizza grande|combo gigante} {com {batata|milk shake|onion rings|extra bacon}} {pra mim SOZINHO|so pra mim|sim tudo pra mim} {e n me arrependo|kkk|mds}" },
+      { "role": "responder", "type": "text", "text": "{KKKKKK|mereceu|auto cuidado} {kkk|ne|mano} {as vezes a gente precisa|faz bem|gordice é terapia}" },
+      { "role": "initiator", "type": "text", "text": "{ja to de pijama|no sofa|na cama} {esperando o ifood|contando os minutos|olhando o mapa do entregador} {kkk|mds|ansioso}" },
+      { "role": "responder", "type": "text", "text": "{programa perfeito|noite ideal|viver é isso} {kkkkk|ne|mano} {manda foto quando chegar|bom apetite|enjoy}" },
+      { "role": "responder", "type": "reaction", "emoji": "🍔" }
+    ]
+  },
+  {
+    "name": "fofoca-grupo-whatsapp",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {no grupo|no gc|no zap} {do trabalho|da facul|dos amigos} {rolou|teve|saiu} {uma treta|barraco|briga} {e eu to {acompanhando|com pipoca|adorando}} {kkkkk|mds|slk}" },
+      { "role": "responder", "type": "text", "text": "{manda print|conta|oq rolou} {kkkkk|mano|vei} {amo uma treta|fofoca please|quero saber}" },
+      { "role": "initiator", "type": "text", "text": "{fulano|uma pessoa|o cara} {xingou|mandou|falou} {\"sai do grupo\"|\"vc n faz nada\"|\"te bloqueio\"} {e a outra pessoa|e o outro} {respondeu pior|devolveu|mds}" },
+      { "role": "responder", "type": "text", "text": "{KKKKKKK|briga de grupo é ouro|melhor q BBB} {continua mandando|quero atualizações|manda tudo} {kkk|ne|mano}" },
+      { "role": "initiator", "type": "reaction", "emoji": "🍿" }
+    ]
+  },
+  {
+    "name": "youtube-canal-inscrevam-se",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {to pensando em|quero|vou} {abrir um canal|criar um canal|começar} {no youtube|a fazer video|a gravar} {sobre {games|vlogs|humor|tech|culinária}} {oq acha|seria bom|bora}" },
+      { "role": "responder", "type": "text", "text": "{VAI|faz|bora} {kkk|ne|mano} {vai ser {bom|top|legal}} {eu assisto|sou primeiro inscrito|te apoio}" },
+      { "role": "initiator", "type": "text", "text": "{mas e se|e se ninguem|e se floppar} {assistir|ver|curtir} {mds|slk|pqp} {vergonha|medo|insegurança}" },
+      { "role": "responder", "type": "text", "text": "{todo mundo começa do zero|o casimiro comecou assim|primeiro video é ruim memo} {kkkkk|ne|mano} {vai na fé|começa logo|para de pensar demais}" },
+      { "role": "initiator", "type": "reaction", "emoji": "🎬" }
+    ]
+  },
+  {
+    "name": "preco-roupa-shopping",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {fui no shopping|vi uma roupa|entrei numa loja} {e uma camiseta|e uma calça|e um tenis} {tava custando|por} {{200|350|500|800} reais|um absurdo|mais q meu aluguel} {MDS|PQP|slk}" },
+      { "role": "responder", "type": "text", "text": "{ce compra na|vai na|bora pra} {shopee|shein|brás|25 de março} {q é {10 reais|baratinho|metade}} {kkkkk|ne|mano}" },
+      { "role": "initiator", "type": "text", "text": "{mas a qualidade|mas o caimento|mas a marca} {ne|kkk|sei la} {vale a pena|é diferente|ou n}" },
+      { "role": "responder", "type": "text", "text": "{vc paga pelo nome|marca é marketing|etiqueta n esquenta} {kkkkk|ne|mano} {roupa é roupa|o importante é vestir|n precisa de grife}" }
+    ]
+  },
+  {
+    "name": "perrengue-onibus-errado",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{MANO|VEI|SOCORRO} {peguei o bus errado|entrei no onibus errado|to no bus q n é} {e to indo|e ta me levando} {pro lado oposto|pra outro bairro|pra longe} {MDS|PQP|onde eu to}" },
+      { "role": "responder", "type": "text", "text": "{KKKKKKKK|desce|DESCE LOGO} {kkk|mano|vei} {pede pro motorista parar|puxa a cordinha|desce na proxima}" },
+      { "role": "initiator", "type": "text", "text": "{desci|parei|sai} {e to no meio do nada|n sei onde to|perdi total} {mds|slk|socorro}" },
+      { "role": "responder", "type": "text", "text": "{usa o google maps|manda localizacao|pede uber} {kkkkk|ne|mano} {aventura urbana|turismo involuntário|conhecendo a cidade}" },
+      { "role": "initiator", "type": "reaction", "emoji": "🗺️" }
+    ]
+  },
+  {
+    "name": "musica-vizinho-cantando",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {meu vizinho|o cara do lado|a vizinha} {ta cantando|soltando a voz|cantarolando} {no chuveiro|as 6 da manha|de madrugada} {e é HORRIVEL|e desafina tudo|mds} {parece|ta parecendo} {gato pisado|freio de caminhão|alarme de carro}" },
+      { "role": "responder", "type": "text", "text": "{KKKKKKKKK|coitado|mds} {grava|filma o audio|manda pra gente} {kkk|ne|mano}" },
+      { "role": "initiator", "type": "text", "text": "{o pior é q|e ainda|e ele/ela} {canta a mesma musica|repete 50 vezes|acha q ta arrasando} {TODO DIA|sem parar|mds}" },
+      { "role": "responder", "type": "text", "text": "{apresenta pro the voice|inscreve no idolos|manda pro silvio santos} {kkkkkkk|ne|mano} {pelo menos é de graca|show particular|entretenimento}" }
+    ]
+  },
+  {
+    "name": "games-amigo-noob",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {joguei com|levei|chamei} {o fulano|meu amigo|o cara} {pra jogar|pra ranked|pro time} {e ele é|e o bixo é|mds ele é} {MUITO ruim|noob demais|horrivel} {mds|pqp|slk}" },
+      { "role": "responder", "type": "text", "text": "{KKKKKK|coitado|todo grupo tem um} {kkk|ne|mano} {fez oq|morreu quantas vezes|conta}" },
+      { "role": "initiator", "type": "text", "text": "{morreu {10|15|20} vezes|errou tudo|atirou no time|n acertou 1 tiro} {e ainda fala|e ficou pistola|e culpa o time} {MDS|kkk|slk}" },
+      { "role": "responder", "type": "text", "text": "{n chama mais|joga com bot|treina ele primeiro} {kkkkk|ne|mano} {paciencia|todo mundo foi noob|vc tb ja foi ruim} {kkk|ne}" }
+    ]
+  },
+  {
+    "name": "fofoca-amigo-namorando",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{MANO|VEI|GENTE} {o fulano|nosso amigo|o cara} {ta namorando|arrumou namorada|assumiu} {e n contou pra ninguem|e a gente descobriu pelo insta|escondido} {mds|kkk|como assim}" },
+      { "role": "responder", "type": "text", "text": "{COMO ASSIM|traidor|mentiroso} {kkkkkk|mano|vei} {a gente é oq|n somos amigos|fofoqueiros profissionais} {e n sabíamos|mds|slk}" },
+      { "role": "initiator", "type": "text", "text": "{descobri pq|vi pq|achei pq} {a mina postou foto|ele curtiu|alguem me contou} {e {marcou ele|com tag|com coração}} {mds|kkk|safado}" },
+      { "role": "responder", "type": "text", "text": "{vamo cobrar|manda no grupo|expõe} {kkkkkkk|ne|mano} {amigo q esconde namoro|merece zoeira|é a lei}" },
+      { "role": "responder", "type": "reaction", "emoji": "👀" }
+    ]
+  },
+  {
+    "name": "piada-previsao-tempo",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {a previsao|o tempo|a meteorologia} {disse|falou|garantiu} {q ia fazer sol|q n ia chover|tempo bom} {e ta|e olha|resultado} {CHOVENDO|temporal|diluvio} {MDS|PQP|confiei} {kkk|slk}" },
+      { "role": "responder", "type": "text", "text": "{KKKKKK|nunca confie|classico} {meteorologia brasileira|previsão BR|é loteria} {kkk|ne|mano} {acerta {10|20|30}% das vezes|chuta melhor q eu|bola de cristal}" },
+      { "role": "initiator", "type": "text", "text": "{e eu sai|e fui|e la vai eu} {sem guarda chuva|de chinelo|de roupa branca} {confiando|acreditando|mds} {to encharcado|to um lixo|quero morrer}" },
+      { "role": "responder", "type": "text", "text": "{leva guarda chuva SEMPRE|sempre|regra numero 1} {kkkkk|ne|mano} {Brasil o tempo muda|em 5 min|é assim}" }
+    ]
+  },
+  {
+    "name": "trabalho-home-office-cama",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {to fazendo|trabalhando|na reunião} {home office|remoto|de casa} {deitado na cama|de pijama|no sofá} {e ninguem sabe|camera desligada|kkk} {mds|slk|vida boa}" },
+      { "role": "responder", "type": "text", "text": "{KKKKKK|sonho|heroi} {kkk|ne|mano} {eu tb|faço o mesmo|quem n faz} {camera desligada é lei|mic no mudo|kkk}" },
+      { "role": "initiator", "type": "text", "text": "{e quando pedem pra ligar a camera|as vezes pedem|\"liga a camera\"} {mds|pqp|panico} {finjo {problema tecnico|internet ruim|camera quebrada}} {kkk|slk|sempre}" },
+      { "role": "responder", "type": "text", "text": "{\"minha camera ta com problema\"|classico|todo mundo fala} {KKKKKKK|ne|mano} {home office mudou a gente|somos outros|voltaria pro escritorio nunca}" }
+    ]
+  },
+  {
+    "name": "academia-foto-antes-depois",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {fiz|tirei|montei} {um antes e depois|foto de evolução|comparativo} {da academia|do shape|do treino} {de {3 meses|6 meses|1 ano}} {e {ta igual|n mudou nada|quase n da pra ver|mudou um pouco}} {mds|kkk|slk}" },
+      { "role": "responder", "type": "text", "text": "{manda|mostra|quero ver} {kkk|mano|vei}" },
+      { "role": "initiator", "type": "text", "text": "{olha|vê} {a diferença é|mudou|percebe} {a luz|o ângulo|o bronzeado|quase nada} {kkkk|mds|triste} {mas to me sentindo melhor|pelo menos a saude|ne}" },
+      { "role": "responder", "type": "text", "text": "{ta diferente sim|eu vejo|tem mudança} {kkk|ne|mano} {continua|n desiste|progresso é progresso} {mesmo q pequeno|todo shape leva tempo|confia no processo}" },
+      { "role": "responder", "type": "reaction", "emoji": "📸" }
+    ]
+  },
+  {
+    "name": "fds-feriado-prolongado",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{MANO|VEI|GENTE} {feriado prolongado|feriadão|emendou} {semana q vem|essa semana|quinta a domingo} {{4|5} dias|dias de folga|LIBERDADE} {mds|kkk|amém}" },
+      { "role": "responder", "type": "text", "text": "{BOAAAA|amém|finalmente} {kkkkk|mano|vei} {vai fazer oq|planos|qual o destino}?" },
+      { "role": "initiator", "type": "text", "text": "{NADA|dormir|ficar em casa|viajar|praia|interior} {e to feliz com isso|e n me julga|merecido} {kkk|mds|slk}" },
+      { "role": "responder", "type": "text", "text": "{plano perfeito|merecemos|vida é curta} {kkkkk|ne|mano} {aproveita|descansa|curte} {pq segunda vem rapido|o trabalho espera|F}" },
+      { "role": "initiator", "type": "reaction", "emoji": "🏖️" }
+    ]
+  },
+  {
+    "name": "piada-wifi-senha",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {cheguei|fui|to} {na casa de alguem|num restaurante|num lugar} {e pedi o wifi|e perguntei a senha|e a senha do wifi} {é|era} {\"naotemwifi\"|\"compraseuproprionet\"|\"senhaerrada\"} {KKKKKK|mds|serio}" },
+      { "role": "responder", "type": "text", "text": "{KKKKKKKK|genial|humor fino} {kkk|mano|vei} {confundiu todo mundo|ninguem consegue conectar|é de propósito}" },
+      { "role": "initiator", "type": "text", "text": "{fiquei 10 min|tentei 5 vezes|digitei errado} {achando q era errada|sem entender|mds} {ate alguem explicar|ate cair a ficha|kkk}" },
+      { "role": "responder", "type": "text", "text": "{MORRI|trollagem master|dono do wifi é comediante} {kkkkkkk|ne|mano} {vou fazer isso na minha casa|copiando|genial}" }
+    ]
+  },
+  {
+    "name": "crush-audio-longo",
+    "category": "social",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|vei|cara} {mandei|gravei|soltei} {um audio de {3|5|7} minutos|um textão de voz|um audio enorme} {pro crush|pra pessoa|pra ele/ela} {declarando|abrindo o coração|falando tudo} {e to arrependido|MDS|oq eu fiz}" },
+      { "role": "responder", "type": "text", "text": "{NÃO|vc n fez isso|MANO} {KKKKKKK|mds|slk} {audio longo é crime|ninguem ouve|é suicídio social}" },
+      { "role": "initiator", "type": "text", "text": "{e {n ouviu ainda|ta com a setinha de play|visualizou e n respondeu}} {MDS|PQP|to morrendo} {quero apagar|da pra apagar|ja era}" },
+      { "role": "responder", "type": "text", "text": "{F|aguenta|agora é esperar} {kkkkk|ne|mano} {ninguem ouve audio grande|deveria ter mandado texto|proxima vez escreve}" },
+      { "role": "initiator", "type": "reaction", "emoji": "🎙️" }
+    ]
+  }
+]

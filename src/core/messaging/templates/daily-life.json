@@ -1,0 +1,2309 @@
+[
+  {
+    "name": "clima-calor-insuportavel",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mano|cara|vei} esse calor ta {insuportavel|absurdo|de matar}" },
+      { "role": "responder", "type": "text", "text": "{simm|demais|nossa} to {derretendo|morrendo|suando} aqui {kkk|rsrs}" },
+      { "role": "initiator", "type": "text", "text": "{meu ventilador|meu ar condicionado} {pifou|quebrou|parou} justamente {hj|hoje}" },
+      { "role": "responder", "type": "text", "text": "{ai é pra acabar|misericordia|af} {kkk|rsrs} {compra um novo|manda arrumar logo}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{😭|🥵}" }
+    ]
+  },
+  {
+    "name": "clima-chuva-forte",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "ta {chovendo|caindo o mundo} {demais|muito} ai {tb|tambem}?" },
+      { "role": "responder", "type": "text", "text": "{sim|to ouvindo os trovao daqui|demais} {da medo|assusta}" },
+      { "role": "initiator", "type": "text", "text": "aqui {alagou tudo|ta tudo alagado|a rua virou rio} {kkk|mds}" },
+      { "role": "responder", "type": "text", "text": "{eita|caramba|cruz} {fica em casa|nem sai}" },
+      { "role": "initiator", "type": "text", "text": "{vou ficar de boa|to de boa} {assistindo serie|no celular|dormindo}" },
+      { "role": "responder", "type": "reaction", "emoji": "{👍|😴}" }
+    ]
+  },
+  {
+    "name": "clima-frio-cobertor",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{q frio|esse frio} {hein|viu|ne} {brrr|}" },
+      { "role": "responder", "type": "text", "text": "{to embaixo de 3 cobertores|to congelando|nem saio da cama}" },
+      { "role": "initiator", "type": "text", "text": "dia perfeito {pra ficar em casa|pra um chocolate quente|pra dormir}" },
+      { "role": "responder", "type": "text", "text": "{concordo|demais|total} {kkk|rsrs}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🥶|☕}" }
+    ]
+  },
+  {
+    "name": "clima-sol-praia",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{o sol ta lindo|dia perfeito|olha esse ceu} {hj|hoje}" },
+      { "role": "responder", "type": "text", "text": "{bora|vamo} {pra praia|pra piscina|tomar um sol}?" },
+      { "role": "initiator", "type": "text", "text": "{bora|partiu|vamo sim} {to precisando|faz tempo q n vou}" },
+      { "role": "responder", "type": "text", "text": "{te pego|passo ai} {as 10|daqui a pouco|em 1h}" },
+      { "role": "initiator", "type": "text", "text": "{blz|fechou|tmj} {vou me arrumar|vou pegar minhas coisas}" },
+      { "role": "responder", "type": "reaction", "emoji": "{🏖️|☀️}" }
+    ]
+  },
+  {
+    "name": "clima-tempo-mudou",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{o tempo virou|mudou o tempo} {do nada|de repente} {ne|hein}" },
+      { "role": "responder", "type": "text", "text": "{tava sol|tava calor} agora ta {chovendo|nublado|frio}" },
+      { "role": "initiator", "type": "text", "text": "{esse pais n tem jeito|tipico do brasil|kkk}" },
+      { "role": "responder", "type": "reaction", "emoji": "{😂|🤷}" }
+    ]
+  },
+  {
+    "name": "clima-previsao-errada",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{a previsao dizia|meteorologia falou} q {ia chover|ia fazer sol} {hj|hoje}" },
+      { "role": "responder", "type": "text", "text": "{e deu o contrario|mentira total|errou feio} {kkk|rsrs}" },
+      { "role": "initiator", "type": "text", "text": "{sai sem guarda chuva|me ferrei|fiquei todo molhado}" },
+      { "role": "responder", "type": "text", "text": "{kkkkk|rsrs} {te avisei|eu falei|}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🌧️|😤}" }
+    ]
+  },
+  {
+    "name": "clima-ar-condicionado",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{quanto ta pagando|chegou quanto} {sua conta de luz|de energia}?" },
+      { "role": "responder", "type": "text", "text": "{nem me fala|ui|af} {veio 400|veio um absurdo|dobrou} por causa do {ar|ar condicionado}" },
+      { "role": "initiator", "type": "text", "text": "{a minha tb|to na mesma|igualzinho}" },
+      { "role": "responder", "type": "text", "text": "mas {n consigo ficar sem|sem ar n da|fazer oq ne}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{💸|😅}" }
+    ]
+  },
+  {
+    "name": "clima-vento-forte",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mds|meu deus} {esse vento|ventania} {ta doido|ta forte demais}" },
+      { "role": "responder", "type": "text", "text": "{aqui derrubou|caiu} {uma arvore|a antena|umas telhas}" },
+      { "role": "initiator", "type": "text", "text": "{eita|serio?|caramba} {ta tudo bem ai|ninguem se machucou}?" },
+      { "role": "responder", "type": "text", "text": "{ta sim|de boa|td bem} {so o susto|foi so susto msm}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🙏|😮}" }
+    ]
+  },
+  {
+    "name": "clima-umidade-baixa",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{a umidade|umidade do ar} ta {muito baixa|10 porcento|horrivel} {hj|hoje}" },
+      { "role": "responder", "type": "text", "text": "{meu nariz ta sangrando|to com dor de cabeca|garganta seca}" },
+      { "role": "initiator", "type": "text", "text": "{bebe agua|coloca uma bacia de agua no quarto|liga o umidificador}" },
+      { "role": "responder", "type": "text", "text": "{vlw|boa|vou fazer isso} {pela dica|}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{💧|👍}" }
+    ]
+  },
+  {
+    "name": "clima-frio-roupa",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{n tenho|cadê minha} roupa de frio {kkk|rsrs}" },
+      { "role": "responder", "type": "text", "text": "{tb n|eu tb|same} {guardo tudo|doei tudo|nunca acho}" },
+      { "role": "initiator", "type": "text", "text": "vou ter q {comprar|ir no shopping|usar 3 camisetas}" },
+      { "role": "responder", "type": "reaction", "emoji": "{😂|🧥}" }
+    ]
+  },
+  {
+    "name": "comida-delivery-demora",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{pedi|fiz um pedido no} {ifood|rappi|delivery} {faz 1h|ha mto tempo} e {nada|nd}" },
+      { "role": "responder", "type": "text", "text": "{nossa|af} {cancela|liga la|reclama}" },
+      { "role": "initiator", "type": "text", "text": "{ja to com fome demais|to morrendo de fome|vou morrer de fome}" },
+      { "role": "responder", "type": "text", "text": "{faz um miojo|come um biscoito|pede em outro lugar} {enquanto isso|kkk}" },
+      { "role": "initiator", "type": "text", "text": "{boa ideia|vou fazer isso|ja to fazendo} {kkk|rsrs}" },
+      { "role": "responder", "type": "reaction", "emoji": "{😂|🍜}" }
+    ]
+  },
+  {
+    "name": "comida-restaurante-novo",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{abriu|inaugurou} {um restaurante|um lugar|uma lanchonete} novo {perto daqui|no bairro|ali na esquina}" },
+      { "role": "responder", "type": "text", "text": "{serio|qual|onde}?" },
+      { "role": "initiator", "type": "text", "text": "{um japones|uma hamburgueria|uma pizzaria} {parece bom|vi no insta}" },
+      { "role": "responder", "type": "text", "text": "{bora testar|vamo la|me leva}" },
+      { "role": "initiator", "type": "text", "text": "{bora|vamo} {sabado|amanha|no fds}" },
+      { "role": "responder", "type": "reaction", "emoji": "{🍽️|😋}" }
+    ]
+  },
+  {
+    "name": "comida-receita-testei",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{fiz|testei} {aquela receita|um bolo|uma torta} {q vi no tiktok|q vc mandou|do youtube}" },
+      { "role": "responder", "type": "text", "text": "{e ai|ficou bom|como ficou}?" },
+      { "role": "initiator", "type": "text", "text": "{ficou horrivel|ficou otimo|mais ou menos} {kkk|rsrs}" },
+      { "role": "responder", "type": "text", "text": "{manda foto|quero ver|me manda}" },
+      { "role": "initiator", "type": "text", "text": "{depois mando|ja ja mando|perai}" },
+      { "role": "responder", "type": "reaction", "emoji": "{🤤|😂}" }
+    ]
+  },
+  {
+    "name": "comida-almoco-oq",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{oq|o q} {vc vai|ce vai|tu vai} {almocar|comer} {hj|hoje}?" },
+      { "role": "responder", "type": "text", "text": "{sei la|n sei|to sem ideia} {e vc|sugestao}?" },
+      { "role": "initiator", "type": "text", "text": "to pensando em {pedir pizza|fazer arroz e feijao|comer fora}" },
+      { "role": "responder", "type": "text", "text": "{pizza|comer fora} {parece bom|bora|me convenceu}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🍕|😄}" }
+    ]
+  },
+  {
+    "name": "comida-churrasco-fds",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{bora|vamo fazer} {um churras|churrasco} {no sabado|nesse fds|domingo}?" },
+      { "role": "responder", "type": "text", "text": "{bora|to dentro|partiu} {eu levo|levo} {a cerveja|o refri|a carne}" },
+      { "role": "initiator", "type": "text", "text": "{fechou|blz|tmj} {eu cuido do|compro o} {restante|carvao|tempero}" },
+      { "role": "responder", "type": "text", "text": "{que horas|começa que horas|marca la pras 11}?" },
+      { "role": "initiator", "type": "text", "text": "{umas 11|meio dia|a partir das 10}" },
+      { "role": "responder", "type": "reaction", "emoji": "{🥩|🔥}" }
+    ]
+  },
+  {
+    "name": "comida-dieta-quebrou",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{quebrei|furei} a dieta {hj|hoje} {kkk|rsrs}" },
+      { "role": "responder", "type": "text", "text": "{de novo|vc n aguenta ne|kkk} {comeu oq|oq comeu}?" },
+      { "role": "initiator", "type": "text", "text": "{um balde de sorvete|uma pizza inteira|uns 5 coxinhas}" },
+      { "role": "responder", "type": "text", "text": "{pelo menos foi feliz|valeu a pena?|kkkkk}" },
+      { "role": "initiator", "type": "text", "text": "{demais|muito|zero arrependimento}" },
+      { "role": "responder", "type": "reaction", "emoji": "{😂|🍦}" }
+    ]
+  },
+  {
+    "name": "comida-cafe-da-manha",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{tomou cafe|ja tomou cafe da manha}?" },
+      { "role": "responder", "type": "text", "text": "{nem|ainda n|so tomei cafe msm}" },
+      { "role": "initiator", "type": "text", "text": "{fiz|to fazendo} {tapioca|pao de queijo|panqueca} {vem ca|quer}?" },
+      { "role": "responder", "type": "text", "text": "{to indo|ja to ai|me espera} {kkk|rsrs}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{☕|🥞}" }
+    ]
+  },
+  {
+    "name": "comida-mercado-caro",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{fui no mercado|fui no supermercado} {hj|hoje} {e quase chorei|mds}" },
+      { "role": "responder", "type": "text", "text": "{ta tudo caro ne|os precos tao absurdos|demais}" },
+      { "role": "initiator", "type": "text", "text": "{gastei 300|gastei quase 400} e {trouxe nada|n trouxe nada|veio pouca coisa}" },
+      { "role": "responder", "type": "text", "text": "{ta osso|dificil|complicado} {viu|ne}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{😤|💸}" }
+    ]
+  },
+  {
+    "name": "comida-lanche-noite",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{bateu|deu} {aquela fome|uma fome} {da madrugada|agora a noite}" },
+      { "role": "responder", "type": "text", "text": "{eu tb|to na msm|aqui tb} {kkk|rsrs}" },
+      { "role": "initiator", "type": "text", "text": "{vou pedir|bora pedir} {um lanche|hamburguer|uma esfiha}" },
+      { "role": "responder", "type": "text", "text": "{pede pra mim tb|me inclui|bota o meu}" },
+      { "role": "initiator", "type": "text", "text": "{blz|pode deixar} {oq vc quer|quer oq}?" },
+      { "role": "responder", "type": "text", "text": "{o de sempre|qualquer coisa|um x bacon}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{👍|🍔}" }
+    ]
+  },
+  {
+    "name": "comida-cozinhar-desastre",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{tentei cozinhar|fiz comida} e {queimei tudo|deu errado|virou um desastre}" },
+      { "role": "responder", "type": "text", "text": "{kkkkk|de novo?|mds}" },
+      { "role": "initiator", "type": "text", "text": "{o arroz grudou|o feijao queimou|a carne ficou dura} {socorro|help}" },
+      { "role": "responder", "type": "text", "text": "{pede delivery logo|desiste|vc n tem jeito} {kkk|rsrs}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{😅|🔥}" }
+    ]
+  },
+  {
+    "name": "trabalho-remoto-reuniao",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mais uma|outra} {reuniao|call|meet} {q podia ser email|desnecessaria|inutil}" },
+      { "role": "responder", "type": "text", "text": "{te entendo|sei como é|aqui tb} {toda hora|o dia todo}" },
+      { "role": "initiator", "type": "text", "text": "{n aguento mais|to cansado disso|pqp}" },
+      { "role": "responder", "type": "text", "text": "{forca|aguenta|logo acaba} {kkk|rsrs}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{😩|💪}" }
+    ]
+  },
+  {
+    "name": "trabalho-remoto-pijama",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{to trabalhando|entrei na call} {de pijama|sem trocar de roupa} {kkk|rsrs}" },
+      { "role": "responder", "type": "text", "text": "{eu tb|quem n|a vida de home office} {ne|kkk}" },
+      { "role": "initiator", "type": "text", "text": "{melhor coisa|beneficio do home office|n troco isso por nada}" },
+      { "role": "responder", "type": "text", "text": "{so liga a camera|so n liga a camera|da cintura pra cima ta bom}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{😂|🩳}" }
+    ]
+  },
+  {
+    "name": "trabalho-remoto-internet",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{minha internet|a net} {caiu|ta lenta|pifou} {no meio da reuniao|na hora errada}" },
+      { "role": "responder", "type": "text", "text": "{classico|tipico|acontece demais}" },
+      { "role": "initiator", "type": "text", "text": "{to usando 4g|tive q ir pro celular|to no dados moveis}" },
+      { "role": "responder", "type": "text", "text": "{liga pro provedor|reinicia o modem|ja tentou desligar e ligar}?" },
+      { "role": "initiator", "type": "text", "text": "{ja fiz tudo|ja tentei|vou ligar la}" },
+      { "role": "responder", "type": "reaction", "emoji": "{📶|😬}" }
+    ]
+  },
+  {
+    "name": "trabalho-remoto-chefe",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{meu chefe|meu gestor} {mandou msg|ligou} {as 7 da manha|de madrugada|no fds}" },
+      { "role": "responder", "type": "text", "text": "{q abuso|fala serio|sem nocao}" },
+      { "role": "initiator", "type": "text", "text": "{nem respondi|fingi q n vi|vou ignorar}" },
+      { "role": "responder", "type": "text", "text": "{certo|faz bem|ta certissimo}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{😤|🙄}" }
+    ]
+  },
+  {
+    "name": "trabalho-remoto-procrastinar",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{to procrastinando|n consigo focar|to enrolando} {demais|hj}" },
+      { "role": "responder", "type": "text", "text": "{oq vc ta fazendo|ta fazendo oq} {em vez de trabalhar|ao inves de trabalhar}?" },
+      { "role": "initiator", "type": "text", "text": "{vendo tiktok|no instagram|assistindo video no youtube} {kkk|rsrs}" },
+      { "role": "responder", "type": "text", "text": "{pior q eu tb|te entendo|quem nunca} {kk|rsrs}" },
+      { "role": "initiator", "type": "text", "text": "{foco|vou voltar|deixa eu trabalhar} {senao me ferro|vai}" },
+      { "role": "responder", "type": "reaction", "emoji": "{💪|📱}" }
+    ]
+  },
+  {
+    "name": "trabalho-remoto-sexta",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{sexta feira|sextou} {finalmente|ufa|graças a deus}" },
+      { "role": "responder", "type": "text", "text": "{sextou|amem|ate q enfim}" },
+      { "role": "initiator", "type": "text", "text": "{vou fechar o note|desliguei o pc|ja era}" },
+      { "role": "responder", "type": "text", "text": "{bom fds|bom descanso|aproveita}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🍻|🎉}" }
+    ]
+  },
+  {
+    "name": "trabalho-remoto-cafe",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{ja to no|perdi a conta do} {terceiro|quarto|quinto} cafe {hj|do dia}" },
+      { "role": "responder", "type": "text", "text": "{vai com calma|cuidado|vc vai ter um treco} {kkk|rsrs}" },
+      { "role": "initiator", "type": "text", "text": "{sem cafe n funciono|preciso|n vivo sem}" },
+      { "role": "responder", "type": "reaction", "emoji": "{☕|😂}" }
+    ]
+  },
+  {
+    "name": "trabalho-remoto-barulho",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{meu vizinho|o pessoal aqui} {ta fazendo obra|ta com musica alta|ta com barulho} e eu {na call|em reuniao}" },
+      { "role": "responder", "type": "text", "text": "{q situacao|complicado|mds}" },
+      { "role": "initiator", "type": "text", "text": "{tive q mutar|fiquei no mudo|fui pro quarto}" },
+      { "role": "responder", "type": "text", "text": "{kkk|rsrs} {compra um fone bom|investe num fone com cancelamento de ruido}" },
+      { "role": "initiator", "type": "text", "text": "{vou ter q comprar msm|preciso|to pensando}" },
+      { "role": "responder", "type": "reaction", "emoji": "{🎧|😅}" }
+    ]
+  },
+  {
+    "name": "trabalho-remoto-ergonomia",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{minhas costas|minha coluna} {ta acabada|ta doendo|ta destruida}" },
+      { "role": "responder", "type": "text", "text": "{vc trabalha onde|ta usando q cadeira}?" },
+      { "role": "initiator", "type": "text", "text": "{na cadeira da cozinha|no sofa|na cama} {kkk|rsrs}" },
+      { "role": "responder", "type": "text", "text": "{compra uma cadeira boa|investe numa cadeira|vc precisa de uma cadeira gamer}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🪑|😭}" }
+    ]
+  },
+  {
+    "name": "trabalho-remoto-demissao",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{to pensando em|sera q devo} {pedir demissao|sair do trampo|trocar de emprego}" },
+      { "role": "responder", "type": "text", "text": "{serio|pq|aconteceu algo}?" },
+      { "role": "initiator", "type": "text", "text": "{cansado|esgotado|n aguento mais} {a pressao|o ritmo|esse lugar}" },
+      { "role": "responder", "type": "text", "text": "{te entendo|foda|pensa bem} {mas sua saude vem primeiro|antes de decidir}" },
+      { "role": "initiator", "type": "text", "text": "{vou pensar|é|vc tem razao}" },
+      { "role": "responder", "type": "reaction", "emoji": "{🙏|❤️}" }
+    ]
+  },
+  {
+    "name": "familia-filho-escola",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{a escola|o colegio} {do meu filho|da minha filha} {mandou bilhete|chamou pra reuniao}" },
+      { "role": "responder", "type": "text", "text": "{eita|oq aconteceu|serio}?" },
+      { "role": "initiator", "type": "text", "text": "{aprontou|brigou|n fez a licao} {de novo|kkk}" },
+      { "role": "responder", "type": "text", "text": "{coisa de crianca|normal|faz parte}" },
+      { "role": "initiator", "type": "text", "text": "{eu sei|é verdade} mas {da trabalho|cansa|é dificil}" },
+      { "role": "responder", "type": "reaction", "emoji": "{❤️|💪}" }
+    ]
+  },
+  {
+    "name": "familia-mae-liga",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{minha mae|minha mãe} {me ligou 10 vezes|n para de ligar|manda audio de 5 min}" },
+      { "role": "responder", "type": "text", "text": "{kkkkk|a minha tb|mae é assim msm}" },
+      { "role": "initiator", "type": "text", "text": "{se n atendo|se demoro pra responder} ela {acha q morri|ja pensa o pior}" },
+      { "role": "responder", "type": "text", "text": "{tipico|classico|identico} {kkk|rsrs}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{😂|❤️}" }
+    ]
+  },
+  {
+    "name": "familia-pai-tecnologia",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{meu pai|meu velho} {pediu ajuda|me chamou} {pro celular|pra mexer no cel|pra configurar alguma coisa}" },
+      { "role": "responder", "type": "text", "text": "{kkk|rsrs} {oq era dessa vez|oq foi}?" },
+      { "role": "initiator", "type": "text", "text": "{n sabia tirar foto|n achava o whatsapp|queria mandar pix}" },
+      { "role": "responder", "type": "text", "text": "{fofo|que amor|kkk} {paciencia ne|tem q ter paciencia}" },
+      { "role": "initiator", "type": "text", "text": "{eu amo|paciencia|faz parte}" },
+      { "role": "responder", "type": "reaction", "emoji": "{❤️|😊}" }
+    ]
+  },
+  {
+    "name": "familia-irmao-briga",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{briguei|discuti} com {meu irmao|minha irma} {de novo|hj}" },
+      { "role": "responder", "type": "text", "text": "{oq foi|pq|sobre oq}?" },
+      { "role": "initiator", "type": "text", "text": "{besteira|bobagem|coisa idiota} {como sempre|kkk}" },
+      { "role": "responder", "type": "text", "text": "{irmao é assim|normal|vcs se amam no fundo}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🤷|😤}" }
+    ]
+  },
+  {
+    "name": "familia-bebe-noite",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{o bebe|meu filho} {n dormiu|acordou 5 vezes|chorou a noite toda}" },
+      { "role": "responder", "type": "text", "text": "{mds|coitado|vc ta bem}?" },
+      { "role": "initiator", "type": "text", "text": "{to um zumbi|morto|acabado} {kkk|rsrs}" },
+      { "role": "responder", "type": "text", "text": "{forca|vai passar|logo ele dorme melhor}" },
+      { "role": "initiator", "type": "text", "text": "{tomara|espero|do seu ouvido pro ceu}" },
+      { "role": "responder", "type": "reaction", "emoji": "{🍼|😴}" }
+    ]
+  },
+  {
+    "name": "familia-reuniao-natal",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{ja to pensando|to com medo} {no natal|na ceia|na reuniao de familia}" },
+      { "role": "responder", "type": "text", "text": "{eu tb|pior|sempre da treta}" },
+      { "role": "initiator", "type": "text", "text": "{sempre tem {aquele tio|aquela discussao}|alguem briga|é tradição}" },
+      { "role": "responder", "type": "text", "text": "{pelo menos a comida é boa|foco na comida|come e sai} {kkk|rsrs}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{😂|🎄}" }
+    ]
+  },
+  {
+    "name": "familia-sogra",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{minha sogra|a sogra} {vem|vai vir} {pra ca|visitar|ficar uns dias}" },
+      { "role": "responder", "type": "text", "text": "{boa sorte|meus pesames|forca} {kkk|rsrs}" },
+      { "role": "initiator", "type": "text", "text": "{n é tao ruim|ela ate q é legal|vai ser tenso}" },
+      { "role": "responder", "type": "text", "text": "{fica de boa|respira fundo|vai dar certo}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🙏|😬}" }
+    ]
+  },
+  {
+    "name": "familia-filho-crescendo",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{meu filho|minha filha} {ta crescendo|cresceu} {rapido demais|num piscar de olhos}" },
+      { "role": "responder", "type": "text", "text": "{é verdade|o tempo voa|passa rapido ne}" },
+      { "role": "initiator", "type": "text", "text": "{ja ta {andando|falando|lendo}|parece q foi ontem q nasceu}" },
+      { "role": "responder", "type": "text", "text": "{aproveita cada momento|que lindo|fico feliz}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🥹|❤️}" }
+    ]
+  },
+  {
+    "name": "familia-primo-sumido",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{meu primo|minha prima} {sumiu|desapareceu|n fala mais comigo} {faz tempo|ha meses}" },
+      { "role": "responder", "type": "text", "text": "{manda msg|chama|liga}" },
+      { "role": "initiator", "type": "text", "text": "{vou mandar|vou chamar|é q da preguiça} {kkk|rsrs}" },
+      { "role": "responder", "type": "text", "text": "{vai logo|n custa nada|manda um oi}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{👍|😅}" }
+    ]
+  },
+  {
+    "name": "familia-avo-comida",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{fui na|visitei} {minha avo|minha vó} {hj|ontem}" },
+      { "role": "responder", "type": "text", "text": "{q bom|que delicia|comeu bem ne}" },
+      { "role": "initiator", "type": "text", "text": "{comi demais|ela fez tanta comida|voltei rolando}" },
+      { "role": "responder", "type": "text", "text": "{comida de vó é outra coisa|nada supera|melhor comida}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🥰|😋}" }
+    ]
+  },
+  {
+    "name": "saude-academia-comecou",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{comecei|me matriculei} {na academia|a treinar|a malhar} {hj|essa semana}" },
+      { "role": "responder", "type": "text", "text": "{boa|parabens|ate q enfim} {kkk|rsrs}" },
+      { "role": "initiator", "type": "text", "text": "{to todo dolorido|n consigo andar|meu corpo ta destruido}" },
+      { "role": "responder", "type": "text", "text": "{normal|é assim msm|no começo doi} {dps acostuma|vai passar}" },
+      { "role": "initiator", "type": "text", "text": "{tomara|espero|to sofrendo}" },
+      { "role": "responder", "type": "reaction", "emoji": "{💪|🏋️}" }
+    ]
+  },
+  {
+    "name": "saude-medico-resultado",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{saiu|chegou} {meu exame|o resultado|os exames}" },
+      { "role": "responder", "type": "text", "text": "{e ai|como foi|deu tudo bem}?" },
+      { "role": "initiator", "type": "text", "text": "{tudo certo|graças a deus|deu tudo normal}" },
+      { "role": "responder", "type": "text", "text": "{que bom|otimo|fico feliz|ufa}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🙏|😊}" }
+    ]
+  },
+  {
+    "name": "saude-dor-cabeca",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{to com|ta com} {uma dor de cabeca|enxaqueca} {horrivel|terrivel|forte}" },
+      { "role": "responder", "type": "text", "text": "{toma um remedio|ja tomou algo|bebe agua}?" },
+      { "role": "initiator", "type": "text", "text": "{ja tomei|tomei dipirona|nada resolve}" },
+      { "role": "responder", "type": "text", "text": "{tenta dormir|descansa um pouco|desliga o celular e deita}" },
+      { "role": "initiator", "type": "text", "text": "{vou tentar|boa ideia|vou fazer isso}" },
+      { "role": "responder", "type": "reaction", "emoji": "{🙏|❤️}" }
+    ]
+  },
+  {
+    "name": "saude-corrida-manha",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{fui correr|sai pra correr} {de manha|cedo} {hj|hoje}" },
+      { "role": "responder", "type": "text", "text": "{q disposicao|como consegue|eu n levanto nem pra ir no banheiro}" },
+      { "role": "initiator", "type": "text", "text": "{kkk|rsrs} {foi bom|me senti otimo|vale a pena}" },
+      { "role": "responder", "type": "text", "text": "{vou comecar tb|me inspira|queria ter essa forca}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🏃|💪}" }
+    ]
+  },
+  {
+    "name": "saude-dentista-medo",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{tenho dentista|vou no dentista} {hj|amanha} {to com medo|n quero ir}" },
+      { "role": "responder", "type": "text", "text": "{kkk|rsrs} {adulto com medo de dentista|relaxa|vai dar tudo certo}" },
+      { "role": "initiator", "type": "text", "text": "{n tem como|aquela broca|aquele barulho} {me da agonia|é horrivel}" },
+      { "role": "responder", "type": "text", "text": "{pensa q depois vc fica {livre|de boa}|foca no resultado}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{😰|🦷}" }
+    ]
+  },
+  {
+    "name": "saude-suplemento",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{vc toma|ce toma} {algum suplemento|whey|creatina}?" },
+      { "role": "responder", "type": "text", "text": "{tomo|to tomando} {whey e creatina|so whey|vitamina D}" },
+      { "role": "initiator", "type": "text", "text": "{funciona|faz diferenca|vale a pena}?" },
+      { "role": "responder", "type": "text", "text": "{demais|muito|com certeza} {recomendo|começa a tomar}" },
+      { "role": "initiator", "type": "text", "text": "{vou comprar|vou pesquisar|qual marca vc usa}?" },
+      { "role": "responder", "type": "reaction", "emoji": "{💊|💪}" }
+    ]
+  },
+  {
+    "name": "saude-gripe",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{to gripado|peguei uma gripe|to morrendo de gripe}" },
+      { "role": "responder", "type": "text", "text": "{melhoras|se cuida|toma {cha|sopa|vitamina C}}" },
+      { "role": "initiator", "type": "text", "text": "{vlw|obrigado} {to de cama|n consigo fazer nada}" },
+      { "role": "responder", "type": "text", "text": "{descansa|fica de repouso|n forca}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🤧|🙏}" }
+    ]
+  },
+  {
+    "name": "saude-yoga",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{comecei|to fazendo} {yoga|pilates|meditacao}" },
+      { "role": "responder", "type": "text", "text": "{serio|q legal|e ta gostando}?" },
+      { "role": "initiator", "type": "text", "text": "{to amando|é incrivel|me sinto outra pessoa}" },
+      { "role": "responder", "type": "text", "text": "{vou tentar tb|me convenceu|manda o contato do lugar}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🧘|✨}" }
+    ]
+  },
+  {
+    "name": "saude-insonia",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{n consigo dormir|to com insonia|ja sao 3h e to acordado}" },
+      { "role": "responder", "type": "text", "text": "{tenta {cha de camomila|desligar o celular|meditar}|conta carneirinhos} {kkk|}" },
+      { "role": "initiator", "type": "text", "text": "{ja tentei de tudo|nada funciona|to virando a noite}" },
+      { "role": "responder", "type": "text", "text": "{procura um medico|vai num especialista do sono|isso n é normal}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{😩|🌙}" }
+    ]
+  },
+  {
+    "name": "saude-check-up",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{fiz|marquei|to fazendo} {meu checkup|exames de rotina|checkup anual}" },
+      { "role": "responder", "type": "text", "text": "{importante|boa|é bom fazer}" },
+      { "role": "initiator", "type": "text", "text": "{vc fez o seu|quando foi a ultima vez q vc fez}?" },
+      { "role": "responder", "type": "text", "text": "{faz tempo|preciso ir|nem lembro}" },
+      { "role": "initiator", "type": "text", "text": "{vai logo|marca|n deixa pra depois}" },
+      { "role": "responder", "type": "reaction", "emoji": "{👍|🏥}" }
+    ]
+  },
+  {
+    "name": "compras-promo-black-friday",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{viu|vc viu} {as promos|as ofertas} {da black friday|da shopee|da amazon}?" },
+      { "role": "responder", "type": "text", "text": "{vi|sim|to de olho} {muita coisa boa|tem coisa barata}" },
+      { "role": "initiator", "type": "text", "text": "{comprei|to comprando} {um monte de coisa|demais|tudo q vi}" },
+      { "role": "responder", "type": "text", "text": "{cuidado|controla|vai com calma} {pra n se endividar|com o cartao} {kkk|rsrs}" },
+      { "role": "initiator", "type": "text", "text": "{ja era|tarde demais|oq é pra ser será} {kkk|rsrs}" },
+      { "role": "responder", "type": "reaction", "emoji": "{🛒|😂}" }
+    ]
+  },
+  {
+    "name": "compras-shopping-lotado",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{fui no shopping|to no shopping} e {ta lotado|tanta gente|impossivel}" },
+      { "role": "responder", "type": "text", "text": "{imagino|fds é assim|normal}" },
+      { "role": "initiator", "type": "text", "text": "{fila pra tudo|nem vaga no estacionamento|q inferno}" },
+      { "role": "responder", "type": "text", "text": "{volta outro dia|compra online|sai dai} {kkk|rsrs}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{😤|🏬}" }
+    ]
+  },
+  {
+    "name": "compras-roupa-nova",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{comprei|olha oq eu comprei} {uma roupa|umas peças} {nova|novas}" },
+      { "role": "responder", "type": "text", "text": "{mostra|manda foto|quero ver}!" },
+      { "role": "initiator", "type": "text", "text": "{depois mando|to no provador|ja ja}" },
+      { "role": "responder", "type": "text", "text": "{ta gastando ne|la vai o salario|kkk}" },
+      { "role": "initiator", "type": "text", "text": "{eu mereco|tava precisando|autoestima ne} {kkk|rsrs}" },
+      { "role": "responder", "type": "reaction", "emoji": "{👗|💅}" }
+    ]
+  },
+  {
+    "name": "compras-online-golpe",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{comprei|pedi} {uma coisa|um negocio} {online|pela internet} e {veio errado|n chegou|era golpe}" },
+      { "role": "responder", "type": "text", "text": "{mds|serio|caramba} {comprou onde|em qual site}?" },
+      { "role": "initiator", "type": "text", "text": "{num site q vi no insta|shopee|mercado livre}" },
+      { "role": "responder", "type": "text", "text": "{reclama|abre reclamacao|pede reembolso}" },
+      { "role": "initiator", "type": "text", "text": "{ja fiz|vou fazer|to fazendo}" },
+      { "role": "responder", "type": "reaction", "emoji": "{😡|🤦}" }
+    ]
+  },
+  {
+    "name": "compras-celular-novo",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{to querendo|preciso} {trocar de celular|comprar um cel novo}" },
+      { "role": "responder", "type": "text", "text": "{vai de qual|ta pensando em qual|iphone ou android}?" },
+      { "role": "initiator", "type": "text", "text": "{to entre o samsung e o iphone|sei la|to pesquisando}" },
+      { "role": "responder", "type": "text", "text": "{pega o iphone|samsung é melhor|depende do q vc precisa}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{📱|🤔}" }
+    ]
+  },
+  {
+    "name": "compras-cupom-desconto",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{achei|consegui} {um cupom|desconto} {de 50%|bom|absurdo} {no ifood|na shopee|na amazon}" },
+      { "role": "responder", "type": "text", "text": "{manda|me passa|compartilha}!" },
+      { "role": "initiator", "type": "text", "text": "{mandei|olha ai|segue}" },
+      { "role": "responder", "type": "text", "text": "{vlw|tmj|vc é demais}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{😎|💰}" }
+    ]
+  },
+  {
+    "name": "compras-parcela-cartao",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{parcelei em 12x|to pagando parcela de tudo|meu cartao ta no limite}" },
+      { "role": "responder", "type": "text", "text": "{eita|cuidado|para de gastar} {kkk|rsrs}" },
+      { "role": "initiator", "type": "text", "text": "{mas precisava|era necessario|n resisti} {kkk|}" },
+      { "role": "responder", "type": "text", "text": "{todo mundo fala isso|classico|eu tb sou assim}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{💳|😅}" }
+    ]
+  },
+  {
+    "name": "compras-feira-rua",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{fui na feira|fui na feirinha} {hj|de manha}" },
+      { "role": "responder", "type": "text", "text": "{comprou oq|achou coisa boa|como tava}?" },
+      { "role": "initiator", "type": "text", "text": "{fruta barata|muita coisa boa|tava otima} {voltei carregado|trouxe um monte}" },
+      { "role": "responder", "type": "text", "text": "{bom demais|q bom|adoro feira}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🍎|🥬}" }
+    ]
+  },
+  {
+    "name": "carro-transito-parado",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{to preso|to parado} no transito {faz|ha} {1 hora|40 min|muito tempo}" },
+      { "role": "responder", "type": "text", "text": "{q horror|onde|mds}" },
+      { "role": "initiator", "type": "text", "text": "{na marginal|na avenida|no centro} {ta horrivel|impossivel|caos}" },
+      { "role": "responder", "type": "text", "text": "{usa waze|tenta outro caminho|sai dai}" },
+      { "role": "initiator", "type": "text", "text": "{n tem pra onde ir|tudo parado|waze ta mandando voltar}" },
+      { "role": "responder", "type": "reaction", "emoji": "{🚗|😤}" }
+    ]
+  },
+  {
+    "name": "carro-uber-demorou",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{to esperando uber|chamei uber} {faz 20 min|e nada|e ninguem aceita}" },
+      { "role": "responder", "type": "text", "text": "{ta dificil msm|uber ta ruim|ta caro tb ne}" },
+      { "role": "initiator", "type": "text", "text": "{tarifa dinamica|cobrando o dobro|absurdo o preco}" },
+      { "role": "responder", "type": "text", "text": "{tenta 99|pega onibus|vai de metro}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🚕|💸}" }
+    ]
+  },
+  {
+    "name": "carro-gasolina-cara",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{abasteci|fui no posto} {hj|hoje} e {quase chorei|morri}" },
+      { "role": "responder", "type": "text", "text": "{gasolina ta quanto|ta quanto ai|caro ne}?" },
+      { "role": "initiator", "type": "text", "text": "{6 e pouco|quase 7 reais|um absurdo} {o litro|}" },
+      { "role": "responder", "type": "text", "text": "{vou andar de bicicleta|bora andar a pe|impossivel} {kkk|rsrs}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{⛽|😭}" }
+    ]
+  },
+  {
+    "name": "carro-bateu",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{bati|encostei|arranhei} {o carro|meu carro} {hj|ontem}" },
+      { "role": "responder", "type": "text", "text": "{mds|serio|eita} {vc ta bem|ce ta bem|machucou}?" },
+      { "role": "initiator", "type": "text", "text": "{to bem|foi leve|so o carro q sofreu}" },
+      { "role": "responder", "type": "text", "text": "{menos mal|ainda bem|ufa} {tem seguro|vai arrumar}?" },
+      { "role": "initiator", "type": "text", "text": "{tenho sim|vou acionar|vou ter q pagar}" },
+      { "role": "responder", "type": "reaction", "emoji": "{🙏|😥}" }
+    ]
+  },
+  {
+    "name": "carro-multa-radar",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{levei|tomei} {multa|uma multa} {no radar|de velocidade|sem querer}" },
+      { "role": "responder", "type": "text", "text": "{af|caramba|eita} {tava a quanto|veio quanto}?" },
+      { "role": "initiator", "type": "text", "text": "{quase 300 reais|caro demais|absurdo}" },
+      { "role": "responder", "type": "text", "text": "{recorre|tenta recurso|paga com desconto}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{💸|😡}" }
+    ]
+  },
+  {
+    "name": "carro-mecanico",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{meu carro ta fazendo|carro fazendo} {um barulho|barulho estranho}" },
+      { "role": "responder", "type": "text", "text": "{leva no mecanico|n anda assim|pode ser grave}" },
+      { "role": "initiator", "type": "text", "text": "{to com medo|mecanico é caro|sei q vai doer no bolso}" },
+      { "role": "responder", "type": "text", "text": "{melhor arrumar logo|pior se quebrar na estrada|vai logo}" },
+      { "role": "initiator", "type": "text", "text": "{vou marcar|vou levar|tem razao}" },
+      { "role": "responder", "type": "reaction", "emoji": "{🔧|👍}" }
+    ]
+  },
+  {
+    "name": "carro-lavou",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{lavei|mandei lavar} {o carro|meu carro} {e ja sujou|ai choveu|e um pombo cagou nele}" },
+      { "role": "responder", "type": "text", "text": "{lei da vida|sempre acontece|classico} {kkkkk|rsrs}" },
+      { "role": "initiator", "type": "text", "text": "{nunca mais lavo|desisto|eu desisto}" },
+      { "role": "responder", "type": "reaction", "emoji": "{😂|🚙}" }
+    ]
+  },
+  {
+    "name": "carro-cnh-vencida",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{minha cnh|habilitacao} {venceu|ta vencida|ta pra vencer}" },
+      { "role": "responder", "type": "text", "text": "{renova logo|vai no detran|resolve isso}" },
+      { "role": "initiator", "type": "text", "text": "{preguica|n quero|tem q fazer exame}" },
+      { "role": "responder", "type": "text", "text": "{antes q tome multa|vai logo|n enrola}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{😩|🪪}" }
+    ]
+  },
+  {
+    "name": "celular-caiu-tela",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{derrubei|meu celular caiu|quebrei a tela} {do celular|do meu cel}" },
+      { "role": "responder", "type": "text", "text": "{de novo|mds|eita} {ta usando sem pelicula|usa capinha}?" },
+      { "role": "initiator", "type": "text", "text": "{trincou|rachou|estilhaçou} {tudo|a tela toda}" },
+      { "role": "responder", "type": "text", "text": "{quanto ta pra arrumar|vai trocar|rip}" },
+      { "role": "initiator", "type": "text", "text": "{vou ver|to pesquisando|caro demais}" },
+      { "role": "responder", "type": "reaction", "emoji": "{📱|😬}" }
+    ]
+  },
+  {
+    "name": "celular-wifi-lento",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{meu wifi|a internet} ta {lento demais|horrivel|caindo}" },
+      { "role": "responder", "type": "text", "text": "{reinicia o roteador|liga pro provedor|troca de provedor}" },
+      { "role": "initiator", "type": "text", "text": "{ja reiniciei|ja fiz tudo|n adianta nada}" },
+      { "role": "responder", "type": "text", "text": "{é o provedor|muda de operadora|reclama no reclame aqui}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{📶|😡}" }
+    ]
+  },
+  {
+    "name": "celular-app-novo",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{baixei|instalei} {um app|um aplicativo} {muito bom|incrivel|massa}" },
+      { "role": "responder", "type": "text", "text": "{qual|manda o nome|oq é}?" },
+      { "role": "initiator", "type": "text", "text": "{é pra {editar foto|organizar tarefa|treinar}|se chama {X|Y}|depois te mando}" },
+      { "role": "responder", "type": "text", "text": "{vou baixar|quero testar|manda o link}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{📲|👍}" }
+    ]
+  },
+  {
+    "name": "celular-bateria",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{minha bateria|meu cel} {ta em 3%|vai morrer|ta acabando}" },
+      { "role": "responder", "type": "text", "text": "{coloca pra carregar|conecta|kkk}" },
+      { "role": "initiator", "type": "text", "text": "{n to perto do carregador|esqueci o carregador|to na rua}" },
+      { "role": "responder", "type": "text", "text": "{se sumir eu sei pq|rip|f} {kkk|rsrs}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🪫|😅}" }
+    ]
+  },
+  {
+    "name": "celular-atualizacao-travou",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{atualizei|fiz a atualizacao} {do celular|do sistema} e {travou tudo|ficou lento|bugou}" },
+      { "role": "responder", "type": "text", "text": "{sempre da ruim|nunca atualiza no primeiro dia|classico}" },
+      { "role": "initiator", "type": "text", "text": "{to arrependido|queria voltar atras|socorro}" },
+      { "role": "responder", "type": "text", "text": "{tenta resetar|reinicia|espera uns dias q estabiliza}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{😫|🔄}" }
+    ]
+  },
+  {
+    "name": "celular-notificacao-demais",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{to com|tenho} {500 msgs|milhares de notificacoes} {nos grupos|no whats}" },
+      { "role": "responder", "type": "text", "text": "{silencia|sai dos grupos|ignora} {kkk|rsrs}" },
+      { "role": "initiator", "type": "text", "text": "{mas ai perco as coisas|e se for importante|n consigo}" },
+      { "role": "responder", "type": "text", "text": "{confia em mim|n é importante|sai e seja feliz}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🔕|😂}" }
+    ]
+  },
+  {
+    "name": "celular-tiktok-vicio",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{fiquei|passei} {3 horas|a noite toda|horas} {no tiktok|nos reels|no instagram}" },
+      { "role": "responder", "type": "text", "text": "{viciante ne|todo mundo|eu tb} {kkk|rsrs}" },
+      { "role": "initiator", "type": "text", "text": "{o tempo voa|nem vi o tempo passar|n consigo parar}" },
+      { "role": "responder", "type": "text", "text": "{coloca limite de tempo|usa o timer|bota pra dormir} {kkk|}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{📱|😅}" }
+    ]
+  },
+  {
+    "name": "celular-foto-memoria",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{meu celular|meu cel} ta {sem memoria|sem espaco|cheio}" },
+      { "role": "responder", "type": "text", "text": "{apaga umas fotos|limpa o cache|usa a nuvem}" },
+      { "role": "initiator", "type": "text", "text": "{tenho 10 mil fotos|n consigo apagar|n sei oq tirar}" },
+      { "role": "responder", "type": "text", "text": "{google fotos|manda pro computador|compra armazenamento}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{📸|💾}" }
+    ]
+  },
+  {
+    "name": "vizinhos-barulho-noite",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{meu vizinho|o vizinho} {ta com musica alta|fazendo festa|barulho} {de madrugada|ate agora}" },
+      { "role": "responder", "type": "text", "text": "{q saco|mds|fala com ele}" },
+      { "role": "initiator", "type": "text", "text": "{da ultima vez|tentei falar|ja falei} e {n adiantou|ficou pior|ele ignorou}" },
+      { "role": "responder", "type": "text", "text": "{chama o sindico|liga pra policia|reclama no grupo do condominio}" },
+      { "role": "initiator", "type": "text", "text": "{vou fazer isso|boa ideia|amanha resolvo}" },
+      { "role": "responder", "type": "reaction", "emoji": "{🔊|😤}" }
+    ]
+  },
+  {
+    "name": "vizinhos-obra-dia-todo",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{tem obra|o vizinho ta reformando} {faz 2 meses|o dia todo|sem parar}" },
+      { "role": "responder", "type": "text", "text": "{mds|q inferno|n da pra aguentar}" },
+      { "role": "initiator", "type": "text", "text": "{furadeira|marreta|barulho} {o dia inteiro|das 7 as 7|sem descanso}" },
+      { "role": "responder", "type": "text", "text": "{compra um fone|sai de casa|paciencia}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🔨|😩}" }
+    ]
+  },
+  {
+    "name": "vizinhos-condominio-taxa",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{o condominio|taxa do condominio} {subiu|aumentou} {de novo|dnv}" },
+      { "role": "responder", "type": "text", "text": "{serio|quanto|caramba}" },
+      { "role": "initiator", "type": "text", "text": "{ta quase um aluguel|um absurdo|mais de mil}" },
+      { "role": "responder", "type": "text", "text": "{vai na assembleia|reclama|pede explicacao}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{💸|😡}" }
+    ]
+  },
+  {
+    "name": "vizinhos-encomenda-sumiu",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{minha encomenda|meu pacote} {sumiu|desapareceu} {do porteiro|da portaria}" },
+      { "role": "responder", "type": "text", "text": "{serio|mds|caramba} {ja perguntou|olhou as cameras}?" },
+      { "role": "initiator", "type": "text", "text": "{vou pedir pra ver as cameras|ja falei com o porteiro|to investigando}" },
+      { "role": "responder", "type": "text", "text": "{tomara q ache|boa sorte|manda noticia}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{📦|😤}" }
+    ]
+  },
+  {
+    "name": "vizinhos-cachorro-late",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{o cachorro|o dog} {do vizinho|de cima} {late|latiu} {a noite toda|o dia todo|sem parar}" },
+      { "role": "responder", "type": "text", "text": "{coitado do bicho|sera q ta sozinho|deve ta com fome}" },
+      { "role": "initiator", "type": "text", "text": "{sei la|so sei q n consigo dormir|to ficando louco}" },
+      { "role": "responder", "type": "text", "text": "{conversa com o dono|deixa um bilhete|fala de boa}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🐕|😫}" }
+    ]
+  },
+  {
+    "name": "vizinhos-grupo-whats",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{o grupo|grupo do condominio} {ta pegando fogo|ta uma guerra|briga direto}" },
+      { "role": "responder", "type": "text", "text": "{kkk|oq aconteceu|conta}!" },
+      { "role": "initiator", "type": "text", "text": "{discussao por causa de {vaga|barulho|lixo}|dois vizinhos brigando|o sindico se estressou}" },
+      { "role": "responder", "type": "text", "text": "{melhor q novela|adoro|manda print} {kkk|rsrs}" },
+      { "role": "initiator", "type": "text", "text": "{kkk|rsrs} {depois mando|é mto bom|entretenimento gratis}" },
+      { "role": "responder", "type": "reaction", "emoji": "{🍿|😂}" }
+    ]
+  },
+  {
+    "name": "vizinhos-mudou-alguem",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{mudou gente nova|tem vizinho novo} {no predio|do lado}" },
+      { "role": "responder", "type": "text", "text": "{ja conheceu|viu quem é|sabe algo}?" },
+      { "role": "initiator", "type": "text", "text": "{ainda n|vi de longe|parece gente boa}" },
+      { "role": "responder", "type": "text", "text": "{tomara q seja tranquilo|torce pra ser de boa|boa sorte}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🏠|🤞}" }
+    ]
+  },
+  {
+    "name": "pets-cachorro-travessura",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{meu cachorro|meu dog} {destruiu|comeu|rasgou} {meu sapato|o sofa|a almofada}" },
+      { "role": "responder", "type": "text", "text": "{kkkkk|mds|de novo}?" },
+      { "role": "initiator", "type": "text", "text": "{toda vez|n tem jeito|to ficando sem coisas em casa} {kkk|rsrs}" },
+      { "role": "responder", "type": "text", "text": "{mas vc ama ne|a cara de inocente|aposto q vc perdoou}" },
+      { "role": "initiator", "type": "text", "text": "{claro|obvio|n consigo brigar} {aquela carinha|kkk}" },
+      { "role": "responder", "type": "reaction", "emoji": "{🐶|😂}" }
+    ]
+  },
+  {
+    "name": "pets-gato-derrubou",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{meu gato|minha gata} {derrubou|quebrou} {o vaso|um copo|tudo da mesa}" },
+      { "role": "responder", "type": "text", "text": "{gato é assim|eles fazem de proposito|classico de gato} {kkk|rsrs}" },
+      { "role": "initiator", "type": "text", "text": "{e ainda me olhou com desdém|e ficou la olhando|saiu andando}" },
+      { "role": "responder", "type": "text", "text": "{kkkkk|são donos da casa ne|nos somos os servos}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🐱|😂}" }
+    ]
+  },
+  {
+    "name": "pets-vet-caro",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{levei|fui com} {o dog|o gato|meu pet} no {vet|veterinario}" },
+      { "role": "responder", "type": "text", "text": "{ta tudo bem com ele|oq era|}" },
+      { "role": "initiator", "type": "text", "text": "{ta bem|era so rotina|nada grave} mas {gastei uma fortuna|paguei horrores}" },
+      { "role": "responder", "type": "text", "text": "{vet é caro|sempre é caro|mas faz parte ne}" },
+      { "role": "initiator", "type": "text", "text": "{pelo meu bebe faço tudo|vale a pena|meu pet merece}" },
+      { "role": "responder", "type": "reaction", "emoji": "{🐾|❤️}" }
+    ]
+  },
+  {
+    "name": "pets-adotou",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{adotei|resgatei|achei} {um gatinho|um cachorrinho|um filhote}" },
+      { "role": "responder", "type": "text", "text": "{manda foto|serio|q lindo}!" },
+      { "role": "initiator", "type": "text", "text": "{olha|veja} {que fofura|a carinha dele|esse amor}" },
+      { "role": "responder", "type": "text", "text": "{mds q lindo|eu quero|to apaixonada|apaixonado}" },
+      { "role": "initiator", "type": "text", "text": "{ja escolhi o nome|to tao feliz|melhor decisao}" },
+      { "role": "responder", "type": "reaction", "emoji": "{🥰|❤️}" }
+    ]
+  },
+  {
+    "name": "pets-banho-tosa",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{levei|meu dog foi} {no banho e tosa|no petshop} {hj|hoje}" },
+      { "role": "responder", "type": "text", "text": "{voltou cheirosinho|ficou bonito|manda foto}?" },
+      { "role": "initiator", "type": "text", "text": "{ta um principe|ta linda|mal reconheci} {kkk|rsrs}" },
+      { "role": "responder", "type": "text", "text": "{q fofo|kkk|até quando dura ne}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🐩|😊}" }
+    ]
+  },
+  {
+    "name": "pets-passear-parque",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{fui passear|levei o dog} no {parque|pracinha|quarteirão}" },
+      { "role": "responder", "type": "text", "text": "{ele amou ne|como foi|se divertiu}?" },
+      { "role": "initiator", "type": "text", "text": "{ficou doido|correu demais|fez amigos} {kkk|rsrs}" },
+      { "role": "responder", "type": "text", "text": "{kkk|q bom|animais são tudo}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🐕|🌳}" }
+    ]
+  },
+  {
+    "name": "pets-comida-especial",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{meu pet|meu gato} {so come racao cara|é fresco pra comer|n come qualquer coisa}" },
+      { "role": "responder", "type": "text", "text": "{kkk|come melhor q a gente|vip}" },
+      { "role": "initiator", "type": "text", "text": "{gasto mais com ele do q comigo|a racao dele custa 200|um rei}" },
+      { "role": "responder", "type": "text", "text": "{merecido|nós somos os trouxas|eles merecem} {kkk|rsrs}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{👑|🐱}" }
+    ]
+  },
+  {
+    "name": "ferias-viagem-praia",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{to planejando|vou viajar} {pra praia|pro litoral|pro nordeste} {nas ferias|mes q vem}" },
+      { "role": "responder", "type": "text", "text": "{q inveja|me leva|pra onde}?" },
+      { "role": "initiator", "type": "text", "text": "{to pensando em|talvez} {porto seguro|floripa|natal|maceio}" },
+      { "role": "responder", "type": "text", "text": "{todos bons|vai de {natal|floripa}|qualquer praia ta valendo}" },
+      { "role": "initiator", "type": "text", "text": "{ne|vou pesquisar|to vendo passagem}" },
+      { "role": "responder", "type": "reaction", "emoji": "{✈️|🏖️}" }
+    ]
+  },
+  {
+    "name": "ferias-hotel-reviews",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{to vendo hotel|pesquisando hospedagem} {pro fds|pra viagem} e {ta tudo caro|os precos absurdos}" },
+      { "role": "responder", "type": "text", "text": "{tenta airbnb|olha pousada|booking é bom}" },
+      { "role": "initiator", "type": "text", "text": "{boa|vou ver|n tinha pensado}" },
+      { "role": "responder", "type": "text", "text": "{olha os reviews|le os comentarios|cuidado com cilada}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🏨|👍}" }
+    ]
+  },
+  {
+    "name": "ferias-passaporte",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{meu passaporte|passaporte} {venceu|ta pra vencer|preciso renovar}" },
+      { "role": "responder", "type": "text", "text": "{vai viajar pra fora|ta planejando algo|renova logo}" },
+      { "role": "initiator", "type": "text", "text": "{quero ir|to planejando} {pro exterior|pra europa|pra disney}" },
+      { "role": "responder", "type": "text", "text": "{q massa|me leva|quero ir tb}" },
+      { "role": "initiator", "type": "text", "text": "{bora|vamo junto|se juntar a grana vai} {kkk|rsrs}" },
+      { "role": "responder", "type": "reaction", "emoji": "{🛫|🌍}" }
+    ]
+  },
+  {
+    "name": "ferias-mala-fazer",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{viajo amanha|viajo hj} e {nem fiz a mala|a mala ta vazia|n arrumei nada}" },
+      { "role": "responder", "type": "text", "text": "{tipico|vc n muda|sempre assim} {kkk|rsrs}" },
+      { "role": "initiator", "type": "text", "text": "{vou jogar tudo dentro|levo o q der|tanto faz}" },
+      { "role": "responder", "type": "text", "text": "{n esquece {documento|carregador|escova de dente}|faz uma lista}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🧳|😅}" }
+    ]
+  },
+  {
+    "name": "ferias-voltar-realidade",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{voltei|cheguei} {de viagem|das ferias} e {to deprimido|n quero trabalhar|a realidade bateu}" },
+      { "role": "responder", "type": "text", "text": "{normal|todo mundo fica assim|é a tristeza pos viagem}" },
+      { "role": "initiator", "type": "text", "text": "{queria ter ficado|quero voltar|ja to planejando a proxima}" },
+      { "role": "responder", "type": "text", "text": "{kkk|rsrs} {foca q logo vem outra|ja bota na agenda}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{😢|✈️}" }
+    ]
+  },
+  {
+    "name": "ferias-foto-viagem",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{tirei|bati} {umas fotos|mtas fotos} {incriveis|lindas} {na viagem|no passeio}" },
+      { "role": "responder", "type": "text", "text": "{manda|mostra|quero ver}!" },
+      { "role": "initiator", "type": "text", "text": "{olha|veja} {essa|essas}" },
+      { "role": "responder", "type": "text", "text": "{mds q lindo|q lugar|maravilhoso}" },
+      { "role": "initiator", "type": "text", "text": "{ne|demais|foi incrivel}" },
+      { "role": "responder", "type": "reaction", "emoji": "{😍|📸}" }
+    ]
+  },
+  {
+    "name": "ferias-estrada-longa",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{to na estrada|pegando estrada} {faz 5h|ja tem um tempao|viagem longa}" },
+      { "role": "responder", "type": "text", "text": "{para pra descansar|cuidado|dirige com calma}" },
+      { "role": "initiator", "type": "text", "text": "{vou parar|to parando} {num posto|pra comer|pra cafe}" },
+      { "role": "responder", "type": "text", "text": "{boa|me avisa quando chegar|boa viagem}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🚗|👍}" }
+    ]
+  },
+  {
+    "name": "dinheiro-pix-errado",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{fiz|mandei} {um pix|pix} {errado|pra pessoa errada|pro numero errado}" },
+      { "role": "responder", "type": "text", "text": "{mds|serio|quanto}?" },
+      { "role": "initiator", "type": "text", "text": "{200 reais|um valor alto|uma grana} {a pessoa n devolveu|e agora}" },
+      { "role": "responder", "type": "text", "text": "{liga pro banco|faz o mecanismo de devolucao|reclama}" },
+      { "role": "initiator", "type": "text", "text": "{ja to ligando|vou fazer isso|tomara q de certo}" },
+      { "role": "responder", "type": "reaction", "emoji": "{🙏|😱}" }
+    ]
+  },
+  {
+    "name": "dinheiro-boleto-atrasado",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{esqueci|atrasou} {o boleto|a conta|a fatura} {de novo|dnv}" },
+      { "role": "responder", "type": "text", "text": "{coloca no debito automatico|bota alarme|vc n aprende} {kkk|rsrs}" },
+      { "role": "initiator", "type": "text", "text": "{vou ter q pagar multa|veio com juros|q raiva}" },
+      { "role": "responder", "type": "text", "text": "{liga la|tenta negociar|pede pra tirar o juros}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{💸|😩}" }
+    ]
+  },
+  {
+    "name": "dinheiro-salario-acabou",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{meu salario|o dinheiro} {ja acabou|ja era|sumiu} e {falta 2 semanas|falta mto pro proximo}" },
+      { "role": "responder", "type": "text", "text": "{sempre assim|eu tb|ta foda}" },
+      { "role": "initiator", "type": "text", "text": "{vou viver de miojo|modo economia|sobrevivencia}" },
+      { "role": "responder", "type": "text", "text": "{tmj|somos dois|forca} {kkk|rsrs}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{💰|😅}" }
+    ]
+  },
+  {
+    "name": "dinheiro-investimento",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{comecei a|to querendo} {investir|guardar dinheiro|fazer renda extra}" },
+      { "role": "responder", "type": "text", "text": "{boa|ta investindo em oq|como}?" },
+      { "role": "initiator", "type": "text", "text": "{tesouro direto|renda fixa|cdb|cripto} {pra comecar|por enquanto}" },
+      { "role": "responder", "type": "text", "text": "{bom começo|importante|boa estrategia}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{📈|💰}" }
+    ]
+  },
+  {
+    "name": "dinheiro-conta-banco",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{o app do banco|meu banco} {ta fora do ar|n funciona|travou}" },
+      { "role": "responder", "type": "text", "text": "{o meu tb|deve ser geral|sempre cai}" },
+      { "role": "initiator", "type": "text", "text": "{e eu preciso {pagar|transferir|ver o saldo}|justamente agora}" },
+      { "role": "responder", "type": "text", "text": "{tenta mais tarde|usa outro banco|vai na agencia}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🏦|😤}" }
+    ]
+  },
+  {
+    "name": "dinheiro-emprestimo",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{fulano|aquele cara} {me pediu dinheiro emprestado|quer q eu empreste grana}" },
+      { "role": "responder", "type": "text", "text": "{n empresta|cuidado|quanto}?" },
+      { "role": "initiator", "type": "text", "text": "{500 reais|uma grana|um valor}" },
+      { "role": "responder", "type": "text", "text": "{se emprestar esquece|dinheiro e amizade n se misturam|pensa bem}" },
+      { "role": "initiator", "type": "text", "text": "{é|vc tem razao|vou pensar}" },
+      { "role": "responder", "type": "reaction", "emoji": "{🤔|💰}" }
+    ]
+  },
+  {
+    "name": "dinheiro-imposto-renda",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{ja fez|vc ja fez} {o imposto de renda|a declaracao|IR}?" },
+      { "role": "responder", "type": "text", "text": "{nem|ainda n|to enrolando}" },
+      { "role": "initiator", "type": "text", "text": "{o prazo ta acabando|corre|vai dar multa}" },
+      { "role": "responder", "type": "text", "text": "{vou fazer hj|deixa eu ver isso|preciso de um contador}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{📋|⏰}" }
+    ]
+  },
+  {
+    "name": "dinheiro-cartao-clonado",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{clonaram|meu cartao foi clonado|compra estranha} {no meu cartao|na fatura}" },
+      { "role": "responder", "type": "text", "text": "{mds|bloqueia agora|liga pro banco}" },
+      { "role": "initiator", "type": "text", "text": "{ja bloqueei|to ligando|fizeram compra de 2 mil}" },
+      { "role": "responder", "type": "text", "text": "{pede estorno|contesta|n paga}" },
+      { "role": "initiator", "type": "text", "text": "{to resolvendo|q stress|nunca mais}" },
+      { "role": "responder", "type": "reaction", "emoji": "{💳|😡}" }
+    ]
+  },
+  {
+    "name": "dinheiro-freelancer",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{consegui|peguei} {um freela|um trabalho extra|um bico}" },
+      { "role": "responder", "type": "text", "text": "{boa|parabens|de que}?" },
+      { "role": "initiator", "type": "text", "text": "{design|programacao|social media|traducao} {paga bem|ta bom}" },
+      { "role": "responder", "type": "text", "text": "{show|vai fundo|arrasa}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{💪|💰}" }
+    ]
+  },
+  {
+    "name": "faculdade-prova-amanha",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{tenho prova|prova} {amanha|hj} e {n estudei nada|n sei nada|to perdido}" },
+      { "role": "responder", "type": "text", "text": "{de que|qual materia|kkk}" },
+      { "role": "initiator", "type": "text", "text": "{{calculo|fisica|quimica|direito}|uma materia impossivel}" },
+      { "role": "responder", "type": "text", "text": "{estuda agora|melhor tarde do q nunca|vira a noite}" },
+      { "role": "initiator", "type": "text", "text": "{vou tentar|to tentando|acho q vou reprovar} {kkk|rsrs}" },
+      { "role": "responder", "type": "reaction", "emoji": "{📚|🙏}" }
+    ]
+  },
+  {
+    "name": "faculdade-tcc-desespero",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{meu tcc|o tcc} {ta me matando|n sai|to travado}" },
+      { "role": "responder", "type": "text", "text": "{falta mto|sobre oq é|como ta}?" },
+      { "role": "initiator", "type": "text", "text": "{nem comecei|to na metade|falta {tudo|a conclusao}}" },
+      { "role": "responder", "type": "text", "text": "{foca|uma pagina por dia|divide em partes}" },
+      { "role": "initiator", "type": "text", "text": "{vou tentar|obg|preciso de motivacao}" },
+      { "role": "responder", "type": "reaction", "emoji": "{💪|📝}" }
+    ]
+  },
+  {
+    "name": "faculdade-formatura",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{to me formando|vou me formar|formei}!" },
+      { "role": "responder", "type": "text", "text": "{parabens|que orgulho|aeee|merecido}!" },
+      { "role": "initiator", "type": "text", "text": "{n acredito|finalmente|ate q enfim|foi sofrido}" },
+      { "role": "responder", "type": "text", "text": "{vc merece|todo esforco valeu|agora é comemorar}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🎓|🥳}" }
+    ]
+  },
+  {
+    "name": "faculdade-professor-chato",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{o professor|aquele prof} {é muito chato|n explica nada|é horrivel}" },
+      { "role": "responder", "type": "text", "text": "{qual|todo semestre tem um|kkk}" },
+      { "role": "initiator", "type": "text", "text": "{o de {matematica|historia|portugues}|o da segunda|o novo}" },
+      { "role": "responder", "type": "text", "text": "{aguenta|ja ja passa|assiste aula no youtube}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{😤|😩}" }
+    ]
+  },
+  {
+    "name": "faculdade-curso-online",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{comprei|comecei} {um curso|curso online} de {programacao|ingles|design|marketing}" },
+      { "role": "responder", "type": "text", "text": "{qual plataforma|legal|boa}" },
+      { "role": "initiator", "type": "text", "text": "{udemy|alura|coursera} {tava em promo|com desconto}" },
+      { "role": "responder", "type": "text", "text": "{vai ate o fim|n abandona|termina esse} {kkk|rsrs}" },
+      { "role": "initiator", "type": "text", "text": "{dessa vez vou|to motivado|espero q sim} {kkk|}" },
+      { "role": "responder", "type": "reaction", "emoji": "{💻|📚}" }
+    ]
+  },
+  {
+    "name": "faculdade-grupo-trabalho",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{trabalho em grupo|grupo da facul} é {a pior coisa|horrivel|um inferno}" },
+      { "role": "responder", "type": "text", "text": "{ninguem faz nada ne|so vc trabalha|classico}" },
+      { "role": "initiator", "type": "text", "text": "{eu q fiz tudo|so eu|um so faz}" },
+      { "role": "responder", "type": "text", "text": "{acontece em todo grupo|vida de universitario|paciencia}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{😤|🤦}" }
+    ]
+  },
+  {
+    "name": "faculdade-enem-vestibular",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{to estudando|me preparando} pro {enem|vestibular|concurso}" },
+      { "role": "responder", "type": "text", "text": "{foca|vc consegue|boa sorte|vai dar certo}" },
+      { "role": "initiator", "type": "text", "text": "{to nervoso|ansioso|com medo|pressionado}" },
+      { "role": "responder", "type": "text", "text": "{confia|vc estudou|vai tranquilo}" },
+      { "role": "initiator", "type": "text", "text": "{vlw|obg|preciso ouvir isso}" },
+      { "role": "responder", "type": "reaction", "emoji": "{🍀|💪}" }
+    ]
+  },
+  {
+    "name": "faculdade-nota-saiu",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{saiu a nota|a nota saiu} e eu {passei|tirei 10|fui bem|raspei}" },
+      { "role": "responder", "type": "text", "text": "{aeee|parabens|ufa|sabia}" },
+      { "role": "initiator", "type": "text", "text": "{quase n acreditei|por um triz|to aliviado} {kkk|rsrs}" },
+      { "role": "responder", "type": "reaction", "emoji": "{🎉|🙏}" }
+    ]
+  },
+  {
+    "name": "aniversario-esqueci",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{esqueci|mds esqueci} {o aniversario|niver} {do fulano|da fulana|de alguem}" },
+      { "role": "responder", "type": "text", "text": "{manda msg agora|corre|ainda da tempo}" },
+      { "role": "initiator", "type": "text", "text": "{foi ontem|ja passou|era semana passada}" },
+      { "role": "responder", "type": "text", "text": "{manda assim msm|antes tarde do q nunca|inventa uma desculpa} {kkk|rsrs}" },
+      { "role": "initiator", "type": "text", "text": "{vou mandar|to mandando|q vergonha}" },
+      { "role": "responder", "type": "reaction", "emoji": "{🎂|😅}" }
+    ]
+  },
+  {
+    "name": "aniversario-meu",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{é meu niver|hj é meu aniversario|to fazendo aniversario} {hj|hoje}!" },
+      { "role": "responder", "type": "text", "text": "{parabens|feliz aniversario|tudo de bom}! {muitas felicidades|saude e paz|sucesso}" },
+      { "role": "initiator", "type": "text", "text": "{vlw|obg|obrigado} {de coracao|msm}" },
+      { "role": "responder", "type": "text", "text": "{vai ter festa|vai comemorar como|bolo}?" },
+      { "role": "initiator", "type": "text", "text": "{so um jantar|churras|festa em casa|nada}" },
+      { "role": "responder", "type": "reaction", "emoji": "{🎉|🎂}" }
+    ]
+  },
+  {
+    "name": "aniversario-festa-organizando",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{to organizando|vou fazer} {uma festa|festinha|um evento}" },
+      { "role": "responder", "type": "text", "text": "{de que|pra quem|quando}?" },
+      { "role": "initiator", "type": "text", "text": "{niver do meu filho|meu aniversario|festa surpresa} {no sabado|semana q vem}" },
+      { "role": "responder", "type": "text", "text": "{precisa de ajuda|posso ajudar|conta comigo}" },
+      { "role": "initiator", "type": "text", "text": "{seria otimo|aceito|preciso sim} {vlw|obg}" },
+      { "role": "responder", "type": "reaction", "emoji": "{🎈|🥳}" }
+    ]
+  },
+  {
+    "name": "aniversario-presente",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{n sei|me ajuda a pensar} {oq dar de presente|num presente} {pro fulano|pra fulana}" },
+      { "role": "responder", "type": "text", "text": "{ele gosta de oq|quanto quer gastar|pra quem}?" },
+      { "role": "initiator", "type": "text", "text": "{sei la|ate uns 100|n faço ideia}" },
+      { "role": "responder", "type": "text", "text": "{da um perfume|um vale presente|algo personalizado}" },
+      { "role": "initiator", "type": "text", "text": "{boa|gostei|vou fazer isso}" },
+      { "role": "responder", "type": "reaction", "emoji": "{🎁|💡}" }
+    ]
+  },
+  {
+    "name": "aniversario-idade-reclamar",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{fiz|completei} {30|35|40} {anos|to ficando velho|me sinto velho}" },
+      { "role": "responder", "type": "text", "text": "{para|vc ta novo|ta otimo}" },
+      { "role": "initiator", "type": "text", "text": "{meu corpo discorda|minhas costas dizem o contrario|kkk}" },
+      { "role": "responder", "type": "text", "text": "{kkkkk|é a vida|bem vindo ao clube}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{😂|👴}" }
+    ]
+  },
+  {
+    "name": "aniversario-surpresa-planejar",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{to planejando|vou fazer} surpresa {pro meu marido|pra minha esposa|pro meu namorado|pra minha namorada}" },
+      { "role": "responder", "type": "text", "text": "{q fofo|q lindo|conta}!" },
+      { "role": "initiator", "type": "text", "text": "{jantar romantico|festa surpresa|viagem|um presente especial}" },
+      { "role": "responder", "type": "text", "text": "{vai amar|que sorte|q pessoa sortuda}" },
+      { "role": "initiator", "type": "text", "text": "{tomara|to nervoso|espero q de certo}" },
+      { "role": "responder", "type": "reaction", "emoji": "{❤️|🎉}" }
+    ]
+  },
+  {
+    "name": "aniversario-bolo-caseiro",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{fiz|vou fazer} {um bolo|bolo caseiro} {pro niver|pra festa}" },
+      { "role": "responder", "type": "text", "text": "{de que sabor|vai ser de que|manda foto}?" },
+      { "role": "initiator", "type": "text", "text": "{chocolate|brigadeiro|morango|cenoura}" },
+      { "role": "responder", "type": "text", "text": "{hmm|quero|me guarda um pedaco}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🎂|😋}" }
+    ]
+  },
+  {
+    "name": "mudanca-casa-nova",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{vou mudar|to mudando} {de casa|de ap|de apartamento}" },
+      { "role": "responder", "type": "text", "text": "{serio|pra onde|q novidade}!" },
+      { "role": "initiator", "type": "text", "text": "{achei um lugar|peguei um ap} {maior|melhor|mais perto do trabalho}" },
+      { "role": "responder", "type": "text", "text": "{q bom|parabens|precisa de ajuda na mudanca}?" },
+      { "role": "initiator", "type": "text", "text": "{aceito|seria otimo|vou precisar sim}" },
+      { "role": "responder", "type": "reaction", "emoji": "{🏠|🎉}" }
+    ]
+  },
+  {
+    "name": "mudanca-reforma",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{to reformando|vou reformar} {a casa|o banheiro|a cozinha}" },
+      { "role": "responder", "type": "text", "text": "{obra é sofrimento|quanto ta saindo|boa sorte}" },
+      { "role": "initiator", "type": "text", "text": "{ta custando o triplo|pedreiro sumiu|atrasou tudo}" },
+      { "role": "responder", "type": "text", "text": "{classico de obra|sempre acontece|normal ne}" },
+      { "role": "initiator", "type": "text", "text": "{nunca mais|ultima vez|to arrependido} {kkk|rsrs}" },
+      { "role": "responder", "type": "reaction", "emoji": "{🏗️|😅}" }
+    ]
+  },
+  {
+    "name": "mudanca-decoracao",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{to decorando|comprando moveis|montando} {a casa nova|o quarto|a sala}" },
+      { "role": "responder", "type": "text", "text": "{que estilo|ta ficando como|manda foto}!" },
+      { "role": "initiator", "type": "text", "text": "{moderno|minimalista|industrial|aconchegante}" },
+      { "role": "responder", "type": "text", "text": "{olha o pinterest|vi umas ideias legais|posso ajudar}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🛋️|✨}" }
+    ]
+  },
+  {
+    "name": "mudanca-aluguel-caro",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{o aluguel|meu aluguel} {aumentou|subiu|reajustou}" },
+      { "role": "responder", "type": "text", "text": "{quanto|serio|ta quanto agora}?" },
+      { "role": "initiator", "type": "text", "text": "{ta um absurdo|quase metade do salario|muito caro}" },
+      { "role": "responder", "type": "text", "text": "{negocia com o dono|procura outro lugar|divide com alguem}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{💸|😩}" }
+    ]
+  },
+  {
+    "name": "mudanca-vizinhanca-nova",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{to conhecendo|explorando} {o bairro novo|a vizinhanca nova}" },
+      { "role": "responder", "type": "text", "text": "{e ai|ta gostando|como é}?" },
+      { "role": "initiator", "type": "text", "text": "{tem {padaria boa|mercado perto|parque}|é tranquilo|to gostando}" },
+      { "role": "responder", "type": "text", "text": "{q bom|importante|o bairro faz toda diferenca}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🏘️|😊}" }
+    ]
+  },
+  {
+    "name": "mudanca-caixas-montar",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{tenho|ainda tem} {30 caixas|um monte de caixa} {pra desempacotar|pra abrir}" },
+      { "role": "responder", "type": "text", "text": "{vai com calma|uma por dia|é muita coisa ne}" },
+      { "role": "initiator", "type": "text", "text": "{to sem energia|preguica|quero morrer} {kkk|rsrs}" },
+      { "role": "responder", "type": "text", "text": "{pede pizza e chama os amigos|eu ajudo|divide pra conquistar}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{📦|😭}" }
+    ]
+  },
+  {
+    "name": "netflix-serie-nova",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{comecei|to assistindo} {uma serie|uma serie nova} {muito boa|incrivel|viciante}" },
+      { "role": "responder", "type": "text", "text": "{qual|manda o nome|oq é}?" },
+      { "role": "initiator", "type": "text", "text": "{é {de suspense|de terror|comedia|drama}|n posso falar senao spoiler}" },
+      { "role": "responder", "type": "text", "text": "{vou assistir|bota na lista|quero ver}" },
+      { "role": "initiator", "type": "text", "text": "{assiste|vale mto a pena|n vai se arrepender}" },
+      { "role": "responder", "type": "reaction", "emoji": "{📺|🍿}" }
+    ]
+  },
+  {
+    "name": "netflix-spoiler",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{alguem|o fulano} me deu {spoiler|um spoiler} {da serie|do filme}" },
+      { "role": "responder", "type": "text", "text": "{mds|q odio|sem nocao}" },
+      { "role": "initiator", "type": "text", "text": "{perdi a vontade|to com raiva|n acredito}" },
+      { "role": "responder", "type": "text", "text": "{assiste assim msm|ainda vale|gente q da spoiler merece cadeia}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{😡|🤬}" }
+    ]
+  },
+  {
+    "name": "netflix-filme-ruim",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{assisti|vi} {um filme|aquele filme} e {era horrivel|perdi 2h da minha vida|pessimo}" },
+      { "role": "responder", "type": "text", "text": "{qual|kkk|eu avisei}?" },
+      { "role": "initiator", "type": "text", "text": "{nem vou falar|vergonha|aquele q td mundo tava falando}" },
+      { "role": "responder", "type": "text", "text": "{kkkkk|pelo menos vc sabe oq n assistir|F}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🎬|👎}" }
+    ]
+  },
+  {
+    "name": "netflix-maratona",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{maratonei|assisti} {a temporada inteira|10 episodios} {de uma vez|num dia so}" },
+      { "role": "responder", "type": "text", "text": "{mds|produtivo|eu tb faco isso} {kkk|rsrs}" },
+      { "role": "initiator", "type": "text", "text": "{agora to vazio|e agora|acabou e to triste}" },
+      { "role": "responder", "type": "text", "text": "{comeca outra|tenho indicacao|o vazio pos serie}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{📺|😢}" }
+    ]
+  },
+  {
+    "name": "netflix-assinatura-cara",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{a netflix|o streaming} {aumentou|subiu} {de novo|o preco|dnv}" },
+      { "role": "responder", "type": "text", "text": "{to pensando em cancelar|absurdo|ta ficando caro}" },
+      { "role": "initiator", "type": "text", "text": "{vou dividir|bora rachar|alguem racha comigo}?" },
+      { "role": "responder", "type": "text", "text": "{bora|eu racho|to dentro}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{💰|📺}" }
+    ]
+  },
+  {
+    "name": "netflix-documentario",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{assisti|vi} {um documentario|doc} {absurdo|incrivel|pesado}" },
+      { "role": "responder", "type": "text", "text": "{sobre oq|qual|conta}?" },
+      { "role": "initiator", "type": "text", "text": "{sobre {crime|natureza|tecnologia|conspiração}|depois te falo|é muito doido}" },
+      { "role": "responder", "type": "text", "text": "{vou assistir|amo doc|bota na lista}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🎥|🤯}" }
+    ]
+  },
+  {
+    "name": "netflix-reality-show",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{to viciado|to assistindo} {no bbb|num reality|casamento as cegas}" },
+      { "role": "responder", "type": "text", "text": "{eu tb|quem ta ganhando|ta bom}?" },
+      { "role": "initiator", "type": "text", "text": "{viciantee|n consigo parar|to torcendo pro {fulano|time tal}}" },
+      { "role": "responder", "type": "text", "text": "{kkk|entretenimento lixo é o melhor|guilty pleasure}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{📺|😂}" }
+    ]
+  },
+  {
+    "name": "futebol-jogo-hoje",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{tem jogo|hj tem jogo} do {meu time|flamengo|corinthians|palmeiras} {hj|hoje}" },
+      { "role": "responder", "type": "text", "text": "{q horas|bora assistir|vai ganhar}?" },
+      { "role": "initiator", "type": "text", "text": "{{as 8|as 9|as 4}|de noite|a tarde}" },
+      { "role": "responder", "type": "text", "text": "{vou assistir|to torcendo|boa sorte pro seu time}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{⚽|🔥}" }
+    ]
+  },
+  {
+    "name": "futebol-time-perdeu",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{meu time|meu timao} {perdeu|tomou goleada|foi humilhado} {hj|ontem}" },
+      { "role": "responder", "type": "text", "text": "{kkkkk|meus pesames|acontece}" },
+      { "role": "initiator", "type": "text", "text": "{to sofrendo|vou desistir|n aguento mais}" },
+      { "role": "responder", "type": "text", "text": "{faz parte|proximo jogo melhora|é assim msm}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{😭|⚽}" }
+    ]
+  },
+  {
+    "name": "futebol-juiz-ladrao",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{o juiz|arbitro} {é um ladrao|roubou|entregou o jogo}" },
+      { "role": "responder", "type": "text", "text": "{oq aconteceu|penalti|expulsao}?" },
+      { "role": "initiator", "type": "text", "text": "{penalti absurdo|gol impedido|cartao injusto}" },
+      { "role": "responder", "type": "text", "text": "{futebol brasileiro ne|sempre assim|var pra que ne}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{😡|🟥}" }
+    ]
+  },
+  {
+    "name": "futebol-pelada-fds",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{bora|vamo jogar} {bola|pelada|futeba} {no sabado|no fds|amanha}?" },
+      { "role": "responder", "type": "text", "text": "{bora|to dentro|q horas}?" },
+      { "role": "initiator", "type": "text", "text": "{{8 da manha|as 9|de tarde}|o de sempre}" },
+      { "role": "responder", "type": "text", "text": "{fechou|la estarei|tmj}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{⚽|💪}" }
+    ]
+  },
+  {
+    "name": "futebol-craque-contratou",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{viu|vc viu} q {meu time|o time} {contratou|ta contratando} {um craque|jogador bom}?" },
+      { "role": "responder", "type": "text", "text": "{vi|quem|serio}?" },
+      { "role": "initiator", "type": "text", "text": "{agora vai|vamos ser campeão|finalmente}" },
+      { "role": "responder", "type": "text", "text": "{calma|vc fala isso todo ano|tomara} {kkk|rsrs}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🏆|😤}" }
+    ]
+  },
+  {
+    "name": "futebol-assistir-bar",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{bora ver|vamo assistir} {o jogo|a final|o classico} {no bar|num barzinho}?" },
+      { "role": "responder", "type": "text", "text": "{bora|qual bar|to dentro}" },
+      { "role": "initiator", "type": "text", "text": "{aquele|naquele} {q a gente sempre vai|da esquina|novo}" },
+      { "role": "responder", "type": "text", "text": "{fechou|te vejo la|levo o pessoal}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🍺|⚽}" }
+    ]
+  },
+  {
+    "name": "futebol-gol-perdido",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{o cara|o atacante} {perdeu um gol feito|perdeu na cara do gol|como perde isso}" },
+      { "role": "responder", "type": "text", "text": "{eu fazia|ate eu|mds}" },
+      { "role": "initiator", "type": "text", "text": "{deitava e dormia de costas|sem condicao|impossivel}" },
+      { "role": "responder", "type": "text", "text": "{kkkkk|é de acabar|nem acredito}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🤦|😫}" }
+    ]
+  },
+  {
+    "name": "relacionamento-crush",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{to gostando|to afim|to interessado} {de uma pessoa|numa pessoa|em alguem}" },
+      { "role": "responder", "type": "text", "text": "{conta|quem|manda foto}!" },
+      { "role": "initiator", "type": "text", "text": "{n posso falar|é segredo|depois conto}" },
+      { "role": "responder", "type": "text", "text": "{ah n|fala|me conta vai}" },
+      { "role": "initiator", "type": "text", "text": "{deixa rolar|calma|quando der certo eu falo}" },
+      { "role": "responder", "type": "reaction", "emoji": "{😏|❤️}" }
+    ]
+  },
+  {
+    "name": "relacionamento-briga-casal",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{briguei|discuti} com {meu namorado|minha namorada|meu marido|minha esposa}" },
+      { "role": "responder", "type": "text", "text": "{de novo|oq foi|pq}?" },
+      { "role": "initiator", "type": "text", "text": "{besteira|ciumes|coisa boba} {como sempre|ne}" },
+      { "role": "responder", "type": "text", "text": "{conversa|resolve logo|n deixa acumular}" },
+      { "role": "initiator", "type": "text", "text": "{vou falar|eu sei|vc tem razao}" },
+      { "role": "responder", "type": "reaction", "emoji": "{❤️|🤝}" }
+    ]
+  },
+  {
+    "name": "relacionamento-solteiro",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{to cansado|saco cheio} de {ser solteiro|ficar sozinho|app de namoro}" },
+      { "role": "responder", "type": "text", "text": "{calma|vai aparecer|melhor sozinho do q mal acompanhado}" },
+      { "role": "initiator", "type": "text", "text": "{todo mundo fala isso|facil falar|é verdade mas cansa}" },
+      { "role": "responder", "type": "text", "text": "{qnd vc menos esperar|do nada aparece|confia}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🤷|😅}" }
+    ]
+  },
+  {
+    "name": "relacionamento-date",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{vou sair|tenho um date|marquei um encontro} {hj|hoje a noite}" },
+      { "role": "responder", "type": "text", "text": "{aeee|conta tudo|com quem}?" },
+      { "role": "initiator", "type": "text", "text": "{alguem do tinder|uma pessoa legal|conheci na festa}" },
+      { "role": "responder", "type": "text", "text": "{boa sorte|vai dar certo|se arruma|arrasa}" },
+      { "role": "initiator", "type": "text", "text": "{to nervoso|ansioso|animado}" },
+      { "role": "responder", "type": "reaction", "emoji": "{🫶|🍷}" }
+    ]
+  },
+  {
+    "name": "relacionamento-ex",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{meu ex|minha ex} {mandou msg|me ligou|apareceu}" },
+      { "role": "responder", "type": "text", "text": "{n responde|bloqueia|oq queria}?" },
+      { "role": "initiator", "type": "text", "text": "{saudade|queria voltar|pediu desculpa}" },
+      { "role": "responder", "type": "text", "text": "{é cilada|n cai nessa|vc merece coisa melhor}" },
+      { "role": "initiator", "type": "text", "text": "{eu sei|vc tem razao|vou ignorar}" },
+      { "role": "responder", "type": "reaction", "emoji": "{💪|🚫}" }
+    ]
+  },
+  {
+    "name": "relacionamento-casamento",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{vou casar|fiquei noivo|noiva|pedi em casamento}!" },
+      { "role": "responder", "type": "text", "text": "{serio|parabens|mds|q felicidade}!!" },
+      { "role": "initiator", "type": "text", "text": "{to muito feliz|n acredito|foi lindo}" },
+      { "role": "responder", "type": "text", "text": "{conta tudo|como foi|quero detalhes}" },
+      { "role": "initiator", "type": "text", "text": "{depois conto td|foi surpresa|chorei demais}" },
+      { "role": "responder", "type": "reaction", "emoji": "{💍|🥳}" }
+    ]
+  },
+  {
+    "name": "relacionamento-app-namoro",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{o tinder|bumble|app de namoro} {ta horrivel|so tem gente estranha|n funciona}" },
+      { "role": "responder", "type": "text", "text": "{kkk|desiste|tenta outro app}" },
+      { "role": "initiator", "type": "text", "text": "{to quase desistindo|ninguem presta|cansa}" },
+      { "role": "responder", "type": "text", "text": "{vai conhecer gente na vida real|sai mais|para de app}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{📱|😤}" }
+    ]
+  },
+  {
+    "name": "relacionamento-ciumes",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{minha namorada|meu namorado} {ficou com ciumes|ta com ciumes} {de|por causa de} {uma foto|um comentario|uma amiga}" },
+      { "role": "responder", "type": "text", "text": "{eita|conversa|tinha motivo}?" },
+      { "role": "initiator", "type": "text", "text": "{nenhum|nada demais|foi inocente}" },
+      { "role": "responder", "type": "text", "text": "{explica|conversa de boa|ciume demais é ruim}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{😅|❤️}" }
+    ]
+  },
+  {
+    "name": "fofoca-vizinha-contou",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{vc n vai acreditar|menina|mano} {oq eu descobri|oq aconteceu|a fofoca}" },
+      { "role": "responder", "type": "text", "text": "{conta|fala|oq}!!" },
+      { "role": "initiator", "type": "text", "text": "{fulano|a vizinha|o colega} {ta {separando|namorando|devendo}|fez {tal coisa}}" },
+      { "role": "responder", "type": "text", "text": "{mentira|serio|n acredito|como vc sabe}?" },
+      { "role": "initiator", "type": "text", "text": "{me contaram|eu vi|ta todo mundo sabendo}" },
+      { "role": "responder", "type": "reaction", "emoji": "{🤭|😱}" }
+    ]
+  },
+  {
+    "name": "fofoca-grupo-trabalho",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{rolou|aconteceu} {um barraco|uma treta|um drama} {no trabalho|no escritorio}" },
+      { "role": "responder", "type": "text", "text": "{conta tudo|oq foi|serio}" },
+      { "role": "initiator", "type": "text", "text": "{dois colegas|o chefe e o funcionario|a equipe} {brigaram|discutiram|se estranharam}" },
+      { "role": "responder", "type": "text", "text": "{mds|e vc ficou la assistindo|kkk}" },
+      { "role": "initiator", "type": "text", "text": "{fingi q n vi|fiquei quieto|sai de fininho}" },
+      { "role": "responder", "type": "reaction", "emoji": "{🍿|😂}" }
+    ]
+  },
+  {
+    "name": "fofoca-famoso",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{viu|vc viu} {oq o|a noticia do} {famoso|artista|influencer} {fez|postou}?" },
+      { "role": "responder", "type": "text", "text": "{vi|n vi|qual}?" },
+      { "role": "initiator", "type": "text", "text": "{ta todo mundo falando|é o assunto do dia|viralizou}" },
+      { "role": "responder", "type": "text", "text": "{gente famosa é doida|n entendo|cada uma}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🤷|😂}" }
+    ]
+  },
+  {
+    "name": "fofoca-prima-contou",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{minha prima|minha amiga} {me contou|descobriu} {um segredo|algo}" },
+      { "role": "responder", "type": "text", "text": "{oq|fala|to curiosa|curioso}!" },
+      { "role": "initiator", "type": "text", "text": "{mas n pode contar|é segredo|promete q n conta}?" },
+      { "role": "responder", "type": "text", "text": "{prometo|juro|fala logo}" },
+      { "role": "initiator", "type": "text", "text": "{entao|pois bem} {fulana ta gravida|ciclano ta devendo|beltrano traiu}" },
+      { "role": "responder", "type": "text", "text": "{mds|mentira|eu sabia|n acredito}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🤫|😱}" }
+    ]
+  },
+  {
+    "name": "fofoca-rede-social",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{fulano|a menina} {postou|publicou} {umas indiretas|stories chorando|um textao}" },
+      { "role": "responder", "type": "text", "text": "{sobre oq|pra quem|drama} {kkk|}?" },
+      { "role": "initiator", "type": "text", "text": "{acho q é pro ex|pro namorado|pra amiga}" },
+      { "role": "responder", "type": "text", "text": "{lava roupa suja na internet|cada coisa|gente ne}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🙄|📱}" }
+    ]
+  },
+  {
+    "name": "fofoca-casal-terminou",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{fulano e ciclana|aquele casal} {terminaram|se separaram|acabou}" },
+      { "role": "responder", "type": "text", "text": "{serio|n acredito|eu sabia|mds}" },
+      { "role": "initiator", "type": "text", "text": "{parecia tao bem|do nada|ninguem esperava}" },
+      { "role": "responder", "type": "text", "text": "{vc nunca sabe ne|por dentro ninguem sabe|é a vida}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{😮|💔}" }
+    ]
+  },
+  {
+    "name": "fofoca-escola-filho",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{as maes|o grupo da escola} {tao falando|tao comentando} {sobre|de} {a professora|o diretor|um aluno}" },
+      { "role": "responder", "type": "text", "text": "{oq ta acontecendo|conta|eita}" },
+      { "role": "initiator", "type": "text", "text": "{parece q|dizem q|ouvi falar q} {vai mudar|houve problema|reclamaram}" },
+      { "role": "responder", "type": "text", "text": "{grupo de mae é show|kkk|sempre tem drama}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🤭|😂}" }
+    ]
+  },
+  {
+    "name": "motivacao-dia-dificil",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{dia dificil|hj foi pesado|to cansado de tudo}" },
+      { "role": "responder", "type": "text", "text": "{oq aconteceu|quer desabafar|to aqui}" },
+      { "role": "initiator", "type": "text", "text": "{tudo junto|problemas|pressao} {ta demais|é mto}" },
+      { "role": "responder", "type": "text", "text": "{vai passar|vc é forte|uma coisa de cada vez}" },
+      { "role": "initiator", "type": "text", "text": "{vlw|obg por ouvir|preciso disso}" },
+      { "role": "responder", "type": "reaction", "emoji": "{❤️|🙏}" }
+    ]
+  },
+  {
+    "name": "motivacao-gratidao",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{hj|hoje} {eu sou grato|to agradecendo|gratidao} por {tudo|a vida|vcs}" },
+      { "role": "responder", "type": "text", "text": "{que lindo|amem|gratidao tb}" },
+      { "role": "initiator", "type": "text", "text": "{a gente reclama|reclamamos mto} mas {tem mta coisa boa|somos abençoados}" },
+      { "role": "responder", "type": "text", "text": "{verdade|total|com certeza}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🙏|❤️}" }
+    ]
+  },
+  {
+    "name": "motivacao-bom-dia",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{bom dia|bom diaaa|dia} {kkk|}" },
+      { "role": "responder", "type": "text", "text": "{bom dia|dia|oi} {td bem|blz|suave}?" },
+      { "role": "initiator", "type": "text", "text": "{td|de boa|sim} {e vc|e ai}?" },
+      { "role": "responder", "type": "text", "text": "{tb|suave|de boa} {bom dia pra nos|partiu mais um dia}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{☀️|😊}" }
+    ]
+  },
+  {
+    "name": "motivacao-boa-noite",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{boa noite|boas|noite}" },
+      { "role": "responder", "type": "text", "text": "{boa noite|noite|durma bem}" },
+      { "role": "initiator", "type": "text", "text": "{amanha é outro dia|descansa|ate amanha}" },
+      { "role": "responder", "type": "reaction", "emoji": "{🌙|😴}" }
+    ]
+  },
+  {
+    "name": "motivacao-deus-abencoe",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{Deus abencoe|que Deus te abencoe|Deus é bom}" },
+      { "role": "responder", "type": "text", "text": "{amem|igualmente|Deus te abencoe tb}" },
+      { "role": "initiator", "type": "text", "text": "{fé sempre|Deus no controle|confiando}" },
+      { "role": "responder", "type": "text", "text": "{amem|com certeza|sempre}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🙏|❤️}" }
+    ]
+  },
+  {
+    "name": "motivacao-conquista",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{consegui|realizei|alcancei} {um objetivo|meu sonho|algo q queria mto}" },
+      { "role": "responder", "type": "text", "text": "{parabens|orgulho|que maximo|merecido}!" },
+      { "role": "initiator", "type": "text", "text": "{foi dificil|deu trabalho|mas valeu a pena}" },
+      { "role": "responder", "type": "text", "text": "{todo esforco vale|vc merece|inspirador}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🏆|🥹}" }
+    ]
+  },
+  {
+    "name": "motivacao-desabafo",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{preciso desabafar|posso te contar algo|preciso falar com alguem}" },
+      { "role": "responder", "type": "text", "text": "{claro|pode falar|to aqui pra ouvir}" },
+      { "role": "initiator", "type": "text", "text": "{to passando por uma fase|as coisas n tao faceis|ta complicado}" },
+      { "role": "responder", "type": "text", "text": "{te entendo|forca|vc n ta sozinho|conta comigo}" },
+      { "role": "initiator", "type": "text", "text": "{obg de verdade|significou mto|vc é demais}" },
+      { "role": "responder", "type": "reaction", "emoji": "{❤️|🫂}" }
+    ]
+  },
+  {
+    "name": "motivacao-segunda-feira",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{segunda feira|segundou} {de novo|dnv|mais uma}" },
+      { "role": "responder", "type": "text", "text": "{q dor|pior dia|sobrevivemos ao fds}" },
+      { "role": "initiator", "type": "text", "text": "{falta 5 dias pro fds|contagem regressiva|ja quero q acabe}" },
+      { "role": "responder", "type": "text", "text": "{tmj|somos milhoes|forca}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{😴|💪}" }
+    ]
+  },
+  {
+    "name": "motivacao-meta-ano",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{fiz|defini} {minhas metas|metas do ano|meus objetivos}" },
+      { "role": "responder", "type": "text", "text": "{quais|conta|boa}" },
+      { "role": "initiator", "type": "text", "text": "{{emagrecer|economizar|estudar|viajar}|varias coisas}" },
+      { "role": "responder", "type": "text", "text": "{vc consegue|vai fundo|eu tb fiz as minhas}" },
+      { "role": "initiator", "type": "text", "text": "{bora|esse ano vai|tmj}" },
+      { "role": "responder", "type": "reaction", "emoji": "{🎯|💪}" }
+    ]
+  },
+  {
+    "name": "motivacao-recomecar",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{to recomecando|decidi mudar|novo capitulo}" },
+      { "role": "responder", "type": "text", "text": "{q bom|fico feliz|oq mudou}?" },
+      { "role": "initiator", "type": "text", "text": "{cansou de ficar parado|tomei uma decisao|hora de agir}" },
+      { "role": "responder", "type": "text", "text": "{vc consegue|to torcendo|vai dar certo}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🚀|✨}" }
+    ]
+  },
+  {
+    "name": "clima-enchente-rua",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{a rua|aqui perto} {alagou|encheu|ta cheio de agua}" },
+      { "role": "responder", "type": "text", "text": "{cuidado|n sai de casa|serio}?" },
+      { "role": "initiator", "type": "text", "text": "{n tem como sair|a agua ta alta|mds}" },
+      { "role": "responder", "type": "text", "text": "{fica seguro|se precisar me liga|cuidado com a eletricidade}" },
+      { "role": "initiator", "type": "text", "text": "{vlw|obg|to de olho}" },
+      { "role": "responder", "type": "reaction", "emoji": "{🙏|🌊}" }
+    ]
+  },
+  {
+    "name": "comida-acai-tarde",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{vou pedir|to pedindo} {um acai|açaí} {agora|de tarde}" },
+      { "role": "responder", "type": "text", "text": "{pede pra mim tb|hmm|com oq}?" },
+      { "role": "initiator", "type": "text", "text": "{com {granola|morango|banana|leite ninho}|completo|mto recheado}" },
+      { "role": "responder", "type": "text", "text": "{me deu vontade|quero|ja to pedindo o meu}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🍇|😋}" }
+    ]
+  },
+  {
+    "name": "trabalho-remoto-ferias-merecidas",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{minhas ferias|ferias} {comecam|sao} {semana q vem|mes q vem|logo}" },
+      { "role": "responder", "type": "text", "text": "{merece|finalmente|aproveitaaa}" },
+      { "role": "initiator", "type": "text", "text": "{to contando os dias|n aguento mais|ansioso}" },
+      { "role": "responder", "type": "text", "text": "{vai fazer oq|tem planos|pra onde vai}?" },
+      { "role": "initiator", "type": "text", "text": "{nada|dormir|viajar|ficar em casa}" },
+      { "role": "responder", "type": "reaction", "emoji": "{🏝️|😎}" }
+    ]
+  },
+  {
+    "name": "familia-dia-das-maes",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{dia das maes|amanha é dia das maes} e {n comprei presente|n sei oq dar|to perdido}" },
+      { "role": "responder", "type": "text", "text": "{corre|vai logo|n deixou pra ultima hora ne}" },
+      { "role": "initiator", "type": "text", "text": "{como sempre|deixei sim|to ferrado} {kkk|rsrs}" },
+      { "role": "responder", "type": "text", "text": "{compra flores|faz algo especial|cozinha pra ela}" },
+      { "role": "initiator", "type": "text", "text": "{boa|vou fazer isso|vc me salvou}" },
+      { "role": "responder", "type": "reaction", "emoji": "{🌹|❤️}" }
+    ]
+  },
+  {
+    "name": "saude-vacina-tomou",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{tomei|fui tomar} {vacina|a vacina} {hj|hoje}" },
+      { "role": "responder", "type": "text", "text": "{qual|doeu|e ai}?" },
+      { "role": "initiator", "type": "text", "text": "{meu braco ta doendo|deu reacao|to com febre}" },
+      { "role": "responder", "type": "text", "text": "{normal|é assim msm|toma um remedio e descansa}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{💉|😩}" }
+    ]
+  },
+  {
+    "name": "compras-mercado-livre-chegou",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{chegou|minha encomenda chegou} {do mercado livre|da shopee|da amazon}" },
+      { "role": "responder", "type": "text", "text": "{oq era|oq vc comprou|mostra}!" },
+      { "role": "initiator", "type": "text", "text": "{um {fone|carregador|capa|acessorio}|uma coisa q eu queria}" },
+      { "role": "responder", "type": "text", "text": "{gostou|é bom|valeu a pena}?" },
+      { "role": "initiator", "type": "text", "text": "{amei|melhor compra|super recomendo}" },
+      { "role": "responder", "type": "reaction", "emoji": "{📦|👍}" }
+    ]
+  },
+  {
+    "name": "carro-estacionamento",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{n acho|procurando} {vaga|estacionamento} {faz 20 min|ha muito tempo}" },
+      { "role": "responder", "type": "text", "text": "{q lugar|onde vc ta|complicado ne}" },
+      { "role": "initiator", "type": "text", "text": "{no centro|perto do shopping|na regiao toda}" },
+      { "role": "responder", "type": "text", "text": "{paga estacionamento|desiste|devia ter ido de uber}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🅿️|😤}" }
+    ]
+  },
+  {
+    "name": "celular-ligacao-spam",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{n aguento mais|to cheio de} {ligacao de telemarketing|spam|robo}" },
+      { "role": "responder", "type": "text", "text": "{bloqueia|usa aquele app|cadastra no nao me perturbe}" },
+      { "role": "initiator", "type": "text", "text": "{ja bloqueei 50 numeros|ligam de numero diferente|n adianta}" },
+      { "role": "responder", "type": "text", "text": "{é uma praga|horrivel|a lei n funciona}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{📞|😡}" }
+    ]
+  },
+  {
+    "name": "vizinhos-elevador-quebrado",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{o elevador|elevador} {quebrou|ta quebrado} {de novo|dnv}" },
+      { "role": "responder", "type": "text", "text": "{mds|vc mora em q andar|af}" },
+      { "role": "initiator", "type": "text", "text": "{{8|10|12} andar|bem la em cima|alto}" },
+      { "role": "responder", "type": "text", "text": "{cardio gratis|pelo menos emagrece|F} {kkk|rsrs}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{😭|🏢}" }
+    ]
+  },
+  {
+    "name": "pets-foto-fofa",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{olha|veja} {a foto|essa foto} {do meu dog|do meu gato|do meu pet}" },
+      { "role": "responder", "type": "text", "text": "{mds|q fofo|ai q lindo|to apaixonado}!" },
+      { "role": "initiator", "type": "text", "text": "{ne|muito fofo|meu amor}" },
+      { "role": "responder", "type": "text", "text": "{quero apertar|da vontade de morder|fofo demais}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🐾|🥰}" }
+    ]
+  },
+  {
+    "name": "ferias-cancelou",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{cancelei|tive q cancelar} {a viagem|as ferias|o passeio}" },
+      { "role": "responder", "type": "text", "text": "{pq|mds|oq aconteceu}?" },
+      { "role": "initiator", "type": "text", "text": "{problema de grana|trabalho|imprevisto}" },
+      { "role": "responder", "type": "text", "text": "{que pena|vai dar certo|remarca}" },
+      { "role": "initiator", "type": "text", "text": "{vou tentar|quem sabe|é a vida}" },
+      { "role": "responder", "type": "reaction", "emoji": "{😢|🫂}" }
+    ]
+  },
+  {
+    "name": "dinheiro-pix-recebeu",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{caiu|recebi} {o pix|o pagamento|o dinheiro} {finalmente|hj}" },
+      { "role": "responder", "type": "text", "text": "{aeee|boa|ate q enfim}" },
+      { "role": "initiator", "type": "text", "text": "{ja sei pra onde vai|ja ta comprometido|ja era} {kkk|rsrs}" },
+      { "role": "responder", "type": "text", "text": "{a vida adulta|sempre assim|conta ne}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{💰|😅}" }
+    ]
+  },
+  {
+    "name": "faculdade-biblioteca",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{to na biblioteca|vim estudar na biblio} {e ta lotada|e n tem lugar}" },
+      { "role": "responder", "type": "text", "text": "{epoca de prova ne|normal|vai pra um cafe}" },
+      { "role": "initiator", "type": "text", "text": "{vou ficar de pe|achei um cantinho|vou pra casa}" },
+      { "role": "responder", "type": "text", "text": "{foca|bons estudos|vc consegue}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{📖|💪}" }
+    ]
+  },
+  {
+    "name": "aniversario-parabens-grupo",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{n esquece|lembra} de dar {parabens|feliz aniversario} {pro fulano|pra fulana} {hj|hoje}" },
+      { "role": "responder", "type": "text", "text": "{eita|ia esquecer|vlw por lembrar}" },
+      { "role": "initiator", "type": "text", "text": "{manda no grupo|manda privado|liga la}" },
+      { "role": "responder", "type": "text", "text": "{ja vou mandar|fazendo agora|blz}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🎂|👍}" }
+    ]
+  },
+  {
+    "name": "mudanca-movel-montagem",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{to montando|tentando montar} {um movel|uma estante|uma mesa} {da {ikea|madeira madeira|tokstok}|}" },
+      { "role": "responder", "type": "text", "text": "{boa sorte|com manual ne|ta conseguindo}? {kkk|}" },
+      { "role": "initiator", "type": "text", "text": "{sobraram pecas|ta torto|desisti|levei 3h} {kkk|rsrs}" },
+      { "role": "responder", "type": "text", "text": "{kkkkk|chama um montador|normal}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🔨|😅}" }
+    ]
+  },
+  {
+    "name": "netflix-anime-descobriu",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{comecei|to vendo} {um anime|anime} {q é muito bom|viciante|incrivel}" },
+      { "role": "responder", "type": "text", "text": "{qual|me fala|to precisando de anime novo}" },
+      { "role": "initiator", "type": "text", "text": "{é {de acao|romantico|shonen|seinen}|depois te falo|vc precisa ver}" },
+      { "role": "responder", "type": "text", "text": "{bota na lista|vou ver hj|me manda o nome}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🎌|🔥}" }
+    ]
+  },
+  {
+    "name": "futebol-fantasy",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{meu time|escalei meu time} {do cartola|do fantasy|do fantasia}" },
+      { "role": "responder", "type": "text", "text": "{ta com quantos pontos|botou quem|quem é o capitao}?" },
+      { "role": "initiator", "type": "text", "text": "{to liderando|mitei|bombei} {na liga|no grupo}" },
+      { "role": "responder", "type": "text", "text": "{mentira|parabens|semana q vem eu ganho} {kkk|rsrs}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🏆|⚽}" }
+    ]
+  },
+  {
+    "name": "relacionamento-casal-viagem",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{eu e {meu amor|minha esposa|meu marido}|a gente} {vai viajar|marcou viagem} {juntos|a dois}" },
+      { "role": "responder", "type": "text", "text": "{q lindo|romantico|pra onde}?" },
+      { "role": "initiator", "type": "text", "text": "{{gramado|campos do jordao|monte verde|paris}|lugar romantico}" },
+      { "role": "responder", "type": "text", "text": "{aproveitem|que delicia|to com inveja} {kkk|}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{💑|❤️}" }
+    ]
+  },
+  {
+    "name": "fofoca-whatsapp-exposed",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{printaram|tiraram print} {do q eu falei|da minha msg} {e mandaram|e espalharam}" },
+      { "role": "responder", "type": "text", "text": "{mds|q situacao|quem fez isso}?" },
+      { "role": "initiator", "type": "text", "text": "{n sei|to tentando descobrir|alguem do grupo}" },
+      { "role": "responder", "type": "text", "text": "{q coisa feia|sem carater|gente assim é complicado}" },
+      { "role": "initiator", "type": "text", "text": "{nunca mais falo nada|vou ficar quieto|aprendi a licao}" },
+      { "role": "responder", "type": "reaction", "emoji": "{📸|😤}" }
+    ]
+  },
+  {
+    "name": "motivacao-frase-dia",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{li|vi} uma frase {muito boa|q me marcou|incrivel} {hj|hoje}" },
+      { "role": "responder", "type": "text", "text": "{qual|manda|fala}?" },
+      { "role": "initiator", "type": "text", "text": "{nao desista dos seus sonhos|tudo tem seu tempo|vc é mais forte do q pensa}" },
+      { "role": "responder", "type": "text", "text": "{bonita|verdade|salvei|vou guardar}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{✨|🙏}" }
+    ]
+  },
+  {
+    "name": "clima-sereno-noite",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{a noite|hj a noite} ta {linda|perfeita|com estrelas}" },
+      { "role": "responder", "type": "text", "text": "{vou olhar|serio|adoro noite assim}" },
+      { "role": "initiator", "type": "text", "text": "{da vontade de ficar contemplando|que paz|momento de paz}" },
+      { "role": "responder", "type": "reaction", "emoji": "{🌙|✨}" }
+    ]
+  },
+  {
+    "name": "comida-sushi-vontade",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{to com vontade|to morrendo de vontade} de {sushi|japa|comida japonesa}" },
+      { "role": "responder", "type": "text", "text": "{bora|eu tb|pede}" },
+      { "role": "initiator", "type": "text", "text": "{mas ta caro|o rodizio ta quanto|preciso economizar}" },
+      { "role": "responder", "type": "text", "text": "{tem temaki em promo|pede so um combo|vamo dividir}" },
+      { "role": "initiator", "type": "text", "text": "{bora|convenceu|to pedindo}" },
+      { "role": "responder", "type": "reaction", "emoji": "{🍣|😋}" }
+    ]
+  },
+  {
+    "name": "trabalho-remoto-promovido",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{fui promovido|ganhei promocao|me promoveram}!" },
+      { "role": "responder", "type": "text", "text": "{parabens|serio|merecidissimo}!" },
+      { "role": "initiator", "type": "text", "text": "{to muito feliz|n acreditei|finalmente reconheceram}" },
+      { "role": "responder", "type": "text", "text": "{comemora|paga um jantar|vc merece}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🥳|🎉}" }
+    ]
+  },
+  {
+    "name": "familia-grupo-familia-whats",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{o grupo da familia|grupo dos parentes} {ta impossivel|n para de mandar bom dia|lotado}" },
+      { "role": "responder", "type": "text", "text": "{kkk|o meu tb|todo grupo de familia}" },
+      { "role": "initiator", "type": "text", "text": "{30 bom dia|corrente|fake news} {todo dia|sem parar}" },
+      { "role": "responder", "type": "text", "text": "{silencia|é o jeito|ama mas silencia} {kkk|rsrs}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🔕|😂}" }
+    ]
+  },
+  {
+    "name": "saude-agua-beber",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{hj|hoje} eu {n bebi agua|mal bebi agua|esqueci de beber agua}" },
+      { "role": "responder", "type": "text", "text": "{vai beber agora|bebe agua|vc precisa}" },
+      { "role": "initiator", "type": "text", "text": "{vou|é verdade|to indo pegar}" },
+      { "role": "responder", "type": "text", "text": "{bota alarme|usa app|bebe pelo menos 2L}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{💧|👍}" }
+    ]
+  },
+  {
+    "name": "compras-outlet-achado",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{achei|encontrei} {uma pecinha|um achado|algo} no {outlet|bazar|brechó} {por quase nada|baratinho}" },
+      { "role": "responder", "type": "text", "text": "{mostra|quanto pagou|boa}!" },
+      { "role": "initiator", "type": "text", "text": "{30 reais|uma pechincha|mto barato}" },
+      { "role": "responder", "type": "text", "text": "{arrasou|me leva da proxima|q inveja boa}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🛍️|😎}" }
+    ]
+  },
+  {
+    "name": "carro-ipva-venceu",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{o ipva|ipva} {venceu|ta pra vencer|chegou} {e ta caro|que dor}" },
+      { "role": "responder", "type": "text", "text": "{todo ano a mesma coisa|ja pagou|parcela}" },
+      { "role": "initiator", "type": "text", "text": "{vou parcelar|paguei a vista|quase morri}" },
+      { "role": "responder", "type": "text", "text": "{pelo menos ta pago|vida de adulto|faz parte}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{💸|😩}" }
+    ]
+  },
+  {
+    "name": "celular-5g-chegou",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{chegou|ativaram} {o 5g|5G} {aqui|na minha cidade|no meu bairro}" },
+      { "role": "responder", "type": "text", "text": "{e ta rapido|funciona|sentiu diferenca}?" },
+      { "role": "initiator", "type": "text", "text": "{mds|muito rapido|parece outra internet}" },
+      { "role": "responder", "type": "text", "text": "{aqui ainda n tem|quero|to esperando}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{📶|🚀}" }
+    ]
+  },
+  {
+    "name": "vizinhos-churras-vizinho",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{meu vizinho|o vizinho} {ta fazendo churras|fazendo churrasco} e o {cheiro|fumaca} {vem todo pra ca|ta entrando}" },
+      { "role": "responder", "type": "text", "text": "{tortura|que sacanagem|da fome ne} {kkk|rsrs}" },
+      { "role": "initiator", "type": "text", "text": "{to com fome|quero ser convidado|injusto}" },
+      { "role": "responder", "type": "text", "text": "{vai la|aparece|leva uma cerveja q ele aceita} {kkk|}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🥩|😤}" }
+    ]
+  },
+  {
+    "name": "pets-dormindo-cama",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{meu pet|meu dog|meu gato} {tomou conta|roubou|dominou} {minha cama|o sofa|a casa toda}" },
+      { "role": "responder", "type": "text", "text": "{kkk|quem manda é eles|sempre}" },
+      { "role": "initiator", "type": "text", "text": "{dormi no cantinho|fui pro sofa|n tive escolha}" },
+      { "role": "responder", "type": "text", "text": "{prioridades certas|eles q mandam|merecido} {kkk|rsrs}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🛏️|😂}" }
+    ]
+  },
+  {
+    "name": "ferias-camping-aventura",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{fui acampar|fiz camping|fui pra um acampamento}" },
+      { "role": "responder", "type": "text", "text": "{como foi|curtiu|e ai}?" },
+      { "role": "initiator", "type": "text", "text": "{incrivel|amei|n dormi nada mas valeu} {kkk|rsrs}" },
+      { "role": "responder", "type": "text", "text": "{quero ir tb|parece bom|da proxima me chama}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{⛺|🌲}" }
+    ]
+  },
+  {
+    "name": "dinheiro-conta-chegou",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{a conta|conta} de {luz|agua|internet} {veio um absurdo|ta alta|me assustei}" },
+      { "role": "responder", "type": "text", "text": "{quanto|mds|eita}" },
+      { "role": "initiator", "type": "text", "text": "{o dobro|muito mais|n entendi o pq}" },
+      { "role": "responder", "type": "text", "text": "{confere o medidor|liga la|contesta}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{📄|😡}" }
+    ]
+  },
+  {
+    "name": "faculdade-formando-foto",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{fiz|tirei} {as fotos|foto} de {formatura|formando} {hj|ontem}" },
+      { "role": "responder", "type": "text", "text": "{manda|quero ver|ficou bom}?" },
+      { "role": "initiator", "type": "text", "text": "{ficaram lindas|amei|to me achando} {kkk|rsrs}" },
+      { "role": "responder", "type": "text", "text": "{arrasou|ta lindo|que orgulho}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🎓|📸}" }
+    ]
+  },
+  {
+    "name": "aniversario-surpresa-descobriu",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{a pessoa|o fulano} {descobriu|desconfiou} da {surpresa|festa surpresa}" },
+      { "role": "responder", "type": "text", "text": "{mds|como|quem contou}?" },
+      { "role": "initiator", "type": "text", "text": "{acho q {alguem falou|viu algo|desconfiou}|n sei}" },
+      { "role": "responder", "type": "text", "text": "{faz de conta|finge q n é|muda o plano}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🤦|😬}" }
+    ]
+  },
+  {
+    "name": "mudanca-primeira-vez",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{vou morar sozinho|saindo de casa|primeira vez morando so}" },
+      { "role": "responder", "type": "text", "text": "{q massa|parabens|grande passo}!" },
+      { "role": "initiator", "type": "text", "text": "{to animado|nervoso|ansioso} {e assustado|mas feliz}" },
+      { "role": "responder", "type": "text", "text": "{vc vai curtir|liberdade|vai ser otimo}" },
+      { "role": "initiator", "type": "text", "text": "{tomara|to confiante|espero q sim}" },
+      { "role": "responder", "type": "reaction", "emoji": "{🏠|🎉}" }
+    ]
+  },
+  {
+    "name": "netflix-conta-compartilhada",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{a netflix|o streaming} {bloqueou|limitou} {compartilhamento|minha conta|o perfil extra}" },
+      { "role": "responder", "type": "text", "text": "{serio|o meu tb|que absurdo}" },
+      { "role": "initiator", "type": "text", "text": "{vou ter q pagar a mais|ou cancelar|ta complicado}" },
+      { "role": "responder", "type": "text", "text": "{pirataria voltou|é o jeito|racha comigo} {kkk|rsrs}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{📺|💸}" }
+    ]
+  },
+  {
+    "name": "futebol-estadio",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{vou|comprei ingresso|to indo} {no estadio|ver o jogo|na arena} {hj|amanha}" },
+      { "role": "responder", "type": "text", "text": "{q inveja|sortudo|aproveita}" },
+      { "role": "initiator", "type": "text", "text": "{paguei caro|mas vale a pena|to ansioso}" },
+      { "role": "responder", "type": "text", "text": "{torce bastante|grita por mim|manda video}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🏟️|⚽}" }
+    ]
+  },
+  {
+    "name": "relacionamento-pedido-namoro",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{me pediram|fui pedido} em {namoro|casamento}!" },
+      { "role": "responder", "type": "text", "text": "{aiii|serio|conta|q lindo}!!" },
+      { "role": "initiator", "type": "text", "text": "{aceitei|disse sim|to nas nuvens}" },
+      { "role": "responder", "type": "text", "text": "{parabens|to muito feliz por vc|merece demais}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{❤️|🥰}" }
+    ]
+  },
+  {
+    "name": "fofoca-vizinho-policia",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{veio|teve} {policia|viatura} {aqui na rua|no predio|no vizinho}" },
+      { "role": "responder", "type": "text", "text": "{mds|oq aconteceu|serio}?" },
+      { "role": "initiator", "type": "text", "text": "{n sei ainda|to tentando descobrir|parece q foi {briga|roubo|barulho}}" },
+      { "role": "responder", "type": "text", "text": "{cuidado|fica dentro de casa|me conta dps}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{🚔|😨}" }
+    ]
+  },
+  {
+    "name": "motivacao-exercicio-manhã",
+    "category": "daily",
+    "messages": [
+      { "role": "initiator", "type": "text", "text": "{acordei|levantei} {5h|6h|cedo} {pra treinar|pra malhar|pra correr}" },
+      { "role": "responder", "type": "text", "text": "{como consegue|impossivel|respeito} {kkk|}" },
+      { "role": "initiator", "type": "text", "text": "{disciplina|costume|qnd vira habito é facil}" },
+      { "role": "responder", "type": "text", "text": "{me ensina|queria|um dia chego la}" },
+      { "role": "initiator", "type": "reaction", "emoji": "{💪|🌅}" }
+    ]
+  }
+]

@@ -1,0 +1,379 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  id           String   @id @default(uuid())
+  email        String   @unique
+  passwordHash String
+  name         String
+  role         UserRole @default(USER)
+  isActive     Boolean  @default(true)
+  lastLoginAt  DateTime?
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+}
+
+enum UserRole {
+  ADMIN
+  USER
+}
+
+model Account {
+  id              String        @id @default(uuid())
+  // Multi-tenant owner: the User (operator) this chip belongs to. Every view is
+  // filtered by this so operations don't see each other's numbers. Nullable for
+  // backfill; existing chips are assigned to the seed admin on migration.
+  ownerId         String?
+  phoneNumber     String        @unique
+  displayName     String?
+  status          AccountStatus @default(PENDING)
+  warmupDay       Int           @default(0)
+  warmupStartedAt DateTime?
+  // Per-account override for the total warmup duration (days). null = use the
+  // global default (WARMUP_TOTAL_DAYS, default 15). Lets an operator stretch the
+  // ramp for a gentler/longer warmup on specific numbers.
+  warmupTotalDays Int?
+  dailyMsgLimit   Int           @default(20)
+  msgsSentToday   Int           @default(0)
+  msgsReceivedToday Int         @default(0)
+  lastActiveAt    DateTime?
+  banRisk         BanRiskLevel  @default(LOW)
+  isPaused        Boolean       @default(false)
+  pauseReason     String?
+  proxyId         String?
+  proxy           Proxy?        @relation(fields: [proxyId], references: [id])
+  createdAt       DateTime      @default(now())
+  updatedAt       DateTime      @updatedAt
+
+  sessions         Session[]
+  sentMessages     MessageLog[]      @relation("SentMessages")
+  receivedMessages MessageLog[]      @relation("ReceivedMessages")
+  metrics          AccountMetrics[]
+  warmupState      WarmupState?
+  groupMemberships GroupMembership[]
+
+  @@index([status])
+  @@index([status, isPaused])
+  @@index([ownerId])
+}
+
+enum AccountStatus {
+  PENDING
+  CONNECTING
+  CONNECTED
+  DISCONNECTED
+  BANNED
+  PAUSED
+}
+
+enum BanRiskLevel {
+  LOW
+  MEDIUM
+  HIGH
+  CRITICAL
+}
+
+model Session {
+  id                String   @id @default(uuid())
+  accountId         String
+  account           Account  @relation(fields: [accountId], references: [id], onDelete: Cascade)
+  authState         Bytes
+  isActive          Boolean  @default(false)
+  lastConnected     DateTime?
+  lastDisconnected  DateTime?
+  disconnectReason  String?
+  reconnectAttempts Int      @default(0)
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+}
+
+model WarmupState {
+  id                    String   @id @default(uuid())
+  accountId             String   @unique
+  account               Account  @relation(fields: [accountId], references: [id], onDelete: Cascade)
+  currentDay            Int      @default(1)
+  dailyLimit            Int      @default(20)
+  totalMessagesSent     Int      @default(0)
+  totalMessagesReceived Int      @default(0)
+  uniqueContactsToday   Int      @default(0)
+  replyRate             Float    @default(0)
+  blockRate             Float    @default(0)
+  lastResetAt           DateTime @default(now())
+  antiBanState          Json?
+  createdAt             DateTime @default(now())
+  updatedAt             DateTime @updatedAt
+}
+
+model MessageLog {
+  id            String        @id @default(uuid())
+  senderId      String
+  sender        Account       @relation("SentMessages", fields: [senderId], references: [id])
+  receiverId    String
+  receiver      Account       @relation("ReceivedMessages", fields: [receiverId], references: [id])
+  messageType   MessageType
+  templateId    String?
+  spintaxOutput String?
+  direction     Direction
+  status        MessageStatus @default(QUEUED)
+  errorMessage  String?
+  sentAt        DateTime?
+  deliveredAt   DateTime?
+  readAt        DateTime?
+  reactionEmoji String?
+  createdAt     DateTime      @default(now())
+
+  @@index([senderId, direction, createdAt])
+  @@index([receiverId, direction, createdAt])
+  @@index([createdAt])
+}
+
+enum MessageType {
+  TEXT
+  IMAGE
+  AUDIO
+  STICKER
+  EMOJI
+  REACTION
+  STATUS_POST
+}
+
+enum Direction {
+  OUTBOUND
+  INBOUND
+}
+
+enum MessageStatus {
+  QUEUED
+  SENDING
+  SENT
+  DELIVERED
+  READ
+  FAILED
+}
+
+model Proxy {
+  id               String        @id @default(uuid())
+  // Multi-tenant owner: which operator's pool this proxy belongs to.
+  ownerId          String?
+  host             String
+  port             Int
+  username         String?
+  password         String?
+  protocol         ProxyProtocol @default(HTTP)
+  type             ProxyType     @default(RESIDENTIAL)
+  isHealthy        Boolean       @default(true)
+  lastCheckedAt    DateTime?
+  responseTimeMs   Int?
+  failCount        Int           @default(0)
+  assignedAccounts Account[]
+  createdAt        DateTime      @default(now())
+  updatedAt        DateTime      @updatedAt
+
+  // Sticky-session proxies share one gateway (host:port) and differ only by the
+  // session token in the username, so identity is host+port+username.
+  @@unique([host, port, username])
+}
+
+enum ProxyProtocol {
+  HTTP
+  HTTPS
+  SOCKS4
+  SOCKS5
+}
+
+enum ProxyType {
+  RESIDENTIAL
+  MOBILE
+  DATACENTER
+}
+
+model AccountMetrics {
+  id                String       @id @default(uuid())
+  accountId         String
+  account           Account      @relation(fields: [accountId], references: [id], onDelete: Cascade)
+  date              DateTime     @db.Date
+  messagesSent      Int          @default(0)
+  messagesReceived  Int          @default(0)
+  repliesSent       Int          @default(0)
+  repliesReceived   Int          @default(0)
+  reactionsSent     Int          @default(0)
+  reactionsReceived Int          @default(0)
+  statusesPosted    Int          @default(0)
+  uniqueContacts    Int          @default(0)
+  newContacts       Int          @default(0)
+  blocksReceived    Int          @default(0)
+  avgResponseTimeSec Float?
+  replyRate         Float?
+  blockRate         Float?
+  warmupDay         Int
+  banRiskLevel      BanRiskLevel @default(LOW)
+  createdAt         DateTime     @default(now())
+
+  @@unique([accountId, date])
+  @@index([date])
+}
+
+model ConversationTemplate {
+  id        String   @id @default(uuid())
+  name      String
+  category  String
+  messages  Json
+  isActive  Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model ConversationPair {
+  id           String             @id @default(uuid())
+  initiatorId  String
+  responderId  String
+  templateId   String?
+  currentStep  Int                @default(0)
+  status       ConversationStatus @default(PENDING)
+  scheduledAt  DateTime
+  startedAt    DateTime?
+  completedAt  DateTime?
+  createdAt    DateTime           @default(now())
+
+  @@index([scheduledAt])
+  @@index([status])
+}
+
+enum ConversationStatus {
+  PENDING
+  ACTIVE
+  COMPLETED
+  FAILED
+  CANCELLED
+}
+
+model GroupMembership {
+  id        String   @id @default(uuid())
+  accountId String
+  account   Account  @relation(fields: [accountId], references: [id])
+  groupJid  String
+  joinedAt  DateTime @default(now())
+  isActive  Boolean  @default(true)
+}
+
+model WarmingGroup {
+  id           String    @id @default(uuid())
+  inviteLink   String
+  inviteCode   String
+  groupJid     String?
+  groupName    String?
+  status       String    @default("pending") // pending, joined, active, left, failed
+  accountId    String?
+  joinedAt     DateTime?
+  lastActivity DateTime?
+  messagesSent Int       @default(0)
+  createdAt    DateTime  @default(now())
+
+  @@index([status])
+  @@index([accountId])
+}
+
+model DiscoveredGroup {
+  id          String    @id @default(uuid())
+  inviteCode  String    @unique
+  inviteLink  String
+  groupName   String?
+  description String?
+  memberCount Int?
+  niche       String    @default("geral")
+  source      String    @default("manual")
+  isActive    Boolean   @default(true)
+  lastChecked DateTime?
+  createdAt   DateTime  @default(now())
+
+  @@index([niche])
+  @@index([isActive])
+  @@index([source])
+  @@index([createdAt])
+}
+
+model ContactRelation {
+  id             String    @id @default(uuid())
+  accountId      String
+  contactId      String
+  firstSeenAt    DateTime  @default(now())
+  lastSeenAt     DateTime  @default(now())
+  firstContactAt DateTime?
+  messageCount   Int       @default(0)
+
+  @@unique([accountId, contactId])
+  @@index([accountId])
+  @@index([contactId])
+}
+
+model AlertLog {
+  id           String        @id @default(uuid())
+  accountId    String?
+  type         AlertType
+  severity     AlertSeverity
+  message      String
+  metadata     Json?
+  acknowledged Boolean       @default(false)
+  createdAt    DateTime      @default(now())
+
+  @@index([createdAt])
+  @@index([acknowledged, severity])
+}
+
+enum AlertType {
+  BAN_DETECTED
+  HIGH_BLOCK_RATE
+  DISCONNECT_STORM
+  PROXY_FAILURE
+  RATE_LIMIT_HIT
+  WARMUP_STALLED
+}
+
+enum AlertSeverity {
+  INFO
+  WARNING
+  CRITICAL
+}
+
+model CallLog {
+  id        String   @id @default(uuid())
+  accountId String
+  fromJid   String
+  fromPhone String?
+  isVideo   Boolean  @default(false)
+  action    String   @default("rejected") // rejected
+  createdAt DateTime @default(now())
+
+  @@index([accountId])
+  @@index([createdAt])
+}
+
+// Single-instance guard: only one backend may hold this row (heartbeat-based),
+// preventing two processes from loading the same WhatsApp sessions and fighting.
+model AppLock {
+  id          String   @id // fixed key, e.g. "session-lock"
+  holder      String // hostname-pid-rand of the owning process
+  bootAt      DateTime @default(now())
+  heartbeatAt DateTime @updatedAt
+}
+
+// Durable queue persistence: jobs are mirrored here so pending work (scheduled
+// messages, media, etc.) survives a process restart and is restored on boot.
+model QueuedJob {
+  id          String   @id @default(uuid())
+  queue       String
+  name        String
+  data        Json
+  runAt       DateTime // earliest time the job may run (createdAt + delay)
+  attempts    Int      @default(0)
+  maxAttempts Int      @default(3)
+  createdAt   DateTime @default(now())
+
+  @@index([queue, runAt])
+}
