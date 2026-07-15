@@ -5,9 +5,10 @@ import { ownerId } from '../ownerScope.js';
 export const proxyRoutes: FastifyPluginAsync = async (app) => {
   const db = getDb();
 
-  app.get('/', async (request) => {
+  app.get('/', async () => {
+    // SHARED POOL: proxies are shared project infrastructure — every operator sees
+    // and can use the whole pool (like the warming pool). Not scoped per owner.
     const proxies = await db.proxy.findMany({
-      where: { ownerId: ownerId(request) },
       include: { _count: { select: { assignedAccounts: true } } },
       orderBy: { createdAt: 'desc' },
     });

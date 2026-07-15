@@ -46,10 +46,10 @@ export class ProxyManager {
     // (lastCheckedAt set). A freshly-added proxy defaults to isHealthy=true
     // but is unverified — assigning it can silently break the WhatsApp
     // connection (no QR). Verified-only keeps connections reliable.
-    // Multi-tenant: only assign proxies from THIS account's owner pool, so an
-    // operator's numbers never go out through another operator's proxies.
+    // SHARED POOL: any healthy proxy in the project can serve any chip, no matter
+    // which login registered it — proxies are shared project infrastructure.
     const proxies = await db.proxy.findMany({
-      where: { isHealthy: true, lastCheckedAt: { not: null }, ownerId: account?.ownerId ?? null },
+      where: { isHealthy: true, lastCheckedAt: { not: null } },
       include: { _count: { select: { assignedAccounts: true } } },
     });
 
