@@ -149,8 +149,12 @@ function BulkProxyModal({ open, onClose, onSaved }: { open: boolean; onClose: ()
     if (lines.length === 0) return toast.error('Cole ao menos uma linha');
     setBusy(true);
     try {
-      const res = await post<{ imported: number }>('/api/proxies/bulk-import', { lines });
-      toast.success(`${res.imported} proxy(s) importado(s)`);
+      const res = await post<{ imported: number; skipped?: number; invalid?: number }>('/api/proxies/bulk-import', { lines });
+      const parts = [`${res.imported} importado(s)`];
+      if (res.skipped) parts.push(`${res.skipped} já existente(s)`);
+      if (res.invalid) parts.push(`${res.invalid} inválido(s)`);
+      const msg = parts.join(' · ');
+      if (res.imported > 0) toast.success(msg); else toast.info(msg);
       onSaved(); onClose(); setText('');
     } catch (e) { toast.error(e instanceof Error ? e.message : 'Falha'); }
     finally { setBusy(false); }

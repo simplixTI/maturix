@@ -100,19 +100,34 @@ export class ProxyManager {
     return proxy.id;
   }
 
-  async bulkImport(lines: string[], ownerId?: string): Promise<number> {
+  async bulkImport(
+    lines: string[],
+    ownerId?: string,
+  ): Promise<{ imported: number; skipped: number; invalid: number }> {
     let imported = 0;
+    let skipped = 0;
+    let invalid = 0;
     for (const raw of lines) {
+      const trimmed = raw.trim();
+      if (!trimmed || trimmed.startsWith('#')) continue; // blank/comment: ignore
       const parsed = ProxyManager.parseProxyLine(raw);
-      if (!parsed) continue;
+      if (!parsed) {
+        invalid++; // non-empty line the parser couldn't understand
+        continue;
+      }
       try {
         await this.addProxy(parsed, ownerId);
         imported++;
-      } catch (err) {
-        logger.warn({ line: raw, err }, 'Failed to import proxy');
+      } catch (err: any) {
+        // Already in THIS owner's pool → count as skipped, not a failure.
+        if (err?.code === 'P2002') skipped++;
+        else {
+          invalid++;
+          logger.warn({ line: raw, err }, 'Failed to import proxy');
+        }
       }
     }
-    return imported;
+    return { imported, skipped, invalid };
   }
 
   /**

@@ -16,19 +16,27 @@ export const proxyRoutes: FastifyPluginAsync = async (app) => {
 
   app.post<{ Body: { host: string; port: number; username?: string; password?: string; protocol?: string; type?: string } }>(
     '/',
-    async (request) => {
+    async (request, reply) => {
       const deps = (app as any).deps;
-      const id = await deps.proxyManager.addProxy(request.body, ownerId(request));
-      deps.proxyManager.checkProxyById(id).catch(() => {});
-      return { id };
+      try {
+        const id = await deps.proxyManager.addProxy(request.body, ownerId(request));
+        deps.proxyManager.checkProxyById(id).catch(() => {});
+        return { id };
+      } catch (err: any) {
+        if (err?.code === 'P2002') {
+          return reply.code(409).send({ error: 'Esse proxy já está cadastrado no seu pool' });
+        }
+        throw err;
+      }
     }
   );
 
   app.post<{ Body: { lines: string[] } }>('/bulk-import', async (request) => {
     const deps = (app as any).deps;
-    const imported = await deps.proxyManager.bulkImport(request.body.lines, ownerId(request));
+    const result = await deps.proxyManager.bulkImport(request.body.lines, ownerId(request));
     deps.proxyManager.checkAllProxies().catch(() => {});
-    return { imported };
+    // Back-compat: keep `imported` at top level; also return skipped/invalid.
+    return { imported: result.imported, skipped: result.skipped, invalid: result.invalid };
   });
 
   app.delete<{ Params: { id: string } }>('/:id', async (request, reply) => {

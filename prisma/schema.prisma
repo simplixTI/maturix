@@ -176,8 +176,10 @@ model Proxy {
   updatedAt        DateTime      @updatedAt
 
   // Sticky-session proxies share one gateway (host:port) and differ only by the
-  // session token in the username, so identity is host+port+username.
-  @@unique([host, port, username])
+  // session token in the username, so identity is host+port+username — scoped per
+  // owner so different operators can each hold the same provider gateway in their
+  // own pool (multi-tenant: one operator's import never blocks another's).
+  @@unique([ownerId, host, port, username])
 }
 
 enum ProxyProtocol {
