@@ -20,6 +20,7 @@ import { Alerts } from './pages/Alerts';
 import { Calls } from './pages/Calls';
 import { Logs } from './pages/Logs';
 import { Settings } from './pages/Settings';
+import { Users } from './pages/Users';
 
 export function App() {
   const { user, loading } = useAuth();
@@ -54,6 +55,7 @@ export function App() {
         <Route path="/chamadas" element={<Calls />} />
         <Route path="/logs" element={<Logs />} />
         <Route path="/config" element={<Settings />} />
+        {user.role === 'ADMIN' && <Route path="/usuarios" element={<Users />} />}
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </Layout>

@@ -77,6 +77,7 @@ const TITLES: Record<string, string> = {
   '/chamadas': 'Chamadas recebidas',
   '/logs': 'Logs do sistema',
   '/config': 'Configurações',
+  '/usuarios': 'Usuários',
 };
 
 export function Layout({ children }: { children: ReactNode }) {
@@ -164,6 +165,16 @@ export function Layout({ children }: { children: ReactNode }) {
             ))}
           </div>
         ))}
+
+        {user?.role === 'ADMIN' && (
+          <div>
+            <div className="nav-group-label">Administração</div>
+            <NavLink to="/usuarios" className={({ isActive }) => `nav-item ${isActive ? 'active' : ''}`}>
+              <IconUsers className="nav-icon" />
+              <span>Usuários</span>
+            </NavLink>
+          </div>
+        )}
       </aside>
 
       <div className="main">
