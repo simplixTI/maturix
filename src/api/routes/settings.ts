@@ -4,6 +4,7 @@ import { getAllProfiles } from '../../config/warmup-profiles.js';
 import { AlertService } from '../../services/AlertService.js';
 import { getMessagingTiming, setMessagingTiming, type MessagingTiming } from '../../config/runtimeSettings.js';
 import { getProtectionSettings, setProtectionSettings, type ProtectionSettings } from '../../config/protectionSettings.js';
+import { getWarmupFeatures, setWarmupFeatures, type WarmupFeatureSettings } from '../../config/warmupFeatures.js';
 
 // Singleton reference - set when server starts
 let alertServiceRef: AlertService | undefined;
@@ -24,7 +25,17 @@ export const settingsRoutes: FastifyPluginAsync = async (app) => {
       webhookUrl: alertServiceRef?.getWebhookUrl() || null,
       messagingTiming: getMessagingTiming(),
       protection: getProtectionSettings(),
+      warmupFeatures: getWarmupFeatures(),
     };
+  });
+
+  /* ── Warmup feature switches (what the engine does during warming) ── */
+
+  app.get('/warmup-features', async () => getWarmupFeatures());
+
+  app.post<{ Body: Partial<WarmupFeatureSettings> }>('/warmup-features', async (request) => {
+    const updated = await setWarmupFeatures(request.body || {});
+    return { success: true, ...updated };
   });
 
   /* ── Anti-ban protection flags ── */

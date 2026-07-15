@@ -38,6 +38,10 @@ async function bootstrap() {
   const { loadProtectionSettings } = await import('./config/protectionSettings.js');
   await loadProtectionSettings();
 
+  // Warmup feature switches (status, media types, business messaging).
+  const { loadWarmupFeatures } = await import('./config/warmupFeatures.js');
+  await loadWarmupFeatures();
+
   // Database
   const db = getDb();
   await db.$connect();

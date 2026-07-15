@@ -193,6 +193,58 @@ function ProtectionCard() {
   );
 }
 
+interface WarmupFeatures {
+  status: boolean;
+  photos: boolean;
+  videos: boolean;
+  audios: boolean;
+  stickers: boolean;
+  business: boolean;
+}
+
+function WarmupFeaturesCard() {
+  const toast = useToast();
+  const q = useQuery({ queryKey: ['warmup-features'], queryFn: () => get<WarmupFeatures>('/api/settings/warmup-features') });
+  const [saving, setSaving] = useState<string | null>(null);
+
+  async function toggle(key: keyof WarmupFeatures, value: boolean) {
+    setSaving(key);
+    try {
+      await post('/api/settings/warmup-features', { [key]: value });
+      toast.success('Aquecimento atualizado');
+      q.refetch();
+    } catch (e) {
+      toast.error(e instanceof Error ? e.message : 'Falha');
+    } finally {
+      setSaving(null);
+    }
+  }
+
+  const f = q.data;
+  return (
+    <Card style={{ marginBottom: 'var(--space-5)' }}>
+      <div className="card-head">
+        <div>
+          <div className="card-title">Atividades do aquecimento</div>
+          <div className="card-sub">Escolha o que os chips fazem durante o aquecimento. Vale para todo o projeto e aplica na hora.</div>
+        </div>
+      </div>
+      <ToggleRow label="Postar status" hint="Publicar status (stories) nos números — texto e imagens do acervo."
+        checked={!!f?.status} busy={saving === 'status'} onChange={(v) => toggle('status', v)} />
+      <ToggleRow label="Enviar fotos" hint="Enviar imagens nas conversas e avulsas."
+        checked={!!f?.photos} busy={saving === 'photos'} onChange={(v) => toggle('photos', v)} />
+      <ToggleRow label="Enviar vídeos" hint="Enviar vídeos durante o aquecimento."
+        checked={!!f?.videos} busy={saving === 'videos'} onChange={(v) => toggle('videos', v)} />
+      <ToggleRow label="Enviar áudios" hint="Enviar mensagens de voz (com indicador 'gravando…')."
+        checked={!!f?.audios} busy={saving === 'audios'} onChange={(v) => toggle('audios', v)} />
+      <ToggleRow label="Enviar figurinhas" hint="Enviar stickers nas conversas."
+        checked={!!f?.stickers} busy={saving === 'stickers'} onChange={(v) => toggle('stickers', v)} />
+      <ToggleRow label="Enviar para empresas" hint="Mandar mensagem para números de WhatsApp Business reais — gera tráfego externo (a empresa responde), quebrando o loop fechado só entre os chips."
+        checked={!!f?.business} busy={saving === 'business'} onChange={(v) => toggle('business', v)} />
+    </Card>
+  );
+}
+
 export function Settings() {
   const toast = useToast();
   const settings = useQuery({ queryKey: ['settings'], queryFn: () => get<SettingsResponse>('/api/settings') });
@@ -231,6 +283,8 @@ export function Settings() {
           <p>Parâmetros do motor anti-ban e notificações.</p>
         </div>
       </div>
+
+      <WarmupFeaturesCard />
 
       <ProtectionCard />
 

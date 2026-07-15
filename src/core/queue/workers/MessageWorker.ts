@@ -7,6 +7,7 @@ import { saveContactBeforeChat } from '../../messaging/ContactSaver.js';
 import { mediaProcessor } from '../../messaging/MediaProcessor.js';
 import { peekInbound } from '../../messaging/RecentInbound.js';
 import { getDailyLimitForAccount, tryReserveDailySlot, releaseDailySlot } from '../../warmup/DailyLimitGuard.js';
+import { isMediaTypeEnabled } from '../../../config/warmupFeatures.js';
 import { getDb } from '../../../database/client.js';
 import { createChildLogger } from '../../../utils/logger.js';
 
@@ -35,6 +36,14 @@ export function createMessageProcessor(
     const sock = sessionManager.getSocket(accountId);
     if (!sock) {
       throw new Error(`No active socket for account ${accountId}`);
+    }
+
+    // Operator feature switch: if this media type is turned OFF in the dashboard,
+    // drop the message before it consumes a daily slot. Covers every media source
+    // (standalone, in-conversation, template steps) since all sends funnel here.
+    if (!isMediaTypeEnabled(messageType)) {
+      logger.debug({ accountId, messageType }, 'Media type disabled by operator — skipping');
+      return { status: 'skipped', reason: `media-disabled:${messageType}` };
     }
 
     const resolvedText = resolveSpintax(content || '');

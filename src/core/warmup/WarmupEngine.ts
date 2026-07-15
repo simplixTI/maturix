@@ -2,6 +2,7 @@ import { getDb } from '../../database/client.js';
 import { getWarmupProfile } from '../../config/warmup-profiles.js';
 import { getPhaseForDay } from './WarmupPhase.js';
 import { WARMUP_SCHEDULE } from '../../config/constants.js';
+import { getWarmupFeatures } from '../../config/warmupFeatures.js';
 import { shouldActNow } from '../../utils/circadian.js';
 import { createChildLogger } from '../../utils/logger.js';
 import { randomDelay } from '../../utils/gaussian.js';
@@ -268,6 +269,9 @@ export class WarmupEngine {
     // by the circadian gate above.
     const businessTargetPerDay =
       warmupDay <= 3 ? 1 : warmupDay <= 5 ? 2 : warmupDay <= 7 ? 3 : 4;
+    if (!getWarmupFeatures().business) {
+      // Operator turned off business messaging — skip this block entirely.
+    } else {
     const startOfDay = new Date();
     startOfDay.setHours(0, 0, 0, 0);
     const businessSentToday = await getDb().messageLog.count({
@@ -290,10 +294,11 @@ export class WarmupEngine {
         logger.debug({ accountId, err: err.message }, 'Warmup: business message failed');
       }
     }
+    } // end business feature gate
 
     // --- 5. STATUS POSTING: 1x per day (from day 4+ when phase.allowStatus) ---
     //     Picks random images from media/images/ pool for image statuses
-    if (phase.allowStatus && this.statusQueue) {
+    if (phase.allowStatus && this.statusQueue && getWarmupFeatures().status) {
       await this.maybePostStatus(accountId, todayKey);
     }
 
