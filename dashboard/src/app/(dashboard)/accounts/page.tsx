@@ -458,7 +458,7 @@ function ConnectModal({ onClose }: { onClose: () => void }) {
     setPairingCode(null);
     setQrCount(0);
 
-    const apiUrl = process.env.NEXT_PUBLIC_API_URL || "http://localhost:3000";
+    const apiUrl = process.env.NEXT_PUBLIC_API_URL || "";
     const token = localStorage.getItem("maturador_token");
 
     try {
