@@ -214,8 +214,13 @@ export const sendRoutes: FastifyPluginAsync = async (app) => {
 
   // Get connected accounts for the "from" selector (this operator's only)
   app.get('/accounts', async (request) => {
+    const user = (request as any).user;
+    const isAdmin = user?.role === 'ADMIN';
+    const where = isAdmin
+      ? { status: 'CONNECTED' as const }
+      : { status: 'CONNECTED' as const, ownerId: ownerId(request) };
     return db.account.findMany({
-      where: { status: 'CONNECTED', ownerId: ownerId(request) },
+      where,
       select: { id: true, phoneNumber: true, warmupDay: true, msgsSentToday: true },
     });
   });
