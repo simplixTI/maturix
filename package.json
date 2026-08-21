@@ -6,10 +6,10 @@
   "scripts": {
     "dev": "concurrently -k -n api,web -c green,cyan \"npm:dev:api\" \"npm:dev:web\"",
     "dev:api": "tsx watch src/index.ts",
-    "dev:web": "npm --prefix web run dev",
+    "dev:web": "npm --prefix dashboard run dev -- --port 3001",
     "build": "tsc && node scripts/copy-assets.mjs",
-    "build:web": "npm --prefix web run build",
-    "setup": "npm install && npm --prefix web install",
+    "build:web": "npm --prefix dashboard run build",
+    "setup": "npm install && npm --prefix dashboard install",
     "start": "node dist/index.js",
     "db:generate": "prisma generate",
     "db:migrate": "prisma migrate dev",

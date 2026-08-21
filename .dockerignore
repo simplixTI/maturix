@@ -1,7 +1,6 @@
 # Nunca mandar dependências, builds ou SEGREDOS para o contexto/imagem.
 node_modules
 web/node_modules
-dashboard
 dist
 web/dist
 

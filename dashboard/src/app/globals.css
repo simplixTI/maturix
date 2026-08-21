@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 5%;
+    --card: 0 0% 98%;
+    --card-foreground: 0 0% 5%;
+    --popover: 0 0% 98%;
+    --popover-foreground: 0 0% 5%;
+    --primary: 214 90% 58%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 0 0% 94%;
+    --secondary-foreground: 0 0% 10%;
+    --muted: 0 0% 94%;
+    --muted-foreground: 0 0% 46%;
+    --accent: 0 0% 94%;
+    --accent-foreground: 0 0% 10%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 88%;
+    --input: 0 0% 88%;
+    --ring: 214 90% 58%;
+    --radius: 0.25rem;
+  }
+
+  .dark {
+    --background: 220 30% 4%;
+    --foreground: 210 20% 80%;
+    --card: 218 28% 6%;
+    --card-foreground: 210 20% 80%;
+    --popover: 218 28% 6%;
+    --popover-foreground: 210 20% 80%;
+    --primary: 214 90% 58%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 218 25% 9%;
+    --secondary-foreground: 210 20% 80%;
+    --muted: 218 25% 9%;
+    --muted-foreground: 215 15% 42%;
+    --accent: 218 25% 10%;
+    --accent-foreground: 210 20% 80%;
+    --destructive: 0 62% 55%;
+    --destructive-foreground: 0 0% 90%;
+    --border: 218 30% 12%;
+    --input: 218 30% 12%;
+    --ring: 214 90% 58%;
+  }
+
+  * { @apply border-border; }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: var(--font-sans), 'IBM Plex Sans', sans-serif;
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  html { scroll-behavior: smooth; }
+}
+
+.font-mono { font-family: var(--font-mono), 'JetBrains Mono', monospace !important; }
+
+::-webkit-scrollbar { width: 3px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: hsl(218 30% 16%); border-radius: 0; }
+
+::selection { background: hsl(214 90% 58% / 0.18); }
+
+@layer components {
+  .dot { @apply w-1.5 h-1.5 rounded-full flex-shrink-0; }
+  .dot-ok  { background: hsl(186 90% 48%); box-shadow: 0 0 5px hsl(186 90% 48% / 0.55); }
+  .dot-warn { background: hsl(45 93% 47%);  box-shadow: 0 0 4px hsl(45 93% 47% / 0.5); }
+  .dot-err  { background: hsl(0 62% 55%);   box-shadow: 0 0 4px hsl(0 62% 55% / 0.5); }
+  .dot-off  { @apply bg-zinc-700; }
+
+  .term-row {
+    @apply flex items-center gap-3 px-3 py-1.5 font-mono text-xs;
+    border-bottom: 1px solid hsl(218 30% 9%);
+  }
+  .term-row:hover { background: hsl(218 28% 7%); }
+
+  .term-label {
+    @apply text-muted-foreground uppercase tracking-wider;
+    font-size: 10px;
+  }
+
+  .term-value {
+    @apply font-mono tabular-nums;
+  }
+
+  .section-line {
+    @apply border-b border-border pb-1.5 mb-3 text-xs uppercase tracking-widest text-muted-foreground font-mono;
+  }
+}
