@@ -41,7 +41,12 @@ export const proxyRoutes: FastifyPluginAsync = async (app) => {
   });
 
   app.delete<{ Params: { id: string } }>('/:id', async (request, reply) => {
-    const proxy = await db.proxy.findFirst({ where: { id: request.params.id, ownerId: ownerId(request) } });
+    const user = (request as any).user;
+    const isAdmin = user?.role === 'ADMIN';
+    const where = isAdmin
+      ? { id: request.params.id }
+      : { id: request.params.id, ownerId: ownerId(request) };
+    const proxy = await db.proxy.findFirst({ where });
     if (!proxy) return reply.code(404).send({ error: 'Proxy não encontrado' });
     await db.proxy.delete({ where: { id: request.params.id } });
     return { success: true };
