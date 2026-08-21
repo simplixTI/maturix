@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import { Send, X, Image, Mic, MapPin, Users, BarChart3, FileText, Loader2, Check, AlertTriangle, Upload, Link2, FolderOpen, Clock, History } from "lucide-react";
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:3000";
+const API_URL = process.env.NEXT_PUBLIC_API_URL || "";
 
 interface ConnectedAccount {
   id: string;

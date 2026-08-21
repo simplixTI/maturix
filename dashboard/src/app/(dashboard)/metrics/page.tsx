@@ -168,7 +168,7 @@ function ChartTooltip({ active, payload, label, suffix }: { active?: boolean; pa
 /* ── CSV export ── */
 
 function exportCSV(days: number) {
-  const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:3000";
+  const API_URL = process.env.NEXT_PUBLIC_API_URL || "";
   const token = typeof window !== "undefined" ? localStorage.getItem("maturador_token") : null;
   const url = new URL(`${API_URL}/api/metrics/export`);
   url.searchParams.set("days", String(days));

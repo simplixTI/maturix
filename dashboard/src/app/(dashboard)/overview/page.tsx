@@ -236,7 +236,7 @@ function WarmupControl() {
   const [running, setRunning] = useState(false);
   const [loading, setLoading] = useState(true);
 
-  const apiUrl = process.env.NEXT_PUBLIC_API_URL || "http://localhost:3000";
+  const apiUrl = process.env.NEXT_PUBLIC_API_URL || "";
   const getHeaders = () => {
     const token = typeof window !== "undefined" ? localStorage.getItem("maturador_token") : null;
     const h: Record<string, string> = { "Content-Type": "application/json" };

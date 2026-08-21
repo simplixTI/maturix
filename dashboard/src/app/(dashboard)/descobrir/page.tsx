@@ -7,7 +7,7 @@ import {
   ChevronDown, Link2, Hash, Users, Filter,
 } from "lucide-react";
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:3000";
+const API_URL = process.env.NEXT_PUBLIC_API_URL || "";
 
 /* ── Types ── */
 

@@ -25,7 +25,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     }
 
     // Validate once per session
-    const apiUrl = process.env.NEXT_PUBLIC_API_URL || "http://localhost:3000";
+    const apiUrl = process.env.NEXT_PUBLIC_API_URL || "";
     fetch(`${apiUrl}/api/auth/me`, {
       headers: { Authorization: `Bearer ${token}` },
     })
